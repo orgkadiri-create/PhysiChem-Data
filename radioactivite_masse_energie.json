@@ -1,0 +1,613 @@
+[
+  {
+    "id": 1,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quelle célèbre relation d'Einstein établit l'équivalence entre la masse et l'énergie ?",
+    "options": [
+      "E = ½ mv²",
+      "E = m · C²",
+      "E = h · ν",
+      "P = m · g"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La relation d'Einstein est E = m · c², liant la masse au repos à son équivalent énergétique."
+  },
+  {
+    "id": 2,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Dans la relation E = m · C², que représente la constante C et quelle est sa valeur approchée dans le vide ?",
+    "options": [
+      "La charge de l'électron, 1,6 · 10⁻¹⁹ C",
+      "La célérité de la lumière dans le vide, 3 · 10⁸ m/s",
+      "La constante de gravitation, 6,67 · 10⁻¹¹ N·m²/kg²",
+      "La constante de Planck, 6,62 · 10⁻³⁴ J·s"
+    ],
+    "correctIndex": 1,
+    "explanationText": "C est la vitesse (célérité) de la lumière dans le vide, valant environ 3,00 × 10⁸ m.s⁻¹."
+  },
+  {
+    "id": 3,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quelle est la définition de l'unité de masse atomique (notée u) ?",
+    "options": [
+      "La masse d'un électron libre",
+      "Exactement 1/12 de la masse d'un atome de carbone 12 (¹²_₆ C)",
+      "La masse d'un gramme d'hydrogène",
+      "La masse du noyau d'uranium divisée par 235"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une unité de masse atomique (u) correspond par convention au douzième de la masse d'un atome de carbone 12."
+  },
+  {
+    "id": 4,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quelle est la valeur équivalente en kilogrammes d'une unité de masse atomique (1 u) ?",
+    "options": [
+      "1,66054 · 10⁻²⁷ kg",
+      "9,1 · 10⁻³¹ kg",
+      "6,02 · 10⁻²³ kg",
+      "1,60 · 10⁻⁹ kg"
+    ],
+    "correctIndex": 0,
+    "explanationText": "1 u ≈ 1,66054 × 10⁻²⁷ kg (l'inverse de la constante d'Avogadro exprimée en grammes)."
+  },
+  {
+    "id": 5,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "En physique nucléaire, quelle unité d'énergie (adaptée à l'échelle microscopique) utilise-t-on à la place du Joule ?",
+    "options": [
+      "Le Kilowattheure (kWh)",
+      "L'électronvolt (eV) ou son multiple le mégaélectronvolt (MeV)",
+      "La Calorie (cal)",
+      "Le Newton (N)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour l'échelle nucléaire, l'électronvolt (eV) et le mégaélectronvolt (MeV) sont plus pratiques que le Joule (très grand)."
+  },
+  {
+    "id": 6,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quelle est la valeur d'un électronvolt (1 eV) en Joules ?",
+    "options": [
+      "1,66 · 10⁻²⁷ J",
+      "1,602 · 10⁻¹⁹ J",
+      "9,315 · 10² J",
+      "6,62 · 10⁻³⁴ J"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Par définition, 1 eV = 1,602 × 10⁻¹⁹ J (travail fourni par un champ pour déplacer un électron sous une tension de 1 Volt)."
+  },
+  {
+    "id": 7,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "À quelle valeur énergétique en MeV correspond une masse de 1 u au repos (grâce à E = m · C²) ?",
+    "options": [
+      "1,6 · 10⁻¹³ MeV",
+      "931,5 MeV",
+      "0,511 MeV",
+      "1000 MeV"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En utilisant E = m·c², on montre que la masse au repos de 1 u équivaut à environ 931,5 MeV."
+  },
+  {
+    "id": 8,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Qu'est-ce que le 'défaut de masse' Δm d'un noyau stable ᴬ_z X ?",
+    "options": [
+      "La différence entre la masse du noyau et la masse de ses électrons périphériques",
+      "La différence entre la masse de l'ensemble des nucléons isolés et séparés au repos, et la masse du noyau lié au repos : Δm = [Z·m_p + (A-Z)·m_n] - m_noyau",
+      "La perte de masse due à l'évaporation des neutrons",
+      "L'incertitude expérimentale sur la balance de pesée"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La masse d'un noyau est toujours inférieure à la somme des masses de ses nucléons pris séparément. Cette différence s'appelle le défaut de masse."
+  },
+  {
+    "id": 9,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Le défaut de masse Δm d'un noyau stable est-il positif, négatif ou nul ?",
+    "options": [
+      "Il est toujours strictement négatif",
+      "Il est strictement positif (Δm > 0)",
+      "Il est nul pour tous les noyaux",
+      "Il dépend de la température extérieure"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque la masse des constituants séparés est supérieure à celle du noyau assemblé, Δm = m_nucléons - m_noyau est toujours positif."
+  },
+  {
+    "id": 10,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Comment définit-on l'énergie de liaison E_l d'un noyau atomique ?",
+    "options": [
+      "L'énergie cinétique globale des protons",
+      "L'énergie qu'il faut fournir à un noyau au repos pour le séparer en ses nucléons constituants, isolés et au repos : E_l = Δm · C²",
+      "L'énergie libérée lors d'une désintégration alpha",
+      "L'énergie d'attraction électrostatique entre le noyau et les électrons"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Il s'agit de l'énergie minimale à fournir à un noyau lié pour le dissocier en ses nucléons constitutifs."
+  },
+  {
+    "id": 11,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quelle est l'expression littérale de l'énergie de liaison E_l d'un noyau ᴬ_z X ?",
+    "options": [
+      "E_l = [m_noyau - Z·m_p - (A-Z)·m_n] · C²",
+      "E_l = [Z·m_p + (A-Z)·m_n - m_noyau] · C²",
+      "E_l = A · m_noyau · C²",
+      "E_l = Z · C²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Il s'agit de la formule de liaison : E_l = Δm · c² = [Z·m_p + (A-Z)·m_n - m_noyau] · c²."
+  },
+  {
+    "id": 12,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Qu'appelle-t-on l'énergie de liaison par nucléon d'un noyau ?",
+    "options": [
+      "Le produit E_l · A",
+      "Le rapport E_l / A (Énergie de liaison divisée par le nombre de masse)",
+      "Le rapport E_l / Z",
+      "L'énergie nécessaire pour arracher un électron"
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est l'énergie globale de liaison divisée par sa taille (le nombre de nucléons A)."
+  },
+  {
+    "id": 13,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quelle est l'utilité principale de la valeur de l'énergie de liaison par nucléon E_l / A ?",
+    "options": [
+      "Elle permet de calculer la période radioactive du noyau",
+      "Elle permet de comparer la stabilité des noyaux (plus ce rapport est grand, plus le noyau est stable)",
+      "Elle indique le volume du noyau",
+      "Elle permet de connaître la charge électrique globale"
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est le critère pour juger de la stabilité relative des noyaux. Les noyaux les plus stables ont les rapports E_l/A les plus grands."
+  },
+  {
+    "id": 14,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quelle est la unité habituelle de l'énergie de liaison par nucléon ?",
+    "options": [
+      "MeV",
+      "J/kg",
+      "MeV/nucléon",
+      "u · C²"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Puisqu'on divise des MeV par un nombre de nucléons, l'unité est le MeV/nucléon."
+  },
+  {
+    "id": 15,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Comment s'appelle la courbe représentant -E_l / A (ou E_l / A) en fonction de A, mettant en évidence les zones de stabilité et l'intérêt énergétique de la fission et de la fusion ?",
+    "options": [
+      "La courbe de Gauss",
+      "La courbe d'Aston",
+      "Le diagramme de Segré",
+      "La courbe d'Einstein"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La courbe d'Aston porte sur l'énergie de liaison par nucléon en fonction de A et résume les réactions nucléaires d'intérêt énergétique."
+  },
+  {
+    "id": 16,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Où se situent les noyaux les plus stables sur la courbe d'Aston ?",
+    "options": [
+      "Tout au début pour A < 10",
+      "Tout à la fin pour A > 200",
+      "Au niveau du minimum de la courbe, dans la zone du Fer 56 (56 < A < 62)",
+      "Ils ne figurent pas sur cette courbe"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le Fer 56 se situe au point le plus stable (le plus bas dans la courbe représentant -E_l/A), correspondant à un maximum de cohésion."
+  },
+  {
+    "id": 17,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Qu'est-ce que la fission nucléaire ?",
+    "options": [
+      "L'union de deux noyaux légers pour former un noyau plus lourd",
+      "Une réaction nucléaire provoquée au cours de laquelle un noyau lourd dit 'fissile', bombardé par un neutron, se brise en deux noyaux plus légers",
+      "La perte naturelle d'un électron par un atome",
+      "Une réaction chimique exothermique"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La fission est la division provoquée d'un gros noyau lourd par capture d'un neutron."
+  },
+  {
+    "id": 18,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quel type de particule est généralement utilisé pour induire (amorcer) la fission de l'Uranium 235 dans les réacteurs nucléaires ?",
+    "options": [
+      "Un proton de haute énergie",
+      "Un électron rapide",
+      "Un neutron (souvent qualifié de lent ou thermique)",
+      "Une particule alpha"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Les neutrons thermiques (de faible vitesse) sont capturés très facilement par les noyaux d'Uranium 235 pour provoquer la fission."
+  },
+  {
+    "id": 19,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Soit la réaction de fission suivante : ¹_₀ n + ²³⁵_₉₂ U ➔ ⁹⁴_₃₈ Sr + ¹⁴⁰_₅₄ Xe + x ¹_₀ n. Quelle est la valeur du coefficient multiplicateur x de neutrons ?",
+    "options": [
+      "x = 1",
+      "x = 2",
+      "x = 3",
+      "x = 4"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Lois de Soddy. Masse totale réactifs = 236. Masse totale produits connus = 234. On doit donc avoir 2 neutrons créés pour conserver la masse (x = 2)."
+  },
+  {
+    "id": 20,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Qu'est-ce qu'une 'réaction en chaîne' dans le contexte de la fission de l'uranium ?",
+    "options": [
+      "Une réaction qui produit des polymères chimiques",
+      "Les neutrons émis lors d'une fission vont à leur tour provoquer la fission d'autres noyaux fissiles environnants, entretenant la réaction",
+      "Une suite de désintégrations alpha successives",
+      "Un cycle de réactions se déroulant uniquement à la surface du Soleil"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Si les neutrons émis touchent d'autres noyaux d'U235, les fissions se multiplient de manière auto-entretenue (réaction en chaîne)."
+  },
+  {
+    "id": 21,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Qu'est-ce que la fusion nucléaire ?",
+    "options": [
+      "Le passage d'un noyau de l'état solide à l'état liquide",
+      "Une réaction nucléaire provoquée au cours de laquelle deux noyaux légers s'unissent pour former un noyau plus lourd, avec un important dégagement d'énergie",
+      "Le fractionnement d'un noyau lourd sous l'effet de la chaleur",
+      "L'émission de rayons X par un métal chauffé"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La fusion consiste à sceller deux noyaux légers énergétiquement (comme l'hydrogène) pour former un noyau plus massif."
+  },
+  {
+    "id": 22,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quel exemple illustre parfaitement une réaction de fusion nucléaire naturelle à grande échelle ?",
+    "options": [
+      "Le fonctionnement d'une centrale nucléaire",
+      "Les réactions de production d'énergie au cœur du Soleil et des étoiles",
+      "La datation des objets anciens",
+      "Le principe d'un scanner médical"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les étoiles produisent leur formidable énergie lumineuse et thermique par fusion nucléaire d'hydrogène en hélium."
+  },
+  {
+    "id": 23,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Pourquoi la fusion nucléaire artificielle est-elle si difficile à réaliser et contrôler sur Terre ?",
+    "options": [
+      "Parce qu'elle nécessite des températures extrêmement élevées (plusieurs millions de degrés) pour vaincre la répulsion coulombienne entre les noyaux chargés positivement",
+      "Parce qu'on manque d'isotopes d'hydrogène",
+      "Parce qu'elle ne libère pas assez d'énergie pour être rentable",
+      "Parce qu'elle produit trop de déchets à longue demi-vie"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Pour coller deux noyaux, il faut surpasser la répulsion de leurs protons positifs, d'où le besoin de conditions extrêmes de température (plasma)."
+  },
+  {
+    "id": 24,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Entre une réaction de fission et une réaction de fusion, à masse égale de 'combustible', laquelle libère le plus d'énergie ?",
+    "options": [
+      "La fission nucléaire",
+      "La fusion nucléaire",
+      "Les deux libèrent exactement la même quantité d'énergie",
+      "Les deux libèrent moins d'énergie qu'une combustion chimique"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La fusion libère environ 4 à 10 fois plus d'énergie que la fission par unité de masse de combustible."
+  },
+  {
+    "id": 25,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Comment calcule-t-on la variation de masse Δm_réaction lors d'une réaction nucléaire quelconque entre les réactifs et les produits ?",
+    "options": [
+      "Δm_réaction = m_initiale + m_finale",
+      "Δm_réaction = Σ m_produits - Σ m_réactifs",
+      "Δm_réaction = Σ m_réactifs / Σ m_produits",
+      "Δm_réaction = Z · m_p"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La variation de masse est toujours calculée comme la différence entre la masse finale (produits) et la masse initiale (réactifs)."
+  },
+  {
+    "id": 26,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Pour une réaction nucléaire spontanée ou libérant de l'énergie (exothermique), le bilan de masse de la réaction Δm_réaction = Σ m_produits - Σ m_réactifs est :",
+    "options": [
+      "Strictement positif",
+      "Strictement négatif (il y a une 'perte' ou diminution de masse globale)",
+      "Toujours nul",
+      "Égal à la masse du proton"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une libération d'énergie s'accompagne toujours d'une perte de masse des noyaux réactifs, donc Δm_réaction < 0."
+  },
+  {
+    "id": 27,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Comment exprime-t-on mathématiquement l'énergie thermique / rayonnante libérée E_libérée (valeur positive) par une réaction nucléaire à partir de Δm_réaction ?",
+    "options": [
+      "E_libérée = Δm_réaction · C²",
+      "E_libérée = |Δm_réaction| · C²",
+      "E_libérée = C² / Δm_réaction",
+      "E_libérée = (Δm_réaction)² · C"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie libérée étant positive, elle équivaut à la valeur absolue de la perte de masse : E_libérée = |Δm_réaction| · c²."
+  },
+  {
+    "id": 28,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "On donne les énergies de liaison suivantes : E_l(X₁) = 20 MeV et E_l(X₂) = 150 MeV. Si une réaction transforme X₁ en X₂, l'énergie libérée se calcule par la différence des énergies de liaison. Quelle est sa valeur ?",
+    "options": [
+      "E_libérée = E_l(produits) - E_l(réactifs) = 150 - 20 = 130 MeV",
+      "E_libérée = 20 - 150 = -130 MeV",
+      "E_libérée = 150 · 20 = 3000 MeV",
+      "E_libérée = 170 MeV"
+    ],
+    "correctIndex": 0,
+    "explanationText": "E_libérée = E_l(produits) - E_l(réactifs) pour des noyaux stables. Ici, 150 - 20 = 130 MeV."
+  },
+  {
+    "id": 29,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Sous quelles formes principales l'énergie libérée par une réaction nucléaire se manifeste-t-elle ?",
+    "options": [
+      "Uniquement sous forme de création d'électrons de conduction",
+      "Sous forme d'énergie cinétique des particules produites (noyaux fils, neutrons) et sous forme de rayonnement électromagnétique γ",
+      "Sous forme d'énergie potentielle de pesanteur",
+      "Sous forme de vagues acoustiques audibles"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie libérée se répartit sous forme d'énergie cinétique pour les fragments et d'ondes électromagnétiques extrêmement courtes (rayonnement γ)."
+  },
+  {
+    "id": 30,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quel est l'ordre de grandeur de l'énergie libérée par la fission d'un seul noyau d'Uranium 235 ?",
+    "options": [
+      "Environ 2 eV",
+      "Environ 200 eV",
+      "Environ 200 MeV",
+      "Environ 200 J"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La fission d'un noyau d'uranium 235 libère environ 200 MeV d'énergie utilisable."
+  },
+  {
+    "id": 31,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Dans un réacteur nucléaire, quel est le rôle du 'modérateur' (comme l'eau ou le graphite) ?",
+    "options": [
+      "Accélérer les neutrons pour augmenter la température",
+      "Ralentir les neutrons issus des fissions pour qu'ils aient une vitesse idéale afin de provoquer de nouvelles fissions",
+      "Absorber totalement tous les neutrons pour stopper la réaction",
+      "Empêcher les fuites de gaz radioactif"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les neutrons émis par fission sont trop rapides ; pour qu'ils fissionnent d'autres fûts d'U235, le modérateur ralentit leur élan thermique."
+  },
+  {
+    "id": 32,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quel est le rôle des barres de contrôle (en cadmium ou en bore) insérées dans le cœur d'un réacteur nucléaire ?",
+    "options": [
+      "Produire des neutrons supplémentaires",
+      "Absorber une partie des neutrons pour réguler ou stopper la réaction en chaîne de fission",
+      "Refroidir directement les turbines",
+      "Modifier la constante radioactive de l'uranium"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les barres de contrôle absorbent goulûment les neutrons, réduisant le flux de fissions pour piloter précisément le réacteur."
+  },
+  {
+    "id": 33,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Lors de la fusion de deux noyaux de Deutérium ²_₁ H et de Tritium ³_₁ H, on obtient un noyau d'Hélium ⁴_₂ He et une particule manquante. Quelle est cette particule d'après les lois de Soddy ?",
+    "options": [
+      "Un proton ¹_₁ p",
+      "Un électron ⁰_₋₁ e",
+      "Un neutron ¹_₀ n",
+      "Un positron ⁰_₁ e"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La réaction est : ²_₁ H + ³_₁ H ➔ ⁴_₂ He + ¹_₀ n, la particule manquante est donc un neutron."
+  },
+  {
+    "id": 34,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "L'isotope Uranium 238 (²³⁸_₉₂ U) est qualifié de 'non-fissile' par les neutrons thermiques. Que signifie cela ?",
+    "options": [
+      "Qu'il ne peut pas subir de transformation nucléaire",
+      "Qu'il ne se brise pas en deux morceaux lorsqu'il capture un neutron lent",
+      "Qu'il est totalement stable et non radioactif",
+      "Qu'il fond à une température très basse"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'Uranium 238 ne peut pas être scindé par des neutrons lents, contrairement à l'Uranium 235 qui est fissile."
+  },
+  {
+    "id": 35,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Si la masse totale des réactifs d'une réaction nucléaire est de 236,00 u et la masse totale des produits est de 235,82 u, quel est le défaut (ou perte) de masse de la réaction ?",
+    "options": [
+      "+0,18 u",
+      "-0,18 u",
+      "471,82 u",
+      "0,00 u"
+    ],
+    "correctIndex": 0,
+    "explanationText": "La perte de masse de la réaction est la différence positive entre le début et la fin : 236,00 u - 235,82 u = 0,18 u."
+  },
+  {
+    "id": 36,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "L'équivalent énergétique de la perte de masse calculée à la question précédente (0,18 u) en MeV vaut environ :",
+    "options": [
+      "0,18 · 931,5 ≈ 167,67 MeV",
+      "0,18 / 931,5 ≈ 0,00019 MeV",
+      "0,18 · 1,6 · 10⁻¹⁹ MeV",
+      "931,5 MeV"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Puisque 1 u équivaut à 931,5 MeV, une perte de 0,18 u correspond directement à 0,18 × 931,5 ≈ 167,67 MeV."
+  },
+  {
+    "id": 37,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Pourquoi dit-on que l'énergie nucléaire est extrêmement concentrée par rapport à l'énergie chimique ?",
+    "options": [
+      "Parce que les noyaux occupent tout l'espace de l'atome",
+      "Parce que la transformation d'un gramme de matière nucléaire libère des millions de fois plus d'énergie que la combustion d'un gramme de pétrole ou de charbon",
+      "Parce que les forces nucléaires s'exercent à des distances infinies",
+      "Parce qu'elle n'est pas thermique"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les liaisons nucléaires mettent en jeu l'interaction forte, dont les niveaux d'énergie par événement sont des millions de fois supérieurs aux énergies des liaisons électroniques chimiques."
+  },
+  {
+    "id": 38,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quelle interaction fondamentale est responsable de la cohésion du noyau atomique et s'oppose à la répulsion électrique entre les protons ?",
+    "options": [
+      "L'interaction gravitationnelle",
+      "L'interaction faible",
+      "L'interaction forte (ou force nucléaire forte)",
+      "La force électromagnétique de Coulomb"
+    ],
+    "correctIndex": 2,
+    "explanationText": "L'interaction forte agit à très courte portée pour lier fortement les nucléons (protons et neutrons) entre eux."
+  },
+  {
+    "id": 39,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quelle est la portée approximative de l'interaction forte au sein du noyau ?",
+    "options": [
+      "Plusieurs kilomètres",
+      "Quelques centimètres",
+      "De l'ordre du femtomètre (10⁻¹⁵ m, taille du noyau)",
+      "Une portée infinie"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La force forte est une force à très courte portée (environ 10⁻¹⁵ m), devenant négligeable au-delà du noyau atomique."
+  },
+  {
+    "id": 40,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Une centrale nucléaire convertit l'énergie nucléaire libérée par la fission en quelle forme d'énergie finale distribuée sur le réseau ?",
+    "options": [
+      "Énergie cinétique pure",
+      "Énergie électrique",
+      "Énergie magnétique",
+      "Énergie chimique"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La chaleur libérée fait bouillir de l'eau, entraînant une turbine couplée à un alternateur pour distribuer de l'électricité."
+  },
+  {
+    "id": 41,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Pourquoi la courbe d'Aston est-elle fréquemment graduée en valeurs négatives, c'est-à-dire -E_l / A en fonction de A ?",
+    "options": [
+      "Pour compliquer les calculs mathématiques",
+      "Pour que les noyaux les plus stables, possédant l'énergie de liaison par nucléon la plus forte, se situent graphiquement au fond d'un puits de stabilité",
+      "Parce que l'énergie de liaison est toujours un concept négatif",
+      "Pour symboliser la charge des électrons"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La représentation négative permet d'assimiler la stabilité à un puits de potentiel mécanique macroscopique."
+  },
+  {
+    "id": 42,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Quelle est la distinction fondamentale entre le défaut de masse d'un noyau Δm et la variation de masse d'une réaction nucléaire Δm_réaction ?",
+    "options": [
+      "Ils ont exactement la même formule",
+      "Δm compare le noyau à ses nucléons séparés, tandis que Δm_réaction est la différence entre la masse totale des produits et celle des réactifs",
+      "Δm concerne les électrons périphériques",
+      "Δm_réaction est toujours une constante unitaire"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le défaut de masse Δm est propre à la cohésion d'un noyau unique, tandis que Δm_réaction caractérise le bilan massique global d'une transformation complète."
+  },
+  {
+    "id": 43,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Si la variation de masse lors d'une fission vous est donnée en unités de masse atomique (u), quelle conversion directe permet de trouver l'énergie libérée en MeV sans passer par le système international ?",
+    "options": [
+      "Multiplier la masse par la vitesse de la lumière",
+      "Multiplier la masse en u par la valeur numérique 931,5",
+      "Diviser la masse par la constante d'Avogadro",
+      "Multiplier la valeur par 1.6 * 10⁻¹⁹"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque 1 u correspond au repos à un équivalent de 931,5 MeV, la multiplication directe donne l'énergie."
+  },
+  {
+    "id": 44,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Pour calculer l'énergie totale libérée par la fission complète d'une masse m = 1 kg d'Uranium 235 pur, quelle démarche devez-vous suivre à partir de l'énergie ΔE₀ libérée par un seul noyau ?",
+    "options": [
+      "Multiplier m directement par la constante de Planck",
+      "Déterminer le nombre de noyaux N = [m / M(²³⁵U)] × N_A et multiplier N par ΔE₀",
+      "Diviser la masse par le temps de demi-vie",
+      "Appliquer la loi d'additivité des circuits RLC"
+    ],
+    "correctIndex": 1,
+    "explanationText": "On évalue d'abord la population de noyaux présents dans la masse échantillonnée avant de sommer l'apport unitaire : N = (m/M)*N_A."
+  },
+  {
+    "id": 45,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Pourquoi la radioactivité α ne concerne-t-elle généralement que les noyaux très lourds (A > 200) ?",
+    "options": [
+      "Parce que les noyaux légers n'ont pas assez d'électrons",
+      "Parce que ces noyaux lourds ont un excès simultané de protons et de neutrons qui les rend instables par rapport à la force nucléaire forte",
+      "Parce que la particule alpha a besoin d'une température élevée pour sortir",
+      "Parce que les noyaux lourds n'ont pas d'interaction faible"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les gros noyaux souffrent d'une instabilité de taille. L'interaction forte n'arrive plus à compenser la répulsion coulombienne, d'où l'éjection de grappes de nucléons (particules α)."
+  },
+  {
+    "id": 46,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Dans un exercice sur le bilan de l'énergie solaire, si le Soleil perd de la masse sous forme de rayonnement, comment évolue sa masse globale au cours des siècles ?",
+    "options": [
+      "Elle augmente car l'énergie crée de la matière",
+      "Elle reste strictement constante en vertu de la conservation de la masse macroscopique",
+      "Elle diminue d'une quantité Δm = E_émise / C²",
+      "Elle fluctue de manière cyclique sans tendance définie"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le Soleil brille par réaction de fusion thermonucléaire convertissant sa propre masse en vagues d'énergie : il s'allège en rayonnant."
+  },
+  {
+    "id": 47,
+    "category": "Radioactivité Masse Énergie",
+    "questionText": "Vers quel domaine de la courbe d'Aston se dirigent les noyaux très légers lorsqu'ils subissent une fusion nucléaire ?",
+    "options": [
+      "Vers des valeurs de A plus faibles pour devenir encore plus légers",
+      "Vers la droite, pour atteindre la zone de stabilité maximale autour du Fer 56",
+      "Ils quittent la courbe car la fusion n'est pas représentée sur la courbe d'Aston",
+      "Vers le haut du graphique pour annuler leur énergie de liaison"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les petits noyaux fusionnent pour donner des éléments plus gros (A augmentant), progressant vers le Fer 56 stable sur la droite."
+  }
+]

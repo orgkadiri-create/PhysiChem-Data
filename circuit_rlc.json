@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "Circuit RLC",
+    "questionText": "De quoi est constitué un circuit RLC série idéal (parfois appelé circuit LC) ?",
+    "options": [
+      "D'un conducteur ohmique, d'un interrupteur et d'une pile.",
+      "D'un condensateur chargé et d'une bobine idéale de résistance interne négligeable (r = 0).",
+      "De trois conducteurs ohmiques de résistances différentes.",
+      "D'un générateur de courant alternatif et d'une diode."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un circuit LC idéal consiste purement en l'association d'un condensateur stockant la charge et d'une bobine d'auto-induction sans perturbation dissipative (r = 0)."
+  },
+  {
+    "id": 2,
+    "category": "Circuit RLC",
+    "questionText": "En appliquant la loi d'additivité des tensions au circuit LC idéal lors de la décharge du condensateur, quelle relation obtient-on ?",
+    "options": [
+      "u_C(t) - u_L(t) = E",
+      "u_C(t) + u_L(t) = 0",
+      "u_C(t) + u_L(t) = u_R(t)",
+      "u_L(t) = L · C · u_C(t)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Sans résistance ni générateur présent dans la maille fermée de décharge : u_C(t) + u_L(t) = 0."
+  },
+  {
+    "id": 3,
+    "category": "Circuit RLC",
+    "questionText": "Quelle est l'equation differentielle verifiee par la tension u_C(t) aux bornes du condensateur dans un circuit LC ideal ?",
+    "options": [
+      "d²u_C/dt² + (1/(LC)) · u_C(t) = 0",
+      "du_C/dt + L · C · u_C(t) = 0",
+      "d²u_C/dt² + L · C · u_C(t) = 0",
+      "d²u_C/dt² + (R/L) · du_C/dt = 0"
+    ],
+    "correctIndex": 0,
+    "explanationText": "u_C + u_L = 0 => u_C + L·di/dt = 0 => u_C + L·C·d²u_C/dt² = 0. En divisant par LC, on obtient d²u_C/dt² + 1/LC * u_C = 0."
+  },
+  {
+    "id": 4,
+    "category": "Circuit RLC",
+    "questionText": "Quelle est l'équation différentielle vérifiée par la charge q(t) du condensateur dans un circuit LC idéal (r = 0) ?",
+    "options": [
+      "q(t) + (1/(LC)) · d²q/dt² = 0",
+      "d²q/dt² + (1/(LC)) · q(t) = 0",
+      "d²q/dt² + LC · q(t) = 0",
+      "dq/dt + (1/(LC)) · q(t) = 0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "De même, q + L·di/dt = 0, et comme i = dq/dt, on a d²q/dt² + 1/LC · q = 0."
+  },
+  {
+    "id": 5,
+    "category": "Circuit RLC",
+    "questionText": "La solution de l'équation s'écrit sous la forme u_C(t) = U_m · cos((2π / T_0) · t + φ). Que représente la grandeur T_0 ?",
+    "options": [
+      "La pseudo-période des oscillations amorties.",
+      "La période propre des oscillations libres et non amorties.",
+      "La constante de temps du circuit.",
+      "La phase à l'origine des dates."
+    ],
+    "correctIndex": 1,
+    "explanationText": "En l'absence totale de perte dissipative, les oscillations libres sont constantes et s'accomplissent avec une période propre T_0."
+  },
+  {
+    "id": 6,
+    "category": "Circuit RLC",
+    "questionText": "Quelle est l'expression mathématique correcte de la période propre T_0 d'un circuit LC ?",
+    "options": [
+      "T_0 = 2π / √LC",
+      "T_0 = 2π · √LC",
+      "T_0 = 2π · LC",
+      "T_0 = √[L/C]"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La période propre s'exprime par la relation classique de Thomson : T_0 = 2π · √(L · C)."
+  },
+  {
+    "id": 7,
+    "category": "Circuit RLC",
+    "questionText": "L'analyse dimensionnelle montre que l'expression 2π√(L·C) est homogène à :",
+    "options": [
+      "Une tension électrique (V).",
+      "Une fréquence (Hz).",
+      "Un temps ou une durée (s).",
+      "Une inductance (H)."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Puisque [L] = [U]·[T]/[I] et [C] = [I]·[T]/[U], on a [L·C] = [T]² d'où √[L·C] = [T] (seconde)."
+  },
+  {
+    "id": 8,
+    "category": "Circuit RLC",
+    "questionText": "Dans la solution u_C(t) = U_m · cos((2π / T_0) · t + φ), comment détermine-t-on les constantes U_m et φ ?",
+    "options": [
+      "En mesurant la température du circuit.",
+      "À l'aide des conditions initiales à la date t = 0.",
+      "En calculant la résistance équivalente.",
+      "Elles sont toujours égales à 1."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Ces constantes d'intégration dépendent uniquement de l'état d'énergie initial de tension et de courant imposé à t = 0."
+  },
+  {
+    "id": 9,
+    "category": "Circuit RLC",
+    "questionText": "Si à t = 0, le condensateur posséde sa charge maximale Q_m (i(0)=0), que valent U_m et φ ?",
+    "options": [
+      "U_m = E et φ = 0",
+      "U_m = E et φ = π/2",
+      "U_m = 0 et φ = 0",
+      "U_m = E/2 et φ = π"
+    ],
+    "correctIndex": 0,
+    "explanationText": "À t=0, u_C(0) = E = U_m·cos(φ), et i(0) = 0 => sin(φ)=0 => φ = 0 et U_m = E."
+  },
+  {
+    "id": 10,
+    "category": "Circuit RLC",
+    "questionText": "Quel type d'oscillations observe-t-on dans un circuit LC idéal (r = 0) ?",
+    "options": [
+      "Des oscillations libres amorties.",
+      "Des oscillations libres non amorties (sinusoïdales de période T_0).",
+      "Des oscillations forcées apériodiques.",
+      "Un régime permanent continu constant."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un circuit LC idéal ne dissipe aucune énergie, produisant un régime périodique harmonique perpétuel."
+  },
+  {
+    "id": 11,
+    "category": "Circuit RLC",
+    "questionText": "Dans un circuit RLC réel (R_tot ≠ 0), quel régime observe-t-on si la résistance totale du circuit est faible ?",
+    "options": [
+      "Le régime périodique.",
+      "Le régime pseudo-périodique.",
+      "Le régime apériodique.",
+      "Le régime critique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une faible résistance engendre des oscillations amorties dont l'amplitude décroît exponentiellement : c'est le régime pseudo-périodique."
+  },
+  {
+    "id": 12,
+    "category": "Circuit RLC",
+    "questionText": "Comment appelle-t-on la période des oscillations dans le régime pseudo-périodique ?",
+    "options": [
+      "La période propre T_0.",
+      "La pseudo-période T.",
+      "La fréquence propre N_0.",
+      "Le retard temporel τ."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La durée séparant deux passages maximums consécutifs amortis s'appelle la pseudo-période T."
+  },
+  {
+    "id": 13,
+    "category": "Circuit RLC",
+    "questionText": "Lorsque l'amortissement est faible dans un circuit RLC série, quelle relation lie T et T_0 ?",
+    "options": [
+      "T est infiniment plus grande que T_0.",
+      "T est très proche de T_0 (T ≈ T_0).",
+      "T = 0.",
+      "T = T_0 / 2π."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour un faible amortissement, les frottements modifient peu la fréquence propre temporelle : T ≈ T_0."
+  },
+  {
+    "id": 14,
+    "category": "Circuit RLC",
+    "questionText": "Si la résistance totale du circuit RLC est très grande (R_tot > R_c), le retour à l'équilibre s'effectue sans osciller :",
+    "options": [
+      "Régime sinusoïdal permanent.",
+      "Régime pseudo-périodique.",
+      "Régime apériodique.",
+      "Régime harmonique."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Un amortissement extrême empêche tout dépassement oscillant : c'est le retour apériodique vers l'équilibre."
+  },
+  {
+    "id": 15,
+    "category": "Circuit RLC",
+    "questionText": "La valeur de la résistance qui sépare le régime pseudo-périodique du régime apériodique est la 'résistance critique' :",
+    "options": [
+      "R_c = 2 · √[L/C]",
+      "R_c = √[LC/2]",
+      "R_c = (1/2) · √[L · C]",
+      "R_c = 2 · L · C"
+    ],
+    "correctIndex": 0,
+    "explanationText": "La résistance critique définissant la limite exacte des oscillations amorties est R_c = 2·√(L/C)."
+  },
+  {
+    "id": 16,
+    "category": "Circuit RLC",
+    "questionText": "À quoi est dû l'amortissement des oscillations électriques dans un circuit RLC série réel ?",
+    "options": [
+      "À la capacité du condensateur qui détruit les charges.",
+      "À la perte d'énergie par effet Joule dans les résistances du circuit.",
+      "À l'absence de champ magnétique dans la bobine.",
+      "Au rayonnement de la lumière laser."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Toute résistance du circuit s'oppose au passage du courant et dissipe de l'énergie thermique par effet Joule."
+  },
+  {
+    "id": 17,
+    "category": "Circuit RLC",
+    "questionText": "Quelle est l'équation différentielle vérifiée par la tension u_C(t) dans un circuit RLC série réel ?",
+    "options": [
+      "d²u_C/dt² + (R_tot/L) · du_C/dt + (1/LC) · u_C(t) = 0",
+      "d²u_C/dt² + (1/LC) · u_C(t) = E",
+      "du_C/dt + R_tot · C · u_C(t) = 0",
+      "d²u_C/dt² + (L/R_tot) · du_C/dt + LC · u_C(t) = 0"
+    ],
+    "correctIndex": 0,
+    "explanationText": "u_C + u_R + u_L = 0 => u_C + R_tot·i + L·di/dt = 0. En remplaçant i par C·du_C/dt, on extrait d²u_C/dt² + (R_tot/L)·du_C/dt + (1/LC)u_C = 0."
+  },
+  {
+    "id": 18,
+    "category": "Circuit RLC",
+    "questionText": "Comment s'exprime l'énergie électrique E_e emmagasinée dans le condensateur à un instant t ?",
+    "options": [
+      "E_e = (1/2) · C · u_C²",
+      "E_e = C · u_C²",
+      "E_e = (1/2) · q² / C²",
+      "E_e = (1/2) · L · i²"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'énergie capacitive s'exprime par E_e = 1/2 · C · u_C²."
+  },
+  {
+    "id": 19,
+    "category": "Circuit RLC",
+    "questionText": "Comment s'exprime l'énergie magnétique E_m emmagasinée dans la bobine à un instant t ?",
+    "options": [
+      "E_m = (1/2) · C · u_C²",
+      "E_m = (1/2) · L · i²",
+      "E_m = L · i²",
+      "E_m = (1/2) · di/dt"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie stockée sous forme de champ d'auto-induction magnétique est E_m = 1/2 · L · i²."
+  },
+  {
+    "id": 20,
+    "category": "Circuit RLC",
+    "questionText": "Dans un circuit LC idéal (r = 0 and R = 0), l'énergie totale E_T est :",
+    "options": [
+      "Strictement décroissante en fonction du temps.",
+      "Constante au cours du temps (il y a conservation de l'énergie).",
+      "Strictement croissante vers l'infini.",
+      "Périodique et s'annule à chaque demi-période."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisqu'aucun élément dissipatif n'est présent, l'énergie se conserve en oscillant entre la bobine et le condensateur : E_T = cte."
+  },
+  {
+    "id": 21,
+    "category": "Circuit RLC",
+    "questionText": "Dans un circuit LC idéal, lorsque la tension u_C est maximale, que vaut l'intensité du courant i(t) ?",
+    "options": [
+      "Elle est également maximale.",
+      "Elle est nulle (i = 0).",
+      "Elle est égale à E/R.",
+      "Elle dépend de la valeur de l'inductance."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Quand u_C est maximale, l'énergie électrique est maximale et l'énergie magnétique est nulle, donc i(t) = 0."
+  },
+  {
+    "id": 22,
+    "category": "Circuit RLC",
+    "questionText": "Dans un circuit LC idéal, lorsque l'énergie magnétique dans la bobine est maximale, l'énergie électrique dans le condensateur est :",
+    "options": [
+      "Maximale également.",
+      "Nulle.",
+      "Égale à la moitié de l'énergie totale.",
+      "Infinie."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie circule de l'un à l'autre. Si l'énergie magnétique atteint sa valeur de crête maximale, u_C s'annule et l'énergie électrique est nulle."
+  },
+  {
+    "id": 23,
+    "category": "Circuit RLC",
+    "questionText": "Dans un circuit RLC réel, la dérivée temporelle dE_T/dt = -R_tot · i² prouve que :",
+    "options": [
+      "L'énergie totale augmente au cours du temps.",
+      "L'énergie totale diminue au cours du temps à cause de l'effet Joule.",
+      "Le circuit crée de l'énergie électrique.",
+      "L'intensité du courant est toujours constante."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le terme -R_tot · i² est toujours négatif (ou nul), ce qui implique que l'énergie globale du système est continuellement dissipée thermiquement."
+  },
+  {
+    "id": 24,
+    "category": "Circuit RLC",
+    "questionText": "Sur un graphique représentant les variations des énergies d'un circuit RLC, l'énergie totale E_T(t) a une forme de :",
+    "options": [
+      "Droite horizontale parfaite.",
+      "Courbe en escaliers décroissants (amortie).",
+      "Parabole ascendante.",
+      "Sinusoïde centrée sur zéro."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie décroît à chaque alternance lorsque l'intensité atteint des valeurs extrêmes, d'où un profil de décroissance amorti par paliers."
+  },
+  {
+    "id": 25,
+    "category": "Circuit RLC",
+    "questionText": "Pour obtenir des oscillations sinusoïdales entretenues et stables dans un circuit RLC réel, on associe :",
+    "options": [
+      "Un stroboscope.",
+      "Un générateur d'entretien (ou système réalisant une résistance négative).",
+      "Un rhéostat de protection.",
+      "Un condensateur de garde secondaire."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un dispositif d'amplification d'entretien compense activement l'amortissement en injectant une puissance proportionnelle à i²."
+  },
+  {
+    "id": 26,
+    "category": "Circuit RLC",
+    "questionText": "Le système d'entretien fournit u_G(t) = k · i(t). Pour compenser l'effet Joule, la constante k doit valoir :",
+    "options": [
+      "k = R_tot",
+      "k = 1 / R_tot",
+      "k = √[L · C]",
+      "k = 0"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Pour compenser u_R_total = R_tot·i, le générateur fournit u_G = R_tot·i, d'où le coefficient réglé à k = R_tot."
+  },
+  {
+    "id": 27,
+    "category": "Circuit RLC",
+    "questionText": "Une fois le circuit RLC correctement entretenu (k = R_tot), l'équation différentielle devient identique à celle :",
+    "options": [
+      "D'un dipôle RC en charge.",
+      "D'un circuit LC idéal non amorti (oscillations de période T_0).",
+      "D'un dipôle RL en rupture de courant.",
+      "D'un régime apériodique critique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'entretien élimine mathématiquement le terme linéaire du premier degré, ramenant l'équation différentielle à d²u_C/dt² + (1/LC)u_C = 0."
+  },
+  {
+    "id": 28,
+    "category": "Circuit RLC",
+    "questionText": "On donne L = 0.1 H et C = 10 µF. La valeur calculée de sa période propre T_0 est d'environ :",
+    "options": [
+      "2 ms",
+      "6.28 ms",
+      "62.8 ms",
+      "1 s"
+    ],
+    "correctIndex": 1,
+    "explanationText": "T_0 = 2π√(0.1 * 10·10⁻⁶) = 2π√(10⁻⁶) = 2π * 10⁻³ s ≈ 6.28 ms."
+  },
+  {
+    "id": 29,
+    "category": "Circuit RLC",
+    "questionText": "Si on divise par 4 la capacité C du condensateur dans un circuit LC, sa période propre T_0 va :",
+    "options": [
+      "Rester identique.",
+      "Être divisée par 2.",
+      "Doubler.",
+      "Être divisée par 4."
+    ],
+    "correctIndex": 1,
+    "explanationText": "T_0 est proportionnelle à √C. Diviser C par 4 donne un facteur de √(1/4) = 1/2."
+  },
+  {
+    "id": 30,
+    "category": "Circuit RLC",
+    "questionText": "Sur l'oscilloscope, des oscillations électriques amorties ont une période mesurée entre deux maximums successifs appelée :",
+    "options": [
+      "La période propre.",
+      "La pseudo-période.",
+      "La fréquence harmonique.",
+      "Le déphasage angulaire."
+    ],
+    "correctIndex": 1,
+    "explanationText": "En régime amorti (réel), la distance temporelle de répétitivité des sommets décroissants correspond à la pseudo-période."
+  },
+  {
+    "id": 31,
+    "category": "Circuit RLC",
+    "questionText": "Comment varie la décroissance des oscillations en régime pseudo-périodique si on augmente la résistance R ?",
+    "options": [
+      "L'amplitude diminue moins vite.",
+      "L'amplitude diminue plus vite (l'amortissement est plus fort).",
+      "L'amplitude devient constante.",
+      "Les oscillations s'arrêtent instantanément."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une plus grande valeur de résistance augmente l'énergie dissipée par effet Joule, accélérant la disparition des oscillations."
+  },
+  {
+    "id": 32,
+    "category": "Circuit RLC",
+    "questionText": "Au cours de la décharge d’un condensateur dans une bobine réelle, l'énergie effectue des va-et-vient entre :",
+    "options": [
+      "Le générateur et la Terre.",
+      "Le condensateur (forme électrique) et la bobine (forme magnétique).",
+      "La résistance et l'interrupteur ouvert.",
+      "Les armatures positives et négatives du condensateur uniquement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les oscillations traduisent l'échange périodique d'énergie entre le stockage électrique et le stockage d'induction magnétique."
+  },
+  {
+    "id": 33,
+    "category": "Circuit RLC",
+    "questionText": "Dans un circuit LC idéal, quelle est la valeur de l'énergie totale E_T si la tension maximale est U_m ?",
+    "options": [
+      "E_T = (1/2) · C · U_m²",
+      "E_T = (1/2) · L · U_m²",
+      "E_T = C · U_m",
+      "E_T = 0"
+    ],
+    "correctIndex": 0,
+    "explanationText": "À u_C_max, le courant i=0, l'énergie globale équivaut exclusivement à l'énergie électrostatique : E_T = 1/2 · C · U_m²."
+  },
+  {
+    "id": 34,
+    "category": "Circuit RLC",
+    "questionText": "Si à un instant t_1 donné, la tension aux bornes du condensateur est nulle, l'énergie totale du circuit se trouve :",
+    "options": [
+      "Entièrement stockée dans le condensateur.",
+      "Entièrement stockée dans la bobine sous forme magnétique.",
+      "Totalement dissipée sous forme de chaleur.",
+      "Partagée équitablement entre les deux composants."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Si u_C = 0, alors E_e = 0. Toute l'énergie du système est temporairement concentrée dans la bobine sous forme d'énergie magnétique."
+  },
+  {
+    "id": 35,
+    "category": "Circuit RLC",
+    "questionText": "Si la distance temporelle mesurée entre le 1er maximum et le 4ème maximum successif est de 15 ms, la pseudo-période T vaut :",
+    "options": [
+      "15 ms",
+      "5 ms",
+      "3.75 ms",
+      "45 ms"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Entre le 1er et le 4e maximum, il y a de manière exacte 3 périodes (4 - 1 = 3). Ainsi 3T = 15 ms => T = 5 ms."
+  },
+  {
+    "id": 36,
+    "category": "Circuit RLC",
+    "questionText": "Lorsque la charge du condensateur s'annule (q = 0), l'intensité du courant i(t) dans le circuit est :",
+    "options": [
+      "Nulle également.",
+      "Maximale en valeur absolue.",
+      "Égale à la moitié de sa valeur maximale.",
+      "Constante et négative pour toujours."
+    ],
+    "correctIndex": 1,
+    "explanationText": "À la décharge complète (q = 0), toute l'énergie a migré en forme magnétique dans la bobine, de sorte que l'intensité |i| atteint sa valeur de crête maximale."
+  },
+  {
+    "id": 37,
+    "category": "Circuit RLC",
+    "questionText": "Quelle relation lie l'intensité i(t) et la charge q(t) du condensateur ?",
+    "options": [
+      "i(t) = dq/dt",
+      "i(t) = d²q/dt²",
+      "i(t) = q(t) · C",
+      "i(t) = 1 / q(t)"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'intensité instantanée est par définition le quotient de débit de charges électriques : i(t) = dq/dt."
+  },
+  {
+    "id": 38,
+    "category": "Circuit RLC",
+    "questionText": "Pourquoi le régime critique (obtenu pour R = R_c) est-il souvent recherché dans les amortisseurs ou instruments ?",
+    "options": [
+      "Parce qu'il engendre le plus grand nombre d'oscillations par seconde.",
+      "Parce qu'il permet le retour à l'équilibre le plus rapide possible sans oscillation.",
+      "Parce qu'il annule instantanément la tension du générateur.",
+      "Parce qu'il double la valeur de la capacité C."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La résistance critique R_c offre la rapidité d'amortissement optimale, évitant tout dépassement oscillant néfaste."
+  },
+  {
+    "id": 39,
+    "category": "Circuit RLC",
+    "questionText": "Un circuit RLC commence ses oscillations avec E_T,0 = 2 mJ. À la date t_1, E_T,1 = 0.5 mJ. Quelle quantité d'énergie a été dissipée ?",
+    "options": [
+      "2.5 mJ",
+      "1.5 mJ",
+      "0.5 mJ",
+      "1 mJ"
+    ],
+    "correctIndex": 1,
+    "explanationText": "E_dissipee = E_initiale - E_finale = 2 mJ - 0.5 mJ = 1.5 mJ."
+  },
+  {
+    "id": 40,
+    "category": "Circuit RLC",
+    "questionText": "En combinant q = C · u_C and i = dq/dt, la formule de l'intensité du courant s'écrit :",
+    "options": [
+      "i(t) = C · du_C/dt",
+      "i(t) = (1/C) · du_C/dt",
+      "i(t) = C² · u_C(t)",
+      "i(t) = d²u_C/dt²"
+    ],
+    "correctIndex": 0,
+    "explanationText": "En dérivant q par rapport au temps : i(t) = d(C · u_C)/dt = C · du_C/dt (car C est constante)."
+  }
+]

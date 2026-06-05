@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "Mouvement dans un plan",
+    "questionText": "Lorsqu'un projectile est lancé dans le champ de pesanteur uniforme et qu'on néglige l'action de l'air, à quelle(s) force(s) est-il soumis ?",
+    "options": [
+      "À son poids et à la force de poussée initiale.",
+      "À son poids uniquement.",
+      "À son poids et à la force de frottement de l'air.",
+      "À aucune force, le mouvement est purement inertiel."
+    ],
+    "correctIndex": 1,
+    "explanationText": "En négligeant la friction aérienne, le projectile n'a aucune action de contact mécanique, il glisse en chute libre parabolique sous son seul poids."
+  },
+  {
+    "id": 2,
+    "category": "Mouvement dans un plan",
+    "questionText": "À l'instant t=0, le projectile est lancé de l'origine avec un angle α par rapport à l'horizontale. Quelles sont les composantes de la vitesse initiale \\vec{v}_0 sur l'axe horizontal x et vertical y (montant) ?",
+    "options": [
+      "v_{0x} = v_0 \\cdot \\cos(\\alpha) et v_{0y} = v_0 \\cdot \\sin(\\alpha)",
+      "v_{0x} = v_0 \\cdot \\sin(\\alpha) et v_{0y} = v_0 \\cdot \\cos(\\alpha)",
+      "v_{0x} = 0 et v_{0y} = v_0",
+      "v_{0x} = v_0 · tan(α) et v_{0y} = g"
+    ],
+    "correctIndex": 0,
+    "explanationText": "La projection trigonométrique du vecteur sur le triangle d'angle donne naturellement l'expression cosinus pour l'axe adjacent et sinus pour l'axe vertical."
+  },
+  {
+    "id": 3,
+    "category": "Mouvement dans un plan",
+    "questionText": "En appliquant la deuxième loi de Newton, quelle relation vectorielle obtient-on pour le vecteur accélération \\vec{a}_G d'un projectile ?",
+    "options": [
+      "\\vec{a}_G = \\vec{0}",
+      "\\vec{a}_G = \\vec{g}",
+      "\\vec{a}_G = m · \\vec{g}",
+      "\\vec{a}_G = -\\vec{g} · t"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'équation s'écrit : \\vec{P} = m\\cdot \\vec{g} = m\\cdot \\vec{a}_G \\implies \\vec{a}_G = \\vec{g}."
+  },
+  {
+    "id": 4,
+    "category": "Mouvement dans un plan",
+    "questionText": "Dans un repère où l'axe vertical Oy est dirigé vers le HAUT, quelles sont les coordonnées scalaires de l'accélération ?",
+    "options": [
+      "a_x = g et a_y = 0",
+      "a_x = 0 et a_y = g",
+      "a_x = 0 et a_y = -g",
+      "a_x = -g et a_y = -g"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le vecteur pesanteur \\vec{g} étant purely descendant et vertical, sa projection horizontale a_x = 0 et sa projection verticale montante est négative a_y = -g."
+  },
+  {
+    "id": 5,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelle est la nature du mouvement du projectile selon l'axe horizontal Ox ?",
+    "options": [
+      "Rectiligne uniformément varié.",
+      "Rectiligne uniforme.",
+      "Circulaire uniforme.",
+      "Le mobile reste immobile sur cet axe."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Comme l'accélération horizontale a_x est nulle, la vitesse horizontale reste uniforme, d'où un mouvement rectiligne uniforme spatial."
+  },
+  {
+    "id": 6,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelle est la nature du mouvement du projectile selon l'axe vertical Oy (montant) ?",
+    "options": [
+      "Rectiligne uniforme.",
+      "Rectiligne uniformément varié.",
+      "Parabolique uniforme.",
+      "Curviligne à accélération variable."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'accélération sur cet axe est constante et non nulle (a_y = -g), ce qui caractérise un mouvement rectiligne uniformément varié."
+  },
+  {
+    "id": 7,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelles sont les équations horaires de la vitesse v_x(t) et v_y(t) ?",
+    "options": [
+      "v_x(t) = v_0\\cos(\\alpha)t et v_y(t) = -gt",
+      "v_x(t) = v_0\\cos(\\alpha) et v_y(t) = -gt + v_0\\sin(\\alpha)",
+      "v_x(t) = v_0 * sin(α) et v_y(t) = g*t + v_0 * cos(α)",
+      "v_x(t) = 0 et v_y(t) = -g*t"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En intégrant les composantes de l'accélération avec les conditions initiales à t=0, on obtient l'expression de la vitesse linéaire."
+  },
+  {
+    "id": 8,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelles sont les équations horaires de position x(t) et y(t) du projectile en partant de l'origine à t=0 ?",
+    "options": [
+      "x(t) = v_0 \\cos(\\alpha) t et y(t) = -\\frac{1}{2}g t^2 + v_0 \\sin(\\alpha) t",
+      "x(t) = 1/2 g · t² et y(t) = v_0 · sin(α) · t",
+      "x(t) = v_0 · sin(α) · t et y(t) = -g · t²",
+      "x(t) = v_0 · cos(α) et y(t) = -1/2 g · t²"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'intégration de la vitesse temporelle donne l'expression mathématique de position parabolique."
+  },
+  {
+    "id": 9,
+    "category": "Mouvement dans un plan",
+    "questionText": "Comment obtient-on l'équation cartésienne de la trajectoire y = f(x) du projectile ?",
+    "options": [
+      "En dérivant l'équation horaire y(t) par rapport à x(t).",
+      "En éliminant la variable temps t entre les deux équations de position.",
+      "En multipliant x(t) par y(t).",
+      "En appliquant le théorème de Pythagore."
+    ],
+    "correctIndex": 1,
+    "explanationText": "On exprime t = x / (v_0\\cos(\\alpha)) depuis la relation de position horizontale et on l'injecte dans la fonction de position verticale."
+  },
+  {
+    "id": 10,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelle est l'expression mathématique correcte de l'équation de la trajectoire y(x) du projectile ?",
+    "options": [
+      "y(x) = -\\frac{g}{2 v_0^2 \\cos^2(\\alpha)} x^2 + \\tan(\\alpha) x",
+      "y(x) = -g * x² + sin(α) * x",
+      "y(x) = g / (v_0 * cos(α)) * x² + x",
+      "y(x) = -1/2 g * x² + v_0 * x"
+    ],
+    "correctIndex": 0,
+    "explanationText": "C'est la formule mathématique rigoureuse d'une parabole de concavité orientée vers le bas."
+  },
+  {
+    "id": 11,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelle est la forme géométrique de la trajectoire d'un projectile dans le champ de pesanteur uniforme ?",
+    "options": [
+      "Un segment de droite linéaire.",
+      "Un arc de parabole dont la concavité est tournée vers le bas.",
+      "Une trajectoire circulaire centripète.",
+      "Un arc d'ellipse parfaite."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La forme quadratique négative montre que la trajectoire géométrique décrit une forme de parabole descendante."
+  },
+  {
+    "id": 12,
+    "category": "Mouvement dans un plan",
+    "questionText": "Qu'est-ce que \"la flèche\" (S) de la trajectoire d'un projectile ?",
+    "options": [
+      "La distance horizontale maximale parcourue par le projectile.",
+      "L'altitude maximale atteinte par le projectile au cours de son mouvement.",
+      "Le point d'impact du projectile sur le sol.",
+      "L'angle initial de lancement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La flèche est l'altitude sommitale maximale, là où le projectile commence à amorcer sa descente."
+  },
+  {
+    "id": 13,
+    "category": "Mouvement dans un plan",
+    "questionText": "Au sommet de la trajectoire (au point de la flèche S), que vaut la composante verticale de la vitesse ?",
+    "options": [
+      "v_y = v_0",
+      "v_y = 0",
+      "v_y = v_0 · sin(α)",
+      "v_y = -g"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Au sommet de la parabole, le vecteur vitesse est strictement horizontal, ce qui signifie que sa composante verticale y s'annule temporairement."
+  },
+  {
+    "id": 14,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelle est la norme de la vitesse du projectile au sommet S de sa trajectoire ?",
+    "options": [
+      "v_S = 0",
+      "v_S = v_0 \\cdot \\cos(\\alpha)",
+      "v_S = v_0",
+      "v_S = v_0 · sin(α)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La vitesse verticale s'annulant au sommet, seule la composante de vitesse horizontale uniforme subsiste : v_S = v_{0x} = v_0 \\cdot \\cos(\\alpha)."
+  },
+  {
+    "id": 15,
+    "category": "Mouvement dans un plan",
+    "questionText": "L'expression de la hauteur maximale (la flèche y_S) atteinte par le projectile est :",
+    "options": [
+      "y_S = \\frac{v_0^2 \\cdot \\sin^2(\\alpha)}{2g}",
+      "y_S = v_0 · sin(α) / g",
+      "y_S = v_0² · cos²(α) / g",
+      "y_S = v_0² / 2g"
+    ],
+    "correctIndex": 0,
+    "explanationText": "En posant v_y(t_S) = 0 \\implies t_S = v_0\\sin(\\alpha)/g, on l'injecte dans y(t) pour trouver cette expression sommitale."
+  },
+  {
+    "id": 16,
+    "category": "Mouvement dans un plan",
+    "questionText": "Qu'est-ce que \"la portée\" (P) du mouvement d'un projectile ?",
+    "options": [
+      "La durée totale pendant laquelle le projectile reste en l'air.",
+      "La distance horizontale séparant le point de lancement et le point d'impact sur le plan horizontal passant par l'origine.",
+      "Le rayon de courbure minimal de la parabole.",
+      "La vitesse d'impact au sol."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La portée fixe la longueur maximale horizontale atteinte à la retombée du jet balistique."
+  },
+  {
+    "id": 17,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelle condition mathématique définit le point de la portée sur l'axe horizontal ?",
+    "options": [
+      "x_P = 0",
+      "y_P = 0 (avec x_P > 0)",
+      "v_y = v_x",
+      "t = τ"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le point d'impact au sol est défini par le retour du projectile à l'ordonnée d'altitude d'origine, soit y = 0."
+  },
+  {
+    "id": 18,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelle est la formule analytique donnant la valeur de la portée x... ?",
+    "options": [
+      "x_P = \\frac{v_0^2 \\cdot \\sin(2\\alpha)}{g}",
+      "x_P = v_0 * cos(α) / 2g",
+      "x_P = v_0² * cos(2α) / g",
+      "x_P = 2 * v_0² * tan(α) / g"
+    ],
+    "correctIndex": 0,
+    "explanationText": "En résolvant l'équation y(x_P) = 0, on trouve x_P = \\frac{2 v_0^2 \\sin(\\alpha)\\cos(\\alpha)}{g}, simplifiable grâce à 2\\sin(\\alpha)\\cos(\\alpha) = \\sin(2\\alpha)."
+  },
+  {
+    "id": 19,
+    "category": "Mouvement dans un plan",
+    "questionText": "Pour une vitesse initiale fixée, pour quelle valeur de l'angle de lancer la portée horizontale est-elle maximale ?",
+    "options": [
+      "α = 0°",
+      "α = 30°",
+      "α = 45°",
+      "α = 90°"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Pour maximiser la fonction de portée, il faut maximiser le terme \\sin(2\\alpha), ce qui se réalise lorsque 2\\alpha = 90^\\circ \\implies \\alpha = 45^\\circ."
+  },
+  {
+    "id": 20,
+    "category": "Mouvement dans un plan",
+    "questionText": "Deux d'angles de tir distincts offrent la même portée horizontale pour une même vitesse initiale s'ils sont :",
+    "options": [
+      "Complémentaires (α₁ + α₂ = 90°).",
+      "Égaux au double l'un de l'autre.",
+      "Supplémentaires.",
+      "Tous deux inférieurs à 15°."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Puisque \\sin(2\\alpha) = \\sin(180^\\circ - 2\\alpha) = \\sin(2(90^\\circ - \\alpha)), les angles complémentaires partagent mathématiquement la même portée spatiale."
+  },
+  {
+    "id": 21,
+    "category": "Mouvement dans un plan",
+    "questionText": "Si un projectile est lancé horizontalement (α = 0°) depuis une hauteur h, l'équation de la trajectoire se simplifie en :",
+    "options": [
+      "y(x) = -\\frac{g}{2 v_0^2} x^2 + h",
+      "y(x) = tan(α) * x",
+      "y(x) = -1/2 g * x²",
+      "y(x) = h * x"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Avec \\alpha = 0^\\circ, on a \\cos(0) = 1 et \\sin(0) = 0, ce qui insère une trajectoire parabolique décalée d'amplitude h."
+  },
+  {
+    "id": 22,
+    "category": "Mouvement dans un plan",
+    "questionText": "L'indépendance de la masse dans les équations montre que :",
+    "options": [
+      "Une bille lourde et une légère lancées à même vitesse suivront la même trajectoire dans le vide.",
+      "Les objets lourds tombent toujours plus loin.",
+      "La portée est proportionnelle à la masse m.",
+      "Le mouvement n'est pas plan mais tridimensionnel."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Les équations horaires n'ayant plus de terme masse m, la cinématique d'un jet libre sous vide est parfaitement identique pour toute masse."
+  },
+  {
+    "id": 23,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelle est l'expression de la force de Lorentz \\vec{F} exercée sur une particule de charge q dans un champ magnétique uniforme \\vec{B} ?",
+    "options": [
+      "\\vec{F} = q * \\vec{v} * \\vec{B}",
+      "\\vec{F} = q \\cdot (\\vec{v} \\wedge \\vec{B})",
+      "\\vec{F} = m * (\\vec{v} \\wedge \\vec{B})",
+      "\\vec{F} = q * \\vec{v} + \\vec{B}"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La force magnétique de Lorentz correspond au produit vectoriel de la vitesse et du champ magnétique multiplié par sa charge : \\vec{F} = q \\cdot (\\vec{v} \\wedge \\vec{B})."
+  },
+  {
+    "id": 24,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelle est l'expression de la valeur de la force de Lorentz F en fonction de l'angle d'incidence θ entre la vitesse et le champ magnétique ?",
+    "options": [
+      "F = |q| · v · B · cos(θ)",
+      "F = |q| \\cdot v \\cdot B \\cdot \\sin(\\theta)",
+      "F = q · v · B",
+      "F = |q| · v / B"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La norme du produit vectoriel inclut le sinus de l'angle d'écart : F = |q| \\cdot v \\cdot B \\cdot \\sin(\\theta)."
+  },
+  {
+    "id": 25,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelle est la direction de la force de Lorentz par rapport à la vitesse et à la ligne du champ magnétique ?",
+    "options": [
+      "Parallèle au vecteur vitesse.",
+      "Parallèle au vecteur champ magnétique B.",
+      "Perpendiculaire au plan formé par la vitesse et le champ magnétique.",
+      "Identique à la direction de la force de pesanteur."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Un produit vectoriel produit toujours un troisième vecteur orthogonal (perpendiculaire) aux deux premiers."
+  },
+  {
+    "id": 26,
+    "category": "Mouvement dans un plan",
+    "questionText": "Comment détermine-t-on le sens de la force de Lorentz pour une particule chargée positivement ?",
+    "options": [
+      "Par la règle de la main droite appliquée au trièdre (v, B, F).",
+      "Elle est toujours dirigée vers le bas.",
+      "Elle est dans le sens opposé de sa vitesse.",
+      "Par la loi de Newton sur la masse."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Le majeur (en main droite) donne le sens du champ magnetique, l'index la vitesse, et le pouce pointe vers la force de Lorentz résultante."
+  },
+  {
+    "id": 27,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quel est le travail mécanique accompli par la force de Lorentz au cours du mouvement d'une particule ?",
+    "options": [
+      "W = F * d",
+      "W = 0 car la force est à chaque instant orthogonale à sa vitesse.",
+      "W = 1/2 m * v²",
+      "W = q * V"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque la force est perpendiculaire au vecteur de déplacement à chaque instant, la puissance instantanée \\vec{F} \\cdot \\vec{v} = 0, d'où un travail nul."
+  },
+  {
+    "id": 28,
+    "category": "Mouvement dans un plan",
+    "questionText": "En appliquant le théorème de l'énergie cinétique, on déduit que l'énergie cinétique de la particule :",
+    "options": [
+      "Augmente linéairement au cours du temps.",
+      "Diminue jusqu'à ce que la particule s'arrête.",
+      "Reste constante, ce qui implique que la valeur de la vitesse v est constante.",
+      "Varie de façon périodique."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Puisque le travail de la force magnétique est nul, l'énergie cinétique reste parfaitement stable, ce qui caractérise un mouvement uniforme."
+  },
+  {
+    "id": 29,
+    "category": "Mouvement dans un plan",
+    "questionText": "On injecte une particule de masse m et charge q dans un champ B avec une vitesse perpendiculaire au champ. Sa 2ème loi s'écrit :",
+    "options": [
+      "\\vec{a} = \\frac{q \\cdot (\\vec{v} \\wedge \\vec{B})}{m}",
+      "\\vec{a} = \\vec{g}",
+      "\\vec{a} = q · \\vec{B}",
+      "\\vec{a} = \\vec{0}"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'accélération subie est le rapport de la seule force magnétique de Lorentz sur la masse : \\vec{a} = \\frac{q}{m} (\\vec{v} \\wedge \\vec{B})."
+  },
+  {
+    "id": 30,
+    "category": "Mouvement dans un plan",
+    "questionText": "En projetant l'accélération dans le repère de Frénet, que vaut la composante tangentielle substantielle a_t = \\frac{dV}{dt} ?",
+    "options": [
+      "a_t = q * v * B / m",
+      "a_t = 0",
+      "a_t = V² / R",
+      "a_t = g"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque le mouvement est uniforme, le module de la vitesse est constant, ce qui annule sa dérivée tangentielle."
+  },
+  {
+    "id": 31,
+    "category": "Mouvement dans un plan",
+    "questionText": "En égalisant la composante normale de Frénet avec la projection de la force de Lorentz, on obtient la relation :",
+    "options": [
+      "\\frac{m \\cdot V^2}{R} = |q| \\cdot V \\cdot B",
+      "V² / R = g",
+      "R = m * V * q * B",
+      "m * V / R = B"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'équation dynamique normale s'exprime comme m \\cdot a_n = F \\implies m \\cdot \\frac{V^2}{R} = |q| \\cdot V \\cdot B."
+  },
+  {
+    "id": 32,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelle est l'expression du rayon R de la trajectoire circulaire de la particule chargée ?",
+    "options": [
+      "R = |q| * B / (m * v)",
+      "R = \\frac{m \\cdot v}{|q| \\cdot B}",
+      "R = m * B / (|q| * v)",
+      "R = √(m * v / (q * B))"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En résolvant l'équation de l'accélération centripète normale, on extrait : R = \\frac{m \\cdot v}{|q| \\cdot B}."
+  },
+  {
+    "id": 33,
+    "category": "Mouvement dans un plan",
+    "questionText": "Puisque m, v, q, et B représentent des constantes stables, le rayon est constant. Le mouvement est qualifié de :",
+    "options": [
+      "Circulaire uniforme.",
+      "Circulaire uniformément varié.",
+      "Parabolique uniforme.",
+      "Rectiligne hélicoïdal."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Le rayon étant constant (trajectoire circulaire) et la vitesse stable en module (mouvement uniforme), le mouvement global est circulaire uniforme."
+  },
+  {
+    "id": 34,
+    "category": "Mouvement dans un plan",
+    "questionText": "Si on double la valeur du champ magnétique B sans modifier les autres caractéristiques, le rayon de courbure R va :",
+    "options": [
+      "Doubler.",
+      "Être divisé par deux.",
+      "Rester identique.",
+      "Quadrupler."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque le rayon est inversement proportionnel à B, doubler l'intensité du champ resserre la trajectoire en divisant le rayon par deux."
+  },
+  {
+    "id": 35,
+    "category": "Mouvement dans un plan",
+    "questionText": "Si deux isotopes de même charge pénètrent avec la même vitesse dans le champ magnétique B, quel ion aura le plus grand rayon R ?",
+    "options": [
+      "L'ion le plus léger.",
+      "L'ion le plus lourd.",
+      "Les deux ions auront le même rayon.",
+      "Aucun des deux."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le rayon est directement proportionnel à la masse de la particule. L'ion le plus lourd effectuera donc une trajectoire courbe plus large."
+  },
+  {
+    "id": 36,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quel appareil utilise la déviation magnétique pour trier les ions selon leur rapport charge/masse ?",
+    "options": [
+      "Un oscilloscope.",
+      "Un spectromètre de masse.",
+      "Un multiplieur analogique.",
+      "Un stroboscope à neutrons."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le spectromètre de masse accélère puis dévie les ions sous champ magnétique pour les discriminer par leur ratio massique m/q."
+  },
+  {
+    "id": 37,
+    "category": "Mouvement dans un plan",
+    "questionText": "Sur un schéma, si le champ magnétique est représenté par un symbole de point \"☉\", cela signifie que le champ est :",
+    "options": [
+      "Dirigé vers l'avant (perpendiculaire au plan, sortant vers l'observateur).",
+      "Dirigé vers l'arrière (perpendiculaire au plan, entrant).",
+      "Parallèle au vecteur vitesse horizontal.",
+      "Égal à zéro."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Le point représente l'extrémité d'une flèche de vecteur pointant vers l'extérieur du plan, face à l'œil de l'observateur."
+  },
+  {
+    "id": 38,
+    "category": "Mouvement dans un plan",
+    "questionText": "Si le champ magnétique est représenté par le symbole de croix \"⊗\", cela signifie qu'il est :",
+    "options": [
+      "Sortant vers l'observateur.",
+      "Entrant (perpendiculaire au plan, s'éloignant de l'observateur).",
+      "Tangent à la trajectoire circulaire.",
+      "Aléatoire."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La croix représente les plumes de l'empennage arrière d'un vecteur s'enfonçant orthogonalement dans le plan d'étude."
+  },
+  {
+    "id": 39,
+    "category": "Mouvement dans un plan",
+    "questionText": "Quelle est l'influence de la déviation magnétique D à la sortie du champ B pour de faibles déflexions ?",
+    "options": [
+      "Elle est proportionnelle à l'inverse du rayon (1/R), donc proportionnelle au rapport |q|/m.",
+      "Elle est indépendante de la masse.",
+      "Elle est égale à 2R.",
+      "Elle est toujours nulle."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Une plus grande masse (ou rayon) dévie moins la trajectoire, d'où une déviation réciproque au rayon."
+  },
+  {
+    "id": 40,
+    "category": "Mouvement dans un plan",
+    "questionText": "Si une particule pénètre dans une zone où le champ B est colinéaire (parallèle) à sa vitesse initiale, que vaut la force de Lorentz ?",
+    "options": [
+      "F = q * v_0 * B",
+      "F = 0 (la particule ne subit aucune déviation, son mouvement reste uniforme).",
+      "F = infini",
+      "F = m * g"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le produit vectoriel de deux vecteurs colinéaires (angle de 0° ou 180°, d'où un sinus nul) s'annule immédiatement."
+  }
+]

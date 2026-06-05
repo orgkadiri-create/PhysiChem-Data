@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "Modulation Amplitude",
+    "questionText": "Dans quel but réalise-t-on une modulation d'amplitude pour transmettre un signal informatif par onde hertzienne ?",
+    "options": [
+      "Pour réduire la vitesse de propagation de l'onde dans l'atmosphère.",
+      "Pour transposer un signal de basse fréquence (BF) en haute fréquence (HF) afin de pouvoir le transmettre à grande distance avec une antenne de taille raisonnable.",
+      "Pour transformer un signal électrique en un signal sonore directement audible.",
+      "Pour annuler l'effet de la tension d'alimentation du circuit émetteur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La modulation d'amplitude permet de transposer un signal BF en HF. La dimension d'antenne nécessaire étant liée à λ/2, cette montée en fréquence réduit drastiquement la taille de l'antenne à quelques décimètres."
+  },
+  {
+    "id": 2,
+    "category": "Modulation Amplitude",
+    "questionText": "Le circuit intégré utilisé en laboratoire pour simuler la modulation d'amplitude est un \"multiplieur\" à deux entrées E1 et E2 et une sortie S. Sa tension de sortie s'exprime par la relation :",
+    "options": [
+      "$$\\tilde{u}_s(t) = k · [ u_1(t) + u_2(t) ]$$",
+      "$$\\tilde{u}_s(t) = k · u_1(t) · u_2(t)$$",
+      "$$\\tilde{u}_s(t) = u_1(t) / (k · u_2(t))$$",
+      "$$\\tilde{u}_s(t) = k · u_1(t)^2 + u_2(t)$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un circuit de multiplication analogique délivre un signal de sortie dont la tension instantanée est proportionnelle au produit des tensions d'entrée, soit : u_s(t) = k · u_1(t) · u_2(t)."
+  },
+  {
+    "id": 3,
+    "category": "Modulation Amplitude",
+    "questionText": "Dans l'expression de la tension de sortie du multiplieur u_s(t) = k·u₁(t)·u₂(t), quelle est la nature et l'unité de la constante k ?",
+    "options": [
+      "C'est une constante de temps exprimée en secondes (s).",
+      "C'est un coefficient multiplicateur caractéristique du circuit, exprimé en Volt inverse (V⁻¹).",
+      "C'est une fréquence exprimée en Hertz (Hz).",
+      "C'est une tension efficace exprimée en Volts (V)."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour que l'équation dimensionnelle soit vérifiée (Volt en sortie pour un produit de Volts en entrée), le facteur k doit posséder la dimension de l'inverse d'une tension, soit V⁻¹."
+  },
+  {
+    "id": 4,
+    "category": "Modulation Amplitude",
+    "questionText": "Pour effectuer une modulation d'amplitude, on applique à l'une des entrées du multiplieur la tension de la porteuse u_p(t). Quelle est la caractéristique de ce signal ?",
+    "options": [
+      "C'est un signal de basse fréquence (BF) et de petite amplitude.",
+      "C'est un signal de haute fréquence (HF) destiné à transporter l'information.",
+      "C'est une tension purement continue et constante.",
+      "C'est un bruit de fond que l'on cherche à éliminer du circuit."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La porteuse est un signal sinusoïdal de haute fréquence (HF), capable de se propager de manière optimale pour porter le signal modulant."
+  },
+  {
+    "id": 5,
+    "category": "Modulation Amplitude",
+    "questionText": "À l'autre entrée du multiplieur, on applique un signal s(t) + U₀, où s(t) est le signal modulant. Que représente la grandeur U₀ ?",
+    "options": [
+      "L'amplitude maximale de la porteuse.",
+      "Une tension continue de décalage (appelée aussi Offset).",
+      "La tension efficace mesurée aux bornes de la sortie.",
+      "La résistance interne du circuit intégré."
+    ],
+    "correctIndex": 1,
+    "explanationText": "U₀ correspond à l'offset ou tension continue constante de décalage. Elle surélève le signal modulant s(t) au-dessus de zéro."
+  },
+  {
+    "id": 6,
+    "category": "Modulation Amplitude",
+    "questionText": "L'amplitude de la tension modulée en sortie du multiplieur s'exprime sous la forme : u(t) = A · [1 + m · cos(2π · f_s · t)]. Quelle est l'expression mathématique correcte du taux de modulation m ?",
+    "options": [
+      "$$m = U_0 / S_m$$",
+      "$$m = S_m / U_0$$",
+      "$$m = S_m · U_0$$",
+      "$$m = S_m + U_0$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'indice de modulation (ou taux de modulation) m s'exprime par le rapport : m = S_m / U_0, où S_m est l'amplitude du signal informatif basse-fréquence et U_0 la tension continue d'offset."
+  },
+  {
+    "id": 7,
+    "category": "Modulation Amplitude",
+    "questionText": "Quelle est l'expression de la constante d'amplitude globale A en fonction des paramètres du circuit émetteur ?",
+    "options": [
+      "$$A = k · S_m · P_m$$",
+      "$$A = k · P_m · U_0$$",
+      "$$A = P_m / (k · U_0)$$",
+      "$$A = k · U_0 / P_m$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En factorisant la tension continue de décalage U_0 dans l'équation de modulation, la constante globale d'échelle A s'exprime par : A = k · P_m · U_0."
+  },
+  {
+    "id": 8,
+    "category": "Modulation Amplitude",
+    "questionText": "Pour obtenir une modulation d'amplitude de bonne qualité, quelle condition graphique ou mathématique doit impérativement vérifier l'indice de modulation m ?",
+    "options": [
+      "m > 1",
+      "m < 1 (ou m% < 100%, soit m < 1).",
+      "m = 0",
+      "m >> 10"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour préserver l'enveloppe et s'affranchir du croisement d'amplitude zéro (surmodulation), l'indice de modulation m doit rester strictement inférieur à 1."
+  },
+  {
+    "id": 9,
+    "category": "Modulation Amplitude",
+    "questionText": "Quelle relation essentielle doit lier la fréquence de la porteuse F_p et la fréquence du signal modulant f_s pour garantir une bonne modulation ?",
+    "options": [
+      "F_p = f_s",
+      "F_p < f_s",
+      "F_p >> f_s (généralement la fréquence de la porteuse est au moins 10 fois supérieure à celle du signal).",
+      "F_p = 0 Hz"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Pour restituer convenablement l'enveloppe utile lors de l'extraction, la fréquence porteuse doit être très supérieure à la fréquence du signal modulant (F_p >> f_s)."
+  },
+  {
+    "id": 10,
+    "category": "Modulation Amplitude",
+    "questionText": "Si la tension de décalage U₀ est choisie trop faible, de sorte que U₀ < S_m (ce qui implique m > 1), quel phénomène indésirable observe-t-on sur l'écran de l'oscilloscope ?",
+    "options": [
+      "L'annulation complète de la tension de sortie.",
+      "Une surmodulation (l'enveloppe du signal modulé ne reproduit plus fidèlement le signal modulant).",
+      "Une augmentation de la fréquence de la porteuse.",
+      "Un signal de sortie purement continu et linéaire."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Si U₀ est insuffisant (U₀ < S_m), le signal s(t)+U₀ croise l'axe zéro : l'oscilloscope montre une surmodulation, dont l'enveloppe déforme l'information."
+  },
+  {
+    "id": 11,
+    "category": "Modulation Amplitude",
+    "questionText": "Graphiquement, comment peut-on calculer l'indice de modulation m à partir des valeurs crêtes enveloppes maximale U_max et minimale U_min ?",
+    "options": [
+      "$$m = (U_{max} + U_{min}) / (U_{max} - U_{min})$$",
+      "$$m = (U_{max} - U_{min}) / (U_{max} + U_{min})$$",
+      "$$m = U_{max} · U_{min}$$",
+      "$$m = U_{max} - U_{min}$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La détermination graphique de l'indice m s'obtient par rapport aux valeurs maximales (U_max) et minimales (U_min) de l'enveloppe modulée : m = (U_{max} - U_{min}) / (U_{max} + U_{min})."
+  },
+  {
+    "id": 12,
+    "category": "Modulation Amplitude",
+    "questionText": "Lorsqu'on bascule l'oscilloscope en mode XY en appliquant la tension modulée u_s(t) en ordonnée (Y) et le signal modulant s(t) en abscisse (X), une modulation de bonne qualité se traduit par une figure en forme de :",
+    "options": [
+      "Cercle ou ellipse parfaite.",
+      "Trapèze régulier.",
+      "Ligne droite horizontale unique.",
+      "Parabole inversée."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La tension modulée Y variant linéairement avec la commande X donne une forme de trapèze régulier si la modulation d'amplitude est idéale."
+  },
+  {
+    "id": 13,
+    "category": "Modulation Amplitude",
+    "questionText": "Si la figure obtenue en mode XY sur l'oscilloscope forme un triangle dont le sommet pointu se croise (forme de deux triangles inversés), cela indique que :",
+    "options": [
+      "La modulation est parfaite.",
+      "Il y a surmodulation (m > 1).",
+      "La fréquence de la porteuse est trop faible.",
+      "La tension de décalage U₀ est infinie."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La convergence du trapèze XY vers un nœud ou triangle croisé met en évidence que l'enveloppe traverse la ligne d'origine, révélant une surmodulation (m ≥ 1)."
+  },
+  {
+    "id": 14,
+    "category": "Modulation Amplitude",
+    "questionText": "En développant l'expression mathématique de la tension modulée à l'aide des formules trigonométriques, on s'aperçoit que le spectre de fréquences de ce signal est composé de :",
+    "options": [
+      "Une seule raie de fréquence F_p.",
+      "Deux raies de fréquences F_p - f_s et F_p + f_s.",
+      "Trois raies de fréquences : F_p, F_p - f_s et F_p + f_s.",
+      "Un continuum de fréquences s'étendant de 0 à l'infini."
+    ],
+    "correctIndex": 2,
+    "explanationText": "D'après les relations trigonométriques, le spectre de raies discret d'AM comporte la fréquence de la porteuse centrale F_p et deux raies latérales décalées, F_p - f_s et F_p + f_s."
+  },
+  {
+    "id": 15,
+    "category": "Modulation Amplitude",
+    "questionText": "Quelle est la largeur de bande de fréquences Δf occupée par un signal modulé en amplitude par une radiation sinusoïdale de fréquence f_s ?",
+    "options": [
+      "Δf = f_s",
+      "Δf = 2 · f_s",
+      "Δf = F_p",
+      "Δf = F_p - f_s"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La bande passante requise est déterminée par l'écart entre la raie de fréquence la plus élevée et la plus faible du spectre d'AM, soit Δf = (F_p + f_s) - (F_p - f_s) = 2·f_s."
+  },
+  {
+    "id": 16,
+    "category": "Modulation Amplitude",
+    "questionText": "Quelle est la première étape réalisée au niveau d'un récepteur radio pour capter une émission spécifique parmi toutes les ondes environnantes ?",
+    "options": [
+      "Le redressement du courant par une diode.",
+      "La sélection de la station à l'aide d'un circuit d'accord (antenne + circuit LC parallèle appelé circuit bouchon).",
+      "L'élimination de la tension continue de décalage.",
+      "L'amplification acoustique directe."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le circuit parallèle LC (circuit d'accord) se comporte comme un filtre d'admission à résonance électromagnétique, isolant le canal hertzien voulu."
+  },
+  {
+    "id": 17,
+    "category": "Modulation Amplitude",
+    "questionText": "Pour s'accorder sur une station de radio de fréquence F_p, on fait varier la capacité C d'un condensateur variable pour que la fréquence propre f₀ du circuit LC vérifie la condition de résonance :",
+    "options": [
+      "f₀ = 2 · F_p",
+      "f₀ = F_p",
+      "f₀ = F_p / 10",
+      "f₀ = 0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le récepteur radio vibre en résonance d'admittance lorsque sa fréquence LC d'accord est calée sur la porteuse du canal : f₀ = 1 / (2π · √LC) = F_p."
+  },
+  {
+    "id": 18,
+    "category": "Modulation Amplitude",
+    "questionText": "Le circuit d'accord (L, C variable) inséré à l'entrée du récepteur joue le rôle d'un :",
+    "options": [
+      "Filtre passe-bas.",
+      "Filtre passe-haut.",
+      "Filtre passe-bande (ou sélecteur de bande).",
+      "Multiplieur de tension."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Ce circuit résonnant LC parallèle agit comme un filtre passe-bande à bande étroite, isolant la région hertzienne émettrice spécifique."
+  },
+  {
+    "id": 19,
+    "category": "Modulation Amplitude",
+    "questionText": "Une fois le signal de la station sélectionné, l'opération qui consiste à récupérer le signal informatif de basse fréquence à partir du signal modulé de haute fréquence s'appelle :",
+    "options": [
+      "La surmodulation.",
+      "La démodulation (ou détection d'enveloppe).",
+      "L'amplification de puissance.",
+      "Le décalage de phase."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Cette opération d'extraction correspond à la démodulation d'amplitude, qui sépare le signal utile basse fréquence de l'onde porteuse HF."
+  },
+  {
+    "id": 20,
+    "category": "Modulation Amplitude",
+    "questionText": "Le bloc de démodulation principal, appelé \"détecteur d'enveloppe\", est constitué de l'association de :",
+    "options": [
+      "Deux multiplieurs montés en série.",
+      "Une diode en série suivie d'un conducteur ohmique R et d'un condensateur C branchés en parallèle.",
+      "Un circuit LC série branché à la terre.",
+      "Un pont de quatre diodes de redressement inverse."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le démodulateur d'enveloppe de base regroupe une diode redresseuse unidirectionnelle couplée à un sous-ensemble filtreur passe-bas R-C parallèle."
+  },
+  {
+    "id": 21,
+    "category": "Modulation Amplitude",
+    "questionText": "Quel est le rôle exact de la diode placée au début du détecteur d'enveloppe ?",
+    "options": [
+      "Ajouter de la tension continue au signal d'entrée.",
+      "Redresser le signal modulé en supprimant les alternances négatives.",
+      "Supprimer la tension continue de décalage U₀.",
+      "Empêcher le condensateur de se décharger dans la résistance."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La diode effectue un redressement monoalternance en éliminant la moitié inférieure négative de la tension alternative reçue."
+  },
+  {
+    "id": 22,
+    "category": "Modulation Amplitude",
+    "questionText": "Dans le détecteur d'enveloppe, quel est le rôle du dipôle R-C branché en parallèle ?",
+    "options": [
+      "Éliminer la composante de basse fréquence.",
+      "Filtrer la haute fréquence (la porteuse) pour ne conserver que l'enveloppe du signal (le signal informatif).",
+      "Amplifier la tension maximale reçue par l'antenne.",
+      "Stabiliser la phase du signal d'origine."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le pont R-C parallèle se charge de filtrer l'oscillation haute fréquence de la porteuse pour lisser la courbe et ne retenir que l'allure d'enveloppe BF."
+  },
+  {
+    "id": 23,
+    "category": "Modulation Amplitude",
+    "questionText": "Pour obtenir une bonne détection d'enveloppe, la constante de temps τ du circuit de filtrage doit respecter la double condition (avec T_p la période de la porteuse et T_s la période du signal modulant) :",
+    "options": [
+      "τ < T_p et τ > T_s",
+      "T_p << τ < T_s",
+      "τ = T_p + T_s",
+      "倾 >> T_s et τ << T_p"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Il convient d'adopter une constante de filtrage supérieure à la période porteuse T_p pour occulter les cannelures HF, mais inférieure à T_s pour épouser proprement l'allure enveloppante BF : T_p << τ < T_s."
+  },
+  {
+    "id": 24,
+    "category": "Modulation Amplitude",
+    "questionText": "Que se passe-t-il lors de la démodulation si la constante de temps choisie est trop faible, telle que τ << T_p ?",
+    "options": [
+      "Le signal de basse fréquence est totalement détruit.",
+      "Le condensateur se décharge trop rapidement entre deux alternances : la tension de sortie suit les oscillations de la porteuse HF au lieu de suivre l'enveloppe.",
+      "Le signal est parfaitement démodulé et purifié.",
+      "La tension de sortie devient strictement constante et égale à U₀."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Sans constante de lissage suffisante, le condensateur se décharge trop nerveusement : la tension obtenue ondule à la fréquence HF de la porteuse sans former l'enveloppe."
+  },
+  {
+    "id": 25,
+    "category": "Modulation Amplitude",
+    "questionText": "Que se passe-t-il lors de la démodulation si la constante de temps choisie est trop grande, telle que τ >> T_s ?",
+    "options": [
+      "Le condensateur se décharge trop lentement : la tension de sortie ne peut pas suivre les variations descendantes rapides de l'enveloppe (mauvaise détection).",
+      "Le récepteur capte toutes les stations de radio en même temps.",
+      "Le signal de haute fréquence émis est amplifié.",
+      "La diode reste bloquée indéfiniment."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Si τ est surdimensionné, le filtrage est trop lent et paresseux. Le condensateur décharge trop doucement et l'enveloppe ne peut plus suivre les creux descendants du signal."
+  },
+  {
+    "id": 26,
+    "category": "Modulation Amplitude",
+    "questionText": "À la sortie du détecteur d'enveloppe démodulateur (filtre R-C parallèle), le signal électrique obtenu est la superposition :",
+    "options": [
+      "Du signal informatif s(t) et de la haute fréquence de la porteuse.",
+      "Du signal informatif s(t) et de la tension continue de décalage U₀.",
+      "Uniquement de la porteuse HF.",
+      "D'un courant alternatif de fréquence infinie."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le contour extrait redessine l'expression s(t) + U₀. Il demeure indispensable d'éliminer encore le décalage continu d'offset."
+  },
+  {
+    "id": 27,
+    "category": "Modulation Amplitude",
+    "questionText": "Pour éliminer la composante continue de décalage U₀ résiduelle à la fin du récepteur, on utilise un circuit d'imblocage composé de :",
+    "options": [
+      "Une bobine en série avec un conducteur ohmique.",
+      "Un condensateur C_s en série suivi d'un conducteur ohmique R_s branché à la masse (circuit RC série jouant le rôle de filtre passe-haut).",
+      "Un deuxième multiplieur analogique.",
+      "Une prise de terre directe."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le circuit d'imblocage RC série joue le rôle de filtre passe-haut. Il fait barrage au niveau continu nul (0 Hz) pour restituer la seule modulation alternative s(t)."
+  },
+  {
+    "id": 28,
+    "category": "Modulation Amplitude",
+    "questionText": "Pourquoi le condensateur C_s placé en série dans le filtre final permet-il de bloquer la tension de décalage U₀ ?",
+    "options": [
+      "Parce qu'en régime permanent continu, un condensateur se comporte comme un interrupteur ouvert (son impédance est infinie pour une tension constante).",
+      "Parce qu'il transforme le courant continu en courant de haute fréquence.",
+      "Parce qu'il est constitué de plaques conductrices très épaisses.",
+      "Parce qu'il dissipe la tension sous forme de chaleur par effet Joule."
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'impédance capacitive est infinie à courant invariable direct (f = 0 Hz), ce qui bloque net la transmission de la composante continue."
+  },
+  {
+    "id": 29,
+    "category": "Modulation Amplitude",
+    "questionText": "Un signal modulant s(t) a une fréquence f_s = 500 Hz et la porteuse a une fréquence F_p = 100 kHz. Quelles sont les périodes respectives T_s et T_p de ces signaux ?",
+    "options": [
+      "T_s = 2 ms et T_p = 10 µs",
+      "T_s = 0.5 ms et T_p = 100 µs",
+      "T_s = 5 ms et T_p = 1 ms",
+      "T_s = 20 µs et T_p = 10 ms"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Calculs temporels fondamentaux : T_s = 1 / f_s = 1 / 500 s = 2 ms, et T_p = 1 / F_p = 1 / 100 000 s = 10 µs."
+  },
+  {
+    "id": 30,
+    "category": "Modulation Amplitude",
+    "questionText": "En se basant sur les données de la Question 29 (T_p = 10 µs et T_s = 2000 µs), quelle valeur de constante de temps τ serait idéale pour obtenir une bonne détection d'enveloppe ?",
+    "options": [
+      "Uniquement τ = 2 µs",
+      "¼ = 150 µs",
+      "τ = 8 ms",
+      "τ = 20 s"
+    ],
+    "correctIndex": 1,
+    "explanationText": "On recherche τ vérifiant : 10 µs << τ < 2000 µs. La valeur de 150 µs s'accorde idéalement entre ces deux burées."
+  },
+  {
+    "id": 31,
+    "category": "Modulation Amplitude",
+    "questionText": "Si l'on mesure sur l'oscilloscope les valeurs de l'enveloppe du signal modulé : U_max = 6 V et U_min = 2 V. Que vaut le taux de modulation m ?",
+    "options": [
+      "m = 1",
+      "m = 0.5",
+      "m = 0.33",
+      "m = 3"
+    ],
+    "correctIndex": 1,
+    "explanationText": "m = (U_max - U_min) / (U_max + U_min) = (6 - 2) / (6 + 2) = 4 / 8 = 0.5. C'est inférieur à 1, la modulation est donc stable et de qualité."
+  },
+  {
+    "id": 32,
+    "category": "Modulation Amplitude",
+    "questionText": "Si les valeurs mesurées de l'enveloppe d'un signal modulé sont U_max = 8 V et U_min = 0 V, que vaut m et quelle est la qualité de la modulation ?",
+    "options": [
+      "m = 0, la modulation est excellente.",
+      "m = 1, la modulation est limite (apparition d'un triangle en mode XY, début de surmodulation).",
+      "m = 0.5, la modulation est bonne.",
+      "m = 1.5, il y a une forte surmodulation."
+    ],
+    "correctIndex": 1,
+    "explanationText": "m = (8 - 0) / (8 + 0) = 8 / 8 = 1. L'enveloppe frôle la coupure critique à amplitudes nulles, ce qui marque un seuil de triangle XY."
+  },
+  {
+    "id": 33,
+    "category": "Modulation Amplitude",
+    "questionText": "Dans un exercice type, si l'expression d'un signal modulé est u_s(t) = 5 · [ 1 + 0.4 · cos(2000π · t) ] · cos(200000π · t) (en unités SI), quelle est la fréquence f_s du signal modulant ?",
+    "options": [
+      "f_s = 2000 Hz",
+      "f_s = 1000 Hz",
+      "f_s = 100000 Hz",
+      "f_s = 400 Hz"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La pulsation modulant est w_s = 2π · f_s = 2000π rad/s, conduisant à f_s = 1000 Hz = 1 kHz."
+  },
+  {
+    "id": 34,
+    "category": "Modulation Amplitude",
+    "questionText": "En utilisant la même expression de la Question 33, quelle est la fréquence F_p de la porteuse ?",
+    "options": [
+      "F_p = 200000 Hz",
+      "F_p = 100000 Hz (ou 100 kHz).",
+      "F_p = 50000 Hz",
+      "F_p = 1000 Hz"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La pulsation de la porteuse est w_p = 2π · F_p = 200000π rad/s, d'où F_p = 100000 Hz = 100 kHz."
+  },
+  {
+    "id": 35,
+    "category": "Modulation Amplitude",
+    "questionText": "Pendant la phase de démodulation, lorsque la diode du détecteur d'enveloppe est dans l'état bloqué (aucun courant ne la traverse), comment se comporte le condensateur C ?",
+    "options": [
+      "Il reste chargé indéfiniment à sa valeur maximale.",
+      "Il se décharge lentement à travers la résistance parallèle R.",
+      "Il absorbe l'énergie du filtre passe-haut final.",
+      "Il explose sous l'effet du courant induit."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Dès que le signal d'entrée retombe, la tension aux bornes du condensateur devient supérieure et bloque la diode. Le condensateur alimente ainsi le circuit en libérant lentement sa charge à travers sa résistance parallèle R."
+  },
+  {
+    "id": 36,
+    "category": "Modulation Amplitude",
+    "questionText": "À la toute fin de la chaîne de réception, quel composant permet de restituer le signal électrique démodulé sous forme d'ondes sonores audibles ?",
+    "options": [
+      "Un microphone électrodynamique.",
+      "Un haut-parleur (ou des écouteurs).",
+      "Un oscilloscope numérique en mode balayage.",
+      "Une antenne télescopique en cuivre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le haut-parleur ou l'écouteur convertit le signal électrique basse fréquence de sortie en vibrations de pression physiques réelles de l'air."
+  },
+  {
+    "id": 37,
+    "category": "Modulation Amplitude",
+    "questionText": "Pourquoi choisit-on toujours F_p très supérieure à f_s lors d'une modulation d'amplitude ?",
+    "options": [
+      "Pour détruire les bruits extérieurs.",
+      "Pour que le détecteur d'enveloppe puisse lisser efficacement la haute fréquence sans altérer la basse fréquence.",
+      "Pour réduire la consommation électrique du circuit.",
+      "Pour changer la couleur de l'onde lumineuse."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'écart de fréquence massif (F_p >> f_s) est indispensable pour que le filtre RC puisse séparer proprement l'allure générale (l'enveloppe) des micro-oscillations rapides de la porteuse."
+  },
+  {
+    "id": 38,
+    "category": "Modulation Amplitude",
+    "questionText": "En mode XY, si l'indice de modulation m augmente et dépasse la valeur de 1 (surmodulation), les deux côtés du trapèze :",
+    "options": [
+      "Restent parfaitement parallèles.",
+      "Se croisent pour former un nœud géométrique en forme de papillon (ou de deux triangles inversés).",
+      "Se transforment en cercles concentriques.",
+      "S'effacent complètement de l'écran."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le croisement des lignes à amplitude nulle est la signature visuelle immédiate d'une surmodulation (m > 1) due à un offset U₀ trop faible."
+  },
+  {
+    "id": 39,
+    "category": "Modulation Amplitude",
+    "questionText": "Quelle est la principale source de bruit ou de perturbation d'un signal reçu en modulation d'amplitude (AM) comparée à la FM ?",
+    "options": [
+      "Les variations de la gravité terrestre.",
+      "Les parasites atmosphériques et électromécaniques extérieurs qui s'ajoutent directement à l'amplitude du signal.",
+      "Le changement de température du haut-parleur.",
+      "La rupture du pont salin."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La modulation AM stockant l'information dans les variations de hauteur (amplitude) du signal, tout parasite électrique externe déforme directement l'amplitude et crée des grésillements."
+  },
+  {
+    "id": 40,
+    "category": "Modulation Amplitude",
+    "questionText": "Dans le Système International, l'indice ou le taux de modulation m s'exprime en :",
+    "options": [
+      "Volts (V).",
+      "Hertz (Hz).",
+      "C'est une grandeur adimensionnelle (sans unité).",
+      "Mètres par seconde (m/s)."
+    ],
+    "correctIndex": 2,
+    "explanationText": "m étant le rapport de deux tensions (S_m / U₀) ou de deux amplitudes, les unités s'annulent : c'est un coefficient pur adimensionnel."
+  }
+]

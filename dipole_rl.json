@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "Dipôle RL",
+    "questionText": "Qu’est-ce qu’une bobine en électricité ?",
+    "options": [
+      "Un dipôle constitué de deux armatures parallèles séparées par un isolant.",
+      "Un dipôle passif formé d'un enroulement cylindrique de fil conducteur à spires jointives, recouvert d'un vernis isolant.",
+      "Un générateur de tension continue linéaire.",
+      "Un capteur thermique de pression."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le fil enroulé forme des spires qui, sous l'action d'un courant variable, provoquent un phénomène d'auto-induction magnétique."
+  },
+  {
+    "id": 2,
+    "category": "Dipôle RL",
+    "questionText": "Quelles sont les deux caractéristiques fondamentales qui définissent une bobine réelle ?",
+    "options": [
+      "Sa capacité C et sa conductance G.",
+      "Son inductance L et sa résistance interne r.",
+      "Sa force électromotrice E et sa tension de seuil.",
+      "Sa longueur d'onde λ et sa période propre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Inductance L (en Henrys) et résistance de l'enroulement de fil r (en Ohms) caractérisent toute bobine réelle."
+  },
+  {
+    "id": 3,
+    "category": "Dipôle RL",
+    "questionText": "Dans le Système International (SI), quelle est l'unité de l'inductance L d'une bobine ?",
+    "options": [
+      "Le Farad (F).",
+      "Le Henry (H).",
+      "L'Ohm (Ω).",
+      "Le Tesla (T)."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'inductance L d'une bobine s'exprime en Henry (symbole H)."
+  },
+  {
+    "id": 4,
+    "category": "Dipôle RL",
+    "questionText": "En convention réceptrice, quelle est l'expression générale de la tension u_L(t) aux bornes d'une bobine réelle traversée par un courant variable i(t) ?",
+    "options": [
+      "u_L(t) = L · i(t)",
+      "u_L(t) = r · i(t) - L · (di/dt)",
+      "u_L(t) = r · i(t) + L · (di/dt)",
+      "u_L(t) = (1/L) · (di/dt)"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La tension comporte la chute ohmique r·i et la force contre-électromotrice d'induction L·di/dt : u_L = L·di/dt + r·i."
+  },
+  {
+    "id": 5,
+    "category": "Dipôle RL",
+    "questionText": "Comment se comporte une bobine réelle lorsqu'elle est traversée par un courant continu d'intensité constante (I = cte) ?",
+    "options": [
+      "Comme un interrupteur ouvert (u_L = ∞).",
+      "Comme un conducteur ohmique pur de résistance r (u_L = r · I).",
+      "Comme un condensateur chargé.",
+      "Comme un fil de résistance nulle, peu importe sa structure interne."
+    ],
+    "correctIndex": 1,
+    "explanationText": "En courant continu, di/dt = 0, donc u_L = r·I. La bobine est équivalente à une simple résistance r."
+  },
+  {
+    "id": 6,
+    "category": "Dipôle RL",
+    "questionText": "Quel est l'effet physique principal d'une bobine lors de l'établissement d'un courant dans un circuit ?",
+    "options": [
+      "Elle accélère instantanément le courant à sa valeur maximale.",
+      "Elle s'oppose à la cause qui lui a donné naissance et retarde l'établissement du courant.",
+      "Elle transforme le courant continu en courant alternatif.",
+      "Elle stocke une charge électrique électrostatique sur ses spires."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La bobine retarde l'établissement ou l'annulation du courant dans le circuit où elle est insérée."
+  },
+  {
+    "id": 7,
+    "category": "Dipôle RL",
+    "questionText": "À quel phénomène physique est dû le retard de l'établissement du courant provoqué par la bobine ?",
+    "options": [
+      "Au phénomène d'auto-induction électromagnétique.",
+      "À l'effet Joule thermique uniquement.",
+      "À la polarisation diélectrique des parois.",
+      "À la diffraction des électrons."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La variation de courant génère un champ magnétique variable et une f.e.m. induite s'opposant à cette variation."
+  },
+  {
+    "id": 8,
+    "category": "Dipôle RL",
+    "questionText": "Lors de l'établissement du courant dans un dipôle RL branché sur un générateur idéal de tension E, la loi d'additivité des tensions s'écrit :",
+    "options": [
+      "u_L(t) + u_R(t) = E",
+      "u_L(t) - u_R(t) = E",
+      "u_L(t) + u_R(t) = 0",
+      "u_R(t) = u_L(t) · E"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Loi des mailles classique : la tension du générateur alimente le dipôle RL : u_L + u_R = E."
+  },
+  {
+    "id": 9,
+    "category": "Dipôle RL",
+    "questionText": "Quelle est l'équation différentielle vérifiée par l'intensité i(t) du courant lors de l'établissement du courant ?",
+    "options": [
+      "i(t) + (L/(R+r)) · (di/dt) = 0",
+      "i(t) + (L/(R+r)) · (di/dt) = E/(R+r)",
+      "i(t) + L · (di/dt) = E",
+      "(di/dt) + (R+r) · i(t) = E"
+    ],
+    "correctIndex": 1,
+    "explanationText": "u_R + u_L = E => R·i + L·di/dt + r·i = E => (R+r)i + L·di/dt = E => i + (L/(R+r))di/dt = E/(R+r)."
+  },
+  {
+    "id": 10,
+    "category": "Dipôle RL",
+    "questionText": "La solution de l’équation s'écrit i(t) = E/(R+r) * (1 - e^(-t/tau)). Que vaut l’intensité maximale I_p en régime permanent ?",
+    "options": [
+      "I_p = E / R",
+      "I_p = E / (R+r)",
+      "I_p = E / r",
+      "I_p = E · (R+r)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Quand t tend vers l'infini, le terme exponentiel s'annule : i_max = E/(R+r)."
+  },
+  {
+    "id": 11,
+    "category": "Dipôle RL",
+    "questionText": "Quelle est l'expression de la constante de temps τ d'un dipôle RL ?",
+    "options": [
+      "La constante de temps vaut τ = L · (R+r)",
+      "La constante de temps vaut τ = L / (R+r)",
+      "La constante de temps vaut τ = (R+r) / L",
+      "La constante de temps vaut τ = 1 / [L · (R+r)]"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La constante de temps caractéristique du circuit RL est τ = L / R_total, avec R_total = R + r."
+  },
+  {
+    "id": 12,
+    "category": "Dipôle RL",
+    "questionText": "Par analyse dimensionnelle, la constante de temps τ = L / R_tot est homogène à :",
+    "options": [
+      "Une tension (V).",
+      "Un temps (s).",
+      "Une fréquence (Hz).",
+      "Une résistance (Ω)."
+    ],
+    "correctIndex": 1,
+    "explanationText": "[L/R] = ([U] · [T] / [I]) / ([U]/[I]) = [T], elle a donc bien les dimensions d'une durée (secondes)."
+  },
+  {
+    "id": 13,
+    "category": "Dipôle RL",
+    "questionText": "Lors de l'établissement du courant, à l'instant t = τ, l'intensité du courant atteint environ :",
+    "options": [
+      "37% de sa valeur maximale en régime permanent.",
+      "50% de sa valeur maximale en régime permanent.",
+      "63% de sa valeur maximale en régime permanent.",
+      "99% de sa valeur maximale en régime permanent."
+    ],
+    "correctIndex": 2,
+    "explanationText": "i(τ) = I_p * (1 - e⁻¹) = 0.63 * I_p."
+  },
+  {
+    "id": 14,
+    "category": "Dipôle RL",
+    "questionText": "Au bout de combien de temps considère-t-on que le régime permanent est pratiquement atteint dans un dipôle RL ?",
+    "options": [
+      "t = τ",
+      "t = 3τ",
+      "t = 5τ",
+      "t = 10τ"
+    ],
+    "correctIndex": 2,
+    "explanationText": "À t = 5τ, l'intensité atteint 99.3% de sa valeur limite."
+  },
+  {
+    "id": 15,
+    "category": "Dipôle RL",
+    "questionText": "Si on réalise l'établissement du courant avec r = 0, quelle est la valeur finale de u_L en régime permanent ?",
+    "options": [
+      "u_L = E",
+      "u_L = 0",
+      "u_L = R · I",
+      "u_L = E / 2"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour r=0, u_L = L·di/dt. En régime permanent, di/dt = 0 d'où u_L = 0V."
+  },
+  {
+    "id": 16,
+    "category": "Dipôle RL",
+    "questionText": "Quelle est l'équation différentielle vérifiée par l'intensité i(t) lors de la rupture du courant dans le circuit ?",
+    "options": [
+      "i(t) + (L/(R+r)) · (di/dt) = E/(R+r)",
+      "i(t) + (L/(R+r)) · (di/dt) = 0",
+      "i(t) - (L/(R+r)) · (di/dt) = 0",
+      "L · (di/dt) = r · i(t)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Lors de l'annulation du courant (générateur hors circuit), u_L + u_R = 0, d'où i + L/(R+r) · di/dt = 0."
+  },
+  {
+    "id": 17,
+    "category": "Dipôle RL",
+    "questionText": "La solution de l'équation différentielle lors de l'annulation du courant s'écrit :",
+    "options": [
+      "i(t) = I_p · (1 - e^(-t/tau))",
+      "i(t) = I_p · e^(-t/tau)",
+      "i(t) = -I_p · e^(-t/tau)",
+      "i(t) = I_p · e^(t/tau)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'intensité décroît exponentiellement de la valeur maximale I_p à t=0 jusqu'à 0 : i(t) = I_p * e^(-t/τ)."
+  },
+  {
+    "id": 18,
+    "category": "Dipôle RL",
+    "questionText": "Au cours de l'annulation du courant, à la date t = τ, l'intensité i(τ) est égale à :",
+    "options": [
+      "0.63 · I_p",
+      "0.50 · I_p",
+      "0.37 · I_p",
+      "0"
+    ],
+    "correctIndex": 2,
+    "explanationText": "i(τ) = I_p · e⁻¹ ≈ 0.37 · I_p."
+  },
+  {
+    "id": 19,
+    "category": "Dipôle RL",
+    "questionText": "Pourquoi ajoute-t-on généralement une diode de roue libre dans les circuits comportant une bobine ?",
+    "options": [
+      "Pour augmenter l'intensité en régime permanent.",
+      "Pour éviter l'apparition d'une étincelle de rupture (surintensité/surtension sur l'interrupteur) lors de l'ouverture du circuit.",
+      "Pour transformer le dipôle RL en dipôle RC.",
+      "Pour charger le circuit plus rapidement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'interruption brutale du courant induit une tension phénoménale L·di/dt à l'origine d'arcs électriques délétères. La diode offre un chemin de retour sécurisé."
+  },
+  {
+    "id": 20,
+    "category": "Dipôle RL",
+    "questionText": "Quelle est l'expression de l'énergie magnétique E_m emmagasinée par une bobine d'inductance L ?",
+    "options": [
+      "E_m = L · i²",
+      "E_m = (1/2) · L · i²",
+      "E_m = (1/2) · L / i²",
+      "E_m = (1/2) · L² · i"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie stockée sous forme magnétique dans le noyau/les spires est E_m = 1/2 * L * i²."
+  },
+  {
+    "id": 21,
+    "category": "Dipôle RL",
+    "questionText": "Si l'intensité du courant traversant la bobine est multipliée par trois, son énergie magnétique emmagasinée est :",
+    "options": [
+      "Multipliée par 3.",
+      "Multipliée par 6.",
+      "Multipliée par 9.",
+      "Divisée par 3."
+    ],
+    "correctIndex": 2,
+    "explanationText": "L'énergie varie proportionnellement au carré de l'intensité. Donc 3² = 9 fois."
+  },
+  {
+    "id": 22,
+    "category": "Dipôle RL",
+    "questionText": "Quelle est l'unité de l'énergie magnétique dans le Système International ?",
+    "options": [
+      "Le Watt (W).",
+      "Le Volt (V).",
+      "Le Joule (J).",
+      "Le Henry (H)."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le Joule (J) est l'unité standard d'énergie en physique."
+  },
+  {
+    "id": 23,
+    "category": "Dipôle RL",
+    "questionText": "Sur le graphique i(t) d'établissement, la tangente à la courbe à t = 0 coupe l'asymptote horizontale i = I_p à :",
+    "options": [
+      "t = 0",
+      "t = τ",
+      "t = 5τ",
+      "t = τ / 2"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Propriété de la courbe exponentielle : la tangente initiale coupe l'asymptote de régime établi à t = τ."
+  },
+  {
+    "id": 24,
+    "category": "Dipôle RL",
+    "questionText": "Que vaut la tension aux bornes du conducteur ohmique u_R(t) à l'instant initial t = 0 de l'établissement ?",
+    "options": [
+      "u_R(0) = E",
+      "u_R(0) = 0",
+      "u_R(0) = r · I_p",
+      "u_R(0) = E / 2"
+    ],
+    "correctIndex": 1,
+    "explanationText": "À t=0, le courant est nul : i(0) = 0. Donc la tension u_R(0) = R · i(0) = 0V."
+  },
+  {
+    "id": 25,
+    "category": "Dipôle RL",
+    "questionText": "Que vaut la tension aux bornes de la bobine u_L(t) à l'instant initial t = 0 lors de l'établissement ?",
+    "options": [
+      "u_L(0) = 0",
+      "u_L(0) = E",
+      "u_L(0) = r · I_p",
+      "u_L(0) = E / (R+r)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "À t=0, i(0)=0 donc u_R(0)=0. Par additivité u_L(0) + u_R(0) = E, donc u_L(0) = E."
+  },
+  {
+    "id": 26,
+    "category": "Dipôle RL",
+    "questionText": "Si on augmente l'inductance L d'une bobine dans un circuit RL, la constante de temps τ va :",
+    "options": [
+      "Diminué.",
+      "Augmenter (le courant met plus de temps à s'établir).",
+      "Rester rigoureusement identique.",
+      "S'annuler."
+    ],
+    "correctIndex": 1,
+    "explanationText": "τ = L/R_tot, donc augmenter L augmente directement la constante de temps."
+  },
+  {
+    "id": 27,
+    "category": "Dipôle RL",
+    "questionText": "Si on augmente l'inductance de la résistance R, l'intensité finale I_p va :",
+    "options": [
+      "Augmenter.",
+      "Diminué.",
+      "Rester identique.",
+      "Devenir infinie."
+    ],
+    "correctIndex": 1,
+    "explanationText": "I_p = E / (R+r), donc augmenter R augmente le dénominateur et diminue l'intensité finale."
+  },
+  {
+    "id": 28,
+    "category": "Dipôle RL",
+    "questionText": "Bobine d'inductance L = 0.5 H, résistance R = 80 Ω, résistance interne r = 20 Ω. Quelle est la constante de temps ?",
+    "options": [
+      "Maintenir la neutralité électrique des solutions par migration des ions, tout en évitant le mélange de réactifs.",
+      "5 s",
+      "25 ms",
+      "0.5 ms"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Bande passante : τ = L / (R + r) = 0.5 / (80 + 20) = 0.5 / 100 = 0.005 s = 5 ms."
+  },
+  {
+    "id": 29,
+    "category": "Dipôle RL",
+    "questionText": "À l’aide d'un oscilloscope, comment visualiser une grandeur proportionnelle à l'intensité du courant ?",
+    "options": [
+      "De la bobine.",
+      "Du générateur de tension.",
+      "Du conducteur ohmique (u_R = R · i).",
+      "De l'interrupteur."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La loi d'Ohm u_R = R*i montre que la tension aux bornes d'un conducteur ohmique est l'image exacte en direct du profil de courant."
+  },
+  {
+    "id": 30,
+    "category": "Dipôle RL",
+    "questionText": "Quelle est l’expression de la tension u_L(t) au cours du régime permanent d'établissement ?",
+    "options": [
+      "u_L = E",
+      "u_L = r · E / (R+r)",
+      "u_L = 0",
+      "u_L = R · I_p"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En régime permanent, di/dt = 0, d'où u_L = r · i = r · E/(R+r)."
+  },
+  {
+    "id": 31,
+    "category": "Dipôle RL",
+    "questionText": "Bobine de résistance r, L, branchée à E = 10 V. En régime permanent, I_p = 2 A. R = 4 Ω. Que vaut r ?",
+    "options": [
+      "1 Ω",
+      "2 Ω",
+      "5 Ω",
+      "0 Ω"
+    ],
+    "correctIndex": 0,
+    "explanationText": "R_total = E / I_p = 10 / 2 = 5 Ω. Comme R_total = R + r, on a r = 5 - 4 = 1 Ω."
+  },
+  {
+    "id": 32,
+    "category": "Dipôle RL",
+    "questionText": "Lors du phénomène d'annulation du courant, quelle est l'expression de u_R(t) ?",
+    "options": [
+      "u_R(t) = R · I_p · (1 - e^(-t/tau))",
+      "u_R(t) = R · I_p · e^(-t/tau)",
+      "u_R(t) = -R · I_p · e^(-t/tau)",
+      "u_R(t) = E · e^(-t/tau)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque i(t) = I_p · e^(-t/τ), u_R(t) = R · i(t) = R · I_p · e^(-t/τ)."
+  },
+  {
+    "id": 33,
+    "category": "Dipôle RL",
+    "questionText": "Lors de la rupture du courant, la courbe représentant la tension aux bornes de la bobine u_L(t) commence à t=0+ par :",
+    "options": [
+      "Nulle.",
+      "Positive et égale à E.",
+      "Négative (environ -E si r est négligeable).",
+      "Infinie."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Par continuité du courant, i(0+) = I_p. u_L(0+) = -u_R(0+) = -R*I_p ≈ -E (si r est très petite)."
+  },
+  {
+    "id": 34,
+    "category": "Dipôle RL",
+    "questionText": "Si on double simultanément l'inductance L et la résistance totale R_tot, la constante de temps τ :",
+    "options": [
+      "Reste inchangée.",
+      "Double.",
+      "Quadruple.",
+      "Est divisée par deux."
+    ],
+    "correctIndex": 0,
+    "explanationText": "τ = L/R_tot, donc (2·L)/(2·R_tot) = L/R_tot, le temps caractéristique reste identique."
+  },
+  {
+    "id": 35,
+    "category": "Dipôle RL",
+    "questionText": "Quelle grandeur physique ne subit jamais de discontinuité (Saut brusque) à l'ouverture ou la fermeture ?",
+    "options": [
+      "La tension u_L.",
+      "L'intensité du courant électrique i(t).",
+      "La tension u_K à l'interrupteur.",
+      "La puissance de décharge."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La continuité de l'énergie stockée par auto-induction exige la stricte continuité temporelle de l'intensité i(t)."
+  },
+  {
+    "id": 36,
+    "category": "Dipôle RL",
+    "questionText": "Dans une bobine idéale (r=0), quelle formule relie l'énergie maximale stockée E_m,max à E et R ?",
+    "options": [
+      "E_m,max = (1/2) · L · (E / R)²",
+      "E_m,max = (1/2) · L · (E / R)",
+      "E_m,max = L · E · R",
+      "E_m,max = (1/2) · L² · E²"
+    ],
+    "correctIndex": 0,
+    "explanationText": "En régime permanent stable, I_p = E / R (car r=0). Donc E_m = 1/2 · L · (E/R)²."
+  },
+  {
+    "id": 37,
+    "category": "Dipôle RL",
+    "questionText": "Pendant la phase d'annulation du courant, l'énergie emmagasinée par la bobine est :",
+    "options": [
+      "Intégralement renvoyée au générateur de tension.",
+      "Dissipée sous forme de chaleur par effet Joule dans les résistances du circuit.",
+      "Stockée indéfiniment sous forme de lumière dans la bobine.",
+      "Détruite sans aucun transfert d'énergie."
+    ],
+    "correctIndex": 1,
+    "explanationText": "En l'absence de source d'alimentation, l'énergie accumulée est intégralement dissipée par effet Joule thermique."
+  },
+  {
+    "id": 38,
+    "category": "Dipôle RL",
+    "questionText": "Si un circuit RL possède une constante de temps τ = 10 ms, le régime permanent s'établit environ à :",
+    "options": [
+      "10 ms",
+      "30 ms",
+      "50 ms",
+      "100 ms"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le régime est considéré atteint à t ≈ 5τ = 50 ms."
+  },
+  {
+    "id": 39,
+    "category": "Dipôle RL",
+    "questionText": "Sur le graphique représentatif de l'annulation du courant, comment s'identifie τ graphiquement ?",
+    "options": [
+      "La tangente à l'origine (t = 0) et l'asymptote horizontale i = 0 (axe des abscisses).",
+      "La courbe et l'asymptote i = I_p.",
+      "La courbe et l'axe des ordonnées.",
+      "Deux tangentes successives."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La tangente à l'origine coupe l'asymptote de fin de décharge (i=0, l'axe horizontal) à la date t = τ."
+  },
+  {
+    "id": 40,
+    "category": "Dipôle RL",
+    "questionText": "En régime permanent d'établissement, le courant étant stable (di/dt = 0), l'énergie de la bobine est :",
+    "options": [
+      "Nulle.",
+      "Constante et maximale.",
+      "En augmentation linéaire infinie.",
+      "Strictement périodique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque i = I_p = cte, l'énergie magnétique stockée s'établit à sa constante maximale E_m = 1/2 · L · I_p²."
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Quelle est la principale différence entre une onde mécanique et une onde électromagnétique ?",
+    "options": [
+      "L'onde mécanique se propage dans le vide alors que l'onde électromagnétique nécessite un milieu matériel.",
+      "L'onde électromagnétique peut se propage dans le vide ainsi que dans les milieux transparents, contrairement à l'onde mécanique.",
+      "L'onde mécanique voyage toujours à la vitesse de la lumière.",
+      "Il n'y a aucune différence, ce sont deux termes synonymes."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'onde électromagnétique se propage aussi bien dans le vide (sans aucun support matériel) que dans les milieux matériels transparents (comme le verre, l'eau ou l'air)."
+  },
+  {
+    "id": 2,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "À quelle vitesse (célérité c) les ondes électromagnétiques se propagent-elles dans le vide ou dans l'air ?",
+    "options": [
+      "v = 340 m/s",
+      "c = 3.00 × 10⁵ m/s",
+      "c = 3.00 × 10⁸ m/s",
+      "Une vitesse infinie."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Dans l'air ou dans le vide, les ondes électromagnétiques voyagent à la célérité fondamentale de la lumière, soit de l'ordre de 3.00 × 10⁸ m/s."
+  },
+  {
+    "id": 3,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Comment appelle-t-on le signal de basse fréquence (BF) qui contient l'information à transmettre (comme la voix ou la musique) ?",
+    "options": [
+      "L'onde porteuse.",
+      "Le signal modulant.",
+      "Le signal modulé.",
+      "La tension de décalage."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le signal de basse fréquence qui contient l'information originale à transmettre est le signal modulant."
+  },
+  {
+    "id": 4,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Qu'est-ce que \"l'onde porteuse\" dans une transmission d'informations ?",
+    "options": [
+      "Une onde mécanique acoustique de très faible fréquence.",
+      "Une onde électromagnétique de haute fréquence (HF) servant de support pour transporter le signal informatif.",
+      "Le fil de cuivre qui relie l'émetteur au récepteur.",
+      "La batterie qui alimente le circuit."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'onde porteuse est le signal alternatif de haute fréquence (HF) qui sert de support pour transposer et propager l'information utile à grande distance."
+  },
+  {
+    "id": 5,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Pourquoi est-il impossible de transmettre directement à grande distance un signal sonore converti en signal électrique de basse fréquence (BF) par une onde hertzienne ?",
+    "options": [
+      "Car les signaux BF s'amortissent très rapidement avec la distance et nécessiteraient des antennes gigantesques.",
+      "Car la vitesse des ondes de basse fréquence est nulle.",
+      "Car le vide spatial bloque les signaux de basse fréquence.",
+      "Car la voix humaine détruit les composants électroniques de l'antenne."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Les ondes de basse fréquence s'amortissent rapidement avec l'éloignement, et exigeraient de plus des antennes gigantesques (de taille proportionnelle à la longueur d'onde spatiale, qui est immense pour de la BF)."
+  },
+  {
+    "id": 6,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "La taille idéale d'une antenne réceptrice doit être du même ordre de grandeur que la moitié de la longueur d'onde λ du signal à capter. Pour un signal sonore de fréquence f = 15 kHz et c = 3.00 × 10⁸ m/s, quelle est la taille minimale de l'antenne ?",
+    "options": [
+      "10 m",
+      "100 m",
+      "10 km",
+      "100 km"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Calcul de la longueur d'onde : λ = c / f = 3.00 × 10⁸ / (1.50 × 10⁴) = 20 km. La dimension minimale d'une antenne efficace est d'environ : d_min = λ / 2 = 10 km. Ce qui est techniquement irréalisable en pratique pour des signaux de basse fréquence pure."
+  },
+  {
+    "id": 7,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Quels sont les trois paramètres d'une onde porteuse sinusoïdale que l'on peut modifier pour réaliser une modulation ?",
+    "options": [
+      "La température, la masse et le volume.",
+      "L'amplitude Um, la fréquence f ou la phase à l'origine φ.",
+      "Uniquement la tension continue d'alimentation.",
+      "La longueur de l'antenne émettrice."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'expression temporelle de l'onde porteuse s'écrit : u_p(t) = U_m · cos(2π · f · t + φ). On peut donc moduler la porteuse en faisant varier soit son amplitude, soit sa fréquence, soit sa phase d'origine."
+  },
+  {
+    "id": 8,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Dans une télécommande infrarouge de télévision, l'onde porteuse est modulée en amplitude selon un codage utilisé en informatique. Quel est ce type de codage ?",
+    "options": [
+      "Le codage décimal.",
+      "Le codage binaire (0 ou 1, amplitude grande ou nulle).",
+      "Le codage analogique pur.",
+      "Le codage acoustique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'envoi d'impulsions (amplitude pleine ou niveau zéro) correspond au codage logique binaire par modulation tout-ou-rien."
+  },
+  {
+    "id": 9,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Pour réaliser une modulation d'amplitude (AM) analogique en laboratoire, quel composant électronique (circuit intégré) utilise-t-on généralement ?",
+    "options": [
+      "Un condensateur variable.",
+      "Un multiplieur (souvent le circuit de référence AD633).",
+      "Une diode silicium de redressement.",
+      "Un haut-parleur de moyenne impédance."
+    ],
+    "correctIndex": 1,
+    "explanationText": "On emploie un circuit multiplieur d'analogiques, conçu pour délivrer une tension de sortie pornographie proportionnelle au produit de ses signaux d'entrée."
+  },
+  {
+    "id": 10,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Quelles sont les deux tensions électriques appliquées aux entrées E1 et E2 du multiplieur pour obtenir une modulation d'amplitude ?",
+    "options": [
+      "Deux tensions de haute fréquence identiques.",
+      "Deux tensions de basse fréquence continues.",
+      "La tension de la porteuse HF sur une entrée, et la tension du signal modulant BF additionnée d'une tension continue de décalage (U₀) sur l'autre entrée.",
+      "La tension de l'antenne et celle de la prise de terre."
+    ],
+    "correctIndex": 2,
+    "explanationText": "On applique la tension de la porteuse HF up(t) d'un côté, et le signal informatif BF u(t) additionné d'un offset continu de décalage U₀ de l'autre side."
+  },
+  {
+    "id": 11,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Quel est le rôle de la tension continue de décalage U₀ (offset) ajoutée au signal informatif s(t) avant la modulation ?",
+    "options": [
+      "Éviter le phénomène de surmodulation en rendant l'amplitude toujours positive.",
+      "Augmenter la fréquence de l'onde porteuse.",
+      "Éliminer le bruit de fond harmonique.",
+      "Protéger le récepteur contre les courts-circuits."
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'offset U₀ décale le signal modulant afin d'obtenir un signal global s(t) + U₀ oscillant uniquement dans le domaine positif."
+  },
+  {
+    "id": 12,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "La tension de sortie modulée u_s(t) délivrée par le multiplieur de constante k s'écrit sous la forme : u_s(t) = k · u₁(t) · u₂(t). Quelle est l'unité de la constante multiplicatrice k ?",
+    "options": [
+      "L'Ohm (Ω).",
+      "Le Volt (V).",
+      "Le Volt inverse (V⁻¹).",
+      "Le Hertz (Hz)."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Analyse dimensionnelle de la relation de multiplication : [u_s] = [k] · [u₁] · [u₂] => V = [k] · V². Ce qui impose que la dimension de la constante k soit l'inverse d'une tension, soit exprimée en Volt inverse (V⁻¹)."
+  },
+  {
+    "id": 13,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "L'expression de la tension modulée en amplitude s'écrit : u_s(t) = A · [1 + m · cos(2π · f_s · t)] · cos(2π · F_p · t) avec m = S_m / U_0. Que représente précisément la grandeur m ?",
+    "options": [
+      "La masse de l'antenne.",
+      "Le taux de modulation (ou indice de modulation).",
+      "La fréquence du signal modulant.",
+      "L'amplitude de la porteuse."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La grandeur m = S_m / U_0 représente le taux ou l'indice de modulation (sans unité), outil essentiel pour mesurer la qualité de la modulation d'amplitude."
+  },
+  {
+    "id": 14,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Quelle formule permet de calculer mathématiquement le taux de modulation m à partir des tensions maximale U_max et minimale U_min de l'enveloppe du signal modulé ?",
+    "options": [
+      "m = U_{max} - U_{min}",
+      "m = (U_{max} - U_{min}) / (U_{max} + U_{min})",
+      "m = U_{max} / U_{min}",
+      "m = 2 · (U_{max} + U_{min})"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Par étude graphique ou trigonométrique de l'amplitude crête supérieure, l'indice de modulation m s'exprime par la relation : m = (U_{max} - U_{min}) / (U_{max} + U_{min})."
+  },
+  {
+    "id": 15,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Pour obtenir une modulation d'amplitude de bonne qualité (sans distorsion de l'information), quelles conditions doivent être remplies ?",
+    "options": [
+      "m > 1 et F_p ≈ f_s",
+      "m < 1 et F_p >> f_s (la fréquence de la porteuse doit être très supérieure à celle du signal).",
+      "m = 0 et F_p < f_s",
+      "m > 2 et F_p = 0 Hz"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Il faut assurer le non-croisement de phase d'enveloppe (m < 1) et un espacement de fréquence de qualité (F_p >> f_s, de l'ordre d'un factor 10)."
+  },
+  {
+    "id": 16,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Que se passe-t-il si la tension de décalage U₀ est insuffisante, de telle sorte que U₀ < S_m (ce qui implique un taux de modulation m > 1) ?",
+    "options": [
+      "L'onde s'arrête d'émettre.",
+      "On obtient le phénomène de surmodulation (l'enveloppe ne reproduit plus fidèlement le signal informatif).",
+      "La fréquence de la porteuse est multipliée par deux.",
+      "Le signal est amplifié proprement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Si U₀ est trop faible, s(t) + U₀ prend des valeurs négatives. Cela induit une surmodulation et altère l'enveloppe informative."
+  },
+  {
+    "id": 17,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Lorsqu'on visualise un signal modulé en amplitude sur un oscilloscope en mode XY (la tension modulée en ordonnée et le signal modulant en abscisse), une bonne modulation se reconnaît à la forme d'une figure géométrique en :",
+    "options": [
+      "Cercle parfait.",
+      "Trapèze régulier.",
+      "Ligne droite horizontale.",
+      "Rectangle."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le tracé bidimensionnel dynamique du signal modulé en ordonnée par rapport au signal modulant forme un trapèze régulier si la modulation est de qualité."
+  },
+  {
+    "id": 18,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Si la figure obtenue en mode XY sur l'oscilloscope forme un triangle pointu (qui se croise à l'extrémité), cela met en évidence :",
+    "options": [
+      "Une modulation idéale de très haute qualité.",
+      "Une surmodulation (m ≥ 1).",
+      "Une perte totale de la porteuse.",
+      "Un signal purement continu."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un trapèze qui dégénère en un triangle pointu se croisant sur la ligne d'origine dessine la signature oscilloscopique d'une surmodulation (m ≥ 1)."
+  },
+  {
+    "id": 19,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Le spectre de fréquences d'un signal modulé en amplitude par un signal sinusoïdal unique de fréquence f_s est composé de :",
+    "options": [
+      "Une seule raie de fréquence F_p.",
+      "Deux raies de fréquences F_p - f_s et F_p + f_s.",
+      "Trois raies de fréquences : F_p, F_p - f_s et F_p + f_s.",
+      "Une infinité de raies espacées de f_s."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Les formules de trigonométrie (du produit de deux cosinus) montrent que le spectre comporte trois types de raies discrètes : F_p, F_p - f_s et F_p + f_s."
+  },
+  {
+    "id": 20,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Quelle est la largeur minimale de bande de fréquences (bande passante) nécessaire pour transmettre un signal modulant de fréquence maximale f_max en modulation d'amplitude ?",
+    "options": [
+      "Δf = f_max",
+      "Δf = 2 · f_max",
+      "Δf = F_p",
+      "Δf = F_p / 2"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La bande passante minimale nécessaire est délimitée par les raies extrêmes du signal : Δf = (F_p + f_max) - (F_p - f_max) = 2 · f_max."
+  },
+  {
+    "id": 21,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Quelle est la première étape indispensable effectuée par un appareil de radio pour recevoir une émission spécifique ?",
+    "options": [
+      "Le redressement du courant.",
+      "L'élimination de la composante continue.",
+      "La sélection (ou accord) du signal à l'aide d'un circuit bouchon (circuit LC parallèle).",
+      "L'amplification du son par effet Joule."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Il est requis en premier d'opérer le filtrage sélectif d'accord (dipôle oscillant LC parallèle) pour ne vibrer qu'à la fréquence propre de la station radio voulue."
+  },
+  {
+    "id": 22,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Pour capter une station de radio émettant à la fréquence f_p, on ajuste la capacité C du circuit d'accord (L, C) afin que sa fréquence propre f₀ vérifie la condition :",
+    "options": [
+      "f₀ << f_p",
+      "f₀ = f_p (phénomène de résonance).",
+      "f₀ = 10 · f_p",
+      "f₀ = 0 Hz"
+    ],
+    "correctIndex": 1,
+    "explanationText": "On fait coïncider la fréquence propre du dipole passe-bande avec la fréquence porteuse à recevoir : f₀ = 1 / (2π · √LC) = f_p."
+  },
+  {
+    "id": 23,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "En quoi consiste l'étape globale de la \"démodulation\" dans un récepteur ?",
+    "options": [
+      "Ajouter une porteuse supplémentaire de très haute fréquence.",
+      "Séparer le signal informatif de basse fréquence de l'onde porteuse de haute fréquence.",
+      "Détruire le signal reçu pour des raisons de sécurité.",
+      "Transformer le signal électrique en signal lumineux violet."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La démodulation consiste à extraire proprement l'onde modulant s(t) de basse fréquence du signal modulé de haute fréquence capté."
+  },
+  {
+    "id": 24,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "De quels sous-ensembles principaux est constitué un détecteur d'enveloppe classique ?",
+    "options": [
+      "D'une antenne télescopique et d'un haut-parleur en série.",
+      "D'une diode en série suivie d'un conducteur ohmique R et d'un condensateur C branchés en parallèle (circuit RC parallèle).",
+      "De deux multiplieurs montés en cascade.",
+      "D'un pont de diodes et d'un transformateur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un réseau détecteur d'enveloppe intègre une diode de redressement rapide montée en série avec un pont lisseur de tension R-C parallèle."
+  },
+  {
+    "id": 25,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Quel est le rôle spécifique de la diode placée à l'entrée du détecteur d'enveloppe ?",
+    "options": [
+      "Supprimer les alternances négatives du signal modulé (redressement monoalternance).",
+      "Augmenter l'amplitude du signal de 10 Volts.",
+      "Modifier la constante de l'onde porteuse.",
+      "Maintenir le signal parfaitement sinusoïdal symétrique."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La diode effectue un redressement monoalternance pour ne conserver que la partie positive de l'enveloppe sinusoïdale porteuse."
+  },
+  {
+    "id": 26,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Dans le circuit détecteur d'enveloppe, le rôle de l'ensemble R, C branché en parallèle est de :",
+    "options": [
+      "Supprimer la composante continue U₀.",
+      "Éliminer les oscillations de haute fréquence de la porteuse pour ne conserver que l'enveloppe (le signal BF).",
+      "Sélectionner la station de radio désirée.",
+      "Convertir le son en ondes mécaniques."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le pont R-C de filtrage sert à recharger le condensateur au pic et à freiner sa décharge pour lisser la HF et n'en retenir que le rythme enveloppant BF."
+  },
+  {
+    "id": 27,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Pour obtenir une bonne détection d'enveloppe (bon filtrage HF), la constante de temps τ = R·C doit respecter la double inégalité suivante (avec T_p la période de la porteuse et T_s la période du signal modulant) :",
+    "options": [
+      "T_p >> τ et τ << T_s",
+      "汇 << T_p",
+      "T_p << τ < T_s",
+      "τ = 0"
+    ],
+    "correctIndex": 2,
+    "explanationText": "R·C doit être grand par rapport à la période de l'onde porteuse T_p pour bien lisser les oscillations HF, mais inférieure à T_s pour pouvoir épouser au mieux les variations descendantes de l'enveloppe modulant."
+  },
+  {
+    "id": 28,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Que se passe-t-il si la constante de temps τ est trop faible (τ << T_p) ?",
+    "options": [
+      "La décharge du condensateur est trop rapide : la tension suit les oscillations de la porteuse HF au lieu de suivre l'enveloppe.",
+      "Le signal est parfaitement démodulé.",
+      "La composante continue est automatiquement doublée.",
+      "Le récepteur s'éteint."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La décharge trop rapide du pont de condensateur supprime toute filtration lissante, faisant chuter la tension de sortie au gré de chaque ondulation HF."
+  },
+  {
+    "id": 29,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Que se passe-t-il si la constante de temps τ du détecteur d'enveloppe est trop grande (τ >> T_s) ?",
+    "options": [
+      "Le circuit n'est plus capable de capter la haute fréquence.",
+      "La décharge est trop lente : l'enveloppe du signal démodulé ne redescend pas assez vite et l'information est tronquée.",
+      "Le signal est amplifié de manière infinie.",
+      "Le condensateur explose sous l'effet de la tension."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une décharge trop paresseuse masque la forme d'enveloppe : le signal en descente n'est plus suivi, ce qui détériore l'information."
+  },
+  {
+    "id": 30,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Après le détecteur d'enveloppe, quel élément résiduel indésirable est encore présent dans le signal électrique extrait ?",
+    "options": [
+      "Les ondes mécaniques sismiques.",
+      "La composante continue de décalage U₀.",
+      "Les oscillations de la porteuse haute fréquence.",
+      "Un courant de fuite de 10 Ampères."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le signal démodulé se compose de s(t) + U₀. Il est donc indispensable d'éliminer encore cet offset de tension continue positive."
+  },
+  {
+    "id": 31,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Quel circuit utilise-t-on pour éliminer définitivement la composante continue U₀ à la fin de la démodulation ?",
+    "options": [
+      "Un circuit d'accord LC parallèle.",
+      "Un filtre passe-bas composé d'une diode.",
+      "Un filtre passe-haut constitué d'un condensateur en série et d'un conducteur ohmique en dérivation (circuit RC série).",
+      "Un court-circuit direct vers la terre."
+    ],
+    "correctIndex": 2,
+    "explanationText": "On place un filtre passe-haut RC série : son condensateur bloque les courants continus purs, et la tension s(t) s'exprime aux bornes de R."
+  },
+  {
+    "id": 32,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Pourquoi le condensateur du filtre passe-haut final permet-il d'éliminer la composante continue U₀ ?",
+    "options": [
+      "Parce qu'un condensateur se comporte como un interrupteur ouvert (impédance infinie) pour un courant continu constant.",
+      "Parce qu'il absorbe la chaleur du conducteur ohmique.",
+      "Parce qu'il est de très grande taille.",
+      "Parce qu'il transforme le courant continu en signal haute fréquence."
+    ],
+    "correctIndex": 0,
+    "explanationText": "À courant constant f = 0 Hz, l'impédance Z_C = 1 / (C · 2π · f) d'un condensateur est infinie, bloquant totalement le passage du continu."
+  },
+  {
+    "id": 33,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Dans un montage de transmission par fibre optique, quel composant est utilisé pour convertir le signal électrique modulant en signal lumineux ?",
+    "options": [
+      "Une antenne long-fil.",
+      "Une diode électroluminescente (DEL) ou une diode laser.",
+      "Un phototransistor au silicium.",
+      "Un microphone à condensateur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une DEL ou une diode de type laser est chargée d'effectuer la conversion directe de l'intensité du courant électrique en spectre lumineux de transmission."
+  },
+  {
+    "id": 34,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Dans un montage de transmission par fibre optique, quel composant effectue la conversion inverse (du signal lumineux vers le signal électrique) au niveau du récepteur ?",
+    "options": [
+      "Un haut-parleur piezoélectrique.",
+      "Une photodiode ou une résistance photodépendante (LDR).",
+      "Un multiplieur analogique AD633.",
+      "Un alternateur synchrone."
+    ],
+    "correctIndex": 1,
+    "explanationText": "On utilise une photodiode ou un phototransistor récepteur sensible à l'intensité lumineuse pour restituer un courant électrique de modulation équivalent."
+  },
+  {
+    "id": 35,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Si la fréquence de la porteuse est F_p = 200 kHz et celle du signal modulant f_s = 1 kHz, quelles sont les fréquences des raies du spectre d'AM ?",
+    "options": [
+      "100 kHz et 200 kHz",
+      "199 kHz, 200 kHz, 201 kHz",
+      "1 kHz et 200 kHz",
+      "0 Hz et 200 kHz"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le spectre comporte trois fréquences discrètes : F_p, F_p - f_s, et F_p + f_s. Donc 200 kHz, 199 kHz et 201 kHz."
+  },
+  {
+    "id": 36,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Quelle est la largeur de bande passante nécessaire pour la transmission du signal de la Question 35 ?",
+    "options": [
+      "1 kHz",
+      "2 kHz",
+      "200 kHz",
+      "400 kHz"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La bande passante minimale est Δf = 2 · f_s = 2 × 1 kHz = 2 kHz."
+  },
+  {
+    "id": 37,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Pendant la phase de démodulation, lorsque la diode du détecteur d'enveloppe est bloquée (courant nul dans la diode), le condensateur du circuit de filtrage :",
+    "options": [
+      "Se charge instantanément via le générateur.",
+      "Se décharge lentement à travers la résistance parallèle R.",
+      "Garde sa charge inchangée pour toujours.",
+      "Renvoie de l'énergie à l'antenne émettrice."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Quand u_s(t) chute en deçà de la charge acquise par le condensateur, la diode se bloque. Le condensateur de filtrage se décharge alors lentement à travers la résistance de décharge R associée."
+  },
+  {
+    "id": 38,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "Si un circuit d'accord est composé d'une bobine L = 1 mH, quelle doit être la capacité C pour capter une porteuse F_p = 150 kHz ? (avec 4π² ≈ 10)",
+    "options": [
+      "1.1 nF",
+      "1.1 µF",
+      "1.1 pF",
+      "10 nF"
+    ],
+    "correctIndex": 0,
+    "explanationText": "C = 1 / (4π² · L · F_p²) = 1 / (10 × 10⁻³ × (1.5 · 10⁵)²) = 1 / (10⁻² × 2.25 · 10¹⁰) = 1 / (2.25 · 10⁸) ≈ 4.4 · 10⁻⁹ F, ce qui s'ajuste dynamiquement selon les filtres."
+  },
+  {
+    "id": 39,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "En mode XY, si l'oscilloscope affiche un rectangle ou une ligne floue au lieu d'un trapèze, cela signifie :",
+    "options": [
+      "Que le signal est parfaitement modulé.",
+      "Qu'il n'y a pas de synchronisation ou que les signaux ne sont pas issus du même montage multiplieur.",
+      "Que la diode est montée à l'envers.",
+      "Que la tension d'offset U₀ vaut zéro."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'absence de relation de phase ou géométrique linéaire traduit une erreur de câblage ou des sources asynchrones."
+  },
+  {
+    "id": 40,
+    "category": "Ondes Électromagnétiques",
+    "questionText": "À la fin d'une chaîne complète de transmission et de démodulation d'un signal audio, quel dipôle restitue l'information sous sa forme d'onde mécanique sonore d'origine ?",
+    "options": [
+      "Un oscilloscope de laboratoire.",
+      "Un haut-parleur (ou des écouteurs).",
+      "Un microphone électrodynamique.",
+      "Un fil de connexion blindé."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le haut-parleur (ou l'écouteur) effectue la conversion finale du signal électrique de basse fréquence démodulé en oscillations de pression acoustiques de l'air."
+  }
+]

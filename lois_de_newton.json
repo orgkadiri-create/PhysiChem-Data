@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "Lois de Newton",
+    "questionText": "Le vecteur position $$\\vec{OM}$$ permet de repérer un point $$M$$ dans l'espace. En coordonnées cartésiennes $$(O, \\vec{i}, \\vec{j}, \\vec{k})$$, son expression est :",
+    "options": [
+      "$$\\vec{OM} = x \\cdot \\vec{i} - y \\cdot \\vec{j}$$",
+      "$$\\vec{OM} = x \\cdot \\vec{i} + y \\cdot \\vec{j} + z \\cdot \\vec{k}$$",
+      "$$\\vec{OM} = v_x \\cdot \\vec{i} + v_y \\cdot \\vec{j}$$",
+      "$$\\vec{OM} = \\sqrt{x^2 + y^2 + z^2}$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le vecteur position s'exprime par la somme pondérée de ses coordonnées sur les trois vecteurs unitaires : $$\\vec{OM} = x \\cdot \\vec{i} + y \\cdot \\vec{j} + z \\cdot \\vec{k}$$."
+  },
+  {
+    "id": 2,
+    "category": "Lois de Newton",
+    "questionText": "Comment appelle-t-on les fonctions du temps $$x(t)$$, $$y(t)$$ et $$z(t)$$ définissant la position du mobile ?",
+    "options": [
+      "Les équations de trajectoire géométrique.",
+      "Les équations horaires du mouvement.",
+      "Les lois de la dynamique.",
+      "Les vecteurs accélérations instantanés."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Ces fonctions décrivent la position du mobile à chaque instant de temps $$t$$, elles sont appelées équations horaires."
+  },
+  {
+    "id": 3,
+    "category": "Lois de Newton",
+    "questionText": "Par définition, le vecteur vitesse $$\\vec{V}$$ est :",
+    "options": [
+      "La dérivée première du vecteur position par rapport au temps : $$\\vec{V} = \\frac{d\\vec{OM}}{dt}$$.",
+      "La primitive par rapport au temps du vecteur position.",
+      "La dérivée seconde du vecteur position par rapport au temps.",
+      "Le produit de la masse par l'accélération."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La vitesse instantanée mesure la variation de position par rapport au temps, ce qui correspond mathématiquement à la dérivée première : $$\\vec{V} = \\frac{d\\vec{OM}}{dt}$$."
+  },
+  {
+    "id": 4,
+    "category": "Lois de Newton",
+    "questionText": "Quelle est la direction du vecteur vitesse $$\\vec{V}$$ en un point $$M$$ de la trajectoire ?",
+    "options": [
+      "Perpendiculaire à la trajectoire au point M.",
+      "Toujours dirigée vers le centre de la Terre.",
+      "Toujours tangente à la trajectoire au point M.",
+      "Elle est oscillante et aléatoire."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le vecteur vitesse instantanée en un point $$M$$ est toujours tangent à la courbe représentant la trajectoire géométrique en ce point et orienté dans le sens du mouvement."
+  },
+  {
+    "id": 5,
+    "category": "Lois de Newton",
+    "questionText": "Le module (la valeur) du vecteur vitesse $$V$$ en coordonnées cartésiennes se calcule par :",
+    "options": [
+      "$$V = V_x + V_y + V_z$$",
+      "$$V = \\sqrt{V_x^2 + V_y^2 + V_z^2}$$",
+      "$$V = \\frac{V_x \\cdot V_y}{V_z}$$",
+      "$$V = \\frac{d^2OM}{dt^2}$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le module correspond à la norme euclidienne du vecteur vitesse : $$V = \\sqrt{V_x^2 + V_y^2 + V_z^2}$$."
+  },
+  {
+    "id": 6,
+    "category": "Lois de Newton",
+    "questionText": "Par définition, le vecteur accélération $$\\vec{a}$$ correspond à :",
+    "options": [
+      "La primitive du vecteur vitesse par rapport au temps.",
+      "La dérivée première du vecteur vitesse par rapport au temps : $$\\vec{a} = \\frac{d\\vec{V}}{dt} = \\frac{d^2\\vec{OM}}{dt^2}$$.",
+      "Le rapport de la distance sur le temps.",
+      "La force gravitationnelle s'exerçant sur le mobile."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le vecteur accélération est le taux de variation temporelle de la vitesse, soit la dérivée première de la vitesse, ou la dérivée seconde de la position : $$\\vec{a} = \\frac{d\\vec{V}}{dt} = \\frac{d^2\\vec{OM}}{dt^2}$$."
+  },
+  {
+    "id": 7,
+    "category": "Lois de Newton",
+    "questionText": "Dans le Système International d'unités (SI), l'unité de la valeur de l'accélération est :",
+    "options": [
+      "Le mètre par seconde (m/s).",
+      "Le mètre par seconde carrée (m/s²).",
+      "Le Newton par seconde (N/s).",
+      "Le Joule (J)."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque l'accélération est la variation de vitesse par rapport au temps, son unité est m·s⁻² (mètre par seconde carrée)."
+  },
+  {
+    "id": 8,
+    "category": "Lois de Newton",
+    "questionText": "Dans le repère de Frénet $$(M, \\vec{u}, \\vec{n})$$ adapté aux mouvements curvilignes, l'expression du vecteur accélération est :",
+    "options": [
+      "$$\\vec{a} = a_x \\cdot \\vec{i} + a_y \\cdot \\vec{j}$$",
+      "$$\\vec{a} = \\frac{dV}{dt} \\cdot \\vec{u} + \\frac{V^2}{\\rho} \\cdot \\vec{n}$$",
+      "$$\\vec{a} = \\frac{V^2}{\\rho} \\cdot \\vec{u} + \\frac{dV}{dt} \\cdot \\vec{n}$$",
+      "$$\\vec{a} = \\vec{g}$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'accélération possède une composante tangentielle $$a_t = \\frac{dV}{dt}$$ et une composante normale centripète $$a_n = \\frac{V^2}{\\rho}$$."
+  },
+  {
+    "id": 9,
+    "category": "Lois de Newton",
+    "questionText": "Dans l'expression du repère de Frénet, la grandeur $$\\rho$$ (ou R) représente :",
+    "options": [
+      "La masse volumique du mobile.",
+      "Le rayon de courbure de la trajectoire au point M.",
+      "La période propre des oscillations.",
+      "Le coefficient de frottement dynamique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "$$\\rho$$ désigne le rayon du cercle tangent à la trajectoire au point $$M$$, appelé rayon de courbure."
+  },
+  {
+    "id": 10,
+    "category": "Lois de Newton",
+    "questionText": "Pour un mouvement rectiligne, le rayon de courbure $$\\rho$$ tend vers l'infini. Que devient la composante normale de l'accélération $$a_n$$ ?",
+    "options": [
+      "$$a_n = \\frac{dV}{dt}$$",
+      "$$a_n = 0$$",
+      "$$a_n = V^2$$",
+      "$$a_n = g$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Comme la trajectoire est rectiligne, $$\\rho \\rightarrow \\infty$$, d'où $$a_n = \\frac{V^2}{\\rho} = 0$$."
+  },
+  {
+    "id": 11,
+    "category": "Lois de Newton",
+    "questionText": "Pour un mouvement circulaire uniforme (vitesse constante $$V = \\text{cte}$$), le vecteur accélération dans le repère de Frénet se réduit à :",
+    "options": [
+      "$$\\vec{a} = \\frac{dV}{dt} \\cdot \\vec{u}$$",
+      "$$\\vec{a} = \\frac{V^2}{R} \\cdot \\vec{n}$$",
+      "$$\\vec{a} = \\vec{0}$$",
+      "$$\\vec{a} = R \\cdot \\omega^2 \\cdot \\vec{u}$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque la vitesse est constante, $$\\frac{dV}{dt} = 0$$. L'accélération est purement normale (centripète) : $$\\vec{a} = \\frac{V^2}{R} \\cdot \\vec{n}$$."
+  },
+  {
+    "id": 12,
+    "category": "Lois de Newton",
+    "questionText": "Comment appelle-t-on la première loi de Newton ?",
+    "options": [
+      "Le principe des actions mutuelles.",
+      "Le principe d'inertie.",
+      "La relation fondamentale de la dynamique (RFD).",
+      "La loi de la gravitation universelle."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La première loi de Newton est appelée le principe d'inertie."
+  },
+  {
+    "id": 13,
+    "category": "Lois de Newton",
+    "questionText": "Quel est l'énoncé mathématique correct du principe d'inertie (1ère loi de Newton) dans un référentiel galiléen ?",
+    "options": [
+      "$$\\sum \\vec{F}_{\\text{ext}} = m \\cdot \\vec{a}$$",
+      "Si $\\sum \\vec{F}_{\\text{ext}} = \\vec{0}$, alors $\\vec{V}_G = \\vec{\\text{cte}}$ (le centre d'inertie est immobile ou en MRU).",
+      "$$\\vec{F}_{A/B} = -\\vec{F}_{B/A}$$",
+      "$$\\sum \\vec{F}_{\\text{ext}} = m \\cdot \\vec{g}$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Si les forces extérieures se compensent, la vitesse du centre d'inertie reste constante (immobilité ou mouvement rectiligne uniforme)."
+  },
+  {
+    "id": 14,
+    "category": "Lois de Newton",
+    "questionText": "Qu'est-ce qu'un référentiel galiléen ?",
+    "options": [
+      "Un référentiel en mouvement de rotation accéléré autour de la Terre.",
+      "Un référentiel dans lequel le principe d'inertie est vérifié.",
+      "Un repère lié à un laboratoire en chute libre.",
+      "Un repère dont l'origine change de position de façon aléatoire."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un référentiel galiléen est défini comme un repère d'observation dans lequel la première loi de Newton (principe d'inertie) est rigoureusement applicable."
+  },
+  {
+    "id": 15,
+    "category": "Lois de Newton",
+    "questionText": "Parmi les référentiels suivants, lequel peut être considéré comme galiléen pour une expérience de laboratoire d'une durée de quelques minutes ?",
+    "options": [
+      "Le référentiel terrestre.",
+      "Le référentiel géocentrique uniquement.",
+      "Le référentiel héliocentrique uniquement.",
+      "Un manège de fête foraine en pleine rotation."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Pour des expériences courtes, on néglige la rotation et la révolution de la Terre, rendant le référentiel terrestre quasi-galiléen."
+  },
+  {
+    "id": 16,
+    "category": "Lois de Newton",
+    "questionText": "Quel est l'énoncé de la deuxième loi de Newton (Relation Fondamentale de la Dynamique) ?",
+    "options": [
+      "Dans un référentiel galiléen, la somme vectorielle des forces extérieures est égale au produit de sa masse par le vecteur accélération : $\\sum \\vec{F}_{\\text{ext}} = m \\cdot \\vec{a}_G$.",
+      "Les forces intérieures s'annulent toujours.",
+      "$$\\sum \\vec{F}_{\\text{ext}} = \\vec{0}$$ implique un mouvement accéléré.",
+      "$$\\vec{a}_G = \\frac{d\\vec{OM}}{dt}$$"
+    ],
+    "correctIndex": 0,
+    "explanationText": "C'est l'équation fondamentale reliant la dynamique (les forces) à la cinématique (l'accélération) : $\\sum \\vec{F} = m \\cdot \\vec{a}_G$."
+  },
+  {
+    "id": 17,
+    "category": "Lois de Newton",
+    "questionText": "Comment s'énonce la troisième loi de Newton (Principe des actions réciproques ou mutuelles) ?",
+    "options": [
+      "$$\\sum \\vec{F}_{\\text{ext}} = m \\cdot \\vec{a}$$",
+      "Lorsqu'un corps A exerce une force $$\\vec{F}_{A/B}$$ sur un corps B, le corps B exerce simultanément sur le corps A une force telle que : $$\\vec{F}_{A/B} = -\\vec{F}_{B/A}$$.",
+      "La force exercée par A est toujours supérieure à celle exercée par B.",
+      "Deux corps en contact se repoussent toujours avec une force positive."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les forces d'interaction mutuelle sont égales en module, colinéaires mais de sens directement opposés, quelle que soit leur nature."
+  },
+  {
+    "id": 18,
+    "category": "Lois de Newton",
+    "questionText": "La troisième loi de Newton est-elle valable si les corps sont en mouvement ?",
+    "options": [
+      "Non, elle n'est valable qu'au repos statique.",
+      "Oui, elle est toujours valable, que les corps soient au repos ou en mouvement.",
+      "Uniquement si le mouvement est rectiligne uniforme.",
+      "Uniquement dans le vide spatial."
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est un principe général de la mécanique classique, valide à tout instant, peu importe l'état cinématique des deux corps."
+  },
+  {
+    "id": 19,
+    "category": "Lois de Newton",
+    "questionText": "Quelle est la première étape obligatoire à réaliser avant d'appliquer la deuxième loi de Newton pour résoudre un problème de mécanique ?",
+    "options": [
+      "Choisir une échelle de longueur.",
+      "Définir le système étudié et faire le bilan des forces extérieures dans un référentiel galiléen.",
+      "Calculer la valeur numérique de la vitesse initiale.",
+      "Tracer l'équation horaire x(t)."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le bilan complet du système et des forces est indispensable pour écrire correctement l'expression vectorielle de la somme des forces."
+  },
+  {
+    "id": 20,
+    "category": "Lois de Newton",
+    "questionText": "Un mouvement est dit \"Rectiligne Uniformément Varié\" (MRUV) lorsque :",
+    "options": [
+      "La trajectoire est une ligne droite et la vitesse est constante.",
+      "La trajectoire est une ligne droite et le vecteur accélération est constant ($$\\vec{a} = \\vec{\\text{cte}} \\neq \\vec{0}$$).",
+      "L'accélération varie de façon sinusoïdale au cours du temps.",
+      "Le mobile change de direction à chaque seconde."
+    ],
+    "correctIndex": 1,
+    "explanationText": "MRUV est caractérisé par une trajectoire rectiligne et une accélération stable et constante."
+  },
+  {
+    "id": 21,
+    "category": "Lois de Newton",
+    "questionText": "Pour un mouvement rectiligne uniformément varié selon l'axe (Ox) d'accélération $$a_x = \\text{cte}$$, quelle est l'équation horaire de la vitesse $$v_x(t)$$ ? (avec $$v_0$$ la vitesse à t=0)",
+    "options": [
+      "$$v_x(t) = a_x \\cdot t + v_0$$",
+      "$$v_x(t) = \\frac{1}{2} a_x \\cdot t^2 + v_0$$",
+      "$$v_x(t) = a_x \\cdot t^2$$",
+      "$$v_x(t) = v_0$$"
+    ],
+    "correctIndex": 0,
+    "explanationText": "La vitesse est obtenue par intégration de l'accélération constante : $$v_x(t) = a_x \\cdot t + v_0$$."
+  },
+  {
+    "id": 22,
+    "category": "Lois de Newton",
+    "questionText": "Quelle est l'équation horaire de la position $$x(t)$$ pour un mouvement rectiligne uniformément varié (MRUV) d'accélération $$a_x$$ ?",
+    "options": [
+      "$$x(t) = a_x \\cdot t + x_0$$",
+      "$$x(t) = \\frac{1}{2} a_x \\cdot t^2 + v_0 \\cdot t + x_0$$",
+      "$$x(t) = \\frac{1}{2}(a_x \\cdot t)^2 + x_0$$",
+      "$$x(t) = v_0 \\cdot t + x_0$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La position est la double intégrale de l'accélération : $$x(t) = \\frac{1}{2} a_x \\cdot t^2 + v_0 \\cdot t + x_0$$."
+  },
+  {
+    "id": 23,
+    "category": "Lois de Newton",
+    "questionText": "Quelle relation indépendante du temps lie les vitesses, l'accélération et les positions lors d'un MRUV ?",
+    "options": [
+      "$$v_2 - v_1 = 2a(x_2 - x_1)$$",
+      "$$v_2^2 - v_1^2 = 2a(x_2 - x_1)$$",
+      "$$v_2^2 + v_1^2 = \\frac{a}{2}(x_2 - x_1)$$",
+      "$$v_2 \\cdot v_1 = a(x_2 - x_1)^2$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est la formule mathématique d'indépendance temporelle : $$v_2^2 - v_1^2 = 2a(x_2 - x_1)$$."
+  },
+  {
+    "id": 24,
+    "category": "Lois de Newton",
+    "questionText": "Un solide glisse sans frottement sur un plan horizontal. Il est soumis à son poids $\\vec{P}$ et à la réaction du plan $\\vec{R}$. Que vaut la force de réaction $\\vec{R}$ ?",
+    "options": [
+      "Elle est inclinée en sens inverse du mouvement.",
+      "Elle est strictement perpendiculaire au plan horizontal.",
+      "Elle est nulle.",
+      "Elle est parallèle au déplacement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "En l'absence de frottement, le plan n'exerce aucune force parallèle, la réaction est donc purement normale (perpendiculaire)."
+  },
+  {
+    "id": 25,
+    "category": "Lois de Newton",
+    "questionText": "Dans le cas d'un glissement AVEC frottements sur un plan horizontal, la réaction se décompose en $$\\vec{R} = \\vec{R}_N + \\vec{f}$$. La composante $$\\vec{f}$$ représente :",
+    "options": [
+      "La réaction normale du support.",
+      "La force de frottement dynamique, toujours opposée au vecteur vitesse du mouvement.",
+      "La force motrice qui pousse le solide.",
+      "L'accélération de la pesanteur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "$$\\vec{f}$$ est la force tangentielle qui s'oppose au glissement du solide."
+  },
+  {
+    "id": 26,
+    "category": "Lois de Newton",
+    "questionText": "Un solide de masse m = 2 kg est tiré sur une surface horizontale sans frottement par une force motrice horizontale constante F = 6 N. Que vaut l'accélération du solide ?",
+    "options": [
+      "12 m/s²",
+      "3 m/s²",
+      "0.33 m/s²",
+      "0 m/s²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "D'après la 2ème loi de Newton : $$a = F/m = 6/2 = 3\\mathrm{m\\cdot s^{-2}}$$."
+  },
+  {
+    "id": 27,
+    "category": "Lois de Newton",
+    "questionText": "Un solide de masse m descend le long d'un plan incliné d'un angle $$\\alpha$$ par rapport à l'horizontale, sans frottement. En projetant la 2ème loi sur l'axe parallèle au plan dirigé vers le bas, l'accélération vaut :",
+    "options": [
+      "$$a = g \\cdot \\cos(\\alpha)$$",
+      "$$a = g \\cdot \\sin(\\alpha)$$",
+      "$$a = g$$",
+      "$$a = \\frac{g}{\\sin(\\alpha)}$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le poids se projette sur cet axe en $$P_x = m \\cdot g \\cdot \\sin(\\alpha)$$. Comme il n'y a pas de frottement, $$m \\cdot a = m \\cdot g \\cdot \\sin(\\alpha) \\implies a = g \\cdot \\sin(\\alpha)$$."
+  },
+  {
+    "id": 28,
+    "category": "Lois de Newton",
+    "questionText": "Pour un solide glissant sans frottement sur un plan incliné d'un angle $$\\alpha$$, la projection sur l'axe normal au plan donne la valeur de la réaction normale $$R_N$$ :",
+    "options": [
+      "$$R_N = m \\cdot g \\cdot \\sin(\\alpha)$$",
+      "$$R_N = m \\cdot g \\cdot \\cos(\\alpha)$$",
+      "$$R_N = m \\cdot g$$",
+      "$$R_N = 0$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La somme des forces normales est nulle car il n'y a pas de déplacement normal : $$R_N - m \\cdot g \\cdot \\cos(\\alpha) = 0 \\implies R_N = m \\cdot g \\cdot \\cos(\\alpha)$$."
+  },
+  {
+    "id": 29,
+    "category": "Lois de Newton",
+    "questionText": "Si le solide descend le plan incliné d'un angle $$\\alpha$$ AVEC des frottements représentés par une force constante f, l'expression de son accélération devient :",
+    "options": [
+      "$$a = g \\cdot \\sin(\\alpha) - \\frac{f}{m}$$",
+      "$$a = g \\cdot \\cos(\\alpha) + \\frac{f}{m}$$",
+      "$$a = g \\cdot \\sin(\\alpha) \\times f$$",
+      "$$a = -g \\cdot \\sin(\\alpha)$$"
+    ],
+    "correctIndex": 0,
+    "explanationText": "En ajoutant la force de frottement s'opposant à la descente, l'équation devient : $$m\\cdot a = m\\cdot g\\cdot \\sin(\\alpha) - f \\implies a = g\\cdot \\sin(\\alpha) - f/m$$."
+  },
+  {
+    "id": 30,
+    "category": "Lois de Newton",
+    "questionText": "Un mobile part de $$x_0 = -0,5\\mathrm{m}$$ à t=0 avec une vitesse initiale $$v_0 = -1\\mathrm{m/s}$$. Son accélération est $$a = 2\\mathrm{m/s^2}$$. Quelle est son équation horaire $$x(t)$$ ?",
+    "options": [
+      "$$x(t) = 2t^2 - t - 0,5$$",
+      "$$x(t) = t^2 - t - 0,5$$",
+      "$$x(t) = t^2 + t + 0,5$$",
+      "$$x(t) = -t - 0,5$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En remplaçant les valeurs dans la formule $$x(t) = \\frac{1}{2}a \\cdot t^2 + v_0 \\cdot t + x_0$$, on obtient $$x(t) = t^2 - t - 0,5$$."
+  },
+  {
+    "id": 31,
+    "category": "Lois de Newton",
+    "questionText": "Un parachutiste en chute verticale subit une force de frottement de l'air $$\\vec{f} = -k \\cdot \\vec{v}$$. Lorsqu'il atteint sa \"vitesse limite\", son accélération devient :",
+    "options": [
+      "a = g",
+      "a = 0",
+      "a = 9.8 m/s²",
+      "a = infini"
+    ],
+    "correctIndex": 1,
+    "explanationText": "À la vitesse limite, les forces se compensent parfaitement, le mouvement devient rectiligne uniforme, d'où une accélération nulle."
+  },
+  {
+    "id": 32,
+    "category": "Lois de Newton",
+    "questionText": "La force de gravitation universelle exercée par la Terre de masse $$M_T$$ sur un satellite de masse m à une distance r s'écrit :",
+    "options": [
+      "$$F = G \\cdot \\frac{M_T \\cdot m}{r}$$",
+      "$$F = G \\cdot \\frac{M_T \\cdot m}{r^2}$$",
+      "$$F = m \\cdot g \\cdot r$$",
+      "$$F = G \\cdot M_T \\cdot m \\cdot r^2$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est la loi en carré inverse de Newton : $$F = G \\cdot \\frac{M_T \\cdot m}{r^2}$$."
+  },
+  {
+    "id": 33,
+    "category": "Lois de Newton",
+    "questionText": "Dans un mouvement rectiligne uniforme (MRU), le vecteur accélération $$\\vec{a}$$ est :",
+    "options": [
+      "Constant et non nul.",
+      "Le vecteur nul.",
+      "Égal au vecteur pesanteur.",
+      "Perpendiculaire au vecteur vitesse."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Dans un MRU, la vitesse est strictement constante en direction et en norme, donc sa dérivée (l'accélération) est bien le vecteur nul."
+  },
+  {
+    "id": 34,
+    "category": "Lois de Newton",
+    "questionText": "La masse m d'un corps est une grandeur intrinsèque qui mesure :",
+    "options": [
+      "Le poids géométrique du solide.",
+      "L'inertie du corps (sa résistance à la modification du vecteur vitesse).",
+      "Le volume occupé par les atomes dans le vide.",
+      "La vitesse maximale que le corps peut atteindre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La masse inertielle quantifie l'opposition d'un solide à toute accélération linéaire poussée par une force extérieure."
+  },
+  {
+    "id": 35,
+    "category": "Lois de Newton",
+    "questionText": "Si la courbe de la vitesse v(t) est une droite linéaire de pente positive passant par l'origine, cela signifie que :",
+    "options": [
+      "L'accélération change de valeur à chaque instant.",
+      "L'accélération est constante et positive.",
+      "Le solide est immobile.",
+      "Les forces de frottement augmentent."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La pente constante de v(t) représente l'accélération, qui est donc constante et positive (MRUA)."
+  },
+  {
+    "id": 36,
+    "category": "Lois de Newton",
+    "questionText": "Lorsqu'un solide est lancé vers le haut sur un plan incliné sans frottement, pendant la phase de montée, son vecteur accélération est :",
+    "options": [
+      "Dirigé vers le haut du plan incliné.",
+      "Dirigé vers le bas du plan incliné.",
+      "Nul car le solide va s'arrêter.",
+      "Perpendiculaire au plan incliné."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La seule force parallèle s'exerçant est la composante tangentielle du poids, toujours dirigée vers le bas du plan, d'où l'accélération dirigée vers le bas."
+  },
+  {
+    "id": 37,
+    "category": "Lois de Newton",
+    "questionText": "Un mobile a pour équation horaire de position $$x(t) = 3t^2 - 5t + 2$$. Que valent son accélération et sa vitesse initiale ?",
+    "options": [
+      "$$a_x = 3\\mathrm{m/s^2}$$ et $$v_0 = -5\\mathrm{m/s}$$",
+      "$$a_x = 6\\mathrm{m/s^2}$$ et $$v_0 = -5\\mathrm{m/s}$$",
+      "$$a_x = 6\\mathrm{m/s^2}$$ et $$v_0 = 2\\mathrm{m/s}$$",
+      "$$a_x = 1.5\\mathrm{m/s^2}$$ et $$v_0 = -5\\mathrm{m/s}$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Par dérivation successive : $$v_x(t) = \\frac{dx}{dt} = 6t - 5 \\implies v_0 = -5\\mathrm{m/s}$$ et $$a_x = \\frac{dv_x}{dt} = 6\\mathrm{m/s^2}$$."
+  },
+  {
+    "id": 38,
+    "category": "Lois de Newton",
+    "questionText": "Que représente la pente de la tangente en un point de la courbe de position x = f(t) ?",
+    "options": [
+      "L'accélération instantanée à cette date.",
+      "La vitesse instantanée à cette date.",
+      "La force totale appliquée au système.",
+      "La distance totale parcourue par le mobile."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La pente géométrique de la tangente à $$x(t)$$ correspond exactement à la dérivée première, c'est-à-dire la vitesse instantanée."
+  },
+  {
+    "id": 39,
+    "category": "Lois de Newton",
+    "questionText": "Un palet de masse m = 0,5 kg subit une force de frottement constante f = 1 N sur une piste horizontale. Quelle sarà l'accélération du solide pendant le freinage ?",
+    "options": [
+      "a = -2 m/s²",
+      "a = -0.5 m/s²",
+      "a = 0 m/s²",
+      "a = -1 m/s²"
+    ],
+    "correctIndex": 0,
+    "explanationText": "En appliquant la 2ème loi de Newton : $$-f = m \\cdot a \\implies a = -f/m = -1/0,5 = -2\\mathrm{m\\cdot s^{-2}}$$"
+  },
+  {
+    "id": 40,
+    "category": "Lois de Newton",
+    "questionText": "Si un système est soumis à des forces intérieures au solide, ces forces interviennent-elles dans la deuxième loi de Newton ?",
+    "options": [
+      "Oui, de la même manière que les forces extérieures.",
+      "Non, la deuxième loi de Newton ne prend en compte que la somme des forces extérieures.",
+      "Uniquement si le solide change de forme géométrique.",
+      "Uniquement dans le cas des forces électriques."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le principe fondamental de la dynamique énonce que seule la somme vectorielle des forces extérieures influence l'accélération globale du centre d'inertie."
+  }
+]

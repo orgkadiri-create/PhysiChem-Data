@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "Satellites et Planètes",
+    "questionText": "Dans le cadre de l'étude des mouvements circulaires des planètes autour du Soleil, la 2ème loi de Kepler (loi des aires) implique que :",
+    "options": [
+      "La vitesse linéaire de la planète change à chaque instant.",
+      "La vitesse linéaire de la planète sur son orbite circulaire est rigoureusement constante (le mouvement est uniforme).",
+      "La planète s'arrête lorsqu'elle est éloignée du Soleil.",
+      "L'aire balayée est inversement proportionnelle au carré du temps."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour un mouvement circulaire, la distance au Soleil est constante, donc d'après la loi des aires, la vitesse linéaire est elle aussi constante : le mouvement est uniforme."
+  },
+  {
+    "id": 2,
+    "category": "Satellites et Planètes",
+    "questionText": "Quelle est l'expression de la 3ème loi de Kepler (loi des périodes) pour une orbite circulaire de rayon r ?",
+    "options": [
+      "T³ / r² = constante",
+      "T² / r³ = constante",
+      "T / r = constante",
+      "T² / r = constante"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La loi des périodes énonce que le rapport du carré de la période de révolution T par le cube du rayon r de l'orbite est constant : T²/r³ = constante."
+  },
+  {
+    "id": 3,
+    "category": "Satellites et Planètes",
+    "questionText": "La constante de la troisième loi de Kepler dépend-elle de la masse du satellite ou de la planète en mouvement ?",
+    "options": [
+      "Oui, plus le satellite est lourd, plus la constante augmente.",
+      "Non, elle est indépendante de la masse du corps en mouvement ; elle ne dépend que de la masse de l'astre central attracteur.",
+      "Elle dépend uniquement du volume du satellite.",
+      "Oui, elle change selon le rayon propre du satellite."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La constante de Kepler T²/r³ = 4π²/(G·M) dépend uniquement de la constante gravitationnelle G et de la masse M de l'astre central attracteur."
+  },
+  {
+    "id": 4,
+    "category": "Satellites et Planètes",
+    "questionText": "Pour étudier le mouvement d'un satellite artificiel en orbite circulaire autour de la Terre, quel référentiel d'étude choisit-on généralement ?",
+    "options": [
+      "Le référentiel héliocentrique.",
+      "Le référentiel terrestre lié au laboratoire.",
+      "Le référentiel géocentrique (supposé galiléen).",
+      "Le référentiel de Copernic."
+    ],
+    "correctIndex": 2,
+    "explanationText": "L'étude des satellites terrestres se fait de manière privilégiée dans le référentiel géocentrique, supposé galiléen pendant la durée de l'étude."
+  },
+  {
+    "id": 5,
+    "category": "Satellites et Planètes",
+    "questionText": "Où est située l'origine géométrique du référentiel géocentrique ?",
+    "options": [
+      "Au centre de gravité du Soleil.",
+      "Au centre de gravité de la Terre, et ses trois axes sont dirigés vers trois étoiles lointaines fixes.",
+      "À la surface de la Terre au niveau de l'équateur.",
+      "Au centre du satellite en mouvement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'origine du référentiel géocentrique est le centre de masse de la Terre. Ses trois axes pointent vers des étoiles extrêmement lointaines supposées fixes."
+  },
+  {
+    "id": 6,
+    "category": "Satellites et Planètes",
+    "questionText": "Quelle est la seule force exercée sur un satellite de masse m en orbite circulaire autour de la Terre (en négligeant l'action des autres astres et la résistance de l'air) ?",
+    "options": [
+      "La force de frottement de l'air atmosphérique.",
+      "La force d'attraction gravitationnelle exercée par la Terre (F = G·M_T·m / r²).",
+      "La force magnétique de Lorentz.",
+      "La force de propulsion de ses moteurs de secours."
+    ],
+    "correctIndex": 1,
+    "explanationText": "En orbite haute, les frottements atmosphériques sont négligeables, seule l'attraction universelle de la Terre maintient le satellite dans sa trajectoire."
+  },
+  {
+    "id": 7,
+    "category": "Satellites et Planètes",
+    "questionText": "Dans le repère de Frénet (u_t, u_n) lié au satellite, la force d'attraction gravitationnelle est portée par :",
+    "options": [
+      "Le vecteur tangentiel u_t.",
+      "Le vecteur normal u_n, dirigé vers le centre de l'Astre central (force centrale et centripète).",
+      "Un axe perpendiculaire au plan du mouvement.",
+      "La direction opposée au centre de la Terre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La force gravitationnelle est attractive et radiale, donc elle est uniquement portée par le vecteur unitaire normal u_n dirigé vers le centre de la Terre."
+  },
+  {
+    "id": 8,
+    "category": "Satellites et Planètes",
+    "questionText": "En appliquant la deuxième loi de Newton au satellite sur son orbite circulaire, la composante tangentielle de l'accélération a_t est nulle. Cela démontre que le mouvement circulaire est :",
+    "options": [
+      "Uniformément accéléré.",
+      "Uniforme (la valeur de la vitesse v reste constante au cours du temps).",
+      "Périodique amorti.",
+      "Linéaire varié."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque a_t = dv/dt = 0, la vitesse scalaire v du satellite est rigoureusement constante, ce qui démontre le caractère uniforme du mouvement."
+  },
+  {
+    "id": 9,
+    "category": "Satellites et Planètes",
+    "questionText": "Quelle est la expression de la composante normale de l'accélération a_n du satellite dans le repère de Frénet ?",
+    "options": [
+      "a_n = v / r",
+      "a_n = v² / r",
+      "a_n = v² · r",
+      "a_n = r / v²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Dans le repère de Frénet, pour un mouvement circulaire de rayon r à vitesse v, l'accélération normale s'exprime par a_n = v²/r."
+  },
+  {
+    "id": 10,
+    "category": "Satellites et Planètes",
+    "questionText": "L'égalisation de la force gravitationnelle avec la composante normale de la deuxième loi de Newton s'écrit :",
+    "options": [
+      "G · M_T · m / r² = m · v² / r",
+      "G · M_T · m / r = m · v / r²",
+      "G · M_T · m · r = m · v²",
+      "G · M_T / r² = v / r"
+    ],
+    "correctIndex": 0,
+    "explanationText": "D'après la 2ème loi de Newton, la somme des forces (F_g) égale m · a_n. On a donc G·M_T·m/r² = m·v²/r."
+  },
+  {
+    "id": 11,
+    "category": "Satellites et Planètes",
+    "questionText": "Quelle est l'expression de la vitesse linéaire v d'un satellite sur son orbite circulaire de rayon r autour de la Terre de masse M_T ?",
+    "options": [
+      "v = √(G · M_T · r)",
+      "v = √(G · M_T / r)",
+      "v = G · M_T / r",
+      "v = √(G · r / M_T)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En simplifiant l'équation G·M_T·m/r² = m·v²/r par m et r, nous isolons v² = G·M_T/r, d'où v = √(G·M_T/r)."
+  },
+  {
+    "id": 12,
+    "category": "Satellites et Planètes",
+    "questionText": "D'après l'expression de la vitesse v, comment varie la vitesse du satellite si le rayon r de son orbite augmente ?",
+    "options": [
+      "Elle augmente.",
+      "Elle diminue (plus l'orbite est haute, plus le satellite se déplace lentement).",
+      "Elle reste rigoureusement constante pour toutes les hauteurs.",
+      "Elle s'annule instantanément."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque r est au dénominateur sous la racine, la vitesse v varie en sens inverse du rayon : les satellites d'orbite élevée tournent plus lentement."
+  },
+  {
+    "id": 13,
+    "category": "Satellites et Planètes",
+    "questionText": "La vitesse d'un satellite sur une orbite circulaire dépend-elle de sa propre masse m ?",
+    "options": [
+      "Oui, un satellite lourd se déplace plus vite qu'un satellite léger.",
+      "Non, elle est totalement indépendante de la masse du satellite m.",
+      "Uniquement si le satellite possède des panneaux solaires actifs.",
+      "Oui, la vitesse est directement proportionnelle à m."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'expression v = √(G·M_T/r) ne fait pas intervenir la masse m du satellite. Tous les objets à cette altitude orbitent à la même vitesse."
+  },
+  {
+    "id": 14,
+    "category": "Satellites et Planètes",
+    "questionText": "Si le satellite tourne à une altitude h au-dessus de la surface de la Terre de rayon R_T, le rayon de son orbite circulaire r vaut :",
+    "options": [
+      "r = R_T · h",
+      "r = R_T - h",
+      "r = R_T + h",
+      "r = h - R_T"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le rayon orbital r correspond à la distance mesurée depuis le centre de la Terre, soit le rayon de la Terre augmenté de l'altitude : r = R_T + h."
+  },
+  {
+    "id": 15,
+    "category": "Satellites et Planètes",
+    "questionText": "Quelle est l'expression de la période de révolution T d'un satellite décrivant une trajectoire circulaire de rayon r à la vitesse v ?",
+    "options": [
+      "T = 2π · r / v",
+      "T = 2π · r · v",
+      "T = v / (2π · r)",
+      "T = 2π · √(r / v)"
+    ],
+    "correctIndex": 0,
+    "explanationText": "La période T est le temps pour faire un tour de périmètre 2π·r à la vitesse v, d'où T = 2π·r/v."
+  },
+  {
+    "id": 16,
+    "category": "Satellites et Planètes",
+    "questionText": "En remplaçant la vitesse v par son expression analytique dans la formule de la période T, on obtient :",
+    "options": [
+      "T = 2π · √(r³ · G · M_T)",
+      "T = 2π · √(r³ / (G · M_T))",
+      "T = 2π · √(G · M_T / r³)",
+      "T = √(2π · r³ / (G · M_T))"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En injectant v = √(G·M_T/r) dans T = 2π·r/v, nous obtenons T = 2π·r·√(r/(G·M_T)) = 2π·橫(r³/(G·M_T))."
+  },
+  {
+    "id": 17,
+    "category": "Satellites et Planètes",
+    "questionText": "En exprimant la 3ème loi de Kepler à partir de la période au carré (T²) pour une orbite circulaire autour de la Terre, la constante vaut :",
+    "options": [
+      "T² / r³ = 4π² / (G · M_T)",
+      "T² / r³ = G · M_T / (4π²)",
+      "T² / r³ = 4π / (G · M_T)",
+      "T² / r³ = 2π² / (G · M_T)"
+    ],
+    "correctIndex": 0,
+    "explanationText": "En élevant T à la puissance 2, on a T² = 4π²·r³/(G·M_T). On en déduit directement le rapport constant T²/r³ = 4π²/(G·M_T)."
+  },
+  {
+    "id": 18,
+    "category": "Satellites et Planètes",
+    "questionText": "Qu'est-ce qu'un satellite \"géostationnaire\" pour un observateur terrestre ?",
+    "options": [
+      "Un satellite qui se déplace à la vitesse de la lumière.",
+      "Un satellite qui apparaît totalement immobile dans le ciel, toujours fixe au-dessus du même point de la surface de la Terre.",
+      "Un satellite qui s'éteint toutes les 12 heures.",
+      "Un satellite dont la trajectoire croise les deux pôles de la Terre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un satellite géostationnaire paraît stationnaire par rapport à la Terre et reste constamment au zénith du même point équatorial."
+  },
+  {
+    "id": 19,
+    "category": "Satellites et Planètes",
+    "questionText": "Pour qu'un satellite en trajectoire circulaire soit géostationnaire, sa période de révolution T doit être rigoureusement égale à :",
+    "options": [
+      "La période de révolution de la Terre autour du Soleil (365 jours).",
+      "La période de rotation propre de la Terre autour de son axe polaire (jour sidéral T_0 ≈ 86164 s).",
+      "Exactement 12 heures.",
+      "1 heure."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour demeurer immobile au-dessus du même méridien, sa période orbitale doit coïncider exactement avec la durée du jour sidéral terrestre (environ 23h 56min 4s)."
+  },
+  {
+    "id": 20,
+    "category": "Satellites et Planètes",
+    "questionText": "Dans quel plan géométrique obligatoire doit se situer l'orbite circulaire d'un satellite géostationnaire ?",
+    "options": [
+      "Dans le plan passant par les pôles Nord et Sud (orbite polaire).",
+      "Dans le plan de l'équateur de la Terre (plan équatorial).",
+      "Dans un plan incliné de 45° par rapport à l'équateur.",
+      "Dans le plan de l'horizon de l'observateur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le centre d'un orbite terrestre doit coïncider avec le centre de masse de la Terre. Pour éviter les décalages Nord-Sud, le plan doit être le plan équatorial."
+  },
+  {
+    "id": 21,
+    "category": "Satellites et Planètes",
+    "questionText": "Quel doit être le sens de rotation d'un satellite géostationnaire sur son orbite circulaire ?",
+    "options": [
+      "Du Nord vers le Sud.",
+      "De l'Est vers l'Ouest.",
+      "Dans le même sens de rotation que la Terre autour de son axe (D'Ouest en Est).",
+      "Dans le sens inverse de rotation de la Terre."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Pour rester stable au-dessus du même point géographique, le satellite doit tourner d'Ouest en Est, tout comme la Terre."
+  },
+  {
+    "id": 22,
+    "category": "Satellites et Planètes",
+    "questionText": "L'altitude h d'un satellite géostationnaire par rapport à la surface de la Terre est unique et vaut environ :",
+    "options": [
+      "h ≈ 3600 km",
+      "h ≈ 360 000 km",
+      "h ≈ 36 000 km (soit 35 786 km)",
+      "h ≈ 360 km"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La résolution de l'équation de Kepler pour T = 86164 s donne un rayon d'orbite de ~42 164 km, soit une altitude au sol h ≈ 35 786 km (~36 000 km)."
+  },
+  {
+    "id": 23,
+    "category": "Satellites et Planètes",
+    "questionText": "Pourquoi n'est-il pas nécessaire qu'une antenne parabolique de télévision fixe soit munie d'un système rotatif pour suivre un satellite géostationnaire comme HOTBIRD ?",
+    "options": [
+      "Car le satellite se déplace trop vite pour être suivi par un moteur.",
+      "Car le satellite restant immobile par rapport au sol terrestre, l'antenne fixe pointe toujours vers lui.",
+      "Car l'antenne capte les ondes à travers toute la Terre sans orientation précise.",
+      "Car le satellite descend au sol chaque nuit pour maintenance."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le satellite paraît immobile dans le ciel depuis le sol terrestre. Une orientation statique initiale suffit donc pour conserver le signal."
+  },
+  {
+    "id": 24,
+    "category": "Satellites et Planètes",
+    "questionText": "Quelle est la unité de la constante de gravitation universelle G dans le Système International ?",
+    "options": [
+      "kg² · m¯¹ · s¯²",
+      "N · m² · kg¯²",
+      "N · kg² · m¯²",
+      "m³ · kg² · s¯¹"
+    ],
+    "correctIndex": 1,
+    "explanationText": "D'après la loi d'attraction F = G·M·m/r², on a G = F·r² / (M·m), les unités SI sont donc des N·m²·kg¯² (ou m³·kg¯¹·s¯²)."
+  },
+  {
+    "id": 25,
+    "category": "Satellites et Planètes",
+    "questionText": "On donne le rayon de la Terre R_T = 6400 km et l'altitude d'un satellite h = 2000 km sur une orbite circulaire. Que vaut le rayon orbital r à utiliser dans les formules ?",
+    "options": [
+      "r = 2000 km",
+      "r = 6400 km",
+      "r = 8400 km (soit 8.4 × 10⁶ m)",
+      "r = 4400 km"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le rayon orbital est la distance du satellite au centre de la Terre : r = R_T + h = 6400 km + 2000 km = 8400 km."
+  },
+  {
+    "id": 26,
+    "category": "Satellites et Planètes",
+    "questionText": "Si l'on multiplie la masse de l'astre central attracteur par 4 sans changer le rayon r de l'orbite circulaire, la vitesse linéaire du satellite va :",
+    "options": [
+      "Rester identique.",
+      "Doubler (car la vitesse est proportionnelle à la racine de la masse).",
+      "Être multipliée par 4.",
+      "Diminuer de moitié."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque v = √(G·M/r), si M est multipliée par 4, le terme sous la racine devient quadruplé, et sa racine est donc multipliée par √4 = 2 : la vitesse double."
+  },
+  {
+    "id": 27,
+    "category": "Satellites et Planètes",
+    "questionText": "Si la vitesse d'un satellite sur son orbite circulaire est de v = 7.5 km/s et que le rayon de son orbite vaut r = 9000 km, sa période de révolution vaut environ :",
+    "options": [
+      "T ≈ 3540 s",
+      "T ≈ 7540 s",
+      "T ≈ 1500 s",
+      "T ≈ 12000 s"
+    ],
+    "correctIndex": 1,
+    "explanationText": "T = 2π·r/v = (2 × 3.1416 × 9 000 000 m) / 7500 m/s = 56548.6 / 7.5 ≈ 7540 s."
+  },
+  {
+    "id": 28,
+    "category": "Satellites et Planètes",
+    "questionText": "Dans l'énoncé de la troisième loi de Kepler pour des orbites circulaires autour du Soleil, le rapport T²/r³ est :",
+    "options": [
+      "Différent pour chaque planète du système solaire.",
+      "Strictement identique pour toutes les planètes décrivant une trajectoire circulaire autour du Soleil.",
+      "Égale à zéro en été.",
+      "Proportionnel à la masse de la Terre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le rapport de Kepler T²/r³ ne dépend que de la constante G et de l'astre attracteur (ici le Soleil M_S). Il s'applique identiquement à toutes les planètes du système solaire."
+  },
+  {
+    "id": 29,
+    "category": "Satellites et Planètes",
+    "questionText": "La valeur de la constante gravitationnelle universelle G est :",
+    "options": [
+      "G ≈ 6.67 × 10¹¹ N·m²/kg²",
+      "G ≈ 6.67 × 10¯¹¹ N·m²/kg²",
+      "G ≈ 9.81 N·m²/kg²",
+      "G ≈ 1.60 × 10¯¹⁹ N·m²/kg²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La constante universelle de gravitation G fut théorisée par Newton et mesurée par Cavendish à G ≈ 6.67 × 10¯¹¹ N·m²/kg²."
+  },
+  {
+    "id": 30,
+    "category": "Satellites et Planètes",
+    "questionText": "Le vecteur accélération d'un satellite en mouvement circulaire uniforme est qualifié de :",
+    "options": [
+      "Vecteur tangentiel pur.",
+      "Vecteur nul.",
+      "Vecteur centripète (constamment dirigé vers le centre d'attraction).",
+      "Vecteur centrifuge."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Puisque la vitesse est uniforme, a_t = 0. Le vecteur accélération n'a qu'une composante normale a_n dirigée vers le centre originel : il est centripète."
+  },
+  {
+    "id": 31,
+    "category": "Satellites et Planètes",
+    "questionText": "Quelle force invisible maintient la cohésion géométrique des trajectoires circulaires planétaires et guide le mouvement des satellites ?",
+    "options": [
+      "La force de frottement fluide de l'éther atmosphérique.",
+      "La force d'interaction gravitationnelle.",
+      "La force électrostatique de Coulomb.",
+      "La poussée d'Archimède de l'espace."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'interaction gravitationnelle s'applique à distance mutuellement entre toutes les masses de l'univers, dictant la courbure des orbites."
+  },
+  {
+    "id": 32,
+    "category": "Satellites et Planètes",
+    "questionText": "Si un satellite décrit une orbite circulaire autour d'une planète, l'accélération de la pesanteur g(h) à cette altitude h correspond exactement à :",
+    "options": [
+      "L'accélération tangentielle a_t.",
+      "L'accélération normale a_n du satellite (a_n = v²/r).",
+      "La valeur constante de 9.81.",
+      "Zéro."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le champ de pesanteur g(h) à une altitude h est la seule accélération subie par le corps libre en chute libre orbitale, soit a = a_n = v²/r."
+  },
+  {
+    "id": 33,
+    "category": "Satellites et Planètes",
+    "questionText": "L'expression de l'intensité de la pesanteur à une altitude h s'écrit g(h) = G · M_T / (R_T + h)². À la surface de la Terre (h = 0), cette formule devient :",
+    "options": [
+      "g_0 = G · M_T / R_T",
+      "g_0 = G · M_T / R_T²",
+      "g_0 = G · M_T · R_T²",
+      "g_0 = m · g"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour h = 0, l'expression devient simplement g_0 = G·M_T/R_T², ce qui donne environ 9.8 N/kg à la surface terrestre."
+  },
+  {
+    "id": 34,
+    "category": "Satellites et Planètes",
+    "questionText": "En combinant les expressions de g(h) et g_0, on obtient la relation très utile en exercice :",
+    "options": [
+      "g(h) = g_0 · [R_T / (R_T + h)]²",
+      "g(h) = g_0 · (R_T + h) / R_T",
+      "g(h) = g_0 · [ (R_T + h) / R_T ]²",
+      "g(h) = g_0²"
+    ],
+    "correctIndex": 0,
+    "explanationText": "En réécrivant la formule de g(h) : g(h) = (G·M_T/R_T²) · [R_T² / (R_T+h)³] = g_0 · [R_T / (R_T+h)]²."
+  },
+  {
+    "id": 35,
+    "category": "Satellites et Planètes",
+    "questionText": "Pour deux satellites S_1 et S_2 sur la même orbite circulaire de rayon r, si m_1 = 2 · m_2, la période de révolution T_1 du premier satellite par rapport à T_2 du second est :",
+    "options": [
+      "Deux fois plus grande (T_1 = 2 · T_2).",
+      "Deux fois plus petite (T_1 = T_2 / 2).",
+      "Strictement égale (T_1 = T_2).",
+      "Quatre fois plus grande."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La période de révolution T n'est régie que par le rayon r de l'orbite et la masse de la Terre. Deux satellites d'altitudes identiques tournent à la même vitesse."
+  },
+  {
+    "id": 36,
+    "category": "Satellites et Planètes",
+    "questionText": "La vitesse angulaire ω (en rad/s) d'un satellite en mouvement circulaire uniforme est reliée à sa période T par la formule :",
+    "options": [
+      "ω = 2π / T",
+      "ω = 2π · T",
+      "ω = T / (2π)",
+      "ω = 2π · T²"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Le satellite parcourt 2π radians pendant la durée d'une période de rotation T, la formule est donc ω = 2π/T."
+  },
+  {
+    "id": 37,
+    "category": "Satellites et Planètes",
+    "questionText": "La relation entre la vitesse linéaire v et la vitesse angulaire ω pour une trajectoire circulaire de rayon r s'écrit :",
+    "options": [
+      "v = ω / r",
+      "v = r · ω",
+      "v = ω² · r",
+      "v = 2π · r · ω"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La vitesse linéaire s'écrit v = 2π·r/T et la vitesse angulaire ω = 2π/T, d'où la relation simple v = r·ω."
+  },
+  {
+    "id": 38,
+    "category": "Satellites et Planètes",
+    "questionText": "Si un satellite subissait des frottements résiduels avec l'atmosphère, le rayon de sa trajectoire circulaire diminuerait progressivement. Sa vitesse linéaire allait alors :",
+    "options": [
+      "Diminuer également.",
+      "Augmenter (car v est inversement proportionnelle à la racine de r).",
+      "Rester strictement constante.",
+      "S'annuler instantanément."
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est le paradoxe orbital : en s'abaissant (r diminue), le satellite perd de l'énergie mécanique mais accélère car la vitesse v augmente en √(1/r)."
+  },
+  {
+    "id": 39,
+    "category": "Satellites et Planètes",
+    "questionText": "Quelle loi de Newton utilise-t-on pour établir l'équation différentielle ou les composantes de l'accélération d'un satellite ?",
+    "options": [
+      "La première loi de Newton (Principe d'inertie).",
+      "La deuxième loi de Newton (Relation fondamentale de la dynamique).",
+      "La troisième loi de Newton (Actions réciproques).",
+      "La loi du prisme électromagnétique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est la deuxième loi de Newton (somme des forces = m·a) qui permet de déduire l'accélération du satellite à partir des forces qui s'exercent sur lui."
+  },
+  {
+    "id": 40,
+    "category": "Satellites et Planètes",
+    "questionText": "Pour un satellite en orbite circulaire uniforme, le vecteur vitesse v et le vecteur accélération a sont à chaque instant :",
+    "options": [
+      "Colinéaires et de même sens.",
+      "Colinéaires et de sens opposés.",
+      "Perpendiculaires (v · a = 0).",
+      "Inclinés d'un angle de 45°."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le vecteur accélération est purement normal (centripète) tandis que le vecteur vitesse est tangent à la trajectoire circulaire. Ils sont donc orthogonaux."
+  }
+]

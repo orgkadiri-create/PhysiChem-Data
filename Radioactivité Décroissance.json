@@ -1,0 +1,639 @@
+[
+  {
+    "id": 1,
+    "category": "Radioactivité Décroissance",
+    "questionText": "De quoi est constitué le noyau d'un atome ?",
+    "options": [
+      "De protons et d'électrons",
+      "De neutrons et d'électrons",
+      "De protons et de neutrons (appelés nucléons)",
+      "Uniquement de protons"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le noyau d'un atome contient les protons (chargés positivement) et les neutrons (neutres), ensemble appelés nucléons."
+  },
+  {
+    "id": 2,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Dans la représentation d'un nucléide ᴬ_z X, que représente la lettre A ?",
+    "options": [
+      "Le nombre de protons",
+      "Le nombre de neutrons",
+      "Le nombre de nucléons (ou nombre de masse)",
+      "La charge électrique du noyau"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La lettre A représente le nombre total de nucléons (protons + neutrons), également appelé nombre de masse."
+  },
+  {
+    "id": 3,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Dans la représentation d'un nucléide ᴬ_z X, comment calcule-t-on le nombre de neutrons N ?",
+    "options": [
+      "N = Z - A",
+      "N = A - Z",
+      "N = A + Z",
+      "N = A / Z"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque A = Z + N, nous avons N = A - Z."
+  },
+  {
+    "id": 4,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Que sont des isotopes ?",
+    "options": [
+      "Des noyaux ayant le même nombre de nucléons A mais des nombres de protons Z différents",
+      "Des noyaux ayant le même nombre de protons Z mais des nombres de neutrons différents",
+      "Des atomes ayant le même nombre de neutrons mais des nombres de protons différents",
+      "Des molécules ayant la même masse molaire"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Des isotopes appartiennent au même élément chimique (même Z) mais diffèrent par leur nombre de neutrons (donc de nucléons A)."
+  },
+  {
+    "id": 5,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Lequel des couples suivants représente des isotopes ?",
+    "options": [
+      "¹²_₆ C et ¹⁴_₇ N",
+      "¹²_₆ C et ¹⁴_₆ C",
+      "²³_₁₁ Na et ²⁴_₁₂ Mg",
+      "³_₁ H et ³_₂ He"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les deux noyaux de carbone ont le même nombre de protons Z = 6, ce sont donc des isotopes."
+  },
+  {
+    "id": 6,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Qu'est-ce qu'un noyau radioactif ?",
+    "options": [
+      "Un noyau stable qui émet de la lumière",
+      "Un noyau instable qui se désintègre spontanément en un autre noyau avec émission de rayonnement",
+      "Un noyau artificiel créé uniquement en laboratoire",
+      "Un noyau qui possède un excès d'électrons"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un noyau radioactif est instable et cherche à atteindre un état de plus grande stabilité en se désintégrant spontanément."
+  },
+  {
+    "id": 7,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Quelle est la nature d'une particule α émise lors d'une désintégration radioactive ?",
+    "options": [
+      "Un électron",
+      "Un positron",
+      "Un noyau d'hélium ⁴_₂ He",
+      "Un neutron"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La particule α est un noyau d'hélium, constitué de deux protons et de deux neutrons."
+  },
+  {
+    "id": 8,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Quelle est l'équation générale d'une désintégration de type α ?",
+    "options": [
+      "ᴬ_z X ➔ ᴬ_z₊₁ Y + ⁰_₋₁ e",
+      "ᴬ_z X ➔ ᴬ⁻⁴_z₋₂ Y + ⁴_₂ He",
+      "ᴬ_z X ➔ ᴬ_z₋₁ Y + ⁰_₁ e",
+      "ᴬ_z X ➔ ᴬ_z Y + γ"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La désintégration α émet un noyau d'hélium ⁴_₂ He, conservant le nombre de nucléons et de charge (Lois de Soddy)."
+  },
+  {
+    "id": 9,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Quelle particule est émise lors d'une désintégration de type β⁻ ?",
+    "options": [
+      "Un positron",
+      "Un proton",
+      "Un électron ⁰_₋₁ e",
+      "Un neutron"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La désintégration β⁻ s'accompagne de l'éjection d'un électron rapide hors du noyau."
+  },
+  {
+    "id": 10,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Lors d'une radioactivité β⁻, que se passe-t-il à l'intérieur du noyau ?",
+    "options": [
+      "Un proton se transforme en neutron",
+      "Un neutron se transforme en proton avec émission d'un électron",
+      "Le noyau perd deux protons et deux neutrons",
+      "Un électron orbital est capturé par le noyau"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un neutron du noyau se transforme en un proton (qui y reste) et un électron (qui est éjecté)."
+  },
+  {
+    "id": 11,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Quelle particule est émise lors d'une désintégration de type β⁺ ?",
+    "options": [
+      "Un électron",
+      "Un neutrino",
+      "Un positron (ou positon) ⁰_₁ e",
+      "Un noyau d'hélium"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La radioactivité β⁺ s'accompagne de l'éjection d'un positron (anti-particule de l'électron)."
+  },
+  {
+    "id": 12,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Lors d'une radioactivité β⁺, quelle transformation interne a lieu dans le noyau ?",
+    "options": [
+      "Un neutron se transforme en proton",
+      "Un proton se transforme en neutron avec émission d'un positron",
+      "Le noyau fissionne en deux morceaux",
+      "Deux protons s'annihilent"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un proton excédentaire se transforme en un neutron (qui reste dans le noyau) et un positron éjecté."
+  },
+  {
+    "id": 13,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Qu'est-ce que le rayonnement γ (gamma) ?",
+    "options": [
+      "Un flux de protons à haute énergie",
+      "Une onde électromagnétique de très haute fréquence émise par un noyau fils excité",
+      "Un flux d'électrons très rapides",
+      "Un faisceau d'atomes ionisés"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le rayonnement γ est un rayonnement électromagnétique de très haute énergie émis lors de la désexcitation d'un noyau fils."
+  },
+  {
+    "id": 14,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Quelles lois de conservation régissent les réactions nucléaires (Lois de Soddy) ?",
+    "options": [
+      "Conservation de la masse totale et de l'énergie cinétique uniquement",
+      "Conservation du nombre de masse A et du nombre de charge Z",
+      "Conservation de la charge Z mais pas du nombre de nucléons A",
+      "Conservation du volume du noyau"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les lois de Soddy imposent la conservation du nombre de nucléons A et du nombre de charges Z lors de toute réaction nucléaire."
+  },
+  {
+    "id": 15,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Soit la réaction suivante : ²³⁸_₉₂ U ➔ ᴬ_z Th + ⁴_₂ He. Quelles sont les valeurs de A et Z pour le Thorium ?",
+    "options": [
+      "A = 234 et Z = 90",
+      "A = 242 et Z = 94",
+      "A = 238 et Z = 92",
+      "A = 236 et Z = 90"
+    ],
+    "correctIndex": 0,
+    "explanationText": "En appliquant les lois de Soddy : A = 238 - 4 = 234 et Z = 92 - 2 = 90."
+  },
+  {
+    "id": 16,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Soit la réaction : ³²_₁₅ P ➔ ³²_₁₆ S + ᴬ_z P. De quel type de radioactivité s'agit-il ?",
+    "options": [
+      "Radioactivité α",
+      "Radioactivité β⁺",
+      "Radioactivité β⁻",
+      "Émission γ"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La particule émise possède A = 32 - 32 = 0 et Z = 15 - 16 = -1. C'est l'électron ⁰_₋₁ e, correspondant à la radioactivité β⁻."
+  },
+  {
+    "id": 17,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Sur le diagramme de Segré (N, Z), où se situent les noyaux stables légers (A < 20) ?",
+    "options": [
+      "Sur la droite N = 2Z",
+      "Très loin de l'origine",
+      "Sur la droite de stabilité N = Z",
+      "Sur l'axe des ordonnées uniquement"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Pour les noyaux légers (A < 20), la stabilité est obtenue lorsqu'ils contiennent autant de protons que de neutrons (N = Z)."
+  },
+  {
+    "id": 18,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Sur le diagramme de Segré, les noyaux situés au-dessus de la vallée de stabilité (excès de neutrons) tendent à se désintégrer par :",
+    "options": [
+      "Émission α",
+      "Émission β⁺",
+      "Émission β⁻",
+      "Capture électronique"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Ayant trop de neutrons, ces noyaux transforment un neutron en proton via la radioactivité β⁻ pour se rapprocher de la stabilité."
+  },
+  {
+    "id": 19,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Les noyaux lourds (Z > 83) situés au bout de la vallée de stabilité se désintègrent principalement par :",
+    "options": [
+      "Radioactivité β⁻",
+      "Radioactivité β⁺",
+      "Radioactivité α",
+      "Transition isomérique"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Les noyaux lourds cherchent à perdre de la masse rapidement, ce qu'ils font principalement par émission α."
+  },
+  {
+    "id": 20,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Quelle est l'expression mathématique de la loi de décroissance radioactive pour le nombre de noyaux N(t) ?",
+    "options": [
+      "N(t) = N₀ · e^(λt)",
+      "N(t) = N₀ · e^(-λt)",
+      "N(t) = N₀ - λt",
+      "N(t) = N₀ / (λt)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La population décroît exponentiellement selon N(t) = N₀ · e^(-λt)."
+  },
+  {
+    "id": 21,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Que représente la grandeur λ dans la loi de décroissance radioactive ?",
+    "options": [
+      "La période radioactive",
+      "La constante de désintégration radioactive (propre à chaque nucléide)",
+      "La longueur d'onde du rayonnement émis",
+      "Le temps de demi-vie"
+    ],
+    "correctIndex": 1,
+    "explanationText": "λ est la constante radioactive. C'est la probabilité de désintégration par unité de temps pour un noyau donné."
+  },
+  {
+    "id": 22,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Quelle est la unité de la constante radioactive λ dans le Système International ?",
+    "options": [
+      "Seconde (s)",
+      "Becquerel (Bq)",
+      "Seconde puissance moins un (s⁻¹)",
+      "Sans unité"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le temps figurant au dénominateur dans l'exposant, l'unité de λ dans le SI est la seconde moins un (s⁻¹)."
+  },
+  {
+    "id": 23,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Comment définit-on la demi-vie t_1/2 d'un échantillon radioactif ?",
+    "options": [
+      "Le temps au bout duquel tous les noyaux se sont désintégrés",
+      "Le temps au bout duquel la moitié des noyaux radioactifs initiaux se sont désintégrés",
+      "La moitié du temps nécessaire à la stabilisation du noyau",
+      "Le double de la constante de temps"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La demi-vie t_1/2 est la durée au bout de laquelle le nombre de noyaux radioactifs est divisé par deux."
+  },
+  {
+    "id": 24,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Quelle est la relation exacte entre la demi-vie t_1/2 et la constante radioactive λ ?",
+    "options": [
+      "t_1/2 = ln(2) / λ",
+      "t_1/2 = ln(2) · λ",
+      "t_1/2 = 1 / λ",
+      "t_1/2 = λ / ln(2)"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Par définition de la décroissance, e^(-λ · t_1/2) = 0,5, ce qui donne t_1/2 = ln(2) / λ."
+  },
+  {
+    "id": 25,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Qu'appelle-t-on la constante de temps τ d'un échantillon radioactif ?",
+    "options": [
+      "... = ln(2) · t_1/2",
+      "τ = 1 / λ",
+      "... = λ²",
+      "... = 2 · t_1/2"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La constante de temps τ est l'inverse de la constante radioactive λ : τ = 1/λ."
+  },
+  {
+    "id": 26,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Au bout d'une durée égale à deux fois la demi-vie (t = 2 · t_1/2), quelle fraction de la population initiale N₀ de noyaux radioactifs reste-t-il ?",
+    "options": [
+      "Il ne reste rien",
+      "N₀ / 2",
+      "N₀ / 4",
+      "N₀ / 8"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Après une demi-vie il reste N₀/2, après une deuxième demi-vie il reste la moitié de cette moitié, soit N₀/4."
+  },
+  {
+    "id": 27,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Au bout d'une durée t = τ (constante de temps), quel est le pourcentage de noyaux initiaux restants ?",
+    "options": [
+      "50%",
+      "37%",
+      "63%",
+      "10%"
+    ],
+    "correctIndex": 1,
+    "explanationText": "À t = τ, N(τ) = N₀ · e⁻¹ ≈ 0,37 · N₀, il reste donc 37% des noyaux initiaux (et 63% se sont désintégrés)."
+  },
+  {
+    "id": 28,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Comment définit-on l'activité A(t) d'un échantillon radioactif ?",
+    "options": [
+      "Le nombre total de nucléons restants",
+      "Le nombre de désintégrations par unité de temps : A(t) = -dN/dt",
+      "La masse de l'échantillon divisée par le temps",
+      "L'énergie émise par seconde"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'activité A(t) est le nombre de désintégrations d'un échantillon par seconde, défini comme la dérivée négative : -dN/dt."
+  },
+  {
+    "id": 29,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Quelle est l'unité de l'activité A(t) dans le Système International ?",
+    "options": [
+      "Le Curie (Ci)",
+      "Le Joule (J)",
+      "Le Becquerel (Bq)",
+      "Le Watt (W)"
+    ],
+    "correctIndex": 2,
+    "explanationText": "L'unité internationale de l'activité est le Becquerel (Bq), qui équivaut à une désintégration par seconde."
+  },
+  {
+    "id": 30,
+    "category": "Radioactivité Décroissance",
+    "questionText": "À quoi correspond exactement une activité de 1 Bq ?",
+    "options": [
+      "1 désintégration par minute",
+      "1 désintégration par seconde",
+      "10⁶ désintégrations par seconde",
+      "La désintégration de 1 gramme d'uranium par an"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un becquerel (1 Bq) correspond rigoureusement à une désintégration nucléaire spontanée par seconde."
+  },
+  {
+    "id": 31,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Quelle est la relation entre l'activité A(t) et le nombre de noyaux radioactifs N(t) à un instant donné ?",
+    "options": [
+      "A(t) = N(t) / λ",
+      "A(t) = λ · N(t)",
+      "A(t) = N(t) · e^(-λt)",
+      "A(t) = λ² · N(t)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque dN/dt = -λ · N(t), l'activité s'écrit positivement A(t) = λ · N(t)."
+  },
+  {
+    "id": 32,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Si l'activité initiale d'un échantillon est A₀, quelle est son expression à l'instant t ?",
+    "options": [
+      "A(t) = A₀ - λt",
+      "A(t) = A₀ · e^(-λt)",
+      "A(t) = A₀ / (2 · t)",
+      "A(t) = A₀ · ln(2) · t"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'activité suit la même loi exponentielle de décroissance que le nombre de noyaux : A(t) = A₀ · e^(-λt)."
+  },
+  {
+    "id": 33,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Un échantillon a une activité de 800 Bq. Sa demi-vie est de 5 ans. Quelle sera son activité dans 10 ans ?",
+    "options": [
+      "400 Bq",
+      "200 Bq",
+      "100 Bq",
+      "0 Bq"
+    ],
+    "correctIndex": 1,
+    "explanationText": "10 ans représentent deux demi-vies (2 × 5 ans). L'activité sera divisée par 2 puis encore par 2 (divisée par 4), donnant 200 Bq."
+  },
+  {
+    "id": 34,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Sur quel principe repose la datation au Carbone 14 (¹⁴_₆ C) ?",
+    "options": [
+      "La production constante de C14 par l'organisme après sa mort",
+      "La décroissance radioactive du C14 assimilé par un organisme vivant une fois que celui-ci meurt et cesse d'échanger avec son milieu",
+      "L'augmentation du nombre de noyaux d'azote au cours du temps dans l'atmosphère",
+      "La mesure de l'épaisseur des couches de sédiments"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un être vivant maintient un taux constant de C14. À sa mort, l'assimilation s'arrête et le C14 stocké décroît exponentiellement."
+  },
+  {
+    "id": 35,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Pourquoi ne peut-on pas utiliser le Carbone 14 (demi-vie ~ 5730 ans) pour dater un fossile vieux de 500 millions d'années ?",
+    "options": [
+      "Parce que le fossile contient trop de carbone 14",
+      "Parce qu'au bout d'une telle durée, l'activité résiduelle en C14 est devenue quasiment nulle et indétectable",
+      "Parce que le Carbone 14 ne se désintègre que dans les tissus mous",
+      "Parce que la loi de décroissance ne s'applique pas au-delà de 1000 ans"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Après environ 10 demi-vies (50 000 ans), le carbone 14 restant est trop infime pour être mesurable de façon fiable."
+  },
+  {
+    "id": 36,
+    "category": "Radioactivité Décroissance",
+    "questionText": "La désintégration d'un noyau radioactif est un phénomène :",
+    "options": [
+      "Prévisible individuellement à un instant précis",
+      "Aléatoire, spontané, indépendant des facteurs extérieurs (température, pression)",
+      "Accéléré lorsque l'on chauffe l'échantillon",
+      "Lié à la configuration électronique périphérique de l'atome"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La désintégration nucléaire est purement statistique, spontanée, indépendante de l'environnement physique et chimique."
+  },
+  {
+    "id": 37,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Si l'on double la masse d'un échantillon radioactif pur, qu'advient-il de sa constante radioactive λ ?",
+    "options": [
+      "Elle double",
+      "Elle est divisée par deux",
+      "Elle reste strictement inchangée",
+      "Elle quadruple"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La constante radioactive λ est une propriété intrinsèque de l'isotope, indépendante de la masse d'échantillon."
+  },
+  {
+    "id": 38,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Si l'on double la masse d'un échantillon radioactif pur, qu'advient-il de son activité initiale A₀ ?",
+    "options": [
+      "Elle reste inchangée",
+      "Elle double (car le nombre de noyaux initiaux N₀ double)",
+      "Elle est divisée par deux",
+      "Elle augmente de façon exponentielle"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'activité A₀ = λ · N₀. En doublant la masse, on double N₀, donc l'activité initiale A₀ double."
+  },
+  {
+    "id": 39,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Quel type de détecteur utilise-t-on couramment en laboratoire pour mesurer l'activité ou le nombre d'impacts de particules radioactives ?",
+    "options": [
+      "Un thermomètre à résistance",
+      "Un compteur Geiger-Müller",
+      "Un oscilloscope cathodique",
+      "Un pH-mètre"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le compteur Geiger-Müller détecte les rayonnements ionisants émis lors des désintégrations radioactives."
+  },
+  {
+    "id": 40,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Un noyau de Phosphore 32 subit une désintégration β⁻ pour donner un noyau de Soufre 32. Si l'état obtenu est excité, il libère ensuite :",
+    "options": [
+      "Un photon de rayonnement γ",
+      "Une particule α",
+      "Un neutron thermique",
+      "Un rayon X de basse énergie"
+    ],
+    "correctIndex": 0,
+    "explanationText": "La désexcitation d'un noyau fils s'accompagne de l'émission d'un photon de rayonnement γ (très haute énergie)."
+  },
+  {
+    "id": 41,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Si la constante radioactive λ d'un nucléide est exprimée en an⁻¹, quelle opération est nécessaire pour calculer l'activité A = λ · N en Becquerels (Bq) ?",
+    "options": [
+      "Multiplier λ par 365 × 24 × 3600",
+      "Diviser λ par le nombre de secondes contenues dans une année (365,25 × 24 × 3600)",
+      "Multiplier λ par ln(2)",
+      "Conserver la valeur telle quelle car le Becquerel est indépendant de l'unité de temps"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le Bq exige de mesurer le temps en secondes. Pour de convertir λ d'an⁻¹ à s⁻¹, il faut la diviser par la durée d'un an en secondes."
+  },
+  {
+    "id": 42,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Lors de la représentation graphique de l'évolution de ln(A) en fonction du temps t pour une désintégration radioactive, quelle est la nature de la courbe et comment obtient-on λ ?",
+    "options": [
+      "Une parabole dont le sommet donne la valeur de λ",
+      "Une droite décroissante dont le coefficient directeur (pente) est égal à -λ",
+      "Une droite croissante dont l'ordonnée à l'origine est λ",
+      "Une courbe exponentielle dont l'asymptote horizontale représente λ"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque A(t) = A₀ · e^(-λt), on a ln(A) = ln(A₀) - λt, ce qui est l'équation d'une droite de pente -λ."
+  },
+  {
+    "id": 43,
+    "category": "Radioactivité Décroissance",
+    "questionText": "D'après les documents, le noyau de Phosphore 32 se désintègre sans exciter son noyau fils. Si le noyau fils avait été produit dans un état excité, quel rayonnement électromagnétique aurait été émis lors de sa stabilisation ?",
+    "options": [
+      "Un rayonnement α",
+      "Un rayonnement β⁻",
+      "Un rayonnement γ (gamma)",
+      "Un rayonnement ultraviolet"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le retour d'un noyau excité à son état fondamental libère l'excès d'énergie sous forme de photon γ extrêmement énergétique."
+  },
+  {
+    "id": 44,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Le noyau atomique ne contient que des protons et des neutrons. Comment explique-t-on l'origine de l'électron émis lors d'une désintégration β⁻ ?",
+    "options": [
+      "Le noyau capture un électron de l'état orbital externe",
+      "Un neutron du noyau se transforme spontanément en un proton, un électron et un antineutrino",
+      "Un proton se brise en plusieurs morceaux libérant de l'électricité",
+      "Les neutrons du noyau possèdent une enveloppe d'électrons qui se détache"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'électron émis n'existait pas dans le noyau : il est créé instantanément lors de la transformation d'un neutron en proton."
+  },
+  {
+    "id": 45,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Si un graphique représente l'activité A(t) en fonction du temps, comment détermine-t-on graphiquement la constante de temps τ ?",
+    "options": [
+      "C'est le temps nécessaire pour que l'activité devienne nulle",
+      "C'est l'abscisse du point d'intersection de la tangente à la courbe à t = 0 avec l'axe des temps",
+      "C'est le double du temps de demi-vie",
+      "C'est la valeur de l'ordonnée à l'origine"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La tangente à la courbe exponentielle en t = 0 coupe l'axe des abscisses (temps) à l'instant t = τ."
+  },
+  {
+    "id": 46,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Lors de l'écriture d'une équation nucléaire, que représente la conservation de la charge Z ?",
+    "options": [
+      "La conservation du nombre total d'électrons autour de l'atome",
+      "La conservation de la charge électrique totale du système avant et après la transformation",
+      "La conservation de la masse totale en kilogrammes",
+      "Le fait que le nombre de neutrons reste constant"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La conservation de Z assure que la charge électrique globale est conservée lors de la réaction nucléaire."
+  },
+  {
+    "id": 47,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Pourquoi la radioactivité α ne concerne-t-elle généralement que les noyaux très lourds (A > 200) ?",
+    "options": [
+      "Parce que les noyaux légers n'ont pas assez d'électrons",
+      "Parce que ces noyaux lourds ont un excès simultané de protons et de neutrons qui les rend instables par rapport à la force nucléaire forte",
+      "Parce que la particule alpha a besoin d'une température élevée pour sortir",
+      "Parce que les noyaux lourds n'ont pas d'interaction faible"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les gros noyaux souffrent d'une instabilité de taille. L'interaction forte n'arrive plus à compenser la répulsion coulombienne, d'où l'éjection de grappes de nucléons (particules α)."
+  },
+  {
+    "id": 48,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Quelle relation lie la constante de temps τ et la demi-vie t_1/2 d'un radioélément ?",
+    "options": [
+      "t_1/2 = τ × ln(2)",
+      "t_1/2 = τ / ln(2)",
+      "t_1/2 = ln(2) / τ",
+      "t_1/2 = τ²"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Comme τ = 1/λ et t_1/2 = ln(2)/λ, on en déduit directement t_1/2 = τ · ln(2)."
+  },
+  {
+    "id": 49,
+    "category": "Radioactivité Décroissance",
+    "questionText": "Lors d'une désintégration de type β⁺, la particule émise (⁰_₁ e) est un positron. Que devient cette particule lorsqu'elle rencontre un électron du milieu environnant ?",
+    "options": [
+      "Elle orbite autour de l'électron de manière stable",
+      "Les deux particules s'annihilent mutuellement en se transformant intégralement en deux photons γ",
+      "Elle se transforme en neutron",
+      "Elle pénètre à l'intérieur du premier noyau venu"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La rencontre d'une particule et de son antiparticule entraîne leur annihilation complète en photons γ selon l'équivalence E=mc²."
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "Chute Verticale",
+    "questionText": "Lorsqu'un corps solide se déplace verticalement dans un fluide (liquide ou gaz), à combien de forces principales est-il soumis dans le cas général d'une chute avec frottement ?",
+    "options": [
+      "Une seule force: son poids.",
+      "Deux forces: son poids et la poussée d'Archimède.",
+      "Trois forces: son poids, la poussée d'Archimède et la force de frottement fluide.",
+      "Quatre forces, en comptant la force d'attraction magnétique."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Sous action fluide complète, le solide subit sa masse (son poids), la pression d'Archimède remontant verticale et la résistance de traînée (frottement dynamique)."
+  },
+  {
+    "id": 2,
+    "category": "Chute Verticale",
+    "questionText": "Quelle est l'expression vectorielle du poids $$\\vec{P}$$ d'un corps de masse m dans un repère lié à un axe vertical (Oz) dirigé vers le bas ?",
+    "options": [
+      "$$\\vec{P} = -m \\cdot g \\cdot \\vec{k}$$",
+      "$$\\vec{P} = m \\cdot g \\cdot \\vec{k}$$",
+      "$$\\vec{P} = \\rho \\cdot V \\cdot \\vec{k}$$",
+      "$$\\vec{P} = \\vec{0}$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Comme le vecteur de l'accélération de pesanteur $$\\vec{g}$$ pointe vers le bas, la projection est positive sur cet axe : $$\\vec{P} = m \\cdot g \\cdot \\vec{k}$$."
+  },
+  {
+    "id": 3,
+    "category": "Chute Verticale",
+    "questionText": "Qu'est-ce que la poussée d'Archimède $$\\vec{F}_A$$ ?",
+    "options": [
+      "La force d'attraction exercée par le centre de la Terre.",
+      "La force exercée par un fluide au repos sur un corps immergé, égale au poids du fluide déplacé et dirigée vers le haut.",
+      "La force de résistance de l'air proportionnelle au carré de la vitesse.",
+      "Une force toujours perpendiculaire à l'axe vertical du mouvement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La poussée d'Archimède est la résultante verticale ascendante des forces de pression hydrostatiques."
+  },
+  {
+    "id": 4,
+    "category": "Chute Verticale",
+    "questionText": "Quelle est l'expression de la valeur (intensité) de la poussée d'Archimède $$F_A$$ ?",
+    "options": [
+      "$$F_A = m \\cdot g$$",
+      "$$F_A = \\rho_f \\cdot V \\cdot g$$",
+      "$$F_A = \\frac{\\rho_f \\cdot g}{V}$$",
+      "$$F_A = \\rho_s \\cdot V \\cdot g$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'intensité de la poussée d'Archimède vaut la masse du fluide déplacé par l'accélération de pesanteur : $$F_A = m_f \\cdot g = \\rho_f \\cdot V \\cdot g$$."
+  },
+  {
+    "id": 5,
+    "category": "Chute Verticale",
+    "questionText": "Dans un repère vertical (Oz) dirigé vers le bas, quelle est la composante algébrique $$F_{Az}$$ de la poussée d'Archimède ?",
+    "options": [
+      "$$F_{Az} = \\rho_f \\cdot V \\cdot g$$",
+      "$$F_{Az} = -\\rho_f \\cdot V \\cdot g$$",
+      "$$F_{Az} = 0$$",
+      "$$F_{Az} = -m \\cdot g$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La poussée d'Archimède agissant toujours vers le haut, sa projection sur un axe descendant est négative : $$-F_A = -\\rho_f \\cdot V \\cdot g$$."
+  },
+  {
+    "id": 6,
+    "category": "Chute Verticale",
+    "questionText": "La force de frottement fluide s'exerce en sens inverse du vecteur vitesse. Pour de faibles vitesses, son intensité est modélisée par :",
+    "options": [
+      "f = k · v",
+      "f = k · v²",
+      "f = k / v",
+      "f = k · √v"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Pour des écoulements laminaires et des vitesses modérées, le frottement varie linéairement selon la vitesse : f = k · v."
+  },
+  {
+    "id": 7,
+    "category": "Chute Verticale",
+    "questionText": "Pour des vitesses élevées (comme la chute d'un parachutiste), la valeur de la force de frottement fluide est modélisée par :",
+    "options": [
+      "f = k · v",
+      "f = k · v²",
+      "f = constante",
+      "f = k · v³"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour des écoulements turbulents et de grandes vitesses, le frottement dépend quadratiquement du niveau de vitesse : f = k · v²."
+  },
+  {
+    "id": 8,
+    "category": "Chute Verticale",
+    "questionText": "Quelle est l'expression de la composante algébrique $$f_z$$ de la force de frottement fluide sur un axe (Oz) orienté vers le bas lors d'une descente ?",
+    "options": [
+      "$$f_z = k \\cdot v^n$$",
+      "$$f_z = -k \\cdot v^n$$",
+      "$$f_z = m \\cdot g$$",
+      "$$f_z = -m \\cdot g$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le frottement s'oppose à la vitesse descendante, sa direction algébrique z est négative : $$-k \\cdot v^n$$."
+  },
+  {
+    "id": 9,
+    "category": "Chute Verticale",
+    "questionText": "En appliquant la deuxième loi de Newton à un solide en chute verticale descendante avec frottement faible ($$f = k \\cdot v$$) sur un axe orienté vers le bas, on obtient l'équation différentielle :",
+    "options": [
+      "$$\\frac{dv}{dt} + \\frac{k}{m} \\cdot v = g \\cdot \\left(1 - \\frac{\\rho_f}{\\rho_s}\\right)$$",
+      "$$\\frac{dv}{dt} - \\frac{k}{m} \\cdot v = g$$",
+      "$$\\frac{d^2v}{dt^2} + k \\cdot v = 0$$",
+      "$$\\frac{dv}{dt} + k \\cdot v^2 = g$$"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Le bilan des forces projeté donne : $$m\\cdot \\frac{dv}{dt} = m\\cdot g - \\rho_f\\cdot V\\cdot g - k\\cdot v$$. En divisant par m et sachant que $$V = m / \\rho_s$$, on retrouve l'équation correcte."
+  },
+  {
+    "id": 10,
+    "category": "Chute Verticale",
+    "questionText": "L'équation différentielle de la chute verticale s'écrit souvent de la forme : $$\\frac{dv}{dt} = A - B \\cdot v$$. Que représente le terme A lorsque la poussée d'Archimède n'est pas négligée ?",
+    "options": [
+      "A = g",
+      "$$A = g \\cdot \\left(1 - \\frac{\\rho_f}{\\rho_s}\\right)$$",
+      "A = k / m",
+      "A = 0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est l'accélération d'entrainement gravitationnelle réduite par la flottabilité d'Archimède : $$A = g \\cdot (1 - \\rho_f / \\rho_s)$$.."
+  },
+  {
+    "id": 11,
+    "category": "Chute Verticale",
+    "questionText": "Dans l'équation différentielle $$\\frac{dv}{dt} = A - B \\cdot v$$, le paramètre B (pour des vitesses faibles) est égal à :",
+    "options": [
+      "B = k * m",
+      "$$B = \\frac{k}{m}$$",
+      "B = m / k",
+      "B = ρ_f · V"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le terme amortisseur B est la raideur de traînée massique : $$B = k / m$$."
+  },
+  {
+    "id": 12,
+    "category": "Chute Verticale",
+    "questionText": "La courbe expérimentale de la vitesse v(t) au cours du temps met en évidence deux régimes distincts :",
+    "options": [
+      "Le régime transitoire et le régime permanent.",
+      "Le régime périodique et le régime pseudo-périodique.",
+      "Le régime linéaire et le régime parabolique.",
+      "Le régime stationnaire et le régime sinusoïdal."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La vitesse augmente d'abord rapidement de façon non linéaire (régime transitoire) avant de saturer à une valeur constante (régime permanent)."
+  },
+  {
+    "id": 13,
+    "category": "Chute Verticale",
+    "questionText": "Qu'est-ce que la \"vitesse limite\" d'un solide en chute dans un fluide ?",
+    "options": [
+      "La vitesse maximale que le solide possède au moment de l'impact avec le sol.",
+      "La vitesse constante et maximale atteinte par le solide en régime permanent.",
+      "La vitesse initiale au moment du lancer.",
+      "La vitesse de propagation de la lumière dans ce fluide."
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est le plafond asymptotique de vitesse, où les forces s'annulent et la cinématique devient uniforme."
+  },
+  {
+    "id": 14,
+    "category": "Chute Verticale",
+    "questionText": "En régime permanent, la vitesse étant constante, que vaut la dérivée de la vitesse par rapport au temps de chute ?",
+    "options": [
+      "dv / dt = g",
+      "dv / dt = 0",
+      "L'accélération maximale",
+      "dv / dt = A"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque la vitesse est parfaitement stabilisée en régime permanent, sa dérivée temporelle est nulle."
+  },
+  {
+    "id": 15,
+    "category": "Chute Verticale",
+    "questionText": "À partir de l'équation différentielle $$\\frac{dv}{dt} = A - B \\cdot v$$, quelle est l'expression de la vitesse limite en régime permanent ?",
+    "options": [
+      "V_lim = A * B",
+      "$$V_{\\text{lim}} = \\frac{A}{B}$$",
+      "V_lim = B / A",
+      "V_lim = A"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En posant $$\\frac{dv}{dt} = 0$$, on obtient immédiatement $$A - B \\cdot V_{\\text{lim}} = 0 \\implies V_{\\text{lim}} = A / B$$."
+  },
+  {
+    "id": 16,
+    "category": "Chute Verticale",
+    "questionText": "Quelle est la vitesse limite pour une bille de masse m soumise à un frottement faible $$f = k \\cdot v$$, si l'on néglige la poussée d’Archimède ?",
+    "options": [
+      "$$V_{\\text{lim}} = \\frac{m \\cdot g}{k}$$",
+      "$$V_{\\text{lim}} = \\frac{k \\cdot g}{m}$$",
+      "V_lim = m * g * k",
+      "V_lim = √(m * g / k)"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Sans Archimède, $$A = g$$ et $$B = k/m$$, d'où $$V_{\\text{lim}} = m\\cdot g / k$$."
+  },
+  {
+    "id": 17,
+    "category": "Chute Verticale",
+    "questionText": "Quelle est l'accélération initiale à l'instant t = 0 si le solide est lâché sans vitesse initiale ?",
+    "options": [
+      "a = 0",
+      "a = A",
+      "a = V_lim",
+      "a = B"
+    ],
+    "correctIndex": 1,
+    "explanationText": "À $$t=0$$, $$v(0) = 0$$, l'équation différentielle donne immédiatement $$\\left(\frac{dv}{dt}\\right)_0 = a_0 = A$$."
+  },
+  {
+    "id": 18,
+    "category": "Chute Verticale",
+    "questionText": "La \"constante de temps\" du mouvement caractérise la durée du régime transitoire. Pour $$f = k \\cdot v$$, elle s'exprime par :",
+    "options": [
+      "Q_max = I / Δt",
+      "$$\\tau = \\frac{m}{k}$$",
+      "τ = m * k",
+      "τ = A / B"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La constante de temps vaut l'inverse du facteur d'amortissement B : $$\\tau = 1/B = m/k$$."
+  },
+  {
+    "id": 19,
+    "category": "Chute Verticale",
+    "questionText": "Graphiquement, comment détermine-t-on la constante de temps $$\\tau$$ sur la courbe v = f(t) ?",
+    "options": [
+      "C'est l'intersection de l'asymptote horizontale avec la tangente à l'origine.",
+      "C'est la date où la vitesse s'annule.",
+      "C'est la valeur maximale de la vitesse divisée par deux.",
+      "C'est la pente de la droite en régime permanent."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La droite tangente à la courbe de vitesse à l'origine intercepte la droite asymptote horizontale de vitesse limite au temps exact $$t = \\tau$$."
+  },
+  {
+    "id": 20,
+    "category": "Chute Verticale",
+    "questionText": "À la date $$t = \\tau$$ lors d'une chute sans vitesse initiale, la vitesse instantanée du solide atteint environ :",
+    "options": [
+      "37% de la vitesse limite.",
+      "50% de la vitesse limite.",
+      "63% de la vitesse limite.",
+      "99% de la vitesse limite."
+    ],
+    "correctIndex": 2,
+    "explanationText": "D'après la solution analytique $$v(t) = V_{\\text{lim}}(1 - e^{-t/\\tau})$$, à $$t=\\tau$$ on a $$v(\\tau) = V_{\\text{lim}}(1 - e^{-1}) \\approx 0.63\\, V_{\\text{lim}}$$."
+  },
+  {
+    "id": 21,
+    "category": "Chute Verticale",
+    "questionText": "Au bout d'une durée d'environ 5 fois la constante de temps, on considère que :",
+    "options": [
+      "Le solide s'arrête.",
+      "Le régime permanent est atteint (la vitesse est stable et vaut plus de 99% de la vitesse limite).",
+      "L'accélération devient égale à g.",
+      "La poussée d'Archimède double de valeur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un système d'ordre 1 atteint sa valeur de consigne à plus de 99.3% au bout de $$5\\tau$$."
+  },
+  {
+    "id": 22,
+    "category": "Chute Verticale",
+    "questionText": "La méthode d'Euler est une intégration numérique itérative. La relation d'extravariation de vitesse s'écrit :",
+    "options": [
+      "$$v_{i+1} = v_i + a_i \\cdot \\Delta t$$",
+      "$$v_{i+1} = v_i - a_i \\cdot \\Delta t$$",
+      "$$v_{i+1} = a_i \\cdot \\Delta t$$",
+      "$$v_{i+1} = v_i + \\frac{a_i}{\\Delta t}$$"
+    ],
+    "correctIndex": 0,
+    "explanationText": "En discrétisant la dérivée comme $$\\frac{\\Delta v}{\\Delta t} = a_i$$, on obtient naturellement : $$v_{i+1} = v_i + a_i \\cdot \\Delta t$$."
+  },
+  {
+    "id": 23,
+    "category": "Chute Verticale",
+    "questionText": "Dans la méthode d'Euler, la grandeur fixe $$\\Delta t$$ représente :",
+    "options": [
+      "La durée totale de la chute du corps.",
+      "Le pas de calcul (ou l'intervalle de temps régulier entre deux étapes de calcul).",
+      "La constante de temps.",
+      "Le retard de la poussée d'Archimède."
+    ],
+    "correctIndex": 1,
+    "explanationText": "$$\\Delta t$$ est la durée d'échantillonnage de temps pas à pas pour l'intégration numérique."
+  },
+  {
+    "id": 24,
+    "category": "Chute Verticale",
+    "questionText": "Pour que la méthode d'Euler soit précise et proche de la théorie, le pas de calcul doit être :",
+    "options": [
+      "Très grand devant la constante de temps.",
+      "Très petit devant la constante de temps.",
+      "Strictement égal à la période propre du mouvement.",
+      "Supérieur à 10 secondes."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Il faut choisir un pas de calcul très court devant l'échelle temporelle des variations de vitesse, soit $$\\Delta t \\ll \\tau$$."
+  },
+  {
+    "id": 25,
+    "category": "Chute Verticale",
+    "questionText": "Soit l'équation différentielle $$\\frac{dv}{dt} = 8 - 2v$$. Si $$v_i = 3\\mathrm{m/s}$$ et $$\\Delta t = 0,1\\mathrm{s}$$, que vaut l'accélération $$a_i$$ ?",
+    "options": [
+      "8 m/s²",
+      "2 m/s²",
+      "14 m/s²",
+      "0 m/s²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "On injecte $$v_i$$ dans l'équation de la dérivée : $$a_i = 8 - 2(3) = 2\\mathrm{m/s^2}$$."
+  },
+  {
+    "id": 26,
+    "category": "Chute Verticale",
+    "questionText": "En utilisant les données de l'étape précédente ($$v_i = 3\\mathrm{m/s}$$, $$a_i = 2\\mathrm{m/s^2}$$, $$\\Delta t = 0,1\\mathrm{s}$$), déterminez $$v_{i+1}$$ par la méthode d'Euler :",
+    "options": [
+      "3.2 m/s",
+      "3.0 m/s",
+      "5.0 m/s",
+      "2.8 m/s"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Le calcul donne : $$v_{i+1} = v_i + a_i \\cdot \\Delta t = 3 + 2(0.1) = 3 + 0.2 = 3.2\\mathrm{m/s}$$."
+  },
+  {
+    "id": 27,
+    "category": "Chute Verticale",
+    "questionText": "Quand dit-on qu'un corps solide est en \"chute libre\" ?",
+    "options": [
+      "Lorsqu'il tombe sans parachute dans l'atmosphère.",
+      "Lorsqu'il n'est soumis qu'à l'action unique de son poids (les forces fluides et la poussée d'Archimède sont négligées).",
+      "Lorsqu'il plane à vitesse constante dans l'air.",
+      "Lorsque sa masse volumique est identique à celle du fluide."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Par définition de la physique, la chute libre se fait sous influence exclusive de la force de gravité (le poids)."
+  },
+  {
+    "id": 28,
+    "category": "Chute Verticale",
+    "questionText": "Dans le vide absolu, une plume et une bille de plomb lâchées sans vitesse initiale de la même hauteur :",
+    "options": [
+      "Tombent à des vitesses différentes, le plomb arrivant en premier.",
+      "Tombent côte à côte et atteignent le sol en même temps car elles ont la même accélération.",
+      "Restent en lévitation immobile.",
+      "Se repoussent à cause de la poussée d'Archimède."
+    ],
+    "correctIndex": 1,
+    "explanationText": "De valeur $$a_G = g$$ indépendamment de la forme ou de la masse, les deux glissent au même rythme en chute libre."
+  },
+  {
+    "id": 29,
+    "category": "Chute Verticale",
+    "questionText": "En appliquant la deuxième loi de Newton à un corps en chute libre, le vecteur accélération de son centre d'inertie $$\\vec{a}_G$$ est :",
+    "options": [
+      "Dépendant de la masse du corps.",
+      "Égal au vecteur pesanteur : $$\\vec{a}_G = \\vec{g}$$.",
+      "Égal au vecteur nul.",
+      "Inversement proportionnel à la constante de temps."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'équation dynamique s'écrit : $$\\vec{P} = m\\cdot \\vec{g} = m\\cdot \\vec{a}_G \\implies \\vec{a}_G = \\vec{g}$$."
+  },
+  {
+    "id": 30,
+    "category": "Chute Verticale",
+    "questionText": "Pour une chute libre sans vitesse initiale sur un axe vertical (Oz) dirigé vers le bas (avec $$z(0) = 0$$), l'équation de la vitesse est :",
+    "options": [
+      "$$v(t) = g \\cdot t$$",
+      "$$v(t) = \\frac{1}{2} g \\cdot t^2$$",
+      "v(t) = constante",
+      "$$v(t) = g \\cdot t^2$$"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'accélération constante $$a_z = g$$ donne par intégration directe la vitesse lineaire : $$v(t) = g \\cdot t$$."
+  },
+  {
+    "id": 31,
+    "category": "Chute Verticale",
+    "questionText": "Pour ce même corps en chute libre (axe vers le bas, $$z_0 = 0, v_0 = 0$$), l'équation horaire de la position s'écrit :",
+    "options": [
+      "$$z(t) = g \\cdot t$$",
+      "$$z(t) = \\frac{1}{2} g \\cdot t^2$$",
+      "$$\\text{Un Laser.}$$",
+      "$$\\text{Une bougie.}$$"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En intégrant la vitesse linéaire par rapport au temps, la position parabolique s'écrit : $$z(t) = \\frac{1}{2} g \\cdot t^2$$."
+  },
+  {
+    "id": 32,
+    "category": "Chute Verticale",
+    "questionText": "Si l'axe vertical (Oz) est orienté vers le HAUT, la composante de l'accélération $$a_z$$ d'une chute libre vaut :",
+    "options": [
+      "a_z = g",
+      "a_z = -g",
+      "a_z = 0",
+      "a_z = -g * t"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le vecteur pesanteur $$\\vec{g}$$ pointe toujours vers le bas, faisant face opposée au vecteur d'axe montant, d'où $$a_z = -g$$."
+  },
+  {
+    "id": 33,
+    "category": "Chute Verticale",
+    "questionText": "Dans le cas d'une chute libre, la courbe représentant l'évolution de la vitesse v(t) au cours du temps est :",
+    "options": [
+      "Une droite horizontale.",
+      "Une droite linéaire passant par l'origine de pente d'intensité g.",
+      "Une branche d'hyperbole.",
+      "Une parabole incurvée."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Comme $$v(t) = g \\cdot t$$, c'est une fonction linéaire directe, de coefficient directeur égal à l'accélération de la pesanteur."
+  },
+  {
+    "id": 34,
+    "category": "Chute Verticale",
+    "questionText": "Pourquoi peut-on négliger la poussée d'Archimède lors de la chute d'un solide lourd (comme le plomb) dans l'air ?",
+    "options": [
+      "Parce que l'air n'exerce jamais de forces vers le haut.",
+      "Parce que la masse volumique de l'air est extrêmement faible devant celle de l'acier, rendant sa poussée négligeable devant le poids.",
+      "Parce que la bille se déplace trop vite.",
+      "Parce que le volume de la bille est considéré comme infini."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le rapport de forces $$F_A / P = \\rho_{\\text{air}} / \\rho_{\\text{acier}} \\sim 1.2 / 7800 \\approx 0.00015$$, ce qui prouve la totale négligeabilité."
+  },
+  {
+    "id": 35,
+    "category": "Chute Verticale",
+    "questionText": "Une bille est lâchée dans un liquide visqueux. Sa vitesse limite est $$V_{\\text{lim}} = 2\\mathrm{m/s}$$. Sans vitesse initiale, que vaut sa vitesse au temps $$t = \\tau$$ ?",
+    "options": [
+      "2 m/s",
+      "1.26 m/s",
+      "0.74 m/s",
+      "0 m/s"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Comme vu précédemment, $$v(\\tau) \\approx 0.63 \\times V_{\\text{lim}} = 0.63 \\times 2 = 1.26\\mathrm{m/s}$$."
+  },
+  {
+    "id": 36,
+    "category": "Chute Verticale",
+    "questionText": "Quelle force est responsable de la perte d'énergie mécanique d'un solide au cours d'une chute verticale non libre ?",
+    "options": [
+      "Le poids.",
+      "La force de frottement fluide (qui dissipe l'énergie sous forme thermique).",
+      "La poussée d'Archimède.",
+      "La force centripète de Frénet."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La force de frottement est une force non conservative, son travail mécanique négatif dissipe l'énergie sous forme de chaleur."
+  },
+  {
+    "id": 37,
+    "category": "Chute Verticale",
+    "questionText": "Si un solide est lancé verticalement vers le bas avec une vitesse initiale supérieure à la vitesse limite, comment évolue sa vitesse ?",
+    "options": [
+      "Elle continue d'augmenter indéfiniment.",
+      "Elle diminue progressivement pour se stabiliser à la valeur limite.",
+      "Elle s'annule instantanément.",
+      "Elle oscille de façon périodique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Si la vitesse de lancement dépasse sa limite aérodynamique, les forces de freinage dominent, ramenant l'expression asymptotiquement à sa vitesse limite."
+  },
+  {
+    "id": 38,
+    "category": "Chute Verticale",
+    "questionText": "Une bille de masse m = 100 g est en chute verticale dans un liquide. En régime permanent de vitesse stable, la somme des forces vaut :",
+    "options": [
+      "Σ F = m * g",
+      "Σ F = 0",
+      "Le Faraday est physiquement la charge molaire élémentaire d'électrons : F = N_A * e ≈ 96500 C.mol⁻¹.",
+      "Elle dépend de la forme géométrique de la bille."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Comme l'accélération s'annule d'après la 2ème loi de Newton, la résultante vectorielle des forces est nulle."
+  },
+  {
+    "id": 39,
+    "category": "Chute Verticale",
+    "questionText": "Un objet en chute libre est lâché sans vitesse initiale. En prenant g = 10 m/s², quelle distance a-t-il parcourue au bout de 2 secondes ?",
+    "options": [
+      "10 m",
+      "20 m",
+      "40 m",
+      "5 m"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Calcul d'appui : $$z(2) = \\frac{1}{2} \\cdot g \\cdot t^2 = \\frac{1}{2} \\times 10 \\times (2)^2 = 20\\mathrm{m}$$."
+  },
+  {
+    "id": 40,
+    "category": "Chute Verticale",
+    "questionText": "Quelle est la dimension (unité) du coefficient de frottement fluide k dans le modèle des faibles vitesses ($$f = k \\cdot v$$) ?",
+    "options": [
+      "kg/s",
+      "N/m",
+      "kg/m",
+      "m/s²"
+    ],
+    "correctIndex": 0,
+    "explanationText": "En isolant k : $$k = f / v \\implies \\mathrm{N / (m/s)} = \\mathrm{(kg\\cdot m / s^2) / (m/s)} = \\mathrm{kg\\cdot s^{-1}}$$.."
+  }
+]
