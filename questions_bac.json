@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "questionText": "De quoi est constitué un condensateur ?",
+    "options": [
+      "De deux isolants séparés par une armature conductrice.",
+      "De deux armatures métalliques conductrices séparées par un isolant (ou diélectrique).",
+      "D'une seule plaque de cuivre plongée dans une solution électrolytique.",
+      "D'un enroulement de fil de cuivre sans aucun isolant."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un condensateur est constitué de deux armatures métalliques conductrices séparées par un diélectrique (isolant)."
+  },
+  {
+    "id": 2,
+    "questionText": "Quelle est la relation fondamentale reliant la charge q d'un condensateur, sa capacité C et la tension u_C à ses bornes ?",
+    "options": [
+      "q = C / u_C",
+      "q = C × u_C",
+      "q = u_C / C",
+      "q = C² × u_C"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La charge q accumulée sur les armatures est proportionnelle à la tension u_C avec q = C * u_C."
+  },
+  {
+    "id": 3,
+    "questionText": "Dans le Système International d'unités (SI), quelle est l'unité de la capacité C d'un condensateur ?",
+    "options": [
+      "Le Joule (J).",
+      "Le Coulomb (C).",
+      "Le Farad (F).",
+      "L'Ohm (Ω)."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La capacité C s'exprime en Farads (symbole F)."
+  },
+  {
+    "id": 4,
+    "questionText": "Convertir la valeur de 1 µF (microfarad) en Farad (F) :",
+    "options": [
+      "10⁻³ F",
+      "10⁻⁶ F",
+      "10⁻⁹ F",
+      "10⁻¹² F"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le préfixe micro (µ) correspond à 10⁻⁶."
+  },
+  {
+    "id": 5,
+    "questionText": "Convertir la valeur de 1 nF (nanofarad) en Farad (F) :",
+    "options": [
+      "10⁻⁶ F",
+      "10⁻⁹ F",
+      "10⁻¹² F",
+      "10³ F"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le préfixe nano (n) correspond à 10⁻⁹."
+  },
+  {
+    "id": 6,
+    "questionText": "En convention réceptrice, quelle relation lie l'intensité instantanée i(t) d'un courant variable et la tension u_C(t) aux bornes d'un condensateur ?",
+    "options": [
+      "i(t) = (1/C) * (du_C/dt)",
+      "i(t) = C * (du_C/dt)",
+      "i(t) = C * u_C(t)",
+      "i(t) = du_C/dt"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque q = C*u_C and i = dq/dt, on a i(t) = C * du_C/dt."
+  },
+  {
+    "id": 7,
+    "questionText": "Comment calcule-t-on la capacité équivalente C_eq de deux condensateurs de capacités C_1 et C_2 branchés en parallèle ?",
+    "options": [
+      "C_eq = C_1 + C_2",
+      "1/C_eq = 1/C_1 + 1/C_2",
+      "C_eq = (C_1 * C_2) / (C_1 + C_2)",
+      "C_eq = √(C_1 * C_2)"
+    ],
+    "correctIndex": 0,
+    "explanationText": "En parallèle, les capacités s'ajoutent : C_eq = C_1 + C_2."
+  },
+  {
+    "id": 8,
+    "questionText": "Quel est l'intérêt principal d'associer des condensateurs en parallèle ?",
+    "options": [
+      "Diminuer la tension maximale admissible.",
+      "Obtenir une capacité équivalente supérieure à la plus grande des capacités.",
+      "Réduire l'intensité totale du courant électrique dans le circuit.",
+      "Bloquer définitivement le passage du courant continu."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'association en parallèle permet de sommer les capacités pour en obtenir une plus grande."
+  },
+  {
+    "id": 9,
+    "questionText": "Comment s'exprime la capacité équivalente C_eq de deux condensateurs branchés en série ?",
+    "options": [
+      "C_eq = C_1 + C_2",
+      "C_eq = (C_1 * C_2) / (C_1 + C_2)",
+      "C_eq = (C_1 + C_2) / (C_1 * C_2)",
+      "C_eq = C_1 * C_2"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En série, 1/C_eq = 1/C_1 + 1/C_2, soit C_eq = (C_1 * C_2)/(C_1 + C_2)."
+  },
+  {
+    "id": 10,
+    "questionText": "Lors de l'association de several condensateurs en série, la capacité équivalente obtenue est :",
+    "options": [
+      "Supérieure à la plus grande des capacités de l'association.",
+      "Égale à la moyenne arithmétique de toutes les capacités.",
+      "Inférieure à la plus petite des capacités de l'association.",
+      "Toujours égale à zéro."
+    ],
+    "correctIndex": 2,
+    "explanationText": "L'association en série donne toujours une capacité équivalente inférieure à la plus petite de toutes."
+  },
+  {
+    "id": 11,
+    "questionText": "Lors de la charge d'un condensateur à travers un conducteur ohmique par un générateur idéal de tension de f.e.m. E, la loi d'additivité des tensions s'écrit :",
+    "options": [
+      "u_R(t) - u_C(t) = E",
+      "u_R(t) + u_C(t) = E",
+      "u_R(t) + u_C(t) = 0",
+      "u_R(t) × u_C(t) = E"
+    ],
+    "correctIndex": 1,
+    "explanationText": "D'après la loi des mailles, u_R(t) + u_C(t) = E."
+  },
+  {
+    "id": 12,
+    "questionText": "Quelle est l'équation différentielle vérifiée par la tension u_C(t) lors de la charge du condensateur par un échelon de tension positif de valeur E ?",
+    "options": [
+      "u_C(t) + R · C · (du_C/dt) = 0",
+      "u_C(t) + R · C · (du_C/dt) = E",
+      "u_C(t) - (1/(R·C)) · (du_C/dt) = E",
+      "(du_C/dt) + R · C · u_C(t) = E"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque u_R = R*i = R*C*du_C/dt, u_R + u_C = E devient u_C + RC * du_C/dt = E."
+  },
+  {
+    "id": 13,
+    "questionText": "Quelle est l'équation différentielle vérifiée par la charge q(t) du condensateur lors de la charge ?",
+    "options": [
+      "q(t) + R · C · (dq/dt) = E",
+      "q(t) + R · C · (dq/dt) = C · E",
+      "q(t) + (dq/dt) = E",
+      "(1/C) q(t) - R · (dq/dt) = E"
+    ],
+    "correctIndex": 1,
+    "explanationText": "u_C + u_R = E => q/C + R * dq/dt = E => q + RC * dq/dt = CE."
+  },
+  {
+    "id": 14,
+    "questionText": "La solution de l'équation différentielle de la tension aux bornes du condensateur lors de la charge s'écrit sous la forme :",
+    "options": [
+      "u_C(t) = E · e^(-t/(R·C))",
+      "u_C(t) = E · (1 - e^(-t/(R·C)))",
+      "u_C(t) = E · (1 + e^(-t/(R·C)))",
+      "u_C(t) = -E · e^(-t/(R·C))"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La tension commence à 0V pour t=0 et tend vers E en régime permanent : u_C(t) = E(1 - e^(-t/RC))."
+  },
+  {
+    "id": 15,
+    "questionText": "Quelle est l'expression de la constante de temps τ d'un dipôle RC ?",
+    "options": [
+      "τ = R / C",
+      "τ = R × C",
+      "τ = C / R",
+      "τ = 1 / (R × C)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La constante de temps d'un dipôle RC vaut τ = R * C."
+  },
+  {
+    "id": 16,
+    "questionText": "L'analyse dimensionnelle montre que la constante de temps τ = R · C est homogène à :",
+    "options": [
+      "Un inverse de temps (s⁻¹).",
+      "Une résistance (Ω).",
+      "Un temps (s).",
+      "Une capacité (F)."
+    ],
+    "correctIndex": 2,
+    "explanationText": "[R*C] = ([U]/[I]) * ([I]*[T]/[U]) = [T], donc c'est bien homogène à une durée."
+  },
+  {
+    "id": 17,
+    "questionText": "Au cours de la charge, à l'instant t = τ, la tension u_C(tau) atteint environ :",
+    "options": [
+      "37% de sa valeur maximale E.",
+      "50% de sa valeur maximale E.",
+      "63% de sa valeur maximale E.",
+      "99% de sa valeur maximale E."
+    ],
+    "correctIndex": 2,
+    "explanationText": "u_C(τ) = E * (1 - e⁻¹) ≈ 0.63 * E."
+  },
+  {
+    "id": 18,
+    "questionText": "Au bout de quelle durée considère-t-on pratiquement que le condensateur est totalement chargé ?",
+    "options": [
+      "t = τ",
+      "t = 3τ",
+      "t = 5τ",
+      "t = 10τ"
+    ],
+    "correctIndex": 2,
+    "explanationText": "À t = 5τ, la tension u_C atteint plus de 99.3% de E, on considère la charge complète accomplie."
+  },
+  {
+    "id": 19,
+    "questionText": "La courbe représentant l'évolution de la tension u_C(t) au cours de la charge met en évidence deux régimes :",
+    "options": [
+      "Le régime transitoire et le régime permanent.",
+      "Le régime périodique et le régime apériodique.",
+      "Le régime sinusoïdal et le régime continu.",
+      "Le régime alternatif et le régime stationnaire."
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'évolution d'un système vers son état stable comporte un régime transitoire variable suivi d'un régime permanent constant."
+  },
+  {
+    "id": 20,
+    "questionText": "En régime permanent (générateur de courant continu), le condensateur se comporte comme :",
+    "options": [
+      "Un court-circuit (il laisse passer tout le courant).",
+      "Un interrupteur ouvert (l'intensité du courant s'annule).",
+      "Une simple résistance de valeur R.",
+      "Un amplificateur de tension alternatif."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Totalement chargé, i(t) = 0, aucun courant ne traverse la branche : le condensateur bloque le courant continu."
+  },
+  {
+    "id": 21,
+    "questionText": "Quelle est la valeur de l'intensité du courant de charge i(t) à l'instant initial t = 0 (charge) ?",
+    "options": [
+      "i(0) = 0",
+      "i(0) = E / R",
+      "i(0) = E × R",
+      "i(0) = ∞"
+    ],
+    "correctIndex": 1,
+    "explanationText": "À t = 0, u_C(0) = 0, donc u_R(0) = E, ainsi i(0) = E/R."
+  },
+  {
+    "id": 22,
+    "questionText": "Quelle est l'expression de l'intensité du courant i(t) au cours de la charge en fonction du temps ?",
+    "options": [
+      "i(t) = (E/R) · (1 - e^(-t/tau))",
+      "i(t) = (E/R) · e^(-t/tau)",
+      "i(t) = -(E/R) · e^(-t/tau)",
+      "i(t) = E · C · e^(-t/tau)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque i(t) = C * du_C/dt, la dérivee de E(1 - e^(-t/τ)) donne i(t) = (E/R)e^(-t/τ)."
+  },
+  {
+    "id": 23,
+    "questionText": "Lors de la décharge d'un condensateur branché sur une résistance R, l'équation différentielle s'écrit :",
+    "options": [
+      "u_C(t) + R · C · (du_C/dt) = E",
+      "u_C(t) + R · C · (du_C/dt) = 0",
+      "u_C(t) - R · C · (du_C/dt) = 0",
+      "(du_C/dt) - (1/(R · C)) u_C(t) = 0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La décharge correspond à un circuit sans générateur : u_R + u_C = 0 => RC*du_C/dt + u_C = 0."
+  },
+  {
+    "id": 24,
+    "questionText": "La solution de l'équation différentielle de la tension aux bornes du condensateur lors de la décharge est :",
+    "options": [
+      "u_C(t) = E · (1 - e^(-t/tau))",
+      "u_C(t) = E · e^(-t/tau)",
+      "u_C(t) = -E · e^(-t/tau)",
+      "u_C(t) = E · e^(t/tau)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque u_C décroît de E à 0V, on a u_C(t) = E * e^(-t/τ)."
+  },
+  {
+    "id": 25,
+    "questionText": "Au cours de la décharge, à l'instant t = τ, la tension aux bornes du condensateur est égale à :",
+    "options": [
+      "0.63 · E",
+      "0.50 · E",
+      "0.37 · E",
+      "0"
+    ],
+    "correctIndex": 2,
+    "explanationText": "u_C(τ) = E * e⁻¹ ≈ 0.37 * E (elle a de plus diminué de 63%)."
+  },
+  {
+    "id": 26,
+    "questionText": "Pourquoi l'intensité du courant i(t) est-elle négative au cours de la décharge du condensateur ?",
+    "options": [
+      "Car le condensateur crée des électrons supplémentaires.",
+      "Car le sens réel du courant lors de la décharge est opposé au sens conventionnel choisi lors de la charge.",
+      "Car la résistance détruit le signal électrique.",
+      "Car le circuit est branché à l'envers."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le courant sort de l'armature positive lors de la décharge, à l'opposé du sens habituel de charge (convention récepteur)."
+  },
+  {
+    "id": 27,
+    "questionText": "Quelle est l'expression de l'énergie électrique E_e emmagasinée dans un condensateur ?",
+    "options": [
+      "E_e = C × u_C²",
+      "E_e = (1/2) C × u_C²",
+      "E_e = (1/2) C / u_C²",
+      "E_e = (1/2) q × C²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie stockée par le champ électrostatique du condensateur est E_e = 1/2 * C * u_C²."
+  },
+  {
+    "id": 28,
+    "questionText": "Si la tension aux bornes d'un condensateur est doublée, son énergie emmagasinée est :",
+    "options": [
+      "Doublée.",
+      "Divisée par deux.",
+      "Quadruplée (multipliée par 4).",
+      "Invariant"
+    ],
+    "correctIndex": 2,
+    "explanationText": "E_e étant proportionnelle à u_C², doubler u_C multiplie l'énergie par 2² = 4."
+  },
+  {
+    "id": 29,
+    "questionText": "Quelle est l'unité de l'énergie électrique emmagasinée dans le Système International ?",
+    "options": [
+      "Le Watt (W).",
+      "Le Volt (V).",
+      "Le Joule (J).",
+      "L'Ampère (A)."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Toute forme d'énergie s'exprime et se calcule en Joules (J)."
+  },
+  {
+    "id": 30,
+    "questionText": "Sur un graphique représentant u_C(t) lors de la charge, comment déterminez graphiquement τ avec la tangente ?",
+    "options": [
+      "C'est l'intersection de la tangente à l'origine (t=0) avec l'asymptote horizontale u_C = E.",
+      "C'est l'intersection de la courbe avec l'axe des temps.",
+      "C'est la valeur du temps où la tension est maximale.",
+      "C'est l'asymptote verticale de fin de charge."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La tangente à l'origine croise l'asymptote de régime permanent u_C = E exactement à l'abscisse t = τ."
+  },
+  {
+    "id": 31,
+    "questionText": "Si l'on augmente la valeur de la résistance R dans un dipôle RC, la durée de la charge va :",
+    "options": [
+      "Diminuer.",
+      "Augmenter (le condensateur se charge plus lentement).",
+      "Rester inchangée.",
+      "S'annuler instantanément."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Augmenter R augmente τ = RC, limitant le débit d'électricité d'où une charge plus lente."
+  },
+  {
+    "id": 32,
+    "questionText": "Si l'on branche un condensateur de capacité C = 10 µF à une résistance R = 100 kΩ, la constante de temps τ vaut :",
+    "options": [
+      "1 ms",
+      "1 s",
+      "10 s",
+      "0.1 s"
+    ],
+    "correctIndex": 1,
+    "explanationText": "τ = 100 × 10³ Ω * 10 × 10⁻⁶ F = 1 s."
+  },
+  {
+    "id": 33,
+    "questionText": "Lorsqu'un condensateur est chargé par un générateur d'intensité constante I_0, la tension u_C(t) varie de manière :",
+    "options": [
+      "Exponentielle décroissante.",
+      "Linéaire en fonction du temps (u_C(t) = (I_0 / C) · t).",
+      "Sinusoïdale amortie.",
+      "Constante dès le début."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque q = I_0 · t et u_C = q/C, on a u_C(t) = I_0/C * t (variation linéaire)."
+  },
+  {
+    "id": 34,
+    "questionText": "Un condensateur de capacité C est chargé par I_0 = 2 · 10⁻⁵ A. À t = 0.1 s, u_C = 2 V. Que vaut C ?",
+    "options": [
+      "1 µF",
+      "10 µF",
+      "100 nF",
+      "2 µF"
+    ],
+    "correctIndex": 0,
+    "explanationText": "C = (I_0 · t) / u_C = (2·10⁻⁵ * 0.1) / 2 = 10⁻⁶ F = 1 µF."
+  },
+  {
+    "id": 35,
+    "questionText": "Pendant la phase de décharge complète du condensateur dans une résistance, toute l'énergie emmagasinée est :",
+    "options": [
+      "Intégralement renvoyée au générateur de tension.",
+      "Dissipée par effet Joule dans le conducteur ohmique.",
+      "Transformée en énergie magnétique stable.",
+      "Conservée éternellement dans le vide du diélectrique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La décharge dissipe 100% de l'énergie électrique emmagasinée thermique par effet Joule."
+  },
+  {
+    "id": 36,
+    "questionText": "Si la constante de temps d'un circuit est τ = 2 ms, le régime permanent est établi à la date approchée :",
+    "options": [
+      "2 ms",
+      "4 ms",
+      "10 ms",
+      "20 ms"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La charge stable s'établit à 5τ = 10 ms."
+  },
+  {
+    "id": 37,
+    "questionText": "Sur un graphique de décharge, l'intersection de la tangente à l'origine avec l'axe des temps correspond à :",
+    "options": [
+      "La date t = τ.",
+      "La fin absolue de la décharge.",
+      "La période propre des oscillations.",
+      "La date t = 5τ."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Pour la décharge, la tangente à l'origine croise l'axe horizontal à t = τ."
+  },
+  {
+    "id": 38,
+    "questionText": "Que vaut la tension u_R aux bornes de la résistance à la fin de la charge (en régime permanent) ?",
+    "options": [
+      "u_R = E",
+      "u_R = 0",
+      "u_R = 0.63 · E",
+      "u_R = -E"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En régime permanent, i = 0, donc u_R = R · i = 0V."
+  },
+  {
+    "id": 39,
+    "questionText": "Quelle formule permet de calculer l'énergie stockée en connaissant la charge q et la capacité C du condensateur ?",
+    "options": [
+      "E_e = (1/2) C / q²",
+      "E_e = (1/2) q² / C",
+      "E_e = (1/2) q × C",
+      "E_e = q² × C"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Comme u_C = q/C, E_e = 1/2 * C * u_C² = 1/2 * q² / C."
+  },
+  {
+    "id": 40,
+    "questionText": "Si l'on souhaite diviser par deux la constante de temps τ d'un circuit sans changer la résistance, il faut :",
+    "options": [
+      "Doubler la capacité C du condensateur.",
+      "Remplacer le condensateur par un autre de capacité deux fois plus faible (C/2).",
+      "Mettre un deuxième condensateur identique en parallèle.",
+      "Augmenter la f.e.m. E du générateur du double."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque τ = RC, pour diviser τ par 2 sans changer R, il faut réduire C de moitié."
+  }
+]
