@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "Atome et Quantification",
+    "questionText": "Pourquoi la mécanique classique de Newton est-elle insuffisante pour décrire le comportement des électrons dans un atome ?",
+    "options": [
+      "Parce que la mécanique de Newton ne s'applique qu'aux objets immobiles.",
+      "Parce qu'elle prévoit qu'un électron en orbite devrait rayonner de l'énergie en continu et s'effondrer sur le noyau, ce qui n'est pas le cas.",
+      "Parce que la masse de l'électron est considérée comme nulle en mécanique classique.",
+      "Parce que les lois de Newton ne fonctionnent que dans le vide spatial."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Selon l'électrodynamique classique, une charge accélérée (en orbite) rayonne de l'énergie. L'électron devrait s'écraser sur le noyau en une fraction de seconde. L'atome étant stable, la mécanique classique échoue à l'échelle microscopique."
+  },
+  {
+    "id": 2,
+    "category": "Atome et Quantification",
+    "questionText": "Quelle théorie physique moderne a dû être créée au début du XXe siècle pour remplacer la mécanique classique à l'échelle microscopique ?",
+    "options": [
+      "La mécanique des fluides visqueux.",
+      "La physique quantique (ou mécanique quantique).",
+      "La thermodynamique des milieux dispersifs.",
+      "La cinématique relativiste des galaxies."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La mécanique quantique est la théorie fondamentale qui décrit le comportement microscopique de la matière, introduisant les concepts de quantification et de dualité."
+  },
+  {
+    "id": 3,
+    "category": "Atome et Quantification",
+    "questionText": "Qu'est-ce qu'un spectre d'émission de l'atome d'hydrogène lorsqu'il est excité par une décharge électrique ?",
+    "options": [
+      "Un spectre continu de lumière blanche contenant toutes les longueurs d'onde.",
+      "Un spectre de raies discontinu, constitué de rides lumineuses colorées sur fond noir.",
+      "Une bande d'absorption violette uniforme.",
+      "Un signal purement acoustique inaudible."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les spectres atomiques ne sont pas continus, ils se composent de raies discrètes (rides colorées isolées), preuve que l'atome n'émet que des énergies bien spécifiques."
+  },
+  {
+    "id": 4,
+    "category": "Atome et Quantification",
+    "questionText": "Que postule Niels Bohr en 1913 concernant les états d'énergie d'un système atomique ?",
+    "options": [
+      "L'atome peut posséder n'importe quelle valeur d'énergie de façon continue.",
+      "L'énergie de l'atome est quantifiée : il ne peut exister que dans des états d'énergie discrets et bien déterminés.",
+      "L'énergie d'un atome dépend uniquement de sa température macroscopique.",
+      "Le noyau atomique absorbe toute l'énergie cinétique des électrons."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le postulat de Bohr introduit la quantification de l'énergie : l'atome ne peut prendre que des niveaux d'énergie fixes, caractérisés par un nombre entier n."
+  },
+  {
+    "id": 5,
+    "category": "Atome et Quantification",
+    "questionText": "Comment appelle-t-on l'état d'énergie le plus bas et le plus stable d'un atome (généralement noté E₁ pour n = 1) ?",
+    "options": [
+      "L'état excité.",
+      "L'état fondamental.",
+      "L'état d'ionisation.",
+      "L'état critique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'état fondamental correspond au niveau d'énergie minimale accessible par le système atomique, là où il est le plus stable."
+  },
+  {
+    "id": 6,
+    "category": "Atome et Quantification",
+    "questionText": "Qu'est-ce qu'un 'état excité' pour un atome ?",
+    "options": [
+      "Un état d'énergie instable, supérieur à l'état fondamental (n > 1).",
+      "L'état où l'atome a perdu tous ses protons.",
+      "Le moment où l'atome se déplace à vitesse maximale.",
+      "Un état d'énergie négatif infini."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Tout niveau d'énergie d'indice n > 1 est un état excité. L'atome y est instable et tendra à revenir vers un niveau inférieur."
+  },
+  {
+    "id": 7,
+    "category": "Atome et Quantification",
+    "questionText": "Par quel processus un atome passe-t-il d'un niveau d'énergie inférieur E_inf à un niveau d'énergie supérieur E_sup ?",
+    "options": [
+      "Par émission spontanée d'un électron.",
+      "Par absorption d'un photon d'énergie bien déterminée.",
+      "Par conduction ohmique de surface.",
+      "En augmentant sa masse atomique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour monter de niveau (transition ascendante), l'atome doit absorber exactement l'énergie manquante portée par un photon."
+  },
+  {
+    "id": 8,
+    "category": "Atome et Quantification",
+    "questionText": "Par quel processus un atome dans un état excité E_sup revient-il à un niveau d'énergie inférieur E_inf ?",
+    "options": [
+      "En capturant un neutron lent.",
+      "En émettant un photon (rayonnement) d'énergie bien précise.",
+      "En se refroidissant par effet Joule inverse.",
+      "En détruisant un de ses électrons."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La transition descendante vers un niveau plus stable s'accompagne de la restitution de l'excès d'énergie sous forme d'un photon émis."
+  },
+  {
+    "id": 9,
+    "category": "Atome et Quantification",
+    "questionText": "Quelle formule relie l'énergie E d'un photon à sa fréquence ν (nu) ?",
+    "options": [
+      "E = ½ m · c²",
+      "E = h · ν",
+      "E = h / ν",
+      "E = h · c · ν"
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est la relation de Planck-Einstein, postulant que l'énergie d'un quantum de lumière (photon) est proportionnelle à sa fréquence : E = h·ν."
+  },
+  {
+    "id": 10,
+    "category": "Atome et Quantification",
+    "questionText": "Dans la formule E = h · ν, que représente le paramètre h et quelle est son unité ?",
+    "options": [
+      "La constante d'Euler en rad/s.",
+      "La constante de Planck, exprimée en Joule-seconde (J·s).",
+      "L'altitude du mobile en mètres.",
+      "Le pas de calcul de la méthode d'Euler."
+    ],
+    "correctIndex": 1,
+    "explanationText": "h est la constante de Planck, une constante fondamentale de la physique quantique valant environ 6,63 × 10¯³⁴ J·s."
+  },
+  {
+    "id": 11,
+    "category": "Atome et Quantification",
+    "questionText": "En combinant la fréquence et la célérité de la lumière (ν = c / λ), quelle formule donne l'énergie E d'un photon en fonction de sa longueur d'onde λ ?",
+    "options": [
+      "E = h · c · λ",
+      "E = (h · c) / λ",
+      "E = λ / (h · c)",
+      "E = h · c / λ²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie d'un photon est inversement proportionnelle à sa longueur d'onde spatiale : E = h·c / λ."
+  },
+  {
+    "id": 12,
+    "category": "Atome et Quantification",
+    "questionText": "Lors de la transition d'un atome entre deux niveaux E_sup et E_inf, quelle équation régit l'énergie du photon émis ou absorbé ?",
+    "options": [
+      "h · ν = E_sup + E_inf",
+      "h · ν = E_sup - E_inf = |ΔE|",
+      "h · ν = E_inf - E_sup",
+      "h · ν = ½ (E_sup · E_inf)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La conservation de l'énergie impose que l'énergie du photon soit strictement égale à la différence entre les deux niveaux stationnaires : h·ν = E_sup - E_inf."
+  },
+  {
+    "id": 13,
+    "category": "Atome et Quantification",
+    "questionText": "L'unité d'énergie atomique usuelle est l'électronvolt (eV). Que vaut un électronvolt en Joules ?",
+    "options": [
+      "1 eV = 1.66 × 10¯²⁷ J",
+      "1 eV = 1.60 × 10¯¹⁹ J",
+      "1 eV = 6.63 × 10¯³⁴ J",
+      "1 eV = 3.00 × 10⁸ J"
+    ],
+    "correctIndex": 1,
+    "explanationText": "1 eV correspond à l'énergie cinétique acquise par un électron accéléré sous une tension de 1 Volt, soit 1,602 × 10¯¹⁹ Joules."
+  },
+  {
+    "id": 14,
+    "category": "Atome et Quantification",
+    "questionText": "Les niveaux d'énergie de l'atome d'hydrogène sont donnés par la formule E_n = -13,6 / n² (en eV). Que vaut l'énergie de son état fondamental (n = 1) ?",
+    "options": [
+      "0 eV",
+      "-13,6 eV",
+      "+13,6 eV",
+      "-6,8 eV"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour n = 1, E₁ = -13,6 / 1² = -13,6 eV. C'est le niveau le plus bas de l'atome d'hydrogène."
+  },
+  {
+    "id": 15,
+    "category": "Atome et Quantification",
+    "questionText": "Pourquoi les valeurs des énergies des états liés de l'atome (comme E_n = -13,6 / n²) sont-elles négatives ?",
+    "options": [
+      "Parce que les protons ont une charge négative.",
+      "Parce que ce sont des états liés (il faut fournir de l'énergie à l'atome pour arracher l'électron et briser la liaison).",
+      "À cause d'une erreur historique d'unités.",
+      "Parce que la vitesse de l'électron est orientée vers le bas."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le signe moins traduit l'état lié du système. Par convention, l'énergie est nulle lorsque l'électron est infiniment éloigné et libre."
+  },
+  {
+    "id": 16,
+    "category": "Atome et Quantification",
+    "questionText": "Qu'est-ce que 'l'état d'ionisation' d'un atome (obtenu lorsque n tend vers l'infini, d'énergie E_∞ = 0 eV) ?",
+    "options": [
+      "L'état d'équilibre le plus stable de l'atome.",
+      "L'état où l'électron est complètement arraché de l'atome et devient libre.",
+      "Le moment où le noyau atomique fissionne.",
+      "Un état de surtension électrique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "À l'état d'ionisation (E = 0), l'électron n'est plus retenu par l'attraction coulombienne du noyau, l'atome devient un ion."
+  },
+  {
+    "id": 17,
+    "category": "Atome et Quantification",
+    "questionText": "Qu'est-ce que 'l'énergie d'ionisation' d'un atome ?",
+    "options": [
+      "L'énergie libérée lors de la formation du noyau.",
+      "L'énergie minimale qu'il faut fournir à l'atome à l'état fondamental pour arracher son électron : E_ionisation = E_∞ - E₁.",
+      "L'énergie potentielle de pesanteur de l'électron.",
+      "La tension électrique aux bornes du GBF."
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est l'énergie nécessaire pour faire passer l'électron de n=1 à n=∞. Pour l'hydrogène, E_ionisation = 0 - (-13,6) = +13,6 eV."
+  },
+  {
+    "id": 18,
+    "category": "Atome et Quantification",
+    "questionText": "Un atome d'hydrogène est au niveau fondamental E₁ = -13,6 eV. Il reçoit un photon d'énergie E = 10,2 eV. Le niveau n=2 a pour énergie E₂ = -3,4 eV. Que se passe-t-il ?",
+    "options": [
+      "Rien du tout, le photon traverse l'atome sans interagir.",
+      "L'atome absorbe le photon et l'électron monte au niveau n=2 car -13,6 + 10,2 = -3,4 eV.",
+      "L'atome est détruit instantanément.",
+      "L'atome émet un deuxième photon de même énergie."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La différence d'énergie E₂ - E₁ vaut exactement 10,2 eV. Le photon possède l'énergie exacte requise, il est donc absorbé et l'atome est excité."
+  },
+  {
+    "id": 19,
+    "category": "Atome et Quantification",
+    "questionText": "Si cet atome d'hydrogène (au repos à E₁ = -13,6 eV) reçoit un photon de lumière d'énergie E = 11,5 eV. Sachant qu'aucun niveau n'est égal à -2,1 eV, que se passe-t-il ?",
+    "options": [
+      "L'atome absorbe le photon et garde l'énergie en trop sous forme de chaleur.",
+      "L'atome n'absorbe pas le photon ; la lumière de cette longueur d'onde traverse le gaz qui est totalement transparent pour elle.",
+      "L'électron monte à mi-chemin entre n=2 et n=3.",
+      "L'atome s'ionise partiellement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'atome ne peut pas stocker d'énergie entre deux niveaux quantifiés. Si l'énergie du photon ne correspond à aucune transition exacte, l'atome ne peut pas l'absorber : le gaz est transparent."
+  },
+  {
+    "id": 20,
+    "category": "Atome et Quantification",
+    "questionText": "Si un atome d'hydrogène à l'état fondamental reçoit un photon d'énergie E = 15,0 eV (supérieure à son énergie d'ionisation de 13,6 eV), que se passe-t-il ?",
+    "options": [
+      "Le photon est refusé car l'énergie est trop grande.",
+      "L'atome est ionisé, et l'excès d'énergie (15,0 - 13,6 = 1,4 eV) est conservé par l'électron libre sous forme d'énergie cinétique.",
+      "L'atome se transforme en hélium.",
+      "L'électron s'arrête sur le noyau."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie d'ionisation étant dépassée, l'énergie n'est plus quantifiée (spectre continu). L'électron est arraché et emporte le reste sous forme d'énergie cinétique : E_c = E_photon - E_ionisation."
+  },
+  {
+    "id": 21,
+    "category": "Atome et Quantification",
+    "questionText": "Un photon a une longueur d'onde dans le vide λ = 656 nm (lumière rouge). À quel domaine du spectre électromagnétique appartient-il ?",
+    "options": [
+      "Le domaine des ultraviolets (UV).",
+      "Le domaine de la lumière visible.",
+      "Le domaine des infrarouges (IR).",
+      "Le domaine des rayons X."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le domaine visible par l'œil humain s'étend d'environ 400 nm à 800 nm, 656 nm correspond à de la lumière visible rouge."
+  },
+  {
+    "id": 22,
+    "category": "Atome et Quantification",
+    "questionText": "Un photon a une longueur d'onde de λ = 121 nm. À quel domaine appartient-il ?",
+    "options": [
+      "Le domaine visible.",
+      "Le domaine des ultraviolets (UV) car λ < 400 nm.",
+      "Le domaine des micro-ondes.",
+      "Le domaine des ondes radio."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les radiations de longueurs d'onde inférieures à 400 nm appartiennent au domaine des ultraviolets (plus énergétiques que le violet visible)."
+  },
+  {
+    "id": 23,
+    "category": "Atome et Quantification",
+    "questionText": "Quelle formule permet d'exprimer la longueur d'onde λ d'un photon émis lors d'une transition descendante de E_sup vers E_inf ?",
+    "options": [
+      "λ = (E_sup - E_inf) / (h · c)",
+      "λ = (h · c) / (E_sup - E_inf)",
+      "λ = h · c · (E_sup - E_inf)",
+      "λ = E_sup / E_inf"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque ΔE = h·c/λ, on isole la longueur d'onde spatiale : λ = h·c / (E_sup - E_inf). Attention à bien convertir les énergies en Joules."
+  },
+  {
+    "id": 24,
+    "category": "Atome et Quantification",
+    "questionText": "Qu'est-ce qu'un spectre d'absorption pour un gaz atomique éclairé par de la lumière blanche continue ?",
+    "options": [
+      "Un spectre totalement noir.",
+      "Un spectre continu parsemé de raies noires (ombres) aux longueurs d'onde exactes des photons qui ont été absorbés par les atomes.",
+      "Un spectre composé uniquement de rides lumineuses colorées.",
+      "Une seule bande jaune au centre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les atomes absorbent les radiations correspondant à leurs transitions, laissant des raies sombres (noires) d'absorption aux mêmes endroits que leur spectre d'émission."
+  },
+  {
+    "id": 25,
+    "category": "Atome et Quantification",
+    "questionText": "La constante mécanique de Newton régit la trajectoire macroscopique des satellites. À l'échelle microscopique, le modèle quantique stipule que l'électron :",
+    "options": [
+      "Suit une trajectoire spirale continue vers le noyau.",
+      "N'a pas de trajectoire classique définie, mais occupe des niveaux d'énergie stables et quantifiés.",
+      "Se déplace en ligne droite uniforme.",
+      "Reste immobile au centre de l'atome."
+    ],
+    "correctIndex": 1,
+    "explanationText": "En physique quantique, la notion de trajectoire planétaire classique est abandonnée au profit d'états stationnaires d'énergie quantifiée."
+  },
+  {
+    "id": 26,
+    "category": "Atome et Quantification",
+    "questionText": "Si l'on augmente la fréquence ν d'un rayonnement lumineux, comment évolue l'énergie de chacun de ses photons ?",
+    "options": [
+      "Elle diminue.",
+      "Elle augmente proportionnellement (E = h · ν).",
+      "Elle reste rigoureusement constante.",
+      "Elle s'annule."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie d'un quantum de lumière est directement proportionnelle à sa fréquence temporelle ν."
+  },
+  {
+    "id": 27,
+    "category": "Atome et Quantification",
+    "questionText": "Si l'on augmente la longueur d'onde λ d'un rayonnement, l'énergie de ses photons va :",
+    "options": [
+      "Augmenter.",
+      "Diminuer (car l'énergie est inversement proportionnelle à λ).",
+      "Rester identique.",
+      "Doubler à chaque seconde."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Plus la longueur d'onde spatiale est grande (vers l'infrarouge/radio), moins les photons associés sont énergétiques (E = h·c/λ)."
+  },
+  {
+    "id": 28,
+    "category": "Atome et Quantification",
+    "questionText": "Pour l'atome d'hydrogène, la transition du niveau n=3 au niveau n=2 émet une raie rouge de longueur d'onde λ = 656 nm. La transition de n=4 à n=2 émettra une raie :",
+    "options": [
+      "Plus énergétique, donc de longueur d'onde plus courte (dans le bleu/violet).",
+      "Moins énergétique, de longueur d'onde plus longue (dans l'infrarouge).",
+      "Strictement identique de 656 nm.",
+      "Acoustique inaudible."
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'écart énergétique entre n=4 et n=2 est plus grand qu'entre n=3 et n=2. Le photon émis est plus énergétique, sa longueur d'onde λ est donc plus courte (couleur bleu-vert, raie Hβ)."
+  },
+  {
+    "id": 29,
+    "category": "Atome et Quantification",
+    "questionText": "Comment appelle-t-on la série de raies spectrales de l'atome d'hydrogène correspondant aux transitions de retour vers le niveau n = 2 (situées dans le domaine visible) ?",
+    "options": [
+      "La série de Lyman.",
+      "La série de Balmer.",
+      "La série de Paschen.",
+      "La série de Newton."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La série de Balmer regroupe les transitions électroniques retombant sur le niveau n = 2, dont quatre raies se situent dans le domaine visible."
+  },
+  {
+    "id": 30,
+    "category": "Atome et Quantification",
+    "questionText": "La série de Lyman regroupe les transitions de retour vers le niveau fondamental n = 1. Ces radiations se situent toutes dans :",
+    "options": [
+      "Le domaine visible.",
+      "Le domaine des ultraviolets (UV) car les sauts d'énergie sont très grands.",
+      "Le domaine des infrarouges (IR).",
+      "Le domaine des ondes radio."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les écarts énergétiques vers n=1 sont très grands, générant des photons de haute énergie situés dans les ultraviolets."
+  },
+  {
+    "id": 31,
+    "category": "Atome et Quantification",
+    "questionText": "Une ampoule Laser émet un rayonnement de puissance P = 3,0 mW à la longueur d'onde λ. Comment calcule-t-on le nombre N de photons émis par seconde par ce Laser ?",
+    "options": [
+      "N = P × h · c / λ",
+      "N = P / E_photon = P · λ / (h · c)",
+      "N = P · h · c · λ",
+      "N = 1 / P"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La puissance est l'énergie totale émise par seconde, soit N fois l'énergie d'un photon : P = N · E_photon => N = P / E_photon = P·λ / (h·c)."
+  },
+  {
+    "id": 32,
+    "category": "Atome et Quantification",
+    "questionText": "Quelle est la valeur de la célérité de la lumière c exprimée en unités de base du Système International ?",
+    "options": [
+      "3.00 × 10⁸ km/h",
+      "3.00 × 10⁸ m·s¯¹",
+      "340 m·s¯¹",
+      "9.81 m·s¯²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Dans le Système International, la célérité de la lumière vaut environ 3,00 × 10⁸ mètres par seconde (m·s¯¹)."
+  },
+  {
+    "id": 33,
+    "category": "Atome et Quantification",
+    "questionText": "L'analyse dimensionnelle de la formule de Planck E = h · ν montre que la constante h s'exprime en J·s. Cette unité est homogène à :",
+    "options": [
+      "Une force par seconde.",
+      "Un moment cinétique ou une action mécanique.",
+      "Une puissance thermique.",
+      "Une accélération angulaire."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le Joule-seconde est la dimension d'une action mécanique ou d'un moment cinétique en physique classique."
+  },
+  {
+    "id": 34,
+    "category": "Atome et Quantification",
+    "questionText": "Un atome passe d'un état d'énergie de -3,4 eV à un état de -1,51 eV. S'agit-il d'une émission ou d'une absorption de photon ?",
+    "options": [
+      "Une émission, car l'énergie devient plus négative.",
+      "Une absorption, car l'énergie du système augmente (-1,51 eV est supérieur à -3,4 eV).",
+      "Le système n'échange aucun photon.",
+      "Une expulsion d'un proton du noyau."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie finale étant supérieure à l'énergie initiale, l'atome a dû absorber de l'énergie portée par un photon."
+  },
+  {
+    "id": 35,
+    "category": "Atome et Quantification",
+    "questionText": "Que vaut l'énergie (en eV) du photon mis en jeu dans la transition de la Question 34 (entre -3,4 eV et -1,51 eV) ?",
+    "options": [
+      "4,91 eV",
+      "1,89 eV (car |-1,51 - (-3,4)| = 1,89 eV).",
+      "0 eV",
+      "5,01 eV"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie du photon vaut la différence absolue des niveaux : E = |-1,51 - (-3,4)| = 1,89 eV."
+  },
+  {
+    "id": 36,
+    "category": "Atome et Quantification",
+    "questionText": "Convertir l'énergie du photon de la question précédente (1,89 eV) en Joules :",
+    "options": [
+      "1,89 J",
+      "3,02 × 10¯¹⁹ J (car 1,89 × 1,60 × 10¯¹⁹ J).",
+      "1,18 × 10¹⁹ J",
+      "2,84 × 10¯¹⁸ J"
+    ],
+    "correctIndex": 1,
+    "explanationText": "E(J) = 1,89 × 1,60 × 10¯¹⁹ = 3,024 × 10¯¹⁹ Joules."
+  },
+  {
+    "id": 37,
+    "category": "Atome et Quantification",
+    "questionText": "Un atome d'hydrogène subit une désexcitation du niveau n=2 (E₂ = -3,40 eV) vers le niveau n=1 (E₁ = -13,6 eV). Quelle est l'énergie du photon émis ?",
+    "options": [
+      "17,0 eV",
+      "10,2 eV",
+      "13,6 eV",
+      "3,40 eV"
+    ],
+    "correctIndex": 1,
+    "explanationText": "E = E_sup - E_inf = -3,40 - (-13,6) = 10,2 eV. Ce saut émet un photon d'énergie 10,2 eV."
+  },
+  {
+    "id": 38,
+    "category": "Atome et Quantification",
+    "questionText": "Si un atome est à l'état d'ionisation (E = 0 eV), l'électron n'est plus lié. Son énergie cinétique en dehors de l'atome est :",
+    "options": [
+      "Quantifiée de la même manière (valeurs fixes uniquement).",
+      "Continue (elle peut prendre n'importe quelle valeur positive selon la vitesse de l'électron libre).",
+      "Strictement nulle.",
+      "Négative."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une fois l'électron libre (état non lié), son énergie n'est plus soumise aux restrictions de quantification : le spectre de l'électron libre est continu."
+  },
+  {
+    "id": 39,
+    "category": "Atome et Quantification",
+    "questionText": "Quelle est la longueur d'onde dans le vide λ d'un rayonnement dont les photons ont une énergie |ΔE| = 1,93 × 10¯¹⁸ J ? (On prend c = 3,00 × 10⁸ m/s et h = 6,63 × 10¯³⁴ J·s)",
+    "options": [
+      "656 nm",
+      "103 nm (car (6,63 × 10¯³⁴ × 3,00 × 10⁸) / 1,93 × 10¯¹⁸ ≈ 1,03 × 10¯⁷ m).",
+      "410 nm",
+      "121 nm"
+    ],
+    "correctIndex": 1,
+    "explanationText": "λ = h·c / E = (6,63 × 10¯³⁴ × 3,00 × 10⁸) / 1,93 × 10¯¹⁸ ≈ 1,03 × 10¯⁷ m = 103 nm (domaine des ultraviolets)."
+  },
+  {
+    "id": 40,
+    "category": "Atome et Quantification",
+    "questionText": "Le modèle quantique de quantification des niveaux de l'atome permet d'expliquer pourquoi les spectres atomiques de gaz sont :",
+    "options": [
+      "Des spectres continus de lumière blanche uniforme.",
+      "Des spectres de raies discrets (l'atome n'émet ou n'absorbe que des photons d'énergies spécifiques correspondant aux écarts entre ses niveaux).",
+      "Entièrement sombres et invisibles.",
+      "Identiques pour tous les éléments chimiques de l'univers."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La quantification de l'énergie implique que seules les transitions entre niveaux fixes sont possibles, ce qui donne naissance à des raies spectrales discrètes bien définies, signatures uniques de chaque élément."
+  }
+]
