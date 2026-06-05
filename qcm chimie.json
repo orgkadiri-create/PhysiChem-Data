@@ -1,0 +1,3642 @@
+[
+  {
+    "id": 1,
+    "category": "Suivi Temporel",
+    "questionText": "Qu'est-ce qu'une transformation chimique rapide ?",
+    "options": [
+      "Une transformation dont l'évolution se fait sur plusieurs jours.",
+      "Une transformation qui semble se produire instantanément dès que les réactifs entrent en contact, ne permettant pas un suivi à l'œil nu.",
+      "Une transformation qui nécessite l'ajout obligatoire d'un catalyseur pour démarrer.",
+      "Une transformation dont la vitesse volumique est strictement nulle."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une transformation rapide se produit en un temps trop court (moins d'une fraction de seconde) pour être suivie à l'œil nu."
+  },
+  {
+    "id": 2,
+    "category": "Suivi Temporel",
+    "questionText": "Parmi les exemples suivants, lequel correspond à une transformation chimique rapide ?",
+    "options": [
+      "La formation de la rouille sur le fer.",
+      "La fermentation du jus de raisin.",
+      "Une réaction de précipitation (ex: formation du précipité AgCl) ou une réaction acido-basique.",
+      "L'oxydation des ions iodures par l'eau oxygénée."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Les réactions de précipitation et de neutralisation acido-basique sont quasi-instantanées."
+  },
+  {
+    "id": 3,
+    "category": "Suivi Temporel",
+    "questionText": "Qu'est-ce qu'une transformation chimique lente ?",
+    "options": [
+      "Une réaction qui s'arrête immédiatement après son déclenchement.",
+      "Une transformation qui dure de quelques secondes à plusieurs dizaines de minutes ou heures, et dont on peut suivre l'évolution à l'œil nu ou avec des appareils.",
+      "Une transformation réversible qui ne consomme aucun réactif.",
+      "Une transformation dont l'avancement maximal vaut toujours zéro."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une réaction lente a une durée permettant d'observe ou de mesurer l'évolution des concentrations des réactifs ou des produits."
+  },
+  {
+    "id": 4,
+    "category": "Suivi Temporel",
+    "questionText": "Comment appelle-t-on une grandeur qui modifie la vitesse d'une transformation chimique ?",
+    "options": [
+      "Une variable d'additivité.",
+      "Un facteur cinétique.",
+      "Un indicateur coloré.",
+      "Une constante d'Euler."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un facteur cinétique modifie la vitesse d'évolution d'un système (température, concentration, catalyseur)."
+  },
+  {
+    "id": 5,
+    "category": "Suivi Temporel",
+    "questionText": "Quels sont les principaux facteurs cinétiques mentionnés dans le cours ?",
+    "options": [
+      "La masse volumique, la couleur et le volume du récipient.",
+      "La température, la concentration initiale des réactifs et la présence d'un catalyseur.",
+      "L'indice de réfraction et la constante de Planck.",
+      "La pression atmosphérique seule."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La température, la concentration initiale des réactifs, et l'usage d'un catalyseur sont les principaux facteurs cinétiques."
+  },
+  {
+    "id": 6,
+    "category": "Suivi Temporel",
+    "questionText": "D'une manière générale, comment évolue la vitesse d'une réaction chimique lorsque la température du milieu réactionnel augmente ?",
+    "options": [
+      "Elle diminue fortement.",
+      "Elle augmente (la température accélère les chocs efficaces entre molécules).",
+      "Elle reste rigoureusement identique.",
+      "Elle s'annule instantanément."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'élévation de température augmente l'énergie cinétique moyenne des molécules, multipliant la fréquence des chocs efficaces."
+  },
+  {
+    "id": 7,
+    "category": "Suivi Temporel",
+    "questionText": "Comment la concentration initiale des réactifs influence-t-elle la cinétique d'une réaction ?",
+    "options": [
+      "Plus la concentration initiale des réactifs est élevée, plus la transformation est rapide.",
+      "Plus la concentration est faible, plus la réaction est rapide.",
+      "La concentration n'a aucune influence sur la vitesse de réaction.",
+      "Elle transforme une réaction lente en réaction instantanée réversible."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Un milieu plus concentré multiplie la probabilité de rencontres et de chocs fructueux entre réactifs."
+  },
+  {
+    "id": 8,
+    "category": "Suivi Temporel",
+    "questionText": "Qu'est-ce qu'un catalyseur ?",
+    "options": [
+      "Un réactif qui est entièrement consommé au début de la réaction.",
+      "Une substance qui augmente la vitesse d'une réaction chimique sans modifier l'état d'équilibre final, et qui est régénérée à la fin de celle-ci.",
+      "Un indicateur coloré qui change de couleur à l'équivalence.",
+      "Un solvant qui permet de diluer le mélange."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un catalyseur accélère la cinétique globale en proposant une autre voie réactionnelle d'énergie d'activation plus faible."
+  },
+  {
+    "id": 9,
+    "category": "Suivi Temporel",
+    "questionText": "Pourquoi réalise-t-on parfois une \"trempe chimique\" (addition d'eau glacée ou plongée dans de la glace) lors du suivi d'une réaction ?",
+    "options": [
+      "Pour augmenter instantanément la vitesse de la réaction.",
+      "Pour stopper (ou bloquer) la réaction à un instant précis en diminuant brutalement la température et la concentration, afin de pouvoir doser un composant.",
+      "Pour faire évaporer les produits gazeux.",
+      "Pour purifier le précipité formé."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La trempe thermique et par dilution fige instantanément l'avancement afin de quantifier précisément le milieu à cette date."
+  },
+  {
+    "id": 10,
+    "category": "Suivi Temporel",
+    "questionText": "Dans le tableau d'avancement d'une réaction chimique, quelle grandeur, exprimée en moles (mol), permet de suivre l'évolution du système entre l'état initial et l'état final ?",
+    "options": [
+      "La conductance G.",
+      "L'avancement de la réaction, noté x.",
+      "Le temps de demi-réaction t1/2.",
+      "La constante des gaz parfaits R."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'avancement x is la variable de base traduisant l'avancement stœchiométrique global."
+  },
+  {
+    "id": 11,
+    "category": "Suivi Temporel",
+    "questionText": "Pour une réaction d'équation a A + b B -> c C + d D, quelle est la quantité de matière du réactif A à un instant t quelconque au cours de la transformation ?",
+    "options": [
+      "n(A) = n0(A) + a * x",
+      "n(A) = n0(A) - a * x",
+      "n(A) = c * x",
+      "n(A) = x / a"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La quantité restante de A est égale à sa quantité de matière initiale moins celle consommée (a * x)."
+  },
+  {
+    "id": 12,
+    "category": "Suivi Temporel",
+    "questionText": "Parmi les méthodes suivantes, laquelle est une méthode CHIMIQUE de suivi temporel ?",
+    "options": [
+      "La conductimétrie.",
+      "La pressiométrie.",
+      "Le titrage (ou dosage) acido-basique ou d'oxydoréduction à intervalles de temps réguliers.",
+      "La spectrophotométrie."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le titrage est une méthode destructive chimique, par opposition aux méthodes d'observation physique en continu."
+  },
+  {
+    "id": 13,
+    "category": "Suivi Temporel",
+    "questionText": "Quelle condition obligatoire doit remplir un système chimique pour que l'on puisse suivre son évolution par spectrophotométrie ?",
+    "options": [
+      "Le milieu doit être parfaitement incolore.",
+      "Au moins l'une des espèces chimiques (réactif ou produit) doit être colorée en solution.",
+      "La réaction doit dégager un produit gazeux.",
+      "Le milieu doit contenir uniquement des ions spectateurs."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La présence d'un ion ou composé coloré absorbant dans le visible/UV permet de relier l'absorbance à sa concentration."
+  },
+  {
+    "id": 14,
+    "category": "Suivi Temporel",
+    "questionText": "Selon la loi de Beer-Lambert utilisée en spectrophotométrie, l'absorbance A d'une solution diluée is :",
+    "options": [
+      "Inversement proportionnelle au volume de la solution.",
+      "Proportionnelle à la concentration C de l'espèce colorée (A = k * C).",
+      "Indépendante de la longueur d'onde de la lumière.",
+      "Toujours égale à la conductivité."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La loi s'écrit A = epsilon * l * C = k * C pour un composé absorbant unique dilué."
+  },
+  {
+    "id": 15,
+    "category": "Suivi Temporel",
+    "questionText": "Dans quel cas privilégie-t-on la méthode pressiométrique pour le suivi temporel d'une réaction ?",
+    "options": [
+      "Lorsque la réaction se déroule en phase solide pure.",
+      "Lorsque la transformation chimique produit ou consomme un gaz dans un récipient fermé de volume fixe.",
+      "Lorsque la conductivité de la solution reste rigoureusement constante.",
+      "Uniquement lors d'une réaction de précipitation."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La variation de pression d'un gaz formé ou consommé permet de calculer directement sa quantité de matière."
+  },
+  {
+    "id": 16,
+    "category": "Suivi Temporel",
+    "questionText": "Quelle loi des gaz parfaits applique-t-on pour relier la pression P d'un gaz à sa quantité de matière n dans un volume V ?",
+    "options": [
+      "P * V = n * R * T",
+      "P * n = V * R * T",
+      "P = (n * V) / (R * T)",
+      "P * V = constante * x"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'équation d'état classique des gaz parfaits s'énonce PV = nRT."
+  },
+  {
+    "id": 17,
+    "category": "Suivi Temporel",
+    "questionText": "Quelle condition doit vérifier une solution pour que l'on puisse suivre l'évolution de la réaction par conductimétrie ?",
+    "options": [
+      "La solution doit être un isolant parfait.",
+      "La réaction doit faire intervenir ou varier la concentration d'espèces ioniques (ions) en solution.",
+      "Le milieu doit impérativement dégager du gaz hydrogène.",
+      "La température doit varier de 100°C à chaque minute."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La conductivité dépend de la concentration et de la nature des porteurs de charge ioniques dissous."
+  },
+  {
+    "id": 18,
+    "category": "Suivi Temporel",
+    "questionText": "La conductivité σ d'une solution contenant des ions s'exprime en fonction des concentrations [X] et des conductivités molaires ioniques λ par la relation de Kohlrausch :",
+    "options": [
+      "σ = somme( λ / [X] )",
+      "σ = somme( λ * [X] )",
+      "σ = λ1 + λ2 + [X]",
+      "σ = (n * R * T) / V"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La relation de Kohlrausch donne la conductivité comme somme pondérée des concentrations de tous les ions."
+  },
+  {
+    "id": 19,
+    "category": "Suivi Temporel",
+    "questionText": "Quelle est la définition mathématique de la vitesse volumique v(t) d'une réaction chimique s'effectuant dans un volume V de solution ?",
+    "options": [
+      "v(t) = V * (dx/dt)",
+      "v(t) = (1/V) * (dx/dt)",
+      "v(t) = (1/V) * (d2x/dt^2)",
+      "v(t) = dx/dt"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La vitesse volumique est donnée par v = (1/Vs) * dx/dt, Vs représentant le volume de la solution."
+  },
+  {
+    "id": 20,
+    "category": "Suivi Temporel",
+    "questionText": "Dans le Système International d'unités, quelle est l'unité officielle de la vitesse volumique de réaction ?",
+    "options": [
+      "mol / s",
+      "mol / (m^3 * s)",
+      "L / (mol * s)",
+      "g / L"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En unités SI, la vitesse s'exprime en mole par mètre cube par seconde."
+  },
+  {
+    "id": 21,
+    "category": "Suivi Temporel",
+    "questionText": "En chimie des solutions, l'unité pratique la plus couramment utilisée pour exprimer la vitesse volumique de réaction is :",
+    "options": [
+      "mol / (L * s)  ou  mol / (L * min)",
+      "g / s",
+      "mol^2 * L",
+      "Bar / s"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Dans la pratique, le volume Vs est mesuré en Litres et le temps en secondes ou minutes."
+  },
+  {
+    "id": 22,
+    "category": "Suivi Temporel",
+    "questionText": "Sur un graphique représentant la courbe de l'avancement x(t) en fonction du temps, comment se détermine graphiquement la dérivée dx/dt à un instant donné ?",
+    "options": [
+      "C'est la valeur de l'ordonnée à l'origine.",
+      "C'est le coefficient directeur (la pente) de la tangente à la courbe à cet instant.",
+      "C'est l'aire géométrique située sous la courbe.",
+      "C'est la moitié de la valeur maximale de x."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le taux de variation instantané dx/dt correspond exactement à la pente géométrique de la tangente à la courbe."
+  },
+  {
+    "id": 23,
+    "category": "Suivi Temporel",
+    "questionText": "Comment évolue la vitesse volumique d'une réaction chimique au cours du temps au fur et à mesure que la transformation progresse ?",
+    "options": [
+      "Elle reste rigoureusement constante du début à la fin.",
+      "Elle augmente de manière exponentielle.",
+      "Elle diminue progressivement au cours du temps jusqu'à s'annuler en fin de réaction.",
+      "Elle oscille de manière périodique."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La vitesse volumique s'atténue avec le temps sous l'effet de l'épuisement progressif des réactifs."
+  },
+  {
+    "id": 24,
+    "category": "Suivi Temporel",
+    "questionText": "Quelle est la cause physique de la diminution de la vitesse de réaction au cours du temps ?",
+    "options": [
+      "L'augmentation de la température du milieu.",
+      "La diminution de la concentration des réactifs (la raréfaction des réactifs réduit la fréquence des chocs efficaces).",
+      "L'apparition des produits qui accélèrent le système.",
+      "Le blocage mécanique de l'agitateur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La concentration des réactifs étant un facteur cinétique, sa diminution naturelle ralentit la cinétique."
+  },
+  {
+    "id": 25,
+    "category": "Suivi Temporel",
+    "questionText": "Que vaut la vitesse volumique de réaction lorsque l'état final du système chimique est atteint ?",
+    "options": [
+      "Elle est maximale.",
+      "Elle est nulle (v = 0 car l'avancement x ne varie plus, dx/dt = 0).",
+      "Elle est égale à la constante des gaz parfaits.",
+      "Elle change de signe algébrique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une fois l'état final stationnaire atteint, x reste constant, d'où une dérivée nulle et une vitesse nulle."
+  },
+  {
+    "id": 26,
+    "category": "Suivi Temporel",
+    "questionText": "Si une courbe donne l'évolution de la concentration d'un produit [P] = f(t) au cours du temps, la formule de la vitesse volumique s'écrit (avec un coefficient stœchiométrique égal à 1) :",
+    "options": [
+      "v = - d[P]/dt",
+      "v = d[P]/dt",
+      "v = [P] * Vs",
+      "v = (1/[P]) * d[P]/dt"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le produit se formant, sa concentration [P] augmente. Sa contribution à la vitesse vaut d[P]/dt."
+  },
+  {
+    "id": 27,
+    "category": "Suivi Temporel",
+    "questionText": "Si l'on suit l'évolution de la concentration d'un réactif [R] = f(t), comment s'exprime la vitesse volumique de réaction ?",
+    "options": [
+      "v = d[R]/dt",
+      "v = - d[R]/dt (le signe moins compense la pente négative du réactif pour donner une vitesse positive).",
+      "v = [R]^2",
+      "v = 0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les concentrations des réactifs régressent au cours du temps. On ajoute un signe moins devant d[R]/dt pour avoir une vitesse positive."
+  },
+  {
+    "id": 28,
+    "category": "Suivi Temporel",
+    "questionText": "Quelle est la définition exacte du temps de demi-réaction t1/2 ?",
+    "options": [
+      "La moitié de la durée totale nécessaire pour que la réaction s'arrête définitivement.",
+      "La durée au bout de laquelle l'avancement de la réaction est égal à la moitié de sa valeur finale : x(t1/2) = xf / 2.",
+      "Le temps nécessaire pour que la vitesse volumique double de valeur.",
+      "La date où le catalyseur est totalement éliminé."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le temps de demi-réaction correspond à la date à laquelle l'avancement x atteint la moitié de sa valeur stable finale."
+  },
+  {
+    "id": 29,
+    "category": "Suivi Temporel",
+    "questionText": "Pour une réaction totale où le réactif limitant est entièrement consommé, l'avancement final xf est égal à :",
+    "options": [
+      "xf = 0",
+      "xf = xmax",
+      "xf = 2 * n0",
+      "xf = xmax / 2"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Dans une réaction totale, la transformation atteint sa limitation stœchiométrique, soit xf = xmax."
+  },
+  {
+    "id": 30,
+    "category": "Suivi Temporel",
+    "questionText": "Graphiquement, comment détermine-t-on le temps de demi-réaction t1/2 sur une courbe d'avancement x = f(t) ?",
+    "options": [
+      "On cherche la valeur de xf/2 sur l'axe des ordonnées, puis on lit l'abscisse correspondante sur la courbe.",
+      "On prend l'intersection de la courbe avec la tangente à l'origine.",
+      "On divise l'abscisse de la fin de la courbe par deux.",
+      "C'est la pente à l'origine de la courbe."
+    ],
+    "correctIndex": 0,
+    "explanationText": "On cherche xf/2 en ordonnées, puis on projette ce point horizontalement sur la courbe x(t) pour trouver t1/2."
+  },
+  {
+    "id": 31,
+    "category": "Suivi Temporel",
+    "questionText": "Quel est l'intérêt de connaître la valeur du temps de demi-réaction t1/2 pour une transformation ?",
+    "options": [
+      "Calculer la valeur exacte de la constante de Planck.",
+      "Évaluer l'échelle de temps de la réaction et choisir la méthode de suivi la plus adaptée.",
+      "Déterminer la couleur finale de la solution.",
+      "Connaître le volume du réactif limitant restant."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La connaissance de t1/2 fournit l'ordre de grandeur de la durée du système réactionnel."
+  },
+  {
+    "id": 32,
+    "category": "Suivi Temporel",
+    "questionText": "Au bout d'une durée d'environ t = 4 à 5 fois t1/2, on considère généralement que :",
+    "options": [
+      "La réaction vient tout juste de commencer.",
+      "La transformation est pratiquement achevée (l'avancement atteint plus de 95% de sa valeur finale).",
+      "La vitesse volumique atteint sa valeur maximale.",
+      "Le milieu réactionnel s'arrête thermoélectriquement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Au bout de 5 demi-vies, la quasi-totalité des réactifs limitants a été consommée pour des cinétiques de premier ordre."
+  },
+  {
+    "id": 33,
+    "category": "Suivi Temporel",
+    "questionText": "Si on augmente la température (facteur cinétique), comment varie la valeur du temps de demi-réaction t1/2 ?",
+    "options": [
+      "Elle augmente.",
+      "Elle diminue (la réaction étant accélérée, elle atteint la moitié de son avancement en moins de temps).",
+      "Elle reste de valeur identique.",
+      "Elle devient infinie."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La hausse de température accélère la réaction, ce qui raccourcit le temps requis pour réaliser la moitié de la transformation."
+  },
+  {
+    "id": 34,
+    "category": "Suivi Temporel",
+    "questionText": "Une transformation produit un gaz dans un volume V à température T. L'expression de l'avancement est x(t) = [V / (R * T)] * ΔP(t). La formule de la vitesse volumique de réaction s'écrit :",
+    "options": [
+      "v = dx/dt",
+      "v = (1/Vs) * [V / (R * T)] * [d(ΔP)/dt]",
+      "v = d(ΔP)/dt",
+      "v = Vs * R * T * dP/dt"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En remplaçant x(t) dans l'expression standard de la vitesse volumique : v = (1/Vs) * dx/dt."
+  },
+  {
+    "id": 35,
+    "category": "Suivi Temporel",
+    "questionText": "Lors de la réaction entre le zinc et l'acide, la conductivité s'exprime par σ(t) = σ0 - C * x. La pente de la courbe de conductivité en fonction du temps est :",
+    "options": [
+      "Positive.",
+      "Négative (la conductivité s'abaisse car les ions hydronium très mobles sont remplacés par des ions spectateurs moins conducteurs).",
+      "Nulle dès le départ.",
+      "Infinie en fin de parcours."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La conductivité diminue car les ions H3O+ (de forte conductivité équivalente) disparaissent au profit d'ions de conductivité moindre."
+  },
+  {
+    "id": 36,
+    "category": "Suivi Temporel",
+    "questionText": "À l'instant initial t = 0 d'une courbe d'avancement x(t), la tangente est la plus inclinée. Cela indique que la vitesse volumique initiale est :",
+    "options": [
+      "Nulle.",
+      "Maximale.",
+      "Égale à la vitesse limite.",
+      "Imprévisible."
+    ],
+    "correctIndex": 1,
+    "explanationText": "À t = 0, la concentration des réactifs est à sa valeur initiale maximale, générant la vitesse volumique maximale."
+  },
+  {
+    "id": 37,
+    "category": "Suivi Temporel",
+    "questionText": "On donne une courbe d'avancement dont la valeur maximale stable est xmax = 4 mmol. À la date t = 10 min, x = 2 mmol. Que vaut le temps de demi-réaction t1/2 ?",
+    "options": [
+      "5 min",
+      "10 min (car 2 mmol correspond à la moitié de 4 mmol).",
+      "20 min",
+      "2 min"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Comme x(10 min) = 2 mmol = xf/2, alors par définition t1/2 = 10 min."
+  },
+  {
+    "id": 38,
+    "category": "Suivi Temporel",
+    "questionText": "Si on diminue de moitié le volume de la solution tout en gardant les mêmes quantités de matière initiales, les concentrations initiales doublent. Le temps de demi-réaction t1/2 va :",
+    "options": [
+      "Augmenter.",
+      "Diminuer (la solution étant plus concentrée, la vitesse augmente, donc la réaction est plus rapide).",
+      "Rester inchangé.",
+      "Doubler également."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les réactifs étant deux fois plus concentrés, les chocs sont facilités, accélérant la cinétique de conversion."
+  },
+  {
+    "id": 39,
+    "category": "Suivi Temporel",
+    "questionText": "Pendant un titrage chimique de suivi discontinu, quelle manipulation arrête la réaction dans le prélèvement juste avant de le doser ?",
+    "options": [
+      "Chauffer fortement le mélange.",
+      "Ajouter un catalyseur.",
+      "Réaliser une trempe (immersion rapide dans de l'eau glacée).",
+      "Agiter doucement la solution."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La trempe thermique et la dilution permettent d'arrêter temporairement la réaction avant le titrage."
+  },
+  {
+    "id": 40,
+    "category": "Suivi Temporel",
+    "questionText": "Quelle est la valeur approximative de l'avancement x à la date t = 5 * t1/2 dans le cas d'une réaction totale ?",
+    "options": [
+      "x env. 0",
+      "x env. xmax / 2",
+      "x env. xmax (la réaction est pratiquement achevée).",
+      "x = 5 * xmax"
+    ],
+    "correctIndex": 2,
+    "explanationText": "À 5 * t1/2, la réaction totale est pratiquement complète, avec un avancement extrêmement proche de xmax."
+  },
+  {
+    "id": 41,
+    "category": "Transformations Réversibles",
+    "questionText": "Selon la définition de Brönsted, qu'est-ce qu'un acide ?",
+    "options": [
+      "Une espèce chimique capable de capter uor plusieurs électrons.",
+      "Une espèce chimique capable de céder un proton H+.",
+      "Une espèce chimique capable de capter un proton H+.",
+      "Un solvant qui augmente la conductivité du milieu."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un acide est caractérisé par son aptitude à faire don d'un ou plusieurs protons H+."
+  },
+  {
+    "id": 42,
+    "category": "Transformations Réversibles",
+    "questionText": "Selon la définition de Brönsted, qu'est-ce qu'une base ?",
+    "options": [
+      "Une espèce capable de céder un proton H+.",
+      "Une espèce capable de capter un proton H+.",
+      "Un indicateur coloré neutre.",
+      "Une solution aqueuse saturée."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une base est définie comme une espèce capable de capter un proton hydrogène H+."
+  },
+  {
+    "id": 43,
+    "category": "Transformations Réversibles",
+    "questionText": "La relation générale reliant le pH d'une solution diluée à sa concentration en ions oxonium [H₃O⁺] s'écrit :",
+    "options": [
+      "pH = log[H₃O⁺]",
+      "pH = -log[H₃O⁺]",
+      "pH = 10^-[H₃O⁺]",
+      "pH = -ln[H₃O⁺]"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le potentiel hydrogène se calcule par la relation pH = -log[H₃O⁺]."
+  },
+  {
+    "id": 44,
+    "category": "Transformations Réversibles",
+    "questionText": "Quelle formule permet de recalculer la concentration [H₃O⁺] (en mol/L) en connaissant la valeur du pH ?",
+    "options": [
+      "[H₃O⁺] = log(pH)",
+      "[H₃O⁺] = 10^-pH",
+      "[H₃O⁺] = 10^pH",
+      "[H₃O⁺] = 1 / pH"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Inversement, la concentration des ions hydronium s'exprime par la puissance négative du pH : [H₃O⁺] = 10^-pH."
+  },
+  {
+    "id": 45,
+    "category": "Transformations Réversibles",
+    "questionText": "Une solution possède un pH = 3,0. Quelle est sa concentration [H₃O⁺] ?",
+    "options": [
+      "3,0 * 10^-1 mol/L",
+      "1,0 * 10^-3 mol/L",
+      "300 mol/L",
+      "1,0 * 10^-11 mol/L"
+    ],
+    "correctIndex": 1,
+    "explanationText": "[H₃O⁺] = 10^-3.0 = 1.0 * 10^-3 mol/L."
+  },
+  {
+    "id": 46,
+    "category": "Transformations Réversibles",
+    "questionText": "Le pH est une grandeur physique :",
+    "options": [
+      "Exprimée en Mètres par seconde.",
+      "Sans dimension (sans unité).",
+      "Exprimée en Moles par litre.",
+      "Exprimée en Ohms."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le pH est une valeur adimensionnelle qui s'inscrit généralement entre 0 et 14 dans l'eau."
+  },
+  {
+    "id": 47,
+    "category": "Transformations Réversibles",
+    "questionText": "Qu'est-ce qu'une réaction chimique totale ?",
+    "options": [
+      "Une réaction qui s'effectue dans les deux sens simultanément.",
+      "Une réaction qui s'arrête suite à l'épuisement total de l'un au moins des réactifs constituant le réactif limitant.",
+      "Une réaction dont l'avancement final est nul.",
+      "Une réaction n'intervenant qu'en présence de catalyseur."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Une réaction totale est caractérisée par la disparition complète de l'espèce limitante."
+  },
+  {
+    "id": 48,
+    "category": "Transformations Réversibles",
+    "questionText": "Qu'est-ce qu'une réaction chimique non totale ?",
+    "options": [
+      "Une réaction où aucun réactif ne commence à réagir.",
+      "Une réaction qui s'arrête alors que tous les réactifs sont encore présents dans le milieu réactionnel.",
+      "Une réaction qui détruit le solvant.",
+      "Une réaction dont le taux d'avancement vaut exactement 1."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La transformation limitée conduit à un état d'équilibre où les constituants réactifs subsistent co-présents."
+  },
+  {
+    "id": 49,
+    "category": "Transformations Réversibles",
+    "questionText": "Pourquoi désigne-t-on une réaction limitée comme étant réversible ?",
+    "options": [
+      "Parce qu'elle peut s'effectuer parallèlement dans le sens de formation (direct) et dans le sens inverse.",
+      "Parce qu'elle change de couleur si on l'agite.",
+      "Parce qu'elle produit de la chaleur.",
+      "Parce que sa constante augmente en refroidissant."
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'aspect réversible traduit sa capacité de réaction directe et inverse simultanée."
+  },
+  {
+    "id": 50,
+    "category": "Transformations Réversibles",
+    "questionText": "Comment représente-t-on le caractère équilibré et réversible d'une écration chimique ?",
+    "options": [
+      "Par une flèche simple.",
+      "Par un signe égal.",
+      "Par une double flèche (ou double demi-flèche).",
+      "Par une flèche verticale."
+    ],
+    "correctIndex": 2,
+    "explanationText": "On emploie la double flèche afin d'imager la coexistence des deux sens de déplacement réactifs."
+  },
+  {
+    "id": 51,
+    "category": "Transformations Réversibles",
+    "questionText": "Dans la réaction d'ionisation de l'acide éthanoïque avec l'eau : CH₃COOH + H₂O <=> CH₃COO⁻ + H₃O⁺, le sens gauche vers droite est :",
+    "options": [
+      "La réaction de retour.",
+      "La réaction directe (sens 1).",
+      "La précipitation.",
+      "La neutralisation lente."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le trajet gauche vers produit constitue le sens direct moléculaire ou sens 1."
+  },
+  {
+    "id": 52,
+    "category": "Transformations Réversibles",
+    "questionText": "Dans cette même équation, la conversion droite-gauche (CH₃COO⁻ + H₃O⁺ -> CH₃COOH + H₂O) est qualifiée de :",
+    "options": [
+      "La réaction directe.",
+      "La réaction inverse (sens 2).",
+      "L'ionisation totale.",
+      "La catalyse homogène."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le retour de produit à réactif constitue l'influence de retour, ou sens inverse (sens 2)."
+  },
+  {
+    "id": 53,
+    "category": "Transformations Réversibles",
+    "questionText": "Quand un système parvient-il à son état d'équilibre chimique ?",
+    "options": [
+      "Le système est déjà à l'équilibre et ne produit aucun courant.",
+      "Lorsque les concentrations macroscopiques de tous les réactifs et les produits n'évoluent plus dans le temps.",
+      "Dès que le pH devient nul.",
+      "Lorsque la réaction s'arrête de réagir dans les deux sens."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un état d'équilibre se manifeste par des concentrations macroscopiquement constantes."
+  },
+  {
+    "id": 54,
+    "category": "Transformations Réversibles",
+    "questionText": "À l'état d'équilibre, que se passe-t-il à l'échelle microscopique ?",
+    "options": [
+      "Toutes les réactions moléculaires cessent.",
+      "Les réactions directes et inverses se poursuivent au même rythme, s'annulant mutuellement.",
+      "L'eau détruit tous les ions formés.",
+      "Seul le produit se décompose."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'équilibre chimique est par essence de nature dynamique moléculaire."
+  },
+  {
+    "id": 55,
+    "category": "Transformations Réversibles",
+    "questionText": "Pourquoi dit-on d'un équilibre de réaction qu'il est dynamique ?",
+    "options": [
+      "Parce qu'il bouge mécaniquement sous l'agitation.",
+      "Car les réactions directes et inverses continuent de se produire à la même vitesse.",
+      "Car sa vitesse volumique globale de production devient infinie.",
+      "Car les concentrations subissent des micro-bruits."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'égalité des vitesses des deux sens de réaction engendre une composition globale apparemment étale."
+  },
+  {
+    "id": 56,
+    "category": "Transformations Réversibles",
+    "questionText": "Qu'est-ce que l'avancement maximal xmax d'une réaction ?",
+    "options": [
+      "L'avancement obtenu réellement à l'équilibre.",
+      "L'avancement fictif calculé dans l'hypothèse où la transformation serait totale.",
+      "La concentration initiale de l'eau.",
+      "La moitié de la matière des réactifs."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'avancement maximal xmax est calculé par hypothèse de totalité en supposant l'épuisement total du limitant."
+  },
+  {
+    "id": 57,
+    "category": "Transformations Réversibles",
+    "questionText": "Qu'est-ce que l'avancement final xf ou x_eq d'une réaction limitée ?",
+    "options": [
+      "L'avancement maximal théorique.",
+      "L'avancement réel mesuré expérimentalement à l'état final stable d'équilibre du système.",
+      "La somme des concentrations de départ.",
+      "Le maximum de la dérivée conductimétrique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'avancement final xf est la translation moléculaire d'équilibre constatée en situation réelle."
+  },
+  {
+    "id": 58,
+    "category": "Transformations Réversibles",
+    "questionText": "Comment définit-on mathématiquement le taux d'avancement final ?",
+    "options": [
+      "tau = xf * xmax",
+      "tau = xf / xmax",
+      "tau = xmax / xf",
+      "tau = xmax - xf"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le taux d'avancement final tau correspond au quotient normé tau = xf / xmax."
+  },
+  {
+    "id": 59,
+    "category": "Transformations Réversibles",
+    "questionText": "Quelle valeur prend le taux d'avancement final dans le cas d'une réaction totale ?",
+    "options": [
+      "tau = 0",
+      "tau = 1 (soit 100%).",
+      "tau > 1",
+      "tau = 0,5"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Si la réaction est totale, xf coïncide avec xmax, fixant tau = 1."
+  },
+  {
+    "id": 60,
+    "category": "Transformations Réversibles",
+    "questionText": "Quelle valeur caractérise le taux d'avancement d'une réaction réversible limitée ?",
+    "options": [
+      "tau = 1",
+      "tau est strictement compris entre 0 et 1 (tau < 1).",
+      "tau = 0",
+      "tau < 0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour une réaction limitée, l'état d'équilibre stationnaire bloque le processus à xf < xmax, d'où tau < 1."
+  },
+  {
+    "id": 61,
+    "category": "Transformations Réversibles",
+    "questionText": "On introduit une quantité d'acide faible n0 = C * V dans l'eau. Si la réaction était totale, l'avancement maximal xmax vaudrait (l'eau solvant étant en excès) :",
+    "options": [
+      "xmax = 0",
+      "xmax = C * V",
+      "xmax = [H₃O⁺] * V",
+      "xmax = 2 * C * V"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le soluté acide constituant le seul réactif limitant, xmax s'évalue simplement par n0 = C * V."
+  },
+  {
+    "id": 62,
+    "category": "Transformations Réversibles",
+    "questionText": "Pour une dissociation équilibrée d'acide AH dans l'eau : AH + H₂O <=> A⁻ + H₃O⁺, sachant que n(H₃O⁺)_eq = xf, quelle formule exprime xf en fonction du pH ?",
+    "options": [
+      "xf = pH * V",
+      "xf = 10^-pH * V",
+      "xf = 10^-pH / V",
+      "xf = C * V"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Comme [H₃O⁺]eq = 10^-pH et [H₃O⁺]eq = xf / V, nous en déduisons que xf = 10^-pH * V."
+  },
+  {
+    "id": 63,
+    "category": "Transformations Réversibles",
+    "questionText": "En combinant les deux Équations précédentes, quel est l'accord de taux d'avancement tau pour un acide faible ?",
+    "options": [
+      "tau = C / 10^-pH",
+      "tau = 10^-pH / C",
+      "tau = 10^-pH * C",
+      "tau = pH / C"
+    ],
+    "correctIndex": 1,
+    "explanationText": "tau = xf/xmax = (10^-pH * V) / (C * V) = 10^-pH / C."
+  },
+  {
+    "id": 64,
+    "category": "Transformations Réversibles",
+    "questionText": "On dissout de l'acide éthanoïque à C = 1,0 * 10^-2 mol/L. Le pH expérimental mesuré est 3,4. Que vaut la concentration [H₃O⁺] à l'équilibre ?",
+    "options": [
+      "3,4 * 10^-1 mol/L",
+      "3,98 * 10^-4 mol/L",
+      "1,0 * 10^-2 mol/L",
+      "1,0 * 10^-7 mol/L"
+    ],
+    "correctIndex": 1,
+    "explanationText": "[H₃O⁺]eq = 10^-3.4 = 3.98 * 10^-4 mol/L."
+  },
+  {
+    "id": 65,
+    "category": "Transformations Réversibles",
+    "questionText": "En reprenant les paramètres ci-dessus (C = 1,0 * 10^-2 mol/L et [H₃O⁺]eq = 3,98 * 10^-4 mol/L), évaluez le taux d'avancement final tau :",
+    "options": [
+      "tau = 1.0 (réaction totale)",
+      "tau env. 0,040 (soit 4,0%, la réaction is limitée).",
+      "tau = 0.40",
+      "tau = 0.00"
+    ],
+    "correctIndex": 1,
+    "explanationText": "tau = 3.98 * 10^-4 / 1.0 * 10^-2 = 0.0398 ≈ 4.0%."
+  },
+  {
+    "id": 66,
+    "category": "Transformations Réversibles",
+    "questionText": "Comme tau env. 4,0% pour notre solution d'acide éthanoïque de la Question 25, nous en concluons que :",
+    "options": [
+      "L'acide éthanoïque est un acide fort.",
+      "L'acide éthanoïque est un acide faible (sa réaction avec l'eau is limitée et réversible).",
+      "La solution possède un caractère basique complexe.",
+      "La réaction n'a pas débuté."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un taux d'avancement bas de ~4% est le signe caractéristique d'un acide faible."
+  },
+  {
+    "id": 67,
+    "category": "Transformations Réversibles",
+    "questionText": "Dans un Équilibre d'acide faible, quelle formule donne la concentration moléculaire résiduelle d'acide [AH]eq à l'équilibre ?",
+    "options": [
+      "[AH]eq = C",
+      "[AH]eq = C - [H₃O⁺]eq",
+      "[AH]eq = [H₃O⁺]eq",
+      "[AH]eq = C + [H₃O⁺]eq"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La conservation globale impose [AH]eq = C - [A⁻]eq, or [A⁻]eq = [H₃O⁺]eq."
+  },
+  {
+    "id": 68,
+    "category": "Transformations Réversibles",
+    "questionText": "Dans ce même processus, que vaut la concentration de la forme basique conjuguée [A⁻]eq produite à l'équilibre ?",
+    "options": [
+      "[A⁻]eq = C",
+      "[A⁻]eq = [H₃O⁺]eq",
+      "[A⁻]eq = C - [H₃O⁺]eq",
+      "[A⁻]eq = 0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Selon le tableau d'avancement stœchiométrique d'acide neutre, les deux ions se distillent en parts équimolaires [A⁻] = [H₃O⁺]."
+  },
+  {
+    "id": 69,
+    "category": "Transformations Réversibles",
+    "questionText": "Un acide dissous à C = 1,0 * 10^-3 mol/L conduit à un pH = 3,0. Évaluez le taux d'avancement tau de cette solution :",
+    "options": [
+      "tau = 0,10 (acide faible)",
+      "tau = 1,00 (l'acide is donc fort et sa dissociation totale).",
+      "tau = 0.00",
+      "tau = 10,0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "tau = 10^-3.0 / 1.0 * 10^-3 = 1.0, signifiant que l'acide fort s'est complètement désassemblé."
+  },
+  {
+    "id": 70,
+    "category": "Transformations Réversibles",
+    "questionText": "L'état d'équilibre is présumé dynamique parce que :",
+    "options": [
+      "On agite le bécher.",
+      "Les transformations moléculaires directe et inverse subsistent actives, mais s'effectuent à des vitesses équivalentes.",
+      "Le solvant d'eau s'évapore en continu.",
+      "La température subit des oscillations."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Macroscopiquement statique, le milieu reste dynamique microscopiquement avec des vitesses opposées égales."
+  },
+  {
+    "id": 71,
+    "category": "Transformations Réversibles",
+    "questionText": "Le taux d'avancement d'un équilibre réversible is nécessairement :",
+    "options": [
+      "Supérieur à un.",
+      "Inférieur ou égal à un (tau <= 1).",
+      "Constamment de zéro.",
+      "Inaccessible par mesure."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'état stationnaire équilibré ne peut excéder la limite stœchiométrique maximale théorique."
+  },
+  {
+    "id": 72,
+    "category": "Transformations Réversibles",
+    "questionText": "Dans une transformation totale, le taux d'avancement final prend la valeur de :",
+    "options": [
+      "tau = 0",
+      "tau = 1 (ou 100%).",
+      "tau = 0,5",
+      "tau = l'infini"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une réaction se qualifie de totale quand sa conversion de réactifs atteint sa valeur maximale d'avancement."
+  },
+  {
+    "id": 73,
+    "category": "Transformations Réversibles",
+    "questionText": "Comment s'écrit la demi-équation représentative d'un échange protonique d'acide/base de Brönsted ?",
+    "options": [
+      "HA + e- <=> A-",
+      "HA <=> A- + H+",
+      "HA + HO- <=> A-",
+      "H3O+ <=> HO- + H+"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le comportement d'échange s'illustre par le transfert protonique formel HA <=> A⁻ + H⁺."
+  },
+  {
+    "id": 74,
+    "category": "Transformations Réversibles",
+    "questionText": "À 25°C, quel is le pH théorique de l'eau pure neutre ?",
+    "options": [
+      "pH = 0",
+      "pH = 7",
+      "pH = 14",
+      "pH = 4,5"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La neutralité aqueuse induit à 25°C une concentration de neutralité [H₃O⁺] = 10^-7 mol/L soit pH = 7."
+  },
+  {
+    "id": 75,
+    "category": "Transformations Réversibles",
+    "questionText": "L'élévation d'acidité d'une solution se traduit par une hausse de [H₃O⁺] et un pH plus :",
+    "options": [
+      "Élevé.",
+      "Faible (proche de zéro).",
+      "Proche de 14.",
+      "Égal à la constante des gaz parfaits."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La nature inversement cologarithmique fait descendre le pH si les concentrations d'ions oxonium grimpent."
+  },
+  {
+    "id": 76,
+    "category": "Transformations Réversibles",
+    "questionText": "Quel appareillage délivre des mesures fiables de pH d'une solution aqueuse ?",
+    "options": [
+      "Un conductimètre portable.",
+      "Un pH-mètre étalonné doté d'une électrode combinée.",
+      "Un papier indicateur universel coloré.",
+      "Un thermomètre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le pH-mètre assure la mesure par analyse potentiométrique de l'activité protonique."
+  },
+  {
+    "id": 77,
+    "category": "Transformations Réversibles",
+    "questionText": "De quoi dépend la valeur d'avancement limitative tau d'une solution d'acide faible ?",
+    "options": [
+      "Uniquement du barbotage thermique.",
+      "De sa concentration globale d'origine et de la constante de réaction de ce couple.",
+      "Uniquement du volume de la verrerie.",
+      "Du sens d'injection des fluides."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour un couple donné, le taux d'avancement dépend directement du coefficient de dilution initiale."
+  },
+  {
+    "id": 78,
+    "category": "Transformations Réversibles",
+    "questionText": "La dilution d'une solution d'acide faible par apport d'eau pure aura pour incidence de :",
+    "options": [
+      "Faire décroître tau.",
+      "Faire croître tau (la dilution favorise le desserrage et la dissociation acide).",
+      "Laisser le taux stable.",
+      "Annuler la conductivité du milieu."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La loi d'ostwald consacre une augmentation de la dissociation relative à la suite d'un délayage aqueux."
+  },
+  {
+    "id": 79,
+    "category": "Transformations Réversibles",
+    "questionText": "À l'état stationnaire moléculaire équilibré, la répartition stœchiométrique du système :",
+    "options": [
+      "Oscille continuellement.",
+      "Se stabilise sans variations à conditions extérieures constantes.",
+      "Se décharge de ses ions formés.",
+      "Retombe à sa neutralité."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La composition stationnaire se pérennise tant que ne fluctuent ni la pression ni la température du milieu."
+  },
+  {
+    "id": 80,
+    "category": "Transformations Réversibles",
+    "questionText": "Pour le système ionique de l'eau conjugué H₃O⁺ / H₂O, la molécule d'eau joue le rôle de :",
+    "options": [
+      "L'acide.",
+      "La base conjuguée.",
+      "L'ion spectateur.",
+      "Le solvant réversif total."
+    ],
+    "correctIndex": 1,
+    "explanationText": "H₂O is le réservoir basique résultant de la captation protonique de H₃O⁺."
+  },
+  {
+    "id": 81,
+    "category": "Équilibre Dynamique",
+    "questionText": "Pour une réaction réversible d'équation générale: a A + b B <=> c C + d D, comment is défini le quotient de réaction Qr ?",
+    "options": [
+      "Qr = ( [A]^a * [B]^b ) / ( [C]^c * [D]^d )",
+      "Qr = ( [C]^c * [D]^d ) / ( [A]^a * [B]^b )",
+      "Qr = [C]^c * [D]^d - [A]^a * [B]^b",
+      "Qr = (a * [A] + b * [B]) / (c * [C] + d * [D])"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le quotient de réaction Qr correspond au produit des concentrations des produits sur le produit de celles des réactifs, Élevé aux puissances stœchiométriques."
+  },
+  {
+    "id": 82,
+    "category": "Équilibre Dynamique",
+    "questionText": "Le quotient de réaction Qr is une grandeur physique :",
+    "options": [
+      "Exprimée en mol/L.",
+      "Sans dimension (sans unité).",
+      "Exprimée en Siemens par mètre.",
+      "De valeur toujours constante de zéro."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Toutes les concentrations sont dimensionnellement rapportées à l'activité standard, d'où un quotient Qr adimensionnel."
+  },
+  {
+    "id": 83,
+    "category": "Équilibre Dynamique",
+    "questionText": "Quelles espèces chimiques ne doivent pas figurer dans le calcul de Qr ?",
+    "options": [
+      "Les ions aqueux.",
+      "Les solides purs, les précipités, les gaz insolubles et le solvant eau.",
+      "Uniquement les ions hydronium.",
+      "Les espèces de coefficient stœchiométrique de un."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les phases denses condensées pures d'espèces insolubles ou le solvant ont par définition une activité standard unitaire."
+  },
+  {
+    "id": 84,
+    "category": "Équilibre Dynamique",
+    "questionText": "Pour l'ionisation d'un acide d'origine organique : HCOOH(aq) + H₂O(l) <=> HCOO⁻(aq) + H₃O⁺(aq), quel is l'accord de Qr ?",
+    "options": [
+      "Qr = ( [HCOO⁻] * [H₃O⁺] ) / ( [HCOOH] * [H₂O] )",
+      "Qr = ( [HCOO⁻] * [H₃O⁺] ) / [HCOOH]",
+      "Qr = [HCOOH] / ( [HCOO⁻] * [H₃O⁺] )",
+      "Qr = [HCOO⁻] * [H₃O⁺]"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'activité du solvant d'eau se substitue par un facteur unitaire de un dans l'expression."
+  },
+  {
+    "id": 85,
+    "category": "Équilibre Dynamique",
+    "questionText": "Quelle is la raison de l'exclusion de l'eau solvant dans l'expression du quotient ci-dessus ?",
+    "options": [
+      "Elle ne participe pas activement.",
+      "Elle est le solvant. Sa forte quantité maintient sa concentration quasi-constante, ramenée à une activité Égale à 1.",
+      "Elle transporte des charges positives de sodium.",
+      "Elle est Évaporée par le pH-mètre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour un soluté fluide dilué, l'activité de l'espèce solvant s'indexe à unitaire de par sa prédominance quantitative."
+  },
+  {
+    "id": 86,
+    "category": "Équilibre Dynamique",
+    "questionText": "Soit l'équation avec solide : Cu²⁺(aq) + 2 Ag(s) <=> Cu(s) + 2 Ag⁺(aq). Donnez l'expression correcte de son Qr :",
+    "options": [
+      "Qr = [Ag⁺]^2 / [Cu²⁺]",
+      "Qr = ( [Cu(s)] * [Ag⁺]^2 ) / ( [Cu²⁺] * [Ag(s)]^2 )",
+      "Qr = [Cu²⁺] / [Ag⁺]^2",
+      "Qr = [Ag⁺]^2 * [Cu²⁺]"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'activité de chaque constituant à phase solide (Cu et Ag) vaut un, se simplifiant du quotient de réaction."
+  },
+  {
+    "id": 87,
+    "category": "Équilibre Dynamique",
+    "questionText": "Que devient l'expression d'un quotient Qr si on réécrit l'équation chimique dans le sens inverse ?",
+    "options": [
+      "Elle reste identique de valeur.",
+      "Elle s'inverse mathématiquement (Q'r = 1 / Qr).",
+      "Elle change algébriquement de signe.",
+      "Elle s'élève au carré de sa valeur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La bascule d'écriture inverse intervertit logiquement numérateur et dénominateur, d'où Q'r = 1 / Qr."
+  },
+  {
+    "id": 88,
+    "category": "Équilibre Dynamique",
+    "questionText": "La valeur stationnaire stationnée par Qr lors de l'accès à un Équilibre stationnaire se note :",
+    "options": [
+      "Qr,max",
+      "Qr,eq (ou Qr,f).",
+      "tau",
+      "pH_0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "On l'appelle communément quotient de réaction à l'état d'équilibre, noté Qr,eq."
+  },
+  {
+    "id": 89,
+    "category": "Équilibre Dynamique",
+    "questionText": "Pour des conditions de température régulées, la valeur du quotient Qr,eq d'un système is :",
+    "options": [
+      "Aléatoire à chaque lancement.",
+      "Une constante fixe indépendante des concentrations initiales, appelée Constante d'Équilibre (K).",
+      "Subordonnée au volume de liquide.",
+      "Constamment de valeur de un."
+    ],
+    "correctIndex": 1,
+    "explanationText": "À l'état final d'équilibre, le quotient s'identifie à une constante propre K."
+  },
+  {
+    "id": 90,
+    "category": "Équilibre Dynamique",
+    "questionText": "De quel paramètre physique dépend la constante d'équilibre K d'une réaction donnée ?",
+    "options": [
+      "Des concentrations des réactifs.",
+      "Du volume du milieu.",
+      "De la température du milieu.",
+      "De la vitesse d'agitation."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La constante K d'un système équilibré is une fonction mathématique exclusive de la température absolue T."
+  },
+  {
+    "id": 91,
+    "category": "Équilibre Dynamique",
+    "questionText": "Si on change les volumes de départ à température constante pour un même processus équilibré, la valeur de Qr,eq va :",
+    "options": [
+      "Changer d'échelle linéaire.",
+      "Rester identique et Égale à K.",
+      "Tomber vers zéro.",
+      "Fluctuer selon le limitant."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La constante d'équilibre K is par structure affranchie de la distribution quantitative des mélanges initiaux."
+  },
+  {
+    "id": 92,
+    "category": "Équilibre Dynamique",
+    "questionText": "Quelle Équation relie la constante K aux grandeurs de Qr,eq à l'état d'équilibre ?",
+    "options": [
+      "K = Qr,eq",
+      "K = 1 / Qr,eq",
+      "K = Qr,initial",
+      "K = Qr,eq * V"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'admission d'équilibre stable impose la concordance Qr,eq = K."
+  },
+  {
+    "id": 93,
+    "category": "Équilibre Dynamique",
+    "questionText": "Quelle technique expérimentale permet de mesurer les concentrations de solutés ioniques d'équilibre sans détruire le prélèvement ?",
+    "options": [
+      "Une chromatographie colorimétrique.",
+      "La conductimétrie (mesure de la conductivité de la solution).",
+      "Un pesage.",
+      "L'agitation prolongée."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'évaluation de la conductivité de fluide apporte une information quantitative stationnaire non perturbatrice."
+  },
+  {
+    "id": 94,
+    "category": "Équilibre Dynamique",
+    "questionText": "Sous quel accord mathématique s'établit la conductivité de Kohlrausch pour un mélange d'ions d'équilibre ?",
+    "options": [
+      "σ = somme( λ / [X]eq )",
+      "σ = somme( λ * [X]eq )",
+      "σ = K * Qr,eq",
+      "σ = (n * R * T) / V"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La conductivité σ s'identifie à l'action sommée de chaque ion présent pondéré par sa conductivité molaire ionique."
+  },
+  {
+    "id": 95,
+    "category": "Équilibre Dynamique",
+    "questionText": "Dans la formule de Kohlrausch, quelle unité is requise pour les concentrations pour Éviter toute erreur de calcul ?",
+    "options": [
+      "mol / L",
+      "mol / m^3 (Mole par mètre cube dans le Système International).",
+      "g / L",
+      "mol / s"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'expression métrique de conductivité (S/m) impose de convertir les volumes de concentrations en mètres cubes."
+  },
+  {
+    "id": 96,
+    "category": "Équilibre Dynamique",
+    "questionText": "Par quel facteur convertit-on une concentration de mol/L en mol/m^3 ?",
+    "options": [
+      "On multiplie par 10^-3.",
+      "On multiplie par 10^3 (multiplier par 1000).",
+      "On divise par 1000.",
+      "On ne change rien."
+    ],
+    "correctIndex": 1,
+    "explanationText": "On a 1 m^3 = 1000 Litres, donc une concentration en mole/L Équivaut à 1000 moles par m^3."
+  },
+  {
+    "id": 97,
+    "category": "Équilibre Dynamique",
+    "questionText": "Dans un Équilibre d'acide faible AH + H₂O <=> A⁻ + H₃O⁺ où [A⁻]eq = [H₃O⁺]eq, on exprime σ = (λ1 + λ2) * [H₃O⁺]eq. Isoler [H₃O⁺]eq :",
+    "options": [
+      "[H₃O⁺]eq = σ / (λ1 + λ2)",
+      "[H₃O⁺]eq = σ * (λ1 + λ2)",
+      "[H₃O⁺]eq = (λ1 + λ2) / σ",
+      "[H₃O⁺]eq = 10^-σ"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'organisation d'isomérie donne [H₃O⁺]eq = σ / (λ1 + λ2)."
+  },
+  {
+    "id": 98,
+    "category": "Équilibre Dynamique",
+    "questionText": "Dans la dissociation de cet acide faible de concentration de départ C, quelle is l'expression de [AH]eq à l'état d'équilibre ?",
+    "options": [
+      "[AH]eq = C",
+      "[AH]eq = C - [H₃O⁺]eq",
+      "[AH]eq = [H₃O⁺]eq",
+      "[AH]eq = C * tau"
+    ],
+    "correctIndex": 1,
+    "explanationText": "[AH]eq restant Équivaut à l'état d'origine diminué de l'avancement ionique unitaire [H₃O⁺]eq."
+  },
+  {
+    "id": 99,
+    "category": "Équilibre Dynamique",
+    "questionText": "En substituant les variables de concentrations d'équilibre par le taux d'avancement ( [H₃O⁺]eq = C * tau ), l'expression de K devient :",
+    "options": [
+      "K = ( C * tau^2 ) / (1 - tau)",
+      "K = ( C^2 * tau ) / (1 - tau)",
+      "K = ( C * tau ) / (1 - tau^2)",
+      "K = C^2 * tau^2"
+    ],
+    "correctIndex": 0,
+    "explanationText": "K = [A⁻][H₃O⁺]/[AH] = (C*tau)^2 / C(1-tau) = C * tau^2 / (1-tau)."
+  },
+  {
+    "id": 100,
+    "category": "Équilibre Dynamique",
+    "questionText": "En accord avec la relation K = (C * tau^2) / (1-tau), une dilution du système (diminution de C) à température constante produit :",
+    "options": [
+      "Une diminution de tau.",
+      "Une augmentation de tau (pour maintenir le quotient de valeur constante K).",
+      "Une stabilité parfaite de tau.",
+      "Une chute de tau vers zéro."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le raréfiement de l'acide fluidifie les molécules et favorise thermodynamiquement l'ionisation, augmentant tau."
+  },
+  {
+    "id": 101,
+    "category": "Équilibre Dynamique",
+    "questionText": "Si une réaction possède une constante d'équilibre très Élevée (K > 10^4), comment qualifie-t-on sa transformation ?",
+    "options": [
+      "Réaction négligeable.",
+      "Réaction quasi-totale (tau converge à plus de 99%).",
+      "Réaction infiniment lente.",
+      "Réaction réversible bloquée."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une constante d'équilibre de forte magnitude indique une conversion quasi-intégrale."
+  },
+  {
+    "id": 102,
+    "category": "Équilibre Dynamique",
+    "questionText": "Dans le cas où la valeur de K d'une réaction s'inscrit très basse (K < 10^-4), cela signifie que :",
+    "options": [
+      "La solution refuse de se mélanger.",
+      "La réaction is extrêmement limitée et l'état d'équilibre reste très proche de l'état initial.",
+      "Le système cinétique is total.",
+      "La conductivité is de valeur infinie."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une constante de très faible importance se traduit par une conversion moléculaire interne presque imperceptible."
+  },
+  {
+    "id": 103,
+    "category": "Équilibre Dynamique",
+    "questionText": "De l'acide formique de teneur C = 1,0 * 10^-2 mol/L conduit à [H₃O⁺]eq = 1,2 * 10^-3 mol/L. Évaluez la concentration résiduelle [HCOOH]eq :",
+    "options": [
+      "1,0 * 10^-2 mol/L",
+      "8,8 * 10^-3 mol/L",
+      "1,2 * 10^-3 mol/L",
+      "8,8 * 10^-2 mol/L"
+    ],
+    "correctIndex": 1,
+    "explanationText": "[HCOOH]eq = 1.0*10^-2 - 1.2*10^-3 = 8.8 * 10^-3 mol/L."
+  },
+  {
+    "id": 104,
+    "category": "Équilibre Dynamique",
+    "questionText": "En employant les grandeurs ci-dessus ([HCOO⁻]eq = [H₃O⁺]eq = 1,2 * 10^-3 mol/L et [HCOOH]eq = 8,8 * 10^-3 mol/L), Évaluez K :",
+    "options": [
+      "K = 1,64 * 10^-4",
+      "K = 1,36 * 10^-2",
+      "K = 1,2 * 10^-3",
+      "K = 8,8 * 10^-1"
+    ],
+    "correctIndex": 0,
+    "explanationText": "K = (1.2 * 10^-3)^2 / (8.8 * 10^-3) ≈ 1.64 * 10^-4."
+  },
+  {
+    "id": 105,
+    "category": "Équilibre Dynamique",
+    "questionText": "Pour le système Équilibré d'un acide faible et de l'ammoniaque, on mesure des concentrations finales Équivalentes de 2,0 * 10^-3 mol/L. Évaluez Qr,eq :",
+    "options": [
+      "Qr,eq = 2,0 * 10^-3",
+      "Qr,eq = 1,0",
+      "Qr,eq = 4,0 * 10^-6",
+      "Qr,eq = 0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le rapport stœchiométrique d'activités Équivalentes conduit à Qr,eq = (2.0*10^-3)^2 / (2.0*10^-3)^2 = 1.0."
+  },
+  {
+    "id": 106,
+    "category": "Équilibre Dynamique",
+    "questionText": "Une solution d'acide Éthanoïque distribue une conductivité σ = 5,0 * 10^-3 S/m. Évaluez [H₃O⁺]eq en mol/m^3 (avec λ1 + λ2 = 40 * 10^-3 S.m^2/mol) :",
+    "options": [
+      "0,125 mol/m^3",
+      "8,0 mol/m^3",
+      "0,20 mol/m^3",
+      "1,25 mol/m^3"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Comme σ = somme(λ)*c, alors c = σ / somme(λ) = 5.0*10^-3 / 40*10^-3 = 0.125 mol/m^3."
+  },
+  {
+    "id": 107,
+    "category": "Équilibre Dynamique",
+    "questionText": "Convertir la concentration ci-dessus (0,125 mol/m^3) en mol/L :",
+    "options": [
+      "125 mol/L",
+      "1,25 * 10^-4 mol/L",
+      "1,25 * 10^-3 mol/L",
+      "0,125 mol/L"
+    ],
+    "correctIndex": 1,
+    "explanationText": "c_mol = 0.125 / 1000 = 1.25 * 10^-4 mol/L."
+  },
+  {
+    "id": 108,
+    "category": "Équilibre Dynamique",
+    "questionText": "Sous quel accord de constante d'équilibre Ke se manifeste l'auto-ionisation de l'eau : 2 H₂O <=> H₃O⁺ + OH⁻ ?",
+    "options": [
+      "Ke = ( [H₃O⁺] * [OH⁻] ) / [H₂O]^2",
+      "Ke = [H₃O⁺] * [OH⁻]",
+      "Ke = 1 / ( [H₃O⁺] * [OH⁻] )",
+      "Ke = [H₃O⁺] + [OH⁻]"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La constante de produit ionique de l'eau pure est de Ke = [H₃O⁺] * [OH⁻]."
+  },
+  {
+    "id": 109,
+    "category": "Équilibre Dynamique",
+    "questionText": "À la température de confort de 25°C, quelle is la constante numérique de Ke ?",
+    "options": [
+      "1,0 * 10^-7",
+      "1,0 * 10^-14",
+      "14",
+      "7"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Ke vaut 1.0 * 10^-14 à 25°C."
+  },
+  {
+    "id": 110,
+    "category": "Équilibre Dynamique",
+    "questionText": "L'injection d'un catalyseur homogène dans un milieu Équilibré modifie-t-elle la valeur stable finale de K ?",
+    "options": [
+      "Non, le catalyseur n'influe pas sur la thermodynamique stable d'équilibre final.",
+      "Oui, il augmente K d'un facteur 100.",
+      "Oui, il divise K par deux.",
+      "Oui, uniquement en milieu acide."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Un catalyseur n'exerce qu'une influence cinétique, sans modifier le quotient d'équilibre final."
+  },
+  {
+    "id": 111,
+    "category": "Équilibre Dynamique",
+    "questionText": "À la suite d'un avancement stable d'acide faible à tau = 0,10 avec concentration C = 0,1 mol/L, que vaut la concentration d'ions formés ?",
+    "options": [
+      "0,1 mol/L",
+      "0,01 mol/L (car C * tau = 0,1 * 0,1).",
+      "0,09 mol/L",
+      "1,0 mol/L"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La conversion ionique effective de l'acide vaut [A⁻] = C * tau = 0.1 * 0.1 = 0.01 mol/L."
+  },
+  {
+    "id": 112,
+    "category": "Équilibre Dynamique",
+    "questionText": "Si on double fictivement l'écriture stœchiométrique globale d'une transformation, comment réagit la formulation de Qr ?",
+    "options": [
+      "Elle ne subit aucun changement.",
+      "Elle s'élève mathématiquement au carré (Q'r = Qr^2).",
+      "Elle is simplement multipliée par deux.",
+      "Elle chute de moitié."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le doublement stœchiométrique des exposants élève logiquement la formulation de Qr au carré."
+  },
+  {
+    "id": 113,
+    "category": "Équilibre Dynamique",
+    "questionText": "Que désigne la variable grecque λ dans la conductivité d'un Électrolyte ?",
+    "options": [
+      "La longueur d'onde lumineuse de l'appareil.",
+      "La conductivité molaire ionique propre de l'ion.",
+      "La constante de tension mécanique.",
+      "Le taux moléculaire."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La conductivité Équivalente molaire ionique traduit la cinétique de migration d'un ion donné sous champ Électrique."
+  },
+  {
+    "id": 114,
+    "category": "Équilibre Dynamique",
+    "questionText": "Quelle is l'unité de la conductivité de Kohlrausch λ dans le S.I. ?",
+    "options": [
+      "S / m",
+      "S * m^2 / mol",
+      "Ohm * m",
+      "mol / L"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'unité officielle s'enonce en Siemens mètre carré par mole (S.m²/mol)."
+  },
+  {
+    "id": 115,
+    "category": "Équilibre Dynamique",
+    "questionText": "Une réaction possède K = 25 dans le premier sens. Que vaut la constante K' de sa réaction inverse ?",
+    "options": [
+      "K' = -25",
+      "K' = 0,04 (car K' = 1/25 = 0,04).",
+      "K' = 50",
+      "K' = 5"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La constante inverse s'Évalue par inversion arithmétique 1 / K, soit K' = 1 / 25 = 0.04."
+  },
+  {
+    "id": 116,
+    "category": "Équilibre Dynamique",
+    "questionText": "Si un système voit ses concentrations finales d'équilibre identiques aux valeurs d'origines, que vaut Qr,eq ?",
+    "options": [
+      "Qr,eq = Qr,i (quotient de réaction initial).",
+      "Qr,eq vaut l'infini.",
+      "Qr,eq vaut zéro.",
+      "Qr,eq vaut le pH de la solution."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La concordance de composition implique de fait l'identité Qr,eq = Qr,i."
+  },
+  {
+    "id": 117,
+    "category": "Équilibre Dynamique",
+    "questionText": "La constante K dépend-elle de l'agitation d'ions passifs spectateurs non stœchiométriques ?",
+    "options": [
+      "Oui, ils modifient l'équilibre.",
+      "Non, les espèces inertes n'apparaissent pas dans la stœchiométrie ni dans K.",
+      "Uniquement en solution alcaline.",
+      "Oui, ils Élèvent K au carré."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un ion inerte spectateur s'effaçant de la stœchiométrie n'exerce pas d'influence sur K."
+  },
+  {
+    "id": 118,
+    "category": "Équilibre Dynamique",
+    "questionText": "Que se passe-t-il pour un milieu réactionnel dont le quotient initial Qr,i = K ?",
+    "options": [
+      "Il évolue fortement dans le sens direct.",
+      "Le système is déjà à l'état d'équilibre stationnaire stable (aucune Évolution macroscopique).",
+      "Il rétrograde en sens inverse.",
+      "Sa température double."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La coïncidence initiale avec K place de fait le processus à son optimum d'équilibre stable."
+  },
+  {
+    "id": 119,
+    "category": "Équilibre Dynamique",
+    "questionText": "Quelle valeur d'activité relative is conventionnellement assignée à un sel complexe solide pure dans un quotient ?",
+    "options": [
+      "Sa masse moléculaire.",
+      "La valeur 1.",
+      "Zéro.",
+      "Sa densité."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Toute phase liquide insoluble condensée ou solide pure a une activité thermodynamics unitaire de un."
+  },
+  {
+    "id": 120,
+    "category": "Équilibre Dynamique",
+    "questionText": "La constitution stationnaire d'un Équilibre chimique s'établit stable parce que :",
+    "options": [
+      "Le système a tari toutes ses réserves.",
+      "Les débits (vitesses volumiques) de conversion directe et inverse sont rigoureusement Équivalents.",
+      "L'agitation is inhibée par l'eau.",
+      "K Élimine l'excédent moléculaire."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La dynamique réversible stable se manifeste par l'égale cinétique des deux directions d'auto-transformation."
+  },
+  {
+    "id": 121,
+    "category": "Acide-Base",
+    "questionText": "Quelle Équation chimique traduit la réaction d'autoprotolyse de l'eau pure ?",
+    "options": [
+      "H₂O(l) -> H⁺(aq) + OH⁻(aq)",
+      "2 H₂O(l) <=> H₃O⁺(aq) + HO⁻(aq)",
+      "H₃O⁺(aq) + HO⁻(aq) -> 2 H₂O(l)",
+      "H₂O(l) + H₃O⁺(aq) <=> H₃O⁺(aq)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'autoprotolyse is le processus d'ionisation de l'eau sous forme d'un Équilibre acido-basique croisé."
+  },
+  {
+    "id": 122,
+    "category": "Acide-Base",
+    "questionText": "Quelle is la traduction mathématique de la constante de cette auto-ionisation Ke (produit ionique de l'eau) ?",
+    "options": [
+      "Ke = ( [H₃O⁺] * [HO⁻] ) / [H₂O]^2",
+      "Ke = [H₃O⁺] * [HO⁻]",
+      "Ke = [H₃O⁺] + [HO⁻]",
+      "Ke = 10^-pH"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le produit ionique de l'eau pure Ke lie les activités des deux ions : Ke = [H₃O⁺] * [HO⁻]."
+  },
+  {
+    "id": 123,
+    "category": "Acide-Base",
+    "questionText": "À 25°C, que valent respectivement les valeurs de Ke et de pKe ?",
+    "options": [
+      "Ke = 1,0 * 10^-7  et  pKe = 7",
+      "Ke = 1,0 * 10^-14 et  pKe = 14",
+      "Ke = 1,0  et  pKe = 0",
+      "Ke = 10^-14 et  pKe = 7"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le standard thermo-ionique de l'eau à 25°C fixe Ke = 10^-14 soit pKe = 14."
+  },
+  {
+    "id": 124,
+    "category": "Acide-Base",
+    "questionText": "L'autoprotolyse de l'eau Étant endothermique, comment varie Ke si la température s'élève ?",
+    "options": [
+      "Ke stagne à 10^-14.",
+      "Ke augmente (donc le pKe diminue).",
+      "Ke glisse vers zéro.",
+      "Ke s'annule."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'endothermicité conduit à une plus grande dissociation aqueuse si la température augmente, donc Ke grandit."
+  },
+  {
+    "id": 125,
+    "category": "Acide-Base",
+    "questionText": "Dans tout milieu aqueux complexe à 25°C, quel accord relationnel reste immuable ?",
+    "options": [
+      "[H₃O⁺] = [HO⁻] = 10^-7 mol/L",
+      "[H₃O⁺] * [HO⁻] = 1,0 * 10^-14",
+      "pH = 7",
+      "[H₃O⁺] + [HO⁻] = 14"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Quelles que soient les espèces exogènes, le solvant eau impose le respect final de Ke = [H₃O⁺][HO⁻] = 10^-14."
+  },
+  {
+    "id": 126,
+    "category": "Acide-Base",
+    "questionText": "La solution aqueuse se définit basique à 25°C s'il is vérifié que :",
+    "options": [
+      "pH = 7",
+      "pH > 7 (soit [H₃O⁺] < [HO⁻]).",
+      "pH < 7",
+      "[H₃O⁺] = 10^-2 mol/L"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le milieu basique alcalin présente un excès d'hydroxyde sur l'oxonium, d'où pH > 7."
+  },
+  {
+    "id": 127,
+    "category": "Acide-Base",
+    "questionText": "La constante globale d'acidité Ka caractérise quel processus réactif de support ?",
+    "options": [
+      "Le dosage d'une base faible par un acide fort.",
+      "La dissociation Équilibrée d'acide AH dans de l'eau : AH(aq) + H₂O(l) <=> A⁻(aq) + H₃O⁺(aq).",
+      "Le prélèvement thermo-ionique de solvant.",
+      "L'association de conducteurs métalliques."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Ka is la constante d'équilibre d'ionisation acide en solution aqueuse."
+  },
+  {
+    "id": 128,
+    "category": "Acide-Base",
+    "questionText": "Quelle is la structure mathématique de Ka pour un couple AH / A⁻ ?",
+    "options": [
+      "Ka = ( [AH] * [H₃O⁺] ) / [A⁻]",
+      "Ka = ( [A⁻] * [H₃O⁺] ) / [AH]",
+      "Ka = [A⁻] / ( [AH] * [HO⁻] )",
+      "Ka = [A⁻] * [H₃O⁺]"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La constante s'articule comme le rapport du produit ionique final d'acide sur l'acide non dissocié : [A⁻][H₃O⁺]/[AH]."
+  },
+  {
+    "id": 129,
+    "category": "Acide-Base",
+    "questionText": "Quel is l'accord d'isomérie reliant Ka aux grandeurs d'indice pKa ?",
+    "options": [
+      "Ka = log(pKa)",
+      "Ka = 10^-pKa",
+      "Ka = 10^pKa",
+      "Ka = 1 / pKa"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les indices logarithmiques négatifs s'inversent de façon standard par puissance de base 10 : Ka = 10^-pKa."
+  },
+  {
+    "id": 130,
+    "category": "Acide-Base",
+    "questionText": "Plus un acide se manifeste fort dans l'eau, plus sa constante Ka is :",
+    "options": [
+      "Basse (avec un pKa haut).",
+      "Élevée (avec un pKa bas).",
+      "Strictement négative.",
+      "De valeur infinie."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La force de l'acide accroît le taux de dissociation stœchiométrique, Élevant Ka au profit d'un pKa plus bas."
+  },
+  {
+    "id": 131,
+    "category": "Acide-Base",
+    "questionText": "Quelle is la formule liant le pH au pKa d'un couple d'acide faible ?",
+    "options": [
+      "pH = pKa - log( [A⁻]/[AH] )",
+      "pH = pKa + log( [A⁻]/[AH] )",
+      "pH = pKa * log( [A⁻]/[AH] )",
+      "pH = 10^pKa"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Par transformation logarithmique, la relation donne pH = pKa + log([A⁻]/[AH])."
+  },
+  {
+    "id": 132,
+    "category": "Acide-Base",
+    "questionText": "Sous quelle condition de concentrations résiduelles s'accomplit l'égalité pH = pKa ?",
+    "options": [
+      "[AH] > [A⁻]",
+      "[AH] = [A⁻] (les concentrations d'acide et de sa forme basique conjuguée coïncident Égales).",
+      "[AH] < [A⁻]",
+      "Le milieu ne contient plus de soluté."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Si pH = pKa, l'expression de fraction log s'annule, impliquant des parts Équivalentes d'acide et de base."
+  },
+  {
+    "id": 133,
+    "category": "Acide-Base",
+    "questionText": "Quel état de prédominance s'illustre en situation acide pH < pKa ?",
+    "options": [
+      "La neutralité de l'indicateur.",
+      "La forme acide AH prédomine ( [AH] > [A⁻] ).",
+      "La forme conjuguée basique A⁻ prédomine.",
+      "Les espèces s'évaporent du solvant."
+    ],
+    "correctIndex": 1,
+    "explanationText": "En deçà du pKa de référence, la forme active d'acide faible AH prédomine quantitativement."
+  },
+  {
+    "id": 134,
+    "category": "Acide-Base",
+    "questionText": "Quel état d'ionisation s'accomplit en situation alcaline pH > pKa ?",
+    "options": [
+      "La forme de sel de sodium.",
+      "La base conjuguée A⁻ prédomine ( [A⁻] > [AH] ).",
+      "L'acide moléculaire AH prédomine.",
+      "Il n'existe plus aucune molécule dissoute."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Au-delà du pKa, l'alcalinité du solvant favorise la stabilisation de la forme basique déprotonée."
+  },
+  {
+    "id": 135,
+    "category": "Acide-Base",
+    "questionText": "Qu'est-ce qu'un diagramme de prédominance pour un couple acide-base ?",
+    "options": [
+      "Une courbe d'avancement cinétique thermique.",
+      "Un axe gradué de pH fléchant les domaines de prédominance stœchiométrique de chaque espèce.",
+      "Une figure d meure des ondes.",
+      "Une figure géométrique vectorielle."
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est une représentation unidimensionnelle de l'axe de pH montrant quelle espèce domine de part et d'autre du pKa."
+  },
+  {
+    "id": 136,
+    "category": "Acide-Base",
+    "questionText": "Pour un couple dont le pKa s'identifie à 4,8, quelle entité domine à pH = 6,0 ?",
+    "options": [
+      "L'entité neutre.",
+      "La base conjuguée A⁻ car pH > pKa.",
+      "L'acide protoné AH car pH < pKa.",
+      "La conductivité is nulle."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Comme 6.0 > 4.8, le pH s'établit dans le domaine basique de prédominance de la base conjuguée."
+  },
+  {
+    "id": 137,
+    "category": "Acide-Base",
+    "questionText": "Pour ce même couple de pKa = 4,8, quel état domine à pH = 3,5 ?",
+    "options": [
+      "La base déprotonée.",
+      "L'acide moléculaire AH car pH < pKa.",
+      "Rien, le solvant is altéré.",
+      "La base conjuguée faible."
+    ],
+    "correctIndex": 1,
+    "explanationText": "3.5 < 4.8, nous classant ainsi dans la sphère d'activation acide de l'acide faible."
+  },
+  {
+    "id": 138,
+    "category": "Acide-Base",
+    "questionText": "Quelle is la définition d'un indicateur coloré acido-basique ?",
+    "options": [
+      "Un colorant fluorescent inerte.",
+      "Un couple acide/base faible dont les formes d'acide et de base présentent des teintes chromatiques distinctes.",
+      "Un réactif exothermique univoque.",
+      "Un sel de platine chimiquement neutre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est un couple acide/base faible dont les états moléculaires conjugués se teintent différemment à l'observation."
+  },
+  {
+    "id": 139,
+    "category": "Acide-Base",
+    "questionText": "Que désigne l'intervalle appelé zone de virage de l'indicateur ?",
+    "options": [
+      "Le point d'inflexion du bécher.",
+      "La plage de pH (≈ pKind +/- 1) au sein de laquelle s'effectue la transition de couleur.",
+      "La pente conductimétrique maximale.",
+      "Le retard cinétique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est la transition progressive de teinte sensible délimitée approximativement par pKa_ins +/- 1."
+  },
+  {
+    "id": 140,
+    "category": "Acide-Base",
+    "questionText": "Sous quel critère technique retient-on un indicateur pour colorer l'équivalence d'un titrage ?",
+    "options": [
+      "L'indicateur doit s'évaporer à 100°C.",
+      "Sa zone de virage spécifique doit impérativement englober le pH de la solution obtenu au point d'équivalence (pHeq).",
+      "Il doit s'agir d'une substance inerte.",
+      "Il faut verser 50 Litres."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La couleur ne vire de façon opportune que si le saut de pH à l'équivalence coupe sa zone de virage."
+  },
+  {
+    "id": 141,
+    "category": "Acide-Base",
+    "questionText": "À quel instant s'établit la concordance d'équivalence stœchiométrique lors d'un dosage (acide titré CA, VA par base CB, VB) ?",
+    "options": [
+      "CA * CB = VA * VBE",
+      "CA * VA = CB * VBE (les deux réactifs participants ont été ajustés dans leurs proportions optimales).",
+      "CA = VBE - 10^-pH",
+      "CA * VA = 10 * x_max"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'équivalence représente la proportion stœchiométrique parfaite où le titré is entièrement consommé par le titrant."
+  },
+  {
+    "id": 142,
+    "category": "Acide-Base",
+    "questionText": "Quelles exigences cinétiques s'exigent pour la réaction servant de support au tirage d'acide ?",
+    "options": [
+      "Infiniment lente et Équilibrée.",
+      "Totale (ou quasi-totale), rapide et univoque.",
+      "Assez lente pour s'amortir sur 5 jours.",
+      "Simplement de conductivité stable."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour un titrage quantitatif, la transformation doit être rapide, totale et unique."
+  },
+  {
+    "id": 143,
+    "category": "Acide-Base",
+    "questionText": "Lors du titrage d'un acide faible par de la soude, quelle valeur remarquable s'observe à la demi-équivalence (VB = VBE / 2) ?",
+    "options": [
+      "pH = 7",
+      "pH = pKa de l'acide faible titré.",
+      "pH = 14",
+      "pH = pH_initial / 2"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La neutralisation de moitié de l'acide faible initial impose l'équilibre pH = pKa."
+  },
+  {
+    "id": 144,
+    "category": "Acide-Base",
+    "questionText": "Qu'indique graphiquement l'équivalence d'un dosage sur une courbe de suivi de conductivité ?",
+    "options": [
+      "Un plateau horizontal monotone.",
+      "Une rupture franche de pente (changement de coefficient directeur de trace).",
+      "Un bruit de fluctuations sinusoïdales.",
+      "Aucun changement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le raccordement stœchiométrique d'ions de conductivités différentes crée un coude très net."
+  },
+  {
+    "id": 145,
+    "category": "Acide-Base",
+    "questionText": "Pourquoi la conductivité d'un acide fort titré par une base forte décroît-elle avant l'équivalence ?",
+    "options": [
+      "Parce que l'eau du bécher s'évapore.",
+      "Car les ions H₃O⁺ de conductivité supérieure sont consommés et substitués par des cations sodium de conductivité bien plus basse.",
+      "Car des Électrons libres sont captés par l'agitateur.",
+      "Car un précipité isolant se forme."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La conversion des ions mobiles oxonium en molécules neutres d'eau au profit de Na+ abaisse σ."
+  },
+  {
+    "id": 146,
+    "category": "Acide-Base",
+    "questionText": "Pour quelle raison la conductivité remonte-t-elle brusquement après dépassement de l'équivalence ?",
+    "options": [
+      "L'agiteur s'accélère mécaniquement.",
+      "Les ions hydroxyde HO⁻ conducteurs versés en excès s'accumulent sans réagir.",
+      "Le mélange s'échauffe par frottements.",
+      "L'acide initial se régénère."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Au-delà de l'équivalence, l'excès de titrant fort (contenant HO⁻ de conductivité molaire ionique très Élevée) accumule les porteurs de charge."
+  },
+  {
+    "id": 147,
+    "category": "Acide-Base",
+    "questionText": "Quelle is la finalité géométrique de la construction des tangentes parallèles ?",
+    "options": [
+      "Calculer la constante d'Euler.",
+      "Trouver géométriquement les coordonnées de l'équivalence (VBE, pHeq).",
+      "Calculer la vitesse initiale cinétique.",
+      "Estimer l'erreur systémique de la burette."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La méthode détermine graphiquement l'inflexion majeure de saut de pH pour isoler le point d'équivalence."
+  },
+  {
+    "id": 148,
+    "category": "Acide-Base",
+    "questionText": "Dans le dosage d'un acide faible par de la soude, le pH Équivalent s'établit invariablement :",
+    "options": [
+      "Strictement neutre à 7.",
+      "Basique (pHeq > 7 à 25°C) suite à la présence finale exclusive de la base conjuguée faible A⁻.",
+      "Acide (pHeq < 3).",
+      "Totalement instable."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La neutralisation absolue d'acide faible forme sa base correspondante A⁻, conférant au solvant un pH basique."
+  },
+  {
+    "id": 149,
+    "category": "Acide-Base",
+    "questionText": "Dans le dosage d'une base faible par de l'acide chlorhydrique, le pH Équivalent se classe toujours :",
+    "options": [
+      "Supérieur à 12.",
+      "Acide (pHeq < 7 à 25°C) en raison de la présence finale de l'acide conjugué faible BH⁺.",
+      "Exactement neutre à 7.",
+      "Nul."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'acide conjugué faible faiblement dissocié formé abaisse pHeq dans la zone acide."
+  },
+  {
+    "id": 150,
+    "category": "Acide-Base",
+    "questionText": "Pour un titrage d'acide fort par base forte à 25°C, que vaut rigoureusement le pH à l'équivalence ?",
+    "options": [
+      "14",
+      "7 (car le couplage forme un sel de chlorure de sodium neutre stœchiométrique).",
+      "1",
+      "Environ 4,8."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le sel d'acide fort et de base forte n'influence pas le pH de l'eau, fixant pHeq = 7.0 à 25°C."
+  },
+  {
+    "id": 151,
+    "category": "Acide-Base",
+    "questionText": "À quoi sert la courbe dérivée dpH/dVB = f(VB) ?",
+    "options": [
+      "Évaluer la masse molaire.",
+      "Isoler l'abscisse du pic de variation extrême, correspondant exactement au volume Équivalent VBE.",
+      "Dessiner des trajectoires circulaires.",
+      "Valider la tension du capteur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le saut de pH se traduit mathématiquement par un extremum local de sa dérivée première, facilitant la lecture de VBE."
+  },
+  {
+    "id": 152,
+    "category": "Acide-Base",
+    "questionText": "Quelle is la formulation ionique de l'hydroxyde de sodium de laboratoire (soude) ?",
+    "options": [
+      "Un acide faible d'accumulation.",
+      "Une solution aqueuse contenant des ions sodium Na⁺ et hydroxyde HO⁻.",
+      "Un ester organique.",
+      "De l'eau de javel de pH neutre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'hydroxyde de sodium dissout entièrement ses ions constitutifs Na⁺ et HO⁻ en solution."
+  },
+  {
+    "id": 153,
+    "category": "Acide-Base",
+    "questionText": "Quelle is la constitution ionique d'une solution d'acide chlorhydrique ?",
+    "options": [
+      "Des structures huileuses.",
+      "Une solution aqueuse libérant des ions oxonium H₃O⁺ et des chlorures Cl⁻.",
+      "Du gaz HCl pur.",
+      "Du méthane dissout."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La dissolution de HCl gazeux produit une ionisation totale de H₃O⁺ et Cl⁻."
+  },
+  {
+    "id": 154,
+    "category": "Acide-Base",
+    "questionText": "Quelle Équation thermodynamique associe pKa et pKb à 25°C ?",
+    "options": [
+      "pKa * pKb = 14",
+      "pKa + pKb = pKe = 14",
+      "pKa - pKb = 7",
+      "pKa = pKb"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les constantes de couples d'acidité et de basicité aqueuse co-dépendent de l'auto-protolyse : pKa + pKb = 14."
+  },
+  {
+    "id": 155,
+    "category": "Acide-Base",
+    "questionText": "Soit VA = 10,0 mL d'acide Éthanoïque dosé par CB = 1,0*10^-1 mol/L de soude. On lit VBE = 12,0 mL. Calculez CA :",
+    "options": [
+      "1,0 * 10^-2 mol/L",
+      "1,2 * 10^-1 mol/L",
+      "1,2 * 10^-3 mol/L",
+      "8,3 * 10^-2 mol/L"
+    ],
+    "correctIndex": 1,
+    "explanationText": "CA = (CB * VBE) / VA = (0.1 * 12) / 10 = 0.12 mol/L = 1.2 * 10^-1 mol/L."
+  },
+  {
+    "id": 156,
+    "category": "Acide-Base",
+    "questionText": "Dans un diagramme macroscopique de distribution, que dessinent les deux traces d'allure sigmoïde ?",
+    "options": [
+      "La température et la conductivité.",
+      "Les pourcentages respectifs (de 0 à 100%) des formes d'acide faible AH et sa base conjuguée A⁻.",
+      "L'activité massique de l'électrolyte.",
+      "La dérivée géométrique de pression."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le diagramme indique les fractions relatives de chaque form selon les variations de pH."
+  },
+  {
+    "id": 157,
+    "category": "Acide-Base",
+    "questionText": "Que désigne l'intersection remarquable des deux traces sur un diagramme de distribution ?",
+    "options": [
+      "pH = 0",
+      "pH = pKa (les proportions relatives d'acide et de base s'équilibrent pile à 50% chacune).",
+      "Un statut réactionnel explosif.",
+      "pH = 7"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Lors de la concordance stricte de répartition 50-50, le pH s'identifie précisément à la constante de couple pKa."
+  },
+  {
+    "id": 158,
+    "category": "Acide-Base",
+    "questionText": "Quelle is la vocation première d'une démarche de titrage ?",
+    "options": [
+      "Déterminer la température de fusion.",
+      "Déterminer précisément la concentration inconnue d'une espèce chimique dissoute.",
+      "Réaliser une purification organique.",
+      "Vérifier la déviation du pH-mètre seul."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le titrage ou dosage is destiné à Élucider quantitativement une concentration inconnue."
+  },
+  {
+    "id": 159,
+    "category": "Acide-Base",
+    "questionText": "Dans l'opération de dosage, que désigne l'appellation d'espèce titrée ?",
+    "options": [
+      "Le réactif Étalon dissous dans la burette.",
+      "Le réactif de concentration inconnue logé initialement sous agitation dans le bécher.",
+      "L'additif de catalyse.",
+      "Les ions spectateurs."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La solution logée dans le bécher à doser is désignée comme réactif titré."
+  },
+  {
+    "id": 160,
+    "category": "Acide-Base",
+    "questionText": "Comment s'appelle le réactif d'apport gradué logé dans la burette ?",
+    "options": [
+      "Le réactif titré.",
+      "Le réactif titrant de concentration parfaitement Étalonnée.",
+      "Le catalyseur cinétique.",
+      "L'indicateur sensible."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le liquide de référence logé dans la burette graduée s'appelle le réactif titrant."
+  },
+  {
+    "id": 161,
+    "category": "Piles",
+    "questionText": "De quoi is constituée, de manière générale, une pile Électrochimique (générateur) ?",
+    "options": [
+      "De deux solutions acides mélangées dans un seul bécher.",
+      "De deux demi-piles (électrodes et solutions Électrolytiques) reliées par un pont salin ou une membrane poreuse.",
+      "D'un conducteur ohmique et d'un condensateur en parallèle.",
+      "Uniquement d'une solution d'eau pure salée."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une pile comporte deux compartiments (demi-piles) connectés extérieurement par un conducteur et reliés par un pont salin."
+  },
+  {
+    "id": 162,
+    "category": "Piles",
+    "questionText": "Qu'est-ce qu'une \"demi-pile\" en Électrochimie ?",
+    "options": [
+      "Une plaque de plastique plongée dans de l'eau.",
+      "Un ensemble constitué d'une plaque conductrice (métal ou graphite) appelée Électrode, immergée dans une solution contenant la forme conjuguée du couple oxydant/réducteur.",
+      "La moitié d'un pont salin.",
+      "Un fil de cuivre reliant deux interrupteurs."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une demi-pile is l'association d'un conducteur Électronique (électrode) et d'un conducteur ionique (électrolyte)."
+  },
+  {
+    "id": 163,
+    "category": "Piles",
+    "questionText": "Quel rôle principal joue le pont salin (ou la paroi poreuse) dans une pile ?",
+    "options": [
+      "Permettre le passage des Électrons libres directement d'un bécher à l'autre.",
+      "Assurer la jonction Électrique entre les deux demi-piles et maintenir la neutralité Électrique des solutions par migration des ions, tout en Évitant le mélange de réactifs.",
+      "Augmenter la température de la pile pour accélérer la cinétique.",
+      "Mesurer la force Électromotrice de la pile."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le pont salin ferme le circuit en permettant le passage des ions et assure l'électroneutralité des solutions."
+  },
+  {
+    "id": 164,
+    "category": "Piles",
+    "questionText": "De quoi is composé un pont salin de laboratoire ?",
+    "options": [
+      "Un fil de cuivre blindé.",
+      "Un tube ou d'un papier gélifié imprégné d'une solution aqueuse concentrée d'un Électrolyte inerte (comme KCl ou KNO₃).",
+      "Une solution d'acide chlorhydrique pur concentré.",
+      "Un ruban adhésif isolant."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le pont salin contient un sel inerte dont les ions migrent pour Équilibrer les charges sans réagir chimiquement."
+  },
+  {
+    "id": 165,
+    "category": "Piles",
+    "questionText": "Comment appelle-t-on l'électrode qui is le siège d'une réaction d'OXYDATION ?",
+    "options": [
+      "La cathode.",
+      "L'anode.",
+      "L'électrode spectatrice.",
+      "Le pôle positif."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Moyen mnémotechnique: Oxydation commence par la voyelle O, comme Anode (voyelle A)."
+  },
+  {
+    "id": 166,
+    "category": "Piles",
+    "questionText": "Comment appelle-t-on l'électrode qui is le siège d'une réaction de RÉDUCTION ?",
+    "options": [
+      "L'anode.",
+      "La cathode.",
+      "Le pôle de frottement.",
+      "Le diviseur de tension."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Moyen mnémotechnique: Réduction commence par la consonne R, comme Cathode (consonne C)."
+  },
+  {
+    "id": 167,
+    "category": "Piles",
+    "questionText": "Dans une pile en fonctionnement (générateur), quelle is la polarité respective de l'anode et de la cathode ?",
+    "options": [
+      "L'anode is le pôle positif (+) et la cathode is le pôle négatif (-).",
+      "L'anode is le pôle négatif (-) et la cathode is le pôle positif (+).",
+      "Les deux Électrodes possèdent la même polarité positive.",
+      "La polarité dépend de la constante de Planck."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'anode produit des Électrons (pôle négatif) tandis que la cathode les consomme (pôle positif)."
+  },
+  {
+    "id": 168,
+    "category": "Piles",
+    "questionText": "Quels sont les porteurs de charges qui se déplacent à l'INTÉRIEUR des fils métalliques et des Électrodes ?",
+    "options": [
+      "Les ions positifs (cations).",
+      "Les Électrons libres (e⁻).",
+      "Les ions négatifs (anions).",
+      "Les molécules d'eau."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Dans les conducteurs métalliques, la conduction du courant Électrique is assurée exclusivement par les Électrons libres."
+  },
+  {
+    "id": 169,
+    "category": "Piles",
+    "questionText": "Quel is le sens de circulation conventionnel du courant Électrique I à l'extérieur d'une pile ?",
+    "options": [
+      "Du pôle négatif (-) vers le pôle positif (+).",
+      "Du pôle positif (+) vers le pôle négatif (-).",
+      "Il circule uniquement dans le pont salin.",
+      "Il change de sens de manière périodique sinusoïdale."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Par convention historique, le courant I circule de la borne positive (+) du générateur vers la borne négative (-)."
+  },
+  {
+    "id": 170,
+    "category": "Piles",
+    "questionText": "Quel is le sens de déplacement des Électrons libres (e⁻) dans le circuit métallique extérieur d'une pile ?",
+    "options": [
+      "Du pôle positif (+) vers le pôle négatif (-).",
+      "Du pôle négatif (-) (Anode) vers le pôle positif (+) (Cathode).",
+      "Du pont salin vers l'antenne réceptrice.",
+      "Ils restent immobiles au niveau des armatures."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les Électrons libres, chargés négativement, se déplacent en sens opposé au courant conventionnel."
+  },
+  {
+    "id": 171,
+    "category": "Piles",
+    "questionText": "Quels sont les porteurs de charges qui assurent le passage du courant à l'INTÉRIEUR des solutions Électrolytiques ?",
+    "options": [
+      "Les Électrons libres.",
+      "Les ions (anions et cations).",
+      "Les atomes métalliques de l'électrode.",
+      "Les molécules de gaz dissous."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Dans une solution Électrolytique, le passage du courant s'effectue par la double migration d'ions hydratés."
+  },
+  {
+    "id": 172,
+    "category": "Piles",
+    "questionText": "Dans les solutions et le pont salin, vers quelle Électrode migrent les ions positifs (cations) ?",
+    "options": [
+      "Vers l'anode (pôle négatif).",
+      "Vers la cathode (pôle positif) pour compenser la consommation des cations ou l'apport de charges.",
+      "Ils restent immobiles au centre du pont salin.",
+      "Vers le fil de cuivre extérieur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les cations (chargés positivement) se déplacent dans le sens conventionnel du courant Électrique, vers la cathode (+)."
+  },
+  {
+    "id": 173,
+    "category": "Piles",
+    "questionText": "Dans les solutions et le pont salin, vers quelle Électrode migrent les ions négatifs (anions) ?",
+    "options": [
+      "Vers la cathode (pôle positif).",
+      "Vers l'anode (pôle négatif) pour compenser l'apparition de cations ou la perte de charges.",
+      "Vers la borne de masse de l'oscilloscope.",
+      "Ils s'évaporent sous forme gazeuse."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les anions (chargés négativement) migrent en sens inverse du courant conventionnel, vers l'anode (-)."
+  },
+  {
+    "id": 174,
+    "category": "Piles",
+    "questionText": "Une pile en fonctionnement (débitant un courant) is le siège d'une transformation chimique :",
+    "options": [
+      "Forcée par un générateur extérieur.",
+      "Spontanée (la valeur de Q_r tend progressivement vers la constante d'équilibre K).",
+      "Athermique réversible.",
+      "Strictement limitée à l'état initial."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La décharge d'une pile résulte d'une conversion d'énergie chimique spontanée d'oxydoréduction."
+  },
+  {
+    "id": 175,
+    "category": "Piles",
+    "questionText": "Si pour l'équation globale d'une pile, le quotient de réaction initial vérifie Q_r,i < K, le système évolue :",
+    "options": [
+      "Dans le sens inverse (sens 2).",
+      "Dans le sens direct (sens 1).",
+      "Le système est déjà à l'équilibre et ne produit aucun courant.",
+      "La réaction s'effectue de manière explosive."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Comme Q_r,i < K, d'après le critère d'évolution spontanée, le système évolue thermodynamiquement dans le sens direct."
+  },
+  {
+    "id": 176,
+    "category": "Piles",
+    "questionText": "Quand dit-on qu'une pile is \"usée\" (sa f.e.m. et sa tension deviennent nulles) ?",
+    "options": [
+      "Lorsque la température de la pièce descend à 0°C.",
+      "Lorsque le système chimique a atteint son état d'équilibre final (Q_r,éq = K).",
+      "Lorsque l'indice de modulation vaut 1.",
+      "Lorsque le pont salin is retiré temporairement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La pile cesse de débiter lorsque le système atteint l'équilibre : le transfert d'électrons n'a plus de moteur Énergétique."
+  },
+  {
+    "id": 177,
+    "category": "Piles",
+    "questionText": "Quelle is la valeur du quotient de réaction Q_r d'une pile lorsqu'elle is totalement usée ?",
+    "options": [
+      "Q_r = 0",
+      "Q_r = K (la constante d'équilibre).",
+      "Q_r = 1",
+      "Q_r = Q_r,i"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'état d'usure finale s'identifie à l'équilibre chimique complet du système, d'où Q_f = K."
+  },
+  {
+    "id": 178,
+    "category": "Piles",
+    "questionText": "Quelle formule permet d'obtenir la quantité maximale d'électricité Q_max débitée par une pile pendant une durée Δt à intensité constante I ?",
+    "options": [
+      "Q_max = I / Δt",
+      "Q_max = I * Δt",
+      "Q_max = 0.5 * I * Δt²",
+      "Q_max = I + Δt"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La charge globale transportée is Égale au produit du courant débité par la durée de sa circulation : Q = I * Δt."
+  },
+  {
+    "id": 179,
+    "category": "Piles",
+    "questionText": "Dans l'unité SI, quelle is l'unité de la quantité d'électricité Q ?",
+    "options": [
+      "L'Ampère (A).",
+      "Le Coulomb (C).",
+      "Le Joule (J).",
+      "L'Ohm (Ω)."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le Coulomb (symbole C) représente l'unité officielle de mesure de quantité d'électricité (ou charge)."
+  },
+  {
+    "id": 180,
+    "category": "Piles",
+    "questionText": "Quelle relation lie la quantité d'électricité Q, la quantité de matière d'électrons Échangés n(e⁻) et le Faraday F ?",
+    "options": [
+      "Q = n(e⁻) / F",
+      "Q = n(e⁻) * F",
+      "Q = F / n(e⁻)",
+      "Q = n(e⁻) * F²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La charge transférée is liée à la mole d'électrons par la formule classique : Q = n(e⁻) * F."
+  },
+  {
+    "id": 181,
+    "category": "Piles",
+    "questionText": "Qu'est-ce qu'une constante de Faraday F ?",
+    "options": [
+      "La masse d'une mole d'électrons.",
+      "La valeur absolue de la charge Électrique transportée par une mole d'électrons (F = N_A * e).",
+      "La constante thermodynamique des gaz dans le vide.",
+      "La pulsation propre d'un oscillateur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le Faraday is physiquement la charge molaire Élémentaire d'électrons : F = N_A * e ≈ 96500 C.mol⁻¹."
+  },
+  {
+    "id": 182,
+    "category": "Piles",
+    "questionText": "Quelle valeur approchée standard de la constante de Faraday F is classiquement retenue ?",
+    "options": [
+      "6,63 * 10^-34 J.s",
+      "96500 C.mol⁻¹ (ou 9,65 * 10⁴ C.mol⁻¹).",
+      "6,02 * 10²³ mol⁻¹",
+      "1,60 * 10^-19 C"
+    ],
+    "correctIndex": 1,
+    "explanationText": "On Évalue usuellement la constante de Faraday à 96500 Coulombs par mole de particules d'électrons."
+  },
+  {
+    "id": 183,
+    "category": "Piles",
+    "questionText": "Si une demi-équation d'oxydation s'écrit M_((s)) -> Mⁿ⁺_((aq)) + n · e⁻, quelle relation associe l'avancement x et n(e⁻) ?",
+    "options": [
+      "n(e⁻) = x",
+      "n(e⁻) = n * x",
+      "n(e⁻) = x / n",
+      "n(e⁻) = x²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour chaque mole d'avancement x, le facteur stœchiométrique libère n moles d'électrons, d'où n(e⁻) = n * x."
+  },
+  {
+    "id": 184,
+    "category": "Piles",
+    "questionText": "Dans la pile Daniell (Zn²⁺/Zn et Cu²⁺/Cu), l'anode subit une oxydation : Zn -> Zn²⁺ + 2e⁻. L'électrode de zinc constitue :",
+    "options": [
+      "La cathode (pôle positif).",
+      "L'anode (pôle négatif).",
+      "Le pont salin neutre.",
+      "L'électrode spectatrice."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisqu'elle subit l'oxydation libératrice d'électrons, la lame de zinc constitue l'anode (borne négative de la pile)."
+  },
+  {
+    "id": 185,
+    "category": "Piles",
+    "questionText": "Dans la pile Daniell, la cathode subit la réduction : Cu²⁺ + 2e⁻ -> Cu. Quelle is l'évolution de la lame de cuivre ?",
+    "options": [
+      "Sa masse diminue par dissolution.",
+      "Sa masse augmente car du cuivre métallique se dépose sur l'électrode.",
+      "Elle reste de dimensions parfaitement inchangées.",
+      "Elle se dissout entièrement dans le pont salin."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le dépôt direct d'atomes neutres de cuivre solides Cu issu de la réduction augmente sa masse."
+  },
+  {
+    "id": 186,
+    "category": "Piles",
+    "questionText": "Quel is le schéma conventionnel (représentation formelle) de la pile Daniell précédente ?",
+    "options": [
+      "(+) Zn | Zn²⁺ || Cu²⁺ | Cu (-)",
+      "(-) Zn | Zn²⁺ || Cu²⁺ | Cu (+)",
+      "(-) Cu | Cu²⁺ || Zn²⁺ | Zn (+)",
+      "Zn = Cu = Pont Salin"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La notation dispose toujours la borne négative à gauche (Anode) et la positive à droite (Cathode)."
+  },
+  {
+    "id": 187,
+    "category": "Piles",
+    "questionText": "Une pile débite un courant constant d'intensité I = 10 mA pendant une durée Δt = 965 s. Quelle charge Q is mise en jeu ?",
+    "options": [
+      "9650 C",
+      "9,65 C",
+      "96,5 C",
+      "0,10 C"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En convertissant en Ampères : I = 0,010 A. Q = I * Δt = 0,010 * 965 = 9,65 C."
+  },
+  {
+    "id": 188,
+    "category": "Piles",
+    "questionText": "En reprenant la charge Q = 9,65 C et F = 96500 C.mol⁻¹, calculez la quantité d'électrons n(e⁻) correspondante :",
+    "options": [
+      "1,0 * 10⁻⁴ mol",
+      "1,0 mol",
+      "100 mol",
+      "9,65 * 10⁴ mol"
+    ],
+    "correctIndex": 0,
+    "explanationText": "n(e⁻) = Q / F = 9,65 / 96500 = 1,0 * 10⁻⁴ mol."
+  },
+  {
+    "id": 189,
+    "category": "Piles",
+    "questionText": "Si le fonctionnement de la pile Échange 2 Électrons (n(e⁻) = 2x), déterminez l'avancement x à cet instant :",
+    "options": [
+      "2,0 * 10⁻⁴ mol",
+      "5,0 * 10⁻⁵ mol",
+      "1,0 * 10⁻⁴ mol",
+      "0 mol"
+    ],
+    "correctIndex": 1,
+    "explanationText": "n(e⁻) = 2x => x = n(e⁻) / 2 = 1,0 * 10⁻⁴ / 2 = 5,0 * 10⁻⁵ mol."
+  },
+  {
+    "id": 190,
+    "category": "Piles",
+    "questionText": "Pour l'équation Sn²⁺ + Ni <=> Sn + Ni²⁺ avec K = 10⁶. Soit à l'état initial [Sn²⁺]_i = [Ni²⁺]_i = 0,1 mol.L⁻¹. Que vaut Q_r,i ?",
+    "options": [
+      "Q_r,i = 0,01",
+      "Q_r,i = 1,0",
+      "Q_r,i = 10⁶",
+      "Q_r,i = 0,1"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Q_r,i = [Ni²⁺]_i / [Sn²⁺]_i = 0,1 / 0,1 = 1,0 (les solides Sn et Ni de concentration invariable n'apparaissent pas)."
+  },
+  {
+    "id": 191,
+    "category": "Piles",
+    "questionText": "En comparant Q_r,i = 1 et K = 10⁶, dans quel sens s'effectue spontanément la transformation ?",
+    "options": [
+      "Dans le sens inverse (sens 2).",
+      "Dans le sens direct (sens 1, car Q_r,i < K).",
+      "Le système n'évolue pas du tout.",
+      "La pile is en court-circuit instantané."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le quotient de réaction initial Étant très inférieur à K, l'évolution se fait de manière spontanée dans le sens direct."
+  },
+  {
+    "id": 192,
+    "category": "Piles",
+    "questionText": "Pour cette même pile (Sn²⁺_((aq)) + Ni_((s)) -> Sn_((s)) + Ni²⁺_((aq))), quelle is l'anode (pôle négatif) ?",
+    "options": [
+      "L'électrode d'étain (Sn).",
+      "L'électrode de nickel (Ni, car elle subit l'oxydation Ni -> Ni²⁺ + 2e⁻).",
+      "Un fil de platine inerte.",
+      "Le pont salin d'accumulation."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'oxydation libère les ions Ni²⁺ et fournit des Électrons à l'armature de nickel, pôle négatif."
+  },
+  {
+    "id": 193,
+    "category": "Piles",
+    "questionText": "Quelle différence de potentiel, notée E, mesure-t-on aux bornes d'une pile à vide (courant nul I = 0) ?",
+    "options": [
+      "Une tension strictement nulle.",
+      "La force Électromotrice (f.e.m.) caractéristique des couples à vide de la pile.",
+      "Une tension alternative de 220 V.",
+      "La résistance interne du dispositif."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le voltmètre à haute impédance mesure la force Électromotrice de référence E de la pile à circuit ouvert."
+  },
+  {
+    "id": 194,
+    "category": "Piles",
+    "questionText": "Quand la pile débite un courant I > 0, quel modèle exprime sa tension U_pn de sortie ?",
+    "options": [
+      "U_pn = E + r * I",
+      "U_pn = E - r * I",
+      "U_pn = r * I",
+      "U_pn = E / (r * I)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La loi d'Ohm pour un générateur réel de résistance interne r is U_pn = E - r * I."
+  },
+  {
+    "id": 195,
+    "category": "Piles",
+    "questionText": "Que vaut la tension U_pn de la pile lorsqu'elle atteint l'état d'équilibre chimique final (usure) ?",
+    "options": [
+      "U_pn = E",
+      "U_pn = 0 V",
+      "U_pn = -E",
+      "U_pn = 1,5 V"
+    ],
+    "correctIndex": 1,
+    "explanationText": "À l'équilibre, le courant s'annule ainsi que la f.e.m. apparente, fixant la tension terminale U_pn = 0 V."
+  },
+  {
+    "id": 196,
+    "category": "Piles",
+    "questionText": "Si un couple de la pile is composé uniquement d'ions en solution (ex: Fe³⁺/Fe²⁺), quel conducteur inerte emploie-t-on ?",
+    "options": [
+      "Une plaque de zinc de dosage.",
+      "Un fil de platine (Pt) ou un bâton de graphite (Carbone).",
+      "Un tube de verre obturé.",
+      "Un fil de cuivre verni."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un conducteur exempt de réactance comme le platine Pt ou le carbone sert de support de transfert redox inertiel."
+  },
+  {
+    "id": 197,
+    "category": "Piles",
+    "questionText": "Lors de la charge forcée d'un accumulateur (récepteur), de quelle manière doit-on brancher le chargeur extérieur ?",
+    "options": [
+      "Le pôle positif de l'accumulateur connecté à la masse de terre.",
+      "Le pôle positif de l'accumulateur branché au pôle positif du générateur extérieur.",
+      "Le pôle négatif de l'accumulateur branché au pôle positif du générateur.",
+      "À un pont de Maxwell de tension continue."
+    ],
+    "correctIndex": 1,
+    "explanationText": "On effectue une charge en appliquant une tension Équi-polaire supérieure à la f.e.m. d'accumulation."
+  },
+  {
+    "id": 198,
+    "category": "Piles",
+    "questionText": "Sous quelle notion et unité l'industrie quantifie-t-elle l'autonomie d'électricité maximale débitable d'une pile ?",
+    "options": [
+      "La capacitance mesurée en Farad (F).",
+      "La capacité de décharge Évaluée en Ampère-heure (A.h ou mA.h).",
+      "La vitesse volumique moyenne.",
+      "La conductance molaire de surface."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La capacité de stockage d'énergie se quantifie couramment en Ampère-heure (A.h)."
+  },
+  {
+    "id": 199,
+    "category": "Piles",
+    "questionText": "Convertir une capacité industrielle de 1 A.h en unités SI de charge (Coulomb) :",
+    "options": [
+      "1 C",
+      "3600 C",
+      "96500 C",
+      "0,001 C"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un courant de 1 Ampère pendant 1 heure (3600 s) représente une charge de 3600 Coulombs."
+  },
+  {
+    "id": 200,
+    "category": "Piles",
+    "questionText": "Au final, d'où provient l'énergie délivrée par une pile Électrochimique ?",
+    "options": [
+      "D'une réaction de friction mécanique dissipative.",
+      "D'une conversion directe d'énergie chimique redox spontanée en énergie Électrique.",
+      "D'une induction magnétique constante.",
+      "De la fission atomique de l'étain."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une pile convertit l'énergie libre de la transformation chimique spontanée en travail Électrique direct."
+  },
+  {
+    "id": 201,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Quel is le groupe caractéristique fonctionnel définissant un ester ?",
+    "options": [
+      "-OH",
+      "-COOH",
+      "-COO-",
+      "-NH₂"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Les esters se caractérisent par la séquence de liaison carbonylée -COO-."
+  },
+  {
+    "id": 202,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Dans la formule générale d'un ester R-COO-R', que doit obligatoirement être R' ?",
+    "options": [
+      "Un atome d'hydrogène d'acide.",
+      "Une chaîne carbonée (groupe alkyle) issue de l'alcool.",
+      "Un fragment ionique soluble.",
+      "Un groupe amine basique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "R' doit être une chaîne hydrocarbonée (alkyle), sinon c'est un acide carboxylique R-COOH."
+  },
+  {
+    "id": 203,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Quelle règle de nomenclature dicte l'appellation officielle IUPAC d'un ester ?",
+    "options": [
+      "Le nom de l'alcool décliné en \"-oate\" de l'acide associé en \"-yle\".",
+      "Le nom de l'acide conjugué en \"-oate\" suivi du nom du groupe alkyle de l'alcool en \"-yle\".",
+      "L'allusion de l'alcane joint du nom d'usage \"ester\".",
+      "La terminaison intégrale en \"-amide\"."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'acide gouverne le suffixe racine \"-oate\" de l'alkyle de l'alcool \"-yle\" (ex: Éthanoate de méthyle)."
+  },
+  {
+    "id": 204,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Déterminez le nom de l'ester de formule CH₃-CH₂-COO-CH₃ :",
+    "options": [
+      "Éthanoate de propyle.",
+      "Propanoate de méthyle.",
+      "Méthanoate de propyle.",
+      "Butanoate d'éthyle."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La partie issue de l'acide comporte 3 carbones (propanoate) et celle de l'alcool possède 1 carbone (méthyle)."
+  },
+  {
+    "id": 205,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Quels réactifs constitutifs forment classiquement un ester par condensation ?",
+    "options": [
+      "Un aldéhyde avec une cétone de transition.",
+      "Un acide carboxylique associé à un alcool.",
+      "Une amine saturée et un composé dihalogéné.",
+      "Un alcène et de l'eau en excès d'acide."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'estérification classique unit un acide carboxylique et un alcool pour former un ester et de l'eau."
+  },
+  {
+    "id": 206,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Comment définit-on un alcool de type primaire ?",
+    "options": [
+      "L'atome de carbone porteur du groupement -OH is relié à deux carbones.",
+      "L'atome de carbone porteur de la fonction -OH is relié à un seul atome de carbone au maximum.",
+      "Le groupement hydroxyle is inséré dans un cycle stable.",
+      "L'alcool contient obligatoirement trois fonctions hydroxylées."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un alcool is dit primaire si son carbone fonctionnel n'est lié qu'à un radical ou aucun (liaison au plus d'un carbone)."
+  },
+  {
+    "id": 207,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Comment décèle-t-on le caractère acide d'un acide carboxylique de départ ?",
+    "options": [
+      "La coloration bleue de la liqueur de Fehling.",
+      "La mesure d'un pH inférieur à 7 en solution aqueuse à l'aide d'un pH-mètre ou papier pH.",
+      "La formation d'un dépôt orange en présence de DNPH.",
+      "Un brunissement instantané au réactif de Schiff."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les acides carboxyliques sont des espèces acides faibles dont la dissolution aqueuse baisse la mesure du pH sous 7."
+  },
+  {
+    "id": 208,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Par quelle définition s'explique la réaction d'estérification ?",
+    "options": [
+      "L'attaque basique d'un ester par de la soude.",
+      "L'estérification s'avère être la réaction de synthèse d'un ester et d'eau à partir d'un acide carboxylique et d'un alcool.",
+      "La déshydratation d'un alcool à haute pression moléculaire.",
+      "La polymérisation discontinue de triglycérides."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'estérification is le processus de condensation directe entre un acide carboxylique et un alcool."
+  },
+  {
+    "id": 209,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Par quoi s'énonce la réaction d'hydrolyse d'un ester ?",
+    "options": [
+      "L'action de l'acide sulfurique seul sur l'ester.",
+      "La réaction entre un ester et de l'eau, générant une décomposition en acide carboxylique et alcool.",
+      "La solubilisation molaire de l'ester dans une phase dense.",
+      "Un test analytique de dosage cinétique instantané."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'hydrolyse is la décomposition d'un ester par l'eau, constituant la transformation inverse de l'estérification."
+  },
+  {
+    "id": 210,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Quels qualificatifs décrivent conjointement l'estérification et l'hydrolyse sans catalyse ?",
+    "options": [
+      "Destructions instantanées, totales et exothermiques.",
+      "Transformations lentes, limitées (réversibles) et athermiques.",
+      "Réactions rapides, infinies et endothermiques.",
+      "Réactions explosives explosives et dépendantes de la lumière."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Ces transformations d'équilibres organiques s'établissent de manière lente, athermique et limitée."
+  },
+  {
+    "id": 211,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Quelle signification thermodynamique associe-t-on au caractère \"athermique\" ?",
+    "options": [
+      "Un besoin thermique infini d'initiation.",
+      "L'absence d'échange de chaleur (la température intrinsèque du système ne subit pas d'évolution).",
+      "La transformation n'est efficace qu'à la température de 0°C.",
+      "Le taux d'avancement dépend du volume du milieu gazeux."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une transformation athermique n'implique aucune variation d'enthalpie (ni absorption ni Émission thermique)."
+  },
+  {
+    "id": 212,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "L'estérification Étant athermique, quel is le effet d'une augmentation de la température du réacteur ?",
+    "options": [
+      "Accroître de façon exponentielle la proportion d'ester à l'état final.",
+      "Accélérer la cinétique de réaction pour atteindre l'état d'équilibre plus rapidement, sans modifier le rendement.",
+      "Renverser instantanément l'équilibre vers l'hydrolyse complète.",
+      "Rompre la liaison ester et détruire les produits."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque la constante K ne varie pas avec la température, hausser la chaleur n'agit que comme facteur cinétique."
+  },
+  {
+    "id": 213,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Quel is le rôle de l'apport d'acide sulfurique (H₂SO₄) lors d'une estérification ?",
+    "options": [
+      "Modifier la valeur de K afin de privilégier l'ester.",
+      "Jouer le rôle de catalyseur (augmenter à la fois la vitesse des réactions directe et inverse sans modifier l'équilibre).",
+      "Consommer l'excès de matière organique.",
+      "Colorer spécifiquement la phase aqueuse."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les protons catalytiques H⁺ augmentent la vitesse d'estérification et d'hydrolyse sans altérer la position d'équilibre final."
+  },
+  {
+    "id": 214,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Formuler le quotient de réaction Q_r de l'estérification : R-COOH + R'-OH <=> R-COOR' + H₂O :",
+    "options": [
+      "Q_r = [Ester] / ([Acide] * [Alcool])",
+      "Q_r = ([Ester] * [Eau]) / ([Acide] * [Alcool])",
+      "Q_r = ([Acide] * [Alcool]) / [Ester]",
+      "Q_r = [Ester] * [Eau]"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Toutes les molécules agissent en concentrations comparables de phase organique, l'eau figure donc au quotient."
+  },
+  {
+    "id": 215,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Pourquoi l'activité chimique de l'eau (H₂O) est-elle prise en compte dans le Q_r de l'estérification ?",
+    "options": [
+      "L'eau is de coloration bleue dynamique.",
+      "L'eau n'intervient pas ici en tant que solvant abondant d'excès ; elle is un produit organique formé de même ordre de grandeur.",
+      "L'eau sert de catalyseur de base faible.",
+      "La conductivité de l'eau distillée y is négligeable."
+    ],
+    "correctIndex": 1,
+    "explanationText": "N'étant pas le solvant d'un milieu dilué, l'activité de l'eau ne s'assimile pas à 1 et intervient explicitement."
+  },
+  {
+    "id": 216,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Pour un mélange équimolaire d'acide carboxylique et d'alcool primaire, à combien s'évalue la constante K à 25°C ?",
+    "options": [
+      "K = 0",
+      "K ≈ 4",
+      "K = 10⁴",
+      "K = 0.25"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les proportions d'équilibre thermodynamique de l'alcool primaire fixent expérimentalement la constante K ≈ 4."
+  },
+  {
+    "id": 217,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Associez la constante d'équilibre d'hydrolyse K' à celle de l'estérification K :",
+    "options": [
+      "K' = -K",
+      "K' = 1 / K",
+      "K' = K²",
+      "K' = 1"
+    ],
+    "correctIndex": 1,
+    "explanationText": "S'agissant de la réaction rigoureusement inverse, sa constante s'établit par l'inverse : K_hydrolyse = 1 / K_ester = 0,25."
+  },
+  {
+    "id": 218,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Quelle expression définit le rendement η d'un processus d'estérification ?",
+    "options": [
+      "eta = n_ester_obtenu / n_max_theorique",
+      "eta = x_f * x_max",
+      "eta = n_acide_initial / n_ester_obtenu",
+      "eta = 1 - tau"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Le rendement s'identifie au rapport de l'avancement effectif final sur l'avancement théorique total : η = x_f / x_max."
+  },
+  {
+    "id": 219,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Quel is le rendement d'estérification pour un mélange initial équimolaire d'acide et d'alcool primaire ?",
+    "options": [
+      "33%",
+      "67% (ou environ 2/3).",
+      "100%",
+      "5%"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La limite d'équilibre pour un alcool linéaire de premier rang fixe le rendement final à 67%."
+  },
+  {
+    "id": 220,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Si l'on substitue l'alcool primaire par un alcool secondaire, le rendement de l'équimolaire s'équilibre à :",
+    "options": [
+      "67%",
+      "60% (ou environ 3/5).",
+      "33%",
+      "100%"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La compacité plus prononcée de l'alcool secondaire ramène le rendement global d'estérification à d'environ 60%."
+  },
+  {
+    "id": 221,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Quel rendement final d'équilibre atteint une estérification incluant un alcool tertiaire ?",
+    "options": [
+      "67%",
+      "Trés faible, d'environ 5% à 10%.",
+      "50%",
+      "95%"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La congestion stérique intense d'activation sur l'alcool tertiaire bride le rendement final sous les 10%."
+  },
+  {
+    "id": 222,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "De quel paramètre la constante thermodynamique K et le rendement d'estérification dépendent-ils ?",
+    "options": [
+      "De la pression et de la dimension du bécher.",
+      "De la classe de l'alcool employé (primaire, secondaire, tertiaire) et du rapport de quantité initial.",
+      "De la dose massique de catalyseur H₂SO₄.",
+      "De l'intensité de l'agitation magnétique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La structure moléculaire de l'alcool gouverne l'enthalpie libre d'équilibre et définit la valeur de K et le rendement."
+  },
+  {
+    "id": 223,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Comment déplace-t-on favorablement la limite de rendement d'un système d'estérification ?",
+    "options": [
+      "En diluant fortement le milieu avec de l'eau.",
+      "En plaçant l'un des réactifs d'origine (le moins onéreux) en large excès moléculaire.",
+      "En refroidissant vigoureusement le tube à 0°C.",
+      "En réduisant de moitié l'écoulement d'eau du condenseur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La surreprésentation initiale d'un réactif contraint l'évolution à consommer davantage le limitant de base."
+  },
+  {
+    "id": 224,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Quelle opération physique permet d'obtenir un avancement d'estérification complet (rendement de 100%) ?",
+    "options": [
+      "Éliminer au fur et à mesure un produit (distillation de l'ester volatil ou insolubilisation de l'eau par montage Dean-Stark).",
+      "Faire un apport continu de molécules d'eau.",
+      "Interrompre le chauffage de reflux.",
+      "Augmenter l'encombrement du flacon."
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'évacuation instantanée d'un produit bloque l'évolution inverse et impose la conversion totale progressive."
+  },
+  {
+    "id": 225,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Pourquoi le retrait systématique d'un produit (comme l'eau) débouche-t-il sur une réaction totale ?",
+    "options": [
+      "Le solvant Éliminé se mue en catalyseur bio.",
+      "Le quotient Q_r reste inférieur à la constante K, forçant l'avancement direct à progresser sans jamais s'arrêter.",
+      "Car cela provoque la décomposition de l'alcool restant.",
+      "La température interne s'emballe au-delà du seuil critique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Exclure un produit maintient Q_r < K. Le système ne pouvant s'équilibrer, il poursuit sa mutation vers la totalité."
+  },
+  {
+    "id": 226,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Comment procède-t-on de similaire pour majorer le taux d'hydrolyse d'un ester ?",
+    "options": [
+      "Par l'emploi d'un excès substantiel d'eau.",
+      "Par l'exclusion systématique d'eau du réacteur.",
+      "En substituant par un alcool tertiaire ramifié.",
+      "En Écourtant la durée du cycle d'ébullition."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Ajouter de l'eau en large excès sature le milieu réactif et provoque le déplacement complet vers l'hydrolyse d'ester."
+  },
+  {
+    "id": 227,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Quel système de condensation à l'air ou à l'eau Évite les pertes de matière organique lors d'un chauffage ?",
+    "options": [
+      "Une ampoule d'extraction liquide-liquide.",
+      "Un dispositif de chauffage à reflux (condenseur à boules ou à air).",
+      "Une rampe de filtration sous vide.",
+      "La chromatographie d'élution."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le reflux liquéfie en continu les vapeurs afin de les réintégrer directement dans le ballon réactionnel."
+  },
+  {
+    "id": 228,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "On réalise un mélange de n0 = 0,3 mol d'acide et n0 = 0,3 mol d'alcool primaire. Pour un rendement de 67%, que vaut n(ester) ?",
+    "options": [
+      "0,30 mol",
+      "0,20 mol",
+      "0,10 mol",
+      "0,05 mol"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La quantité formée à l'équilibre vaut : n = η * n0 = 0,67 * 0,30 ≈ 0,20 mol."
+  },
+  {
+    "id": 229,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Dans l'expérience de la Question 28, quelle quantité finale d'acide carboxylique n_acide reste non convertie ?",
+    "options": [
+      "0,30 mol",
+      "0,10 mol",
+      "0,20 mol",
+      "0,00 mol"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Quantité restante d'acide : n = n0 - x_f = 0,30 - 0,20 = 0,10 mol."
+  },
+  {
+    "id": 230,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Soit l'état final d'une estérification équimolaire (n0) : n(ester)=n(eau)=x_f and n(acide)=n(alcool)=n0-x_f. Exprimez K :",
+    "options": [
+      "K = x_f² / (n0 - x_f)",
+      "K = (x_f / (n0 - x_f))²",
+      "K = x_f / n0",
+      "K = (n0 - x_f)² / x_f²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "K = [Ester]_éq * [Eau]_éq / ([Acide]_éq * [Alcool]_éq) = (x_f / (n0 - x_f))² (les volumes de phase s'annulent)."
+  },
+  {
+    "id": 231,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "En partant de K = 4 pour l'alcool primaire dans la formule précédente, déterminez le ratio d'avancement x_f / (n0 - x_f) :",
+    "options": [
+      "4",
+      "2 (car la racine carrée de K=4 s'établit à 2).",
+      "0,50",
+      "16"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En appliquant la racine carrée : le terme rationnel direct x_f / (n0 - x_f) = √4 = 2."
+  },
+  {
+    "id": 232,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "À partir de ce ratio x_f / (n0 - x_f) = 2, élaborez la dépendance finale de x_f par rapport à n0 :",
+    "options": [
+      "x_f = (2/3) * n0 ≈ 0,67 * n0.",
+      "x_f = 0,5 * n0",
+      "x_f = n0",
+      "x_f = 1,5 * n0"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'équation s'écrit : x_f = 2(n0 - x_f) => 3x_f = 2n0 => x_f = (2/3)*n0."
+  },
+  {
+    "id": 233,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "L'hydrolyse de 1 mol d'ester d'alcool primaire dans 1 mol d'eau a un rendement moyen de 33%. Que vaut n_acide formé ?",
+    "options": [
+      "0,67 mol",
+      "0,33 mol",
+      "1,00 mol",
+      "0,00 mol"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'hydrolyse donne 33% d'avancement, formant ainsi : n = 0,33 * 1,00 = 0,33 mol d'acide."
+  },
+  {
+    "id": 234,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "L'hydrolyse finale d'un ester engendre de l'acide propanoïque et du propan-2-ol. Identifiez la classe de cet alcool :",
+    "options": [
+      "Alcool de type primaire.",
+      "Alcool de type secondaire (le carbone du groupe hydroxylé is relié à 2 atomes de carbone).",
+      "Alcool de type tertiaire ramifié.",
+      "C'est une cétone conjuguée sans groupement -OH."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le propan-2-ol possède un atome de carbone fonctionnel lié à deux méthyles de part et d'autre : alcool secondaire."
+  },
+  {
+    "id": 235,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "En déduire le nom de l'ester de structure initiale soumis à l'hydrolyse de la Question 34 :",
+    "options": [
+      "Propanoate de propyle.",
+      "Propanoate de 1-méthyléthyle (ou propanoate d'isopropyle).",
+      "Éthanoate de propyle.",
+      "Méthanoate de butyle."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'association de l'acide propanoïque et du propan-2-ol s'appelle le propanoate de 1-méthyléthyle."
+  },
+  {
+    "id": 236,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Quelle écriture illustre au mieux le motif semi-développé du 2-méthylpropan-2-ol (alcool tertiaire) ?",
+    "options": [
+      "CH₃-CH₂-CH₂-CH₂-OH",
+      "(CH₃)₃C-OH",
+      "CH₃-CH(OH)-CH₂-CH₃",
+      "CH₃-COOH"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le 2-méthylpropan-2-ol is un alcool tertiaire symétrique répondant à l'écriture raccourcie (CH₃)₃C-OH."
+  },
+  {
+    "id": 237,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Lors de l'analyse temporelle d'une estérification, comment Évalue-t-on chimiquement la position d'avancement ?",
+    "options": [
+      "Par l'ajout forcé d'acide chlorhydrique de référence.",
+      "Par le dosage acide-base de l'acide carboxylique restant à la soude en présence de phénolphtaléine.",
+      "Par une détection spectrographique par effet Raman.",
+      "Par précipitation d'ions chlorures solides."
+    ],
+    "correctIndex": 1,
+    "explanationText": "On Évalue l'avancement de la transformation en titrant l'acide non consommé du milieu par de la soude."
+  },
+  {
+    "id": 238,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Au gré du déroulé temporel d'estérification, comment fluctue le volume Équivalent de soude de titrage de l'acide restant ?",
+    "options": [
+      "Il augmente au fil de la formation d'espèces acides.",
+      "Il diminue, reflet de la consommation continue d'acide carboxylique au cours du cycle d'estérification.",
+      "Il demeure inchangé du début à la fin.",
+      "Il chute instantanément à zéro dès l'introduction de réactifs."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'acide diminuant au fil du temps d'estérification, la neutralisation de dosage mobilise moins d'ions HO⁻ titrants."
+  },
+  {
+    "id": 239,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Quelle configuration exprime la loi de constante thermodynamique K en fonction de son Équilibre ?",
+    "options": [
+      "K = ([Acide]_éq * [Alcool]_éq) / ([Ester]_éq * [Eau]_éq)",
+      "K = ([Ester]_éq * [Eau]_éq) / ([Acide]_éq * [Alcool]_éq)",
+      "K = pH * [Ester]_éq",
+      "K = tau²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La constante K s'identifie au quotient Q_r,éq à l'état final d'équilibre : [Produits]_éq / [Réactifs]_éq."
+  },
+  {
+    "id": 240,
+    "category": "Estérification-Hydrolyse",
+    "questionText": "Comment définit-on l'état d'équilibre dynamique atteint en fin de cycle d'estérification-hydrolyse ?",
+    "options": [
+      "L'annihilation intégrale des structures moléculaires.",
+      "Le point où la vitesse de la réaction d'estérification is rigoureusement Égale à celle de l'hydrolyse inverse.",
+      "Le franchissement absolu d'un taux de conversion de 100%.",
+      "L'évaporation complète du milieu liquide sulfurique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le Équilibre dynamique se traduit par la concomitance des réactions directe et inverse à Égales cadences d'évolutions."
+  },
+  {
+    "id": 241,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quel motif moléculaire identifie spécifiquement le groupement fonctionnel anhydride d'acide ?",
+    "options": [
+      "-COO-",
+      "-CO-O-CO-",
+      "-COOH",
+      "-OH"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les anhydrides comportent la connectique centrale carbonyle-oxygène-carbonyle : -CO-O-CO-."
+  },
+  {
+    "id": 242,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "De quel réactif un anhydride d'acide symétrique R-CO-O-CO-R is-il issu directement par déshéshydratation ?",
+    "options": [
+      "D'un alcool primaire monovalent.",
+      "De deux molécules d'un acide carboxylique de structure similaire.",
+      "De l'hydrolyse d'un ester lourd.",
+      "D'une base forte de titrage."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'anhydride d'acide dérive de l'élimination d'une molécule d'eau entre deux groupes carboxyliques."
+  },
+  {
+    "id": 243,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quelle règle IUPAC encadre l'appellation d'un anhydride d'acide ?",
+    "options": [
+      "On substitue le qualificatif \"acide\" par le qualificatif \"anhydride\" dans son appellation initiale d'acide.",
+      "On suffixe par l'appellation \"-oate d'alkyle\".",
+      "On utilise la désignation d'alcane accolée au terme \"ester\".",
+      "On convertit systématiquement le corps molaire en \"-amide\"."
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'expression structurelle transpose le terme d'anhydride en lieu et place du mot acide d'origine (ex: anhydride Éthanoïque)."
+  },
+  {
+    "id": 244,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Nommez selon la nomenclature la structure suivante : CH₃-CO-O-CO-CH₃ :",
+    "options": [
+      "Anhydride méthanoïque.",
+      "Anhydride Éthanoïque (ou anhydride acétique).",
+      "Anhydride propanoïque.",
+      "Éthanoate de méthyle."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Il dérive de l'acide Éthanoïque (acide à 2 carbones), d'où son nom d'anhydride Éthanoïque."
+  },
+  {
+    "id": 245,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quelle motivation conduit à employer un anhydride d'acide plutôt qu'un acide carboxylique pour synthétiser un ester ?",
+    "options": [
+      "Ralentir notablement la vitesse d'estérification.",
+      "Rendre l'estérification rapide et totalement complète (rendements proches de 100%).",
+      "Permettre une dilution optimale dans l'eau.",
+      "Ramener la valeur du pH de travail à 7."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les anhydrides d'acide sont des agents acylants très puissants assurant une estérification cinétiquement rapide et totale."
+  },
+  {
+    "id": 246,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quels sont les deux attributs qualificatifs majeurs du couplage entre un anhydride et un alcool ?",
+    "options": [
+      "Lente et limitée.",
+      "Rapide et totale.",
+      "Instantanée et réversible.",
+      "Infinie et endothermique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Cette réaction is exempte de limite réversible d'équilibre : elle is thermodynamiquement totale et cinétiquement rapide."
+  },
+  {
+    "id": 247,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quel coproduit se forme aux côtés de l'ester lors de l'attaque d'un alcool par un anhydride symétrique ?",
+    "options": [
+      "De l'eau distillée (H₂O).",
+      "Un acide carboxylique.",
+      "Des ions hydroxyde de soude HO⁻.",
+      "Du gaz carbonique volatile."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'équation s'écrit : (RCO)₂O + R'-OH -> RCOOR' + RCOOH. L'échantillon d'acide RCOOH is le coproduit formé."
+  },
+  {
+    "id": 248,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Pourquoi l'interaction anhydride d'acide / alcool n'est-elle pas limitée par une réaction inverse ?",
+    "options": [
+      "La transformation n'engendre pas d'eau dans le réacteur, rendant l'hydrolyse de l'ester formé impossible en ce milieu.",
+      "Le réacteur is stabilisé thermiquement à 0°C.",
+      "La constante K d'assimilation vaut rigoureusement zéro.",
+      "Le catalyseur engagé décompose les esters de transition."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Aucune molécule d'eau n'étant générée, l'ester final n'est menacé par aucun processus inverse d'hydrolyse."
+  },
+  {
+    "id": 249,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Par quels réactifs initie-t-on la synthèse rapide et complète de l'aspirine (acide acétylsalicylique) ?",
+    "options": [
+      "De l'acide salicylique traité par l'acide Éthanoïque pur.",
+      "De l'acide salicylique traité par de l'anhydride Éthanoïque.",
+      "De l'acide salicylique en mélange dense d'hydroxyde de sodium.",
+      "L'acétate d'isopropyle dilué."
+    ],
+    "correctIndex": 1,
+    "explanationText": "On recourt à l'anhydride Éthanoïque pour estérifier promptement et sans limite le groupe phénol de l'acide salicylique."
+  },
+  {
+    "id": 250,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Comment se définit formellement une réaction de saponification ?",
+    "options": [
+      "Une déshydratation acide forcée par chauffage.",
+      "L'hydrolyse totale d'un ester en milieu basique par action de soude (NaOH) ou de potasse (KOH).",
+      "La polymérisation à sec de composés carbonylés.",
+      "Le dépôt d'ions métalliques sous l'influence du Faraday."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La saponification is l'hydrolyse basique irréversible d'un ester consécutive à l'attaque des ions hydroxydes HO⁻."
+  },
+  {
+    "id": 251,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quelles sont les deux caractéristiques phares de l'étape de saponification d'un ester ?",
+    "options": [
+      "Lente et limitée thermodynamiquement.",
+      "Lente (à température ambiante) et totalement complète.",
+      "Rapide et soumise à un Équilibre dynamique.",
+      "Instantanée et réversible."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La saponification d'un ester is un processus lent à froid (que l'on accélère à chaud) mais strictement total."
+  },
+  {
+    "id": 252,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quelles entités résultent de la saponification d'un ester par une solution de soude (Na⁺ + HO⁻) ?",
+    "options": [
+      "Un acide carboxylique libre et un alcool.",
+      "Un ion carboxylate associé aux ions sodium (sel carboxylate) et un alcool.",
+      "Un anhydride d'acide stable et de l'eau.",
+      "Uniquement du savon pur sans solvant d'alcool."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'acide carboxylique issu de l'hydrolyse is immédiatement déprotoné par HO⁻ en ion carboxylate R-COO⁻ (savon)."
+  },
+  {
+    "id": 253,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Pourquoi l'étape de saponification d'un ester est-elle qualifiée d'irréversible (totale) ?",
+    "options": [
+      "L'ion carboxylate R-COO⁻ formé is dépourvu de réactivité nucléophile envers l'alcool pour reformer l'ester.",
+      "L'alcool is distillé en continu hors du ballon.",
+      "La dynamique s'effectue sous très forte charge atmosphérique.",
+      "La constante d'équilibre is Égale à 1."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'ion carboxylate is stable et non réactif vis-à-vis de l'alcool, interdisant le retour d'estérification classique."
+  },
+  {
+    "id": 254,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Qu'appelle-t-on triglycéride ou corps gras pour la production artisanale ou industrielle de savon ?",
+    "options": [
+      "Un monoalcool de grande ossature moléculaire.",
+      "Un triester complexe formé par estérification du glycérol (propan-1,2,3-triol) et d'acides gras.",
+      "Un alkyle aromatique isolé de gisements.",
+      "Un anhydride solide en suspension organique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les huiles et graisses végétales ou animales sont constituées de molécules de triglycérides (triesters du glycérol)."
+  },
+  {
+    "id": 255,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quel polyalcool tripolaire résulte obligatoirement de la saponification des corps gras ?",
+    "options": [
+      "L'éthanol volatil.",
+      "Le glycérol (ou propan-1,2,3-triol).",
+      "Le menthol saturé.",
+      "Le propan-2-ol."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La saponification des trois liaisons ester libère le propan-1,2,3-triol communément appelé glycérol."
+  },
+  {
+    "id": 256,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "De quelle composition chimique se constitue fondamentalement le savon solide ou fluide obtenu ?",
+    "options": [
+      "De molécules acides non ionisées.",
+      "De sels de sodium ou de potassium de carboxylates d'acides gras.",
+      "De molécules de huiles de départ polymérisées.",
+      "D'anhydrides d'acides cristallisés."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le savon is constitué d'amphiphiles ioniques qui sont des sels de sodium ou potassium d'acides gras."
+  },
+  {
+    "id": 257,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quel réactif de base forte emploie-t-on pour la synthèse d'un savon de texture DUR (solide) ?",
+    "options": [
+      "L'ammoniac en solution aqueuse.",
+      "L'hydroxyde de sodium (soude : NaOH).",
+      "L'hydroxyde de potassium (potasse : KOH).",
+      "L'acide sulfurique industriel."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'usage d'hydroxyde de sodium (Na⁺) fournit des réseaux cristallins denses qui solidifient le savon."
+  },
+  {
+    "id": 258,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quelle base forte privilégie-t-on pour confectionner un savon liquide ou de texture MOLLE ?",
+    "options": [
+      "L'hydroxyde de sodium (NaOH).",
+      "L'hydroxyde de potassium (potasse : KOH).",
+      "L'acide chlorhydrique fumant.",
+      "Le sel chlorure de sodium sec."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La potasse (K⁺) génère des carboxylates d'acides gras nettement plus solubles, conférant une fluidité au savon."
+  },
+  {
+    "id": 259,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Comment qualifie-t-on la méthode d'isolement du savon par ajout d'eau salée saturée solide ?",
+    "options": [
+      "Le chauffage à reflux dynamique.",
+      "Le relargage.",
+      "La catalyse homogène de phase.",
+      "La distillation fractionnée lourde."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le relargage consiste à précipiter le savon de sa solution par l'apport d'une solution saturée de NaCl."
+  },
+  {
+    "id": 260,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quelle structure duale caractérise l'ion carboxylate d'un savon vis-à-vis des solvants ?",
+    "options": [
+      "Deux chaînes alkyles hydrophiles torsadées.",
+      "Une tête hydrophile (polaire) affine de l'eau et une chaîne lipophile (hydrophobe) affine des graisses.",
+      "Un pôle métallique résistant et une queue acide conjuguée.",
+      "Un corps molaire globalement insoluble."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'amphiphilie réunit une tête ionique carboxylate polaire soluble dans l'eau et une longue chaîne apolaire lipophile."
+  },
+  {
+    "id": 261,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quel is le comportement de la \"queue\" hydrocarbonée lipophile de l'ion de savon ?",
+    "options": [
+      "Elle présente une solubilité Élevée dans l'eau pure.",
+      "Elle fuit l'eau (hydrophobe) et s'ancre dans les graisses et salisures.",
+      "Elle déploie une réaction d'oxydation forcée sur l'eau.",
+      "Elle migre préférentiellement vers l'électrode d'anode."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La chaîne carbonée cherche à s'extirper du milieu polaire de l'eau en se dissolvant sélectivement dans les corps gras."
+  },
+  {
+    "id": 262,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Comment se comporte le pôle \"tête\" carboxylate -COO⁻ de l'ion de savon ?",
+    "options": [
+      "Il is hydrophobe de par sa structure d'accumulation.",
+      "Il is hydrophile (établit des forces d'attraction ioniques et hydrogènes intenses avec l'eau).",
+      "Il se décompose spontanément en rejetant du dioxyde de carbone.",
+      "Il s'annihile par l'effet Joule molaire."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le pôle polaire -COO⁻ s'entoure d'un bouclier d'hydratation de molécules d'eau, assurant la solubilisation aqueuse."
+  },
+  {
+    "id": 263,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Dans quel phénomène physique s'établit l'action \"tensioactive\" du savon ?",
+    "options": [
+      "L'amplification du voltage global du réseau.",
+      "La réduction de la tension superficielle de l'eau, favorisant son Étalement et son affinité détergente.",
+      "L'augmentation phénoménale de la viscosité de l'huile.",
+      "Une interaction avec un isolant capacitif."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le tensioactif rompt la cohésion de surface de l'eau pour lui permettre de mouiller et d'envelopper la saleté."
+  },
+  {
+    "id": 264,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quelle définition résume l'activité d'un catalyseur en chimie ?",
+    "options": [
+      "Un réactif secondaire diminuant le rendement utile d'équilibre.",
+      "Une entité chimique capable d'élever la vitesse de transformation sans figurer dans le bilan final d'équation.",
+      "Une solution Étalon acide de référence.",
+      "Un dispositif de chauffage thermique à reflux."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le catalyseur accélère la transformation par abaissement de l'énergie d'activation, sans modifier l'état final d'équilibre."
+  },
+  {
+    "id": 265,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quand qualifie-t-on une démarche de catalyse de type \"homogène\" ?",
+    "options": [
+      "Le catalyseur is solide et les réactants sont gazeux.",
+      "Le catalyseur et les constituants réactifs se mélangent intimement au sein d'une seule phase physique.",
+      "Le rendement utile culmine instantanément à 100%.",
+      "Une variation spontanée chromatique apparaît."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La catalyse is qualifiée d'homogène lorsque le catalyseur et les réactifs sont dans la même phase (ex: en phase liquide)."
+  },
+  {
+    "id": 266,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Par quoi se définit la catalyse qualifiée de \"hétérogène\" ?",
+    "options": [
+      "Le catalyseur d'activation partage l'unique phase des réactifs.",
+      "Le catalyseur et les partenaires réactifs se situent sous des phases physiques dissemblables.",
+      "La dynamique s'effectue dans les deux sens au même rythme.",
+      "La cinétique affiche un retard infini d'activation."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La catalyse hétérogène implique au moins deux états physiques différents, par exemple un catalyseur solide avec des réactifs liquides."
+  },
+  {
+    "id": 267,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Qu'entend-on par la notion de \"catalyse enzymatique\" ?",
+    "options": [
+      "La mise en jeu d'oxydes métalliques de métaux rares.",
+      "L'utilisation d'une macromolécule protéique d'un système vivant jouant le rôle de biocatalyseur hautement sélectif (enzyme).",
+      "Un Équilibre forcé régi par une force Électromotrice.",
+      "Un dosage volumétrique direct d'acides."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La catalyse enzymatique s'appuie sur des protéines adaptées (enzymes) pour réaliser des accélérations cinétiques massives."
+  },
+  {
+    "id": 268,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Qu'est-ce que le critère de \"sélectivité\" associé à un catalyseur ?",
+    "options": [
+      "Le tri sélectif mécanique des réactifs selon leur poids.",
+      "L'aptitude du catalyseur à orienter sélectivement les réactifs vers des chemins réactionnels différents pour donner d'autres produits.",
+      "L'altération de la géométrie cristalline du catalyseur à la fin.",
+      "Une activité cinétique limitée à la température de 25°C."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un catalyseur is sélectif s'il favorise une réaction spécifique au détriment d'autres transformations thermodynamiquement possibles."
+  },
+  {
+    "id": 269,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Quel comportement se cache derrière une réaction chimiquement qualifiée d'\"autocatalytique\" ?",
+    "options": [
+      "Une réaction exigeant obligatoirement un microprocesseur de régulation.",
+      "Une réaction où l'un des produits finis fait lui-même office de catalyseur pour accélérer l'échantillon restant.",
+      "Une désactivation cinétique abrupte.",
+      "La linéarité de régulation de la constante analytique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le déroulement s'auto-accélère au gré de l'avancement car un produit né de la réaction catalyse sa propre synthèse."
+  },
+  {
+    "id": 270,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Identifiez le bilan d'estérification totale associant l'anhydride Éthanoïque et l'éthanol :",
+    "options": [
+      "(CH₃CO)₂O + CH₃CH₂OH -> CH₃COOCH₂CH₃ + CH₃COOH",
+      "CH₃COOH + CH₃CH₂OH <=> CH₃COOCH₂CH₃ + H₂O",
+      "(CH₃CO)₂O + H₂O -> 2CH₃COOH",
+      "CH₃COOCH₂CH₃ + HO⁻ -> CH₃COO⁻ + CH₃CH₂OH"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'anhydride d'acide réagit totalement avec l'éthanol pour former de l'éthanoate d'éthyle et de l'acide Éthanoïque."
+  },
+  {
+    "id": 271,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Soit n1 = 0,10 mol d'acide salicylique (limitant) réagissant totalement avec l'anhydride Éthanoïque. Quelle quantité théorique maximale d'aspirine attend-on ?",
+    "options": [
+      "0,05 mol",
+      "0,10 mol",
+      "0,20 mol",
+      "1,00 mol"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le bilan Équimolaire 1:1 d'une réaction complète donne : n_aspirine_max = n1 = 0,10 mol."
+  },
+  {
+    "id": 272,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Si une manipulation donne m = 14,4 g d'aspirine face à une estimation théorique absolue de m_th = 18,0 g, Évaluez le rendement η :",
+    "options": [
+      "eta = 100%",
+      "eta = 80%",
+      "eta = 67%",
+      "eta = 50%"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le rendement s'évalue en faisant le ratio simple : η = 14,4 / 18,0 = 0,80 (soit 80 % de rendement utile)."
+  },
+  {
+    "id": 273,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Saponification Équimolaire : R-COOR' + HO⁻ -> R-COO⁻ + R'-OH. Si l'on associe initialement 0,2 mol d'ester et 0,3 mol d'ions HO⁻, quel volume d'alcool se forme ?",
+    "options": [
+      "0,30 mol",
+      "0,20 mol (car l'ester is le réactif limitant de la transformation).",
+      "0,50 mol",
+      "0,10 mol"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'ester is le facteur limitant (0,2 mol < 0,3 mol), dictant l'avancement final x_f = 0,2 mol."
+  },
+  {
+    "id": 274,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Dans la situation de la Question 33, déterminez la quantité résiduelle d'ions hydroxyde HO⁻ après achèvement :",
+    "options": [
+      "0,00 mol",
+      "0,10 mol",
+      "0,20 mol",
+      "0,30 mol"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Quantité finale : n(HO⁻) = 0,30 - x_f = 0,30 - 0,20 = 0,10 mol d'ions non consommés."
+  },
+  {
+    "id": 275,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Combien d'atomes de carbone compte-t-on au sein de l'architecture fermée de l'anhydride Éthanoïque ?",
+    "options": [
+      "2 atomes de carbone.",
+      "4 atomes de carbone.",
+      "3 atomes de carbone.",
+      "6 atomes de carbone."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La formule (CH₃CO)₂O totalise deux radicaux à 2 carbones, soit 4 atomes de carbone au total."
+  },
+  {
+    "id": 276,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "En faisant circuler de l'éthanol gazeux à 300°C sur du cuivre solide, on engendre de l'éthanal et du H₂. De quoi s'agit-il ?",
+    "options": [
+      "D'une décomposition aqueuse.",
+      "D'une déshydrogénation par catalyse hétérogène (surfaces distinctes solide-gaz).",
+      "D'une sélection enzymatique.",
+      "D'une estérification standard athermique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le cuivre solide sert de support catalytique hétérogène pour arracher du dihydrogène de la molécule gazeuse d'alcool."
+  },
+  {
+    "id": 277,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "En reprenant l'éthanol à 300°C mais sur de l'alumine Al₂O₃ solide, on produit de l'éthylène et de l'eau. Quelle propriété en découle ?",
+    "options": [
+      "La parfaite invariance de la constante de thermodynamique.",
+      "La sélectivité du catalyseur (des produits différents selon la nature du composé catalytique).",
+      "L'impact de la trempe de température.",
+      "L'autocatalyse par l'eau."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'influence du choix du solide catalytique Cu versus Al₂O₃ illustre la notion fondamentale de sélectivité."
+  },
+  {
+    "id": 278,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Un excès final d'ions HO⁻ issu d'un manque de rigueur de saponification confère au savon obtenu :",
+    "options": [
+      "Une acidité marquée (pH < 4).",
+      "Une alcalinité basique marquée (pH > 7 représentatif de la nocivité cutanée).",
+      "Une parfaite neutralité chimique salée.",
+      "Une absence intégrale de conduction électrique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les ions HO⁻ restants de la base de départ confèrent au savon un caractère très basique agressif."
+  },
+  {
+    "id": 279,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Par quel procédé d'isolation sépare-t-on les flocons solides de savon de l'eau salée glycérolée ?",
+    "options": [
+      "Un cycle d'ébullition à reflux de deux heures.",
+      "Une filtration simple ou filtration sous vide sur filtre Buchner.",
+      "Une décantation statique d'extraction par solvant.",
+      "Une chromatographie sur couche d'exclusion."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le savon solide précipité is séparé physiquement de la phase liquide de relargage par filtration physique."
+  },
+  {
+    "id": 280,
+    "category": "Contrôle de l'Évolution",
+    "questionText": "Pour conclure, l'apport d'anhydrides d'acides ou de bases fortes hydroxylées permet historiquement de :",
+    "options": [
+      "Abaisser drastiquement la conductance moléculaire.",
+      "S'affranchir de la réversibilité thermodynamique d'équilibre pour obtenir des synthèses totales et rapides.",
+      "Modifier de façon induite la tension de vapeur du platine.",
+      "Vaporiser les structures esters sous forme de gaz inerte."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Ces substitutions d'ingénierie moléculaire bloquent la réversion d'hydrolyse pour consommer totalement les alcools ou esters."
+  }
+]
