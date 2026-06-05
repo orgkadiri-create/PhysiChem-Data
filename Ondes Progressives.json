@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "Ondes Progressives",
+    "questionText": "Qu'est-ce qu'une onde mécanique progressive ?",
+    "options": [
+      "Le déplacement global d'une masse de matière d'un point A à un point B.",
+      "Le phénomène de propagation d'une perturbation dans un milieu matériel, avec transport d'énergie mais sans transport de matière.",
+      "Un signal lumineux se propageant dans le vide.",
+      "Un déplacement d'électrons libres dans un fil de cuivre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une onde mécanique progressive correspond à la propagation d'une perturbation sans transport de matière mais avec transfert d'énergie."
+  },
+  {
+    "id": 2,
+    "category": "Ondes Progressives",
+    "questionText": "Une onde mécanique peut-elle se propager dans le vide ?",
+    "options": [
+      "Oui, à condition que sa fréquence soit très élevée.",
+      "Oui, car elle n'a besoin d'aucun support matériel.",
+      "Non, elle nécessite obligatoirement un milieu matériel (solide, liquide ou gaz) pour se propager.",
+      "Uniquement dans le vide intersidéral."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le vide ne contient pas d'atomes ou de molécules pour propager des déformations ou pressions mécaniques."
+  },
+  {
+    "id": 3,
+    "category": "Ondes Progressives",
+    "questionText": "Quand dit-on qu'une onde mécanique est transversale ?",
+    "options": [
+      "Lorsque la direction de la perturbation est parallèle à la direction de la propagation.",
+      "Lorsque la perturbation se déplace à la vitesse de la lumière.",
+      "Lorsque la direction de la perturbation est perpendiculaire à la direction de la propagation.",
+      "Lorsque l'onde se propage dans toutes les directions de l'espace."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La transversalité se caractérise par des axes orthogonaux entre déformation locale et propagation."
+  },
+  {
+    "id": 4,
+    "category": "Ondes Progressives",
+    "questionText": "Parmi les exemples suivants, lequel correspond à une onde transversale ?",
+    "options": [
+      "L'onde sonore dans l'air.",
+      "L'onde le long d'une corde tendue que l'on secoue verticalement.",
+      "L'onde le long d'un ressort comprimé puis relâché.",
+      "L'onde de choc dans un tube pneumatique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La déformation de la corde est perpendiculaire (axe vertical) au déplacement de l'onde (axe horizontal)."
+  },
+  {
+    "id": 5,
+    "category": "Ondes Progressives",
+    "questionText": "Une onde est dite longitudinale lorsque la direction de la perturbation est :",
+    "options": [
+      "Parallèle à la direction de propagation.",
+      "Perpendiculaire à la direction de propagation.",
+      "Inclinée d'un angle quelconque.",
+      "Verticale tandis que l'onde avance horizontalement."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Il y a longitudinalité lorsque la compression-décompression se fait selon le même axe que la propagation."
+  },
+  {
+    "id": 6,
+    "category": "Ondes Progressives",
+    "questionText": "Lequel de ces phénomènes est une onde mécanique longitudinale ?",
+    "options": [
+      "L'onde créée à la surface de l'eau par la chute d'une pierre.",
+      "L'onde lumineuse.",
+      "Le son (onde sonore) se propageant dans l'air.",
+      "L'onde se propageant sur une corde de guitare."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La propagation sonore dans les fluides s'effectue par compressions et dilatations longitudinales de couches d'air."
+  },
+  {
+    "id": 7,
+    "category": "Ondes Progressives",
+    "questionText": "Quelle est l'unité internationale de la célérité (vitesse de propagation) v d'une onde ?",
+    "options": [
+      "Le kilomètre par heure (km/h).",
+      "Le mètre par seconde (m/s ou m·s⁻¹).",
+      "Le hertz (Hz).",
+      "Le mètre-seconde (m.s)."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le mètre par seconde (m/s) est l'unité de mesure légale de célérité physique."
+  },
+  {
+    "id": 8,
+    "category": "Ondes Progressives",
+    "questionText": "La formule reliant la célérité v, la distance parcourue d et la durée du parcours Δt est :",
+    "options": [
+      "v = d · Δt",
+      "v = Δt / d",
+      "v = d / Δt",
+      "v = d² · Δt"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La célérité d'une onde est le quotient de la distance parcourue par l'intervalle de temps mis pour la parcourir : v = d / Δt."
+  },
+  {
+    "id": 9,
+    "category": "Ondes Progressives",
+    "questionText": "Qu'est-ce que le retard temporel τ d'une onde mécanique ?",
+    "options": [
+      "Le temps que met la source pour s'arrêter de vibrer.",
+      "La durée nécessaire pour que la perturbation parcoure la distance entre la source et un point donné du milieu.",
+      "La différence entre la vitesse du son et celle de la lumière.",
+      "La période d'oscillation d'un atome."
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est la durée écoulée pour que la perturbation atteigne un point d'étude après avoir été émise."
+  },
+  {
+    "id": 10,
+    "category": "Ondes Progressives",
+    "questionText": "Si une onde se propage de la source S vers un point M à la célérité v, le retard temporel τ s'exprime par :",
+    "options": [
+      "τ = SM / v",
+      "τ = SM · v",
+      "τ = v / SM",
+      "τ = (SM · v) / 2"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Le retard temporel est le rapport de la distance parcourue par la célérité de propagation : τ = SM / v."
+  },
+  {
+    "id": 11,
+    "category": "Ondes Progressives",
+    "questionText": "Quelle est la relation entre l'élongation y_M(t) d'un point M à l'instant t et celle de la source y_S(t) ?",
+    "options": [
+      "y_M(t) = y_S(t + τ)",
+      "y_M(t) = y_S(t - τ)",
+      "y_M(t) = y_S(t) · τ",
+      "y_M(t) = y_S(t / τ)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le point M reproduit avec un retard τ le mouvement vibratoire qu'avait la source à l'instant t - τ, soit : y_M(t) = y_S(t - τ)."
+  },
+  {
+    "id": 12,
+    "category": "Ondes Progressives",
+    "questionText": "Que se passe-t-il lorsqu'un bouchon de liège est croisé par une onde circulaire à la surface de l'eau ?",
+    "options": [
+      "Il est emporté par l'onde jusqu'aux bords du récipient.",
+      "Il s'enfonce définitivement au fond de l'eau.",
+      "Il oscille verticalement de bas en haut lors du passage de la perturbation, puis reprend sa position initiale.",
+      "Il se déplace horizontalement en sens inverse de l'onde."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La matière ne se déplace pas, elle oscille localement avant de retrouver sa position originelle d'équilibre."
+  },
+  {
+    "id": 13,
+    "category": "Ondes Progressives",
+    "questionText": "De quoi dépend principalement la célérité d'une onde mécanique ?",
+    "options": [
+      "De la couleur de la source.",
+      "De l'amplitude de la perturbation initiale uniquement.",
+      "Des propriétés du milieu de propagation (élasticité, inertie, température).",
+      "De la durée pendant laquelle la source reste active."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La vitesse d'onde est une propriété intrinsèque du milieu liée à sa rigidité (élasticité) et sa masse volumique."
+  },
+  {
+    "id": 14,
+    "category": "Ondes Progressives",
+    "questionText": "Si on augmente la tension d'une corde, la célérité d'une onde sur cette corde :",
+    "options": [
+      "Augmente.",
+      "Diminue.",
+      "Reste rigoureusement identique.",
+      "S'annule."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Plus une corde est tendue, plus la force de rappel élastique est vigoureuse, ce qui accélère la propagation."
+  },
+  {
+    "id": 15,
+    "category": "Ondes Progressives",
+    "questionText": "Plus l'inertie d'un milieu de propagation est grande (par exemple une corde plus lourde par unité de longueur) :",
+    "options": [
+      "Plus la célérité de l'onde est grande.",
+      "Plus la célérité de l'onde est faible.",
+      "La célérité ne change pas mais l'onde devient lumineuse.",
+      "L'onde s'arrête instantanément au bout de 1 cm."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une plus forte masse linéique oppose une résistance à l'accélération (inertie), ralentissant le signal."
+  },
+  {
+    "id": 16,
+    "category": "Ondes Progressives",
+    "questionText": "Une onde sonore se propage généralement plus vite dans :",
+    "options": [
+      "Les gaz que dans les liquides.",
+      "Le vide absolu.",
+      "Les solides que dans les liquides ou les gaz.",
+      "Les milieux mous et poreux."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Les liaisons solides agissent comme des ressorts rigides ultra-rapides pour transmettre les vibrations de pression."
+  },
+  {
+    "id": 17,
+    "category": "Ondes Progressives",
+    "questionText": "Une onde mécanique qui se propage le long d'une corde est une onde à :",
+    "options": [
+      "Une seule dimension (unidimensionnelle).",
+      "Deux dimensions (bidimensionnelle).",
+      "Trois dimensions (tridimensionnelle).",
+      "Zéro dimension."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Elle se propage le long d'un seul axe géométrique défini par la position de la corde."
+  },
+  {
+    "id": 18,
+    "category": "Ondes Progressives",
+    "questionText": "Une onde sonore se propageant dans une pièce close est une onde à :",
+    "options": [
+      "Une dimension.",
+      "Deux dimensions.",
+      "Trois dimensions (tridimensionnelle).",
+      "Quatre dimensions."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Les vibrations de l'air s'étendent en volume dans toutes les directions tridimensionnelles."
+  },
+  {
+    "id": 19,
+    "category": "Ondes Progressives",
+    "questionText": "Lorsqu'une onde mécanique atteint une frontière ou un obstacle rigide, que peut-elle subir ?",
+    "options": [
+      "Une réflexion.",
+      "Une destruction de l'univers mécanique.",
+      "Une transformation instantanée en électricité.",
+      "Elle continue en ligne droite sans aucun changement."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Si le milieu se coupe, l'onde incidente rebondit et donne naissance à une onde réfléchie en sens inverse."
+  },
+  {
+    "id": 20,
+    "category": "Ondes Progressives",
+    "questionText": "Une onde sonore de fréquence 1000 Hz parcourt 340 m/s dans l'air. Si sa fréquence passe à 2000 Hz, sa vitesse dans le même air à même température va :",
+    "options": [
+      "Doubler et passer à 680 m/s.",
+      "Être divisée par deux et passer à 170 m/s.",
+      "Reste approximativement la même (340 m/s) car l'air n'est pas un milieu dispersif pour les ondes sonores.",
+      "S'annuler complètement."
+    ],
+    "correctIndex": 2,
+    "explanationText": "L'air est considéré comme non dispersif pour le son audible, la vitesse reste stable face aux variations de fréquence."
+  },
+  {
+    "id": 21,
+    "category": "Ondes Progressives",
+    "questionText": "Lors de la propagation d'une onde mécanique, les points du milieu matériel effectuent :",
+    "options": [
+      "Un déplacement définitif de la source vers l'infini.",
+      "Un mouvement d'oscillation temporaire autour de leur position d'équilibre.",
+      "Une rotation complète sur eux-mêmes.",
+      "Aucun mouvement, ils restent strictement immobiles."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les points sont temporairement sollicités par l'ébranlement, puis regagnent passivement leur état stationnaire."
+  },
+  {
+    "id": 22,
+    "category": "Ondes Progressives",
+    "questionText": "Le point du milieu matériel où est créée la perturbation initiale s'appelle :",
+    "options": [
+      "Le récepteur.",
+      "Le front d'onde.",
+      "La source.",
+      "La crête."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le foyer excitateur originel fournissant l'énergie mécanique est dénommé la source S."
+  },
+  {
+    "id": 23,
+    "category": "Ondes Progressives",
+    "questionText": "Dans le cadre d'un ébranlement le long d'une corde, la perturbation correspond à une variation de :",
+    "options": [
+      "La température du fil.",
+      "La position géométrique des points de la corde.",
+      "La masse linéique de la corde.",
+      "L'indice de réfraction du nylon."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Il y a changement de position géométrique de la matière par rapport à son alignement permanent de repos."
+  },
+  {
+    "id": 24,
+    "category": "Ondes Progressives",
+    "questionText": "Pourquoi un cavalier en papier posé sur une corde revient-il à sa place après le passage de l'onde ?",
+    "options": [
+      "Parce que la matière de la corde ne se déplace pas globalement avec l'onde.",
+      "Parce que le papier est attiré par la gravité terrestre uniquement.",
+      "Parce que l'onde transporte de la matière qui pousse le papier en arrière.",
+      "Parce que la corde s'est rompue."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Une onde propage un signal énergétique sans jamais transporter massivement la matière physique du support."
+  },
+  {
+    "id": 25,
+    "category": "Ondes Progressives",
+    "questionText": "L'onde générée à la surface de l'eau par la chute d'une goutte est transversale parce que :",
+    "options": [
+      "L'eau se déplace horizontalement vers le bord de la cuve.",
+      "La déformation est verticale (de bas en haut) et la propagation est horizontale.",
+      "Elle se propage dans toutes les directions de l'espace en trois dimensions.",
+      "Elle s'amortit très rapidement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le niveau d'eau monte et descend alternativement (axe vertical) sous l'effet de rides circulaires horizontales."
+  },
+  {
+    "id": 26,
+    "category": "Ondes Progressives",
+    "questionText": "Lorsqu'on comprime quelques spires d'un ressort horizontal puis qu'on les libère, la perturbation est :",
+    "options": [
+      "Transversale.",
+      "Circulaire.",
+      "Longitudinale.",
+      "Lumineuse."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Les spires se resserrent et s'écartent dans la direction même où le signal avance (direction colinéaire)."
+  },
+  {
+    "id": 27,
+    "category": "Ondes Progressives",
+    "questionText": "Parmi les propositions suivantes, laquelle n'est PAS une onde mécanique ?",
+    "options": [
+      "L'onde sonore.",
+      "L'onde sismique.",
+      "L'onde sur une corde.",
+      "L'onde radioélectrique."
+    ],
+    "correctIndex": 3,
+    "explanationText": "Les ondes radioélectriques sont électromagnétiques : elles se transmettent même en absence complète de matière support."
+  },
+  {
+    "id": 28,
+    "category": "Ondes Progressives",
+    "questionText": "Comment évolue la célérité du son dans l'air lorsque la température augmente de 0°C à 20°C ?",
+    "options": [
+      "Elle diminue de 341 m/s à 331 m/s.",
+      "Elle reste strictement inchangée.",
+      "Elle augmente de 331 m/s à 340 m/s.",
+      "Elle chute à 0 m/s."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Une hausse de température accroît l'agitation thermique et la célérité de propagation des ondes fluides de pression."
+  },
+  {
+    "id": 29,
+    "category": "Ondes Progressives",
+    "questionText": "Dans quel milieu matériel parmi les suivants le son se propage-t-il le plus rapidement ?",
+    "options": [
+      "L'air à 20°C (340 m/s).",
+      "L'eau liquide (1500 m/s).",
+      "Le cuivre solide (5010 m/s).",
+      "Le fer solide (5950 m/s)."
+    ],
+    "correctIndex": 3,
+    "explanationText": "C'est dans le fer solide (5950 m/s) que la vitesse sonore est maximale parmi ces options, en raison de son extrême rigidité."
+  },
+  {
+    "id": 30,
+    "category": "Ondes Progressives",
+    "questionText": "On appelle 'front d'onde' :",
+    "options": [
+      "Le point central d'où l'onde est partie.",
+      "L'ensemble des points du milieu qui atteignent la perturbation en premier à un instant t.",
+      "La fin de la perturbation mécanique.",
+      "L'appareil qui mesure le retard temporel."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le front de l'onde représente les points les plus reculés atteints à un instant précis par la déformation."
+  },
+  {
+    "id": 31,
+    "category": "Ondes Progressives",
+    "questionText": "Une onde qui se propage exclusivement à la surface libre d'un liquide est qualifiée d'onde à :",
+    "options": [
+      "Une dimension.",
+      "Deux dimensions.",
+      "Trois dimensions.",
+      "Aucune dimension."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le déplacement se développe dans le plan horizontal deux-dimensionnel de la surface fluide."
+  },
+  {
+    "id": 32,
+    "category": "Ondes Progressives",
+    "questionText": "Si un récepteur R enregistre le passage d'une onde à l'instant t_2 alors qu'elle a été émise à l'instant t_1, la durée Δt de propagation vaut :",
+    "options": [
+      "Δt = t_1 + t_2",
+      "Δt = t_2 - t_1",
+      "Δt = t_1 · t_2",
+      "Δt = t_1 / t_2"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La durée de transport mécanique est le décalage de temps algébrique (temps final - de départ) : Δt = t_2 - t_1."
+  },
+  {
+    "id": 33,
+    "category": "Ondes Progressives",
+    "questionText": "L'élongation d'un point M d'une corde correspond géométriquement à :",
+    "options": [
+      "Sa distance minimale par rapport à la source S.",
+      "Sa position verticale mesurée à partir de sa position de repos.",
+      "La longueur totale de la corde.",
+      "La vitesse instantanée de déplacement du point."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'élongation est l'écart algébrique vertical séparant le point d'étude de sa ligne horizontale de repos permanent."
+  },
+  {
+    "id": 34,
+    "category": "Ondes Progressives",
+    "questionText": "Pourquoi l'onde sonore ne peut-elle pas se propager dans le vide ?",
+    "options": [
+      "Parce que le vide absorbe la lumière.",
+      "Parce que le vide ne possède pas de matière (molécules) capable de subir des compressions et des dilatations.",
+      "Parce que la température du vide est trop basse.",
+      "Parce que la gravité y est nulle."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque le son est une succession de compressions/dilatations de particules, l'absence de matière (vide) l'annihile."
+  },
+  {
+    "id": 35,
+    "category": "Ondes Progressives",
+    "questionText": "Si une perturbation parcourt une distance d = 6,8 m dans l'air en une durée Δt = 20 ms, sa célérité est de :",
+    "options": [
+      "340 m/s",
+      "136 m/s",
+      "0,34 m/s",
+      "34 m/s"
+    ],
+    "correctIndex": 0,
+    "explanationText": "v = d / Δt = 6,8 m / 0,020 s = 340 m/s."
+  },
+  {
+    "id": 36,
+    "category": "Ondes Progressives",
+    "questionText": "Lorsqu'on compare la vitesse du son dans l'eau (v_eau) et dans l'air (v_air), on constate que :",
+    "options": [
+      "v_eau < v_air",
+      "v_eau = v_air",
+      "v_eau > v_air",
+      "v_eau = 0"
+    ],
+    "correctIndex": 2,
+    "explanationText": "L'eau étant un liquide très dense et peu compressible comparée à l'air, la communication s'y propage 4 fois plus vite."
+  },
+  {
+    "id": 37,
+    "category": "Ondes Progressives",
+    "questionText": "Si le retard d'un point M par rapport à la source S est τ = 0,05 s, le point M reproduit le mouvement de S avec :",
+    "options": [
+      "Une avance de 0,05 s.",
+      "Un retard de 0,05 s.",
+      "Une amplitude deux fois plus grande.",
+      "Une modification complète de sa trajectoire."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le point reproduit l'exact mouvement vibratoire de la source mais décalé plus tard de τ = 0,05 s."
+  },
+  {
+    "id": 38,
+    "category": "Ondes Progressives",
+    "questionText": "L'inertie d'un milieu représente sa capacité à :",
+    "options": [
+      "S'opposer à la mise en mouvement de ses éléments constitutifs.",
+      "Reprendre sa forme initiale instantanément.",
+      "Consommer toute l'énergie de l'onde sous forme lumineuse.",
+      "Réfléchir l'onde à 100%."
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'inertie d'un milieu correspond à sa résistance face à toute modification de son état cinématique d'équilibre."
+  },
+  {
+    "id": 39,
+    "category": "Ondes Progressives",
+    "questionText": "Quel phenomenon physique se produit lorsqu'une personne parle et qu'un microphone capte le signal à distance ?",
+    "options": [
+      "Un transfert global de molécules d'oxygène de la bouche vers le micro.",
+      "Un transport d'énergie mécanique à travers l'air sans déplacement global de l'air.",
+      "Une réaction chimique exothermique.",
+      "Un transport de courant électrique dans l'air."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'onde acoustique progressive fait osciller l'air localement pour acheminer le flux d'énergie de pression."
+  },
+  {
+    "id": 40,
+    "category": "Ondes Progressives",
+    "questionText": "Si la distance séparant la source S d'un point M est doublée, la durée nécessaire pour que l'onde atteigne le point M (dans un milieu homogène) va :",
+    "options": [
+      "Rester identique.",
+      "Être divisée par deux.",
+      "Doubler.",
+      "Quadrupler."
+    ],
+    "correctIndex": 2,
+    "explanationText": "v = d / t, donc t = d / v. La durée de transport t est directement proportionnelle à la distance d parcourue."
+  }
+]

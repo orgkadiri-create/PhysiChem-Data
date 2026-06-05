@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "Ondes Périodiques",
+    "questionText": "Quelle est la définition de la période temporelle T d'une onde ?",
+    "options": [
+      "La distance minimale séparant deux points dans le même état de vibration.",
+      "La plus petite durée au bout de laquelle un point du milieu retrouve le même état de vibration.",
+      "Le nombre de vibrations par seconde.",
+      "La hauteur maximale atteinte par la perturbation."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La période T est un intervalle temporel de répétition cyclique pour un point donné de l'espace."
+  },
+  {
+    "id": 2,
+    "category": "Ondes Périodiques",
+    "questionText": "La fréquence f d'une onde périodique s'exprime en Hertz (Hz). Quelle est sa relation avec la période T ?",
+    "options": [
+      "f = 1 / T",
+      "f = T²",
+      "f = 2π * T",
+      "f = T"
+    ],
+    "correctIndex": 0,
+    "explanationText": "La fréquence f et la période T sont inverses l'une de l'autre: f = 1/T."
+  },
+  {
+    "id": 3,
+    "category": "Ondes Périodiques",
+    "questionText": "Qu'est-ce que la longueur d'onde λ ?",
+    "options": [
+      "La durée totale pendant laquelle la source émet un signal périodique.",
+      "La distance parcourue par l'onde pendant une période temporelle T.",
+      "L'inverse de la vitesse de propagation.",
+      "L'amplitude maximale mesurée avec une règle."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La longueur d'onde spatiale λ correspond à la distance géométrique parcourue par le signal d'onde en une période T."
+  },
+  {
+    "id": 4,
+    "category": "Ondes Périodiques",
+    "questionText": "Quelle formule fondamentale relie λ, v, T et f ?",
+    "options": [
+      "λ = v / T = v * f",
+      "λ = v * T = v / f",
+      "λ = T / v = v * f",
+      "λ = v + T"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La relation fondamentale de propagation s'écrit de manière indiscutable λ = v.T = v/f."
+  },
+  {
+    "id": 5,
+    "category": "Ondes Périodiques",
+    "questionText": "La périodicité temporelle est propre à :",
+    "options": [
+      "Chaque point du milieu au cours du temps.",
+      "L'ensemble du milieu à un instant t fixé.",
+      "La forme géométrique tridimensionnelle de la vague.",
+      "La couleur du milieu."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La périodicité temporelle exprime la régularité temporelle du mouvement de chaque point individuel."
+  },
+  {
+    "id": 6,
+    "category": "Ondes Périodiques",
+    "questionText": "La périodicité spatiale (représentée par λ) s'observe sur :",
+    "options": [
+      "Le graphe des variations d'un seul point en fonction du temps.",
+      "Une photographie du milieu de propagation à un instant donné.",
+      "Le cadran d'un chronomètre.",
+      "Un appareil de mesure des fréquences (fréquencemètre)."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La distance spatiale λ montre le schéma de répartition ou profil géographique à un instant figé t."
+  },
+  {
+    "id": 7,
+    "category": "Ondes Périodiques",
+    "questionText": "Deux points A et B d'un milieu vibrent 'en phase' si la distance AB est égale à :",
+    "options": [
+      "AB = k * λ (avec k un entier naturel)",
+      "AB = (2k+1) * λ / 2 (avec k un entier naturel)",
+      "AB = λ / 4",
+      "Une valeur totalement aléatoire."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La concordance vibratoire parfaite en phase correspond géométriquement à un multiple entier de λ."
+  },
+  {
+    "id": 8,
+    "category": "Ondes Périodiques",
+    "questionText": "Deux points A et B vibrent 'en opposition de phase' si la distance AB vérifie :",
+    "options": [
+      "AB = k * λ",
+      "AB = (2k+1) * λ / 2 (un nombre impair de demi-longueurs d'onde)",
+      "AB = 2k * λ",
+      "AB = λ / 3"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Deux points vibrent en complète opposition s'ils sont écartés d'un nombre impair de demi-longueurs d'onde."
+  },
+  {
+    "id": 9,
+    "category": "Ondes Périodiques",
+    "questionText": "Quand dit-on qu'un milieu matériel est 'dispersif' ?",
+    "options": [
+      "Quand il absorbe toute l'énergie de l'onde pour chauffer.",
+      "Quand la célérité de l'onde dépend de la fréquence de la source.",
+      "Quand l'onde change de couleur en traversant le milieu.",
+      "Quand la vitesse est identique pour toutes les fréquences."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un milieu est qualifié de dispersif si des signaux de fréquences distinctes s'y propagent à des célérités différentes."
+  },
+  {
+    "id": 10,
+    "category": "Ondes Périodiques",
+    "questionText": "La surface de l'eau dans une cuve à ondes est un exemple de milieu :",
+    "options": [
+      "Dispersif (la vitesse des rides dépend de la fréquence de vibration).",
+      "Non-dispersif (toutes les ondes vont à la vitesse de la lumière).",
+      "Où le son ne se propage jamais.",
+      "Vide."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Des fréquences élevées excitent différemment la tension superficielle de l'eau changeant la célérité observée."
+  },
+  {
+    "id": 11,
+    "category": "Ondes Périodiques",
+    "questionText": "Quel appareil utilise-t-on en laboratoire pour 'immobiliser' visuellement une onde périodique ?",
+    "options": [
+      "Un thermomètre numérique.",
+      "Un stroboscope.",
+      "Un ampèremètre.",
+      "Un baromètre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La persistance rétinienne sous flashs réguliers stroboscopiques permet d'isoler des immobilités apparentes d'ondes."
+  },
+  {
+    "id": 12,
+    "category": "Ondes Périodiques",
+    "questionText": "Si la fréquence des éclairs d'un stroboscope fe est rigoureusement égale à la fréquence f de l'onde, on observe :",
+    "options": [
+      "Une immobilité apparente de l'onde.",
+      "Un mouvement ralenti dans le sens direct.",
+      "Un mouvement ralenti dans le sens inverse.",
+      "Une disparition complète de l'onde."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Les éclairs capturent l'onde au même stade d'élongation de sa période sinusoïdale provoquant une immobilité."
+  },
+  {
+    "id": 13,
+    "category": "Ondes Périodiques",
+    "questionText": "Qu'est-ce que le phénomène de diffraction d'une onde mécanique ?",
+    "options": [
+      "La séparation de l'onde en plusieurs fréquences.",
+      "La modification de la direction de propagation et de la forme d'une onde lorsqu'elle rencontre une ouverture ou un obstacle.",
+      "L'arrêt brutal de l'onde.",
+      "L'augmentation de sa vitesse après un obstacle."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Il y a diffraction lorsque l'obstacle perturbe et écarte l'onde incidente de sa trajectoire de rayon logique."
+  },
+  {
+    "id": 14,
+    "category": "Ondes Périodiques",
+    "questionText": "Pour qu'une onde rectiligne soit nettement diffractée par une fente de largeur a, quelle condition doit être remplie ?",
+    "options": [
+      "La largeur a doit être très supérieure à la longueur d'onde (a >> λ).",
+      "La largeur a doit être inférieure ou du même ordre de grandeur que la longueur d'onde (a <= λ).",
+      "La fente doit être circulaire et transparente.",
+      "La largeur a doit être égale à zéro."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Si a est du même ordre ou plus fin que λ, le comportement de diffraction se développe de façon très marquée."
+  },
+  {
+    "id": 15,
+    "category": "Ondes Périodiques",
+    "questionText": "Lors du phénomène de diffraction d'une onde mécanique, qu'est-ce qui change après l'obstacle ?",
+    "options": [
+      "La longueur d'onde et la fréquence.",
+      "La fréquence et la célérité.",
+      "Uniquement la forme et la direction de propagation (la fréquence, la célérité et la longueur d'onde restent inchangées).",
+      "L'onde mécanique se transforme en onde sonore."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La diffraction n'affecte ni la nature temporelle (f) ni la vitesse du milieu, seulement l'orientation physique."
+  },
+  {
+    "id": 16,
+    "category": "Ondes Périodiques",
+    "questionText": "Après avoir traversé une fente étroite (a <= λ), une onde rectiligne périodique devient une onde :",
+    "options": [
+      "Circulaire.",
+      "Triangulaire.",
+      "Carrée.",
+      "Elle cesse d'exister."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La fente se conduit comme un émetteur quasi ponctuel rayonnant des ondes à géométrie semi-circulaire."
+  },
+  {
+    "id": 17,
+    "category": "Ondes Périodiques",
+    "questionText": "Si une onde périodique possède une fréquence f = 50 Hz et une longueur d'onde λ = 0,2 m, quelle est sa célérité v ?",
+    "options": [
+      "v = 250 m/s",
+      "v = 10 m/s",
+      "v = 0,004 m/s",
+      "v = 50,2 m/s"
+    ],
+    "correctIndex": 1,
+    "explanationText": "v = λ * f = 0,2 * 50 = 10 m/s."
+  },
+  {
+    "id": 18,
+    "category": "Ondes Périodiques",
+    "questionText": "Une onde de période T = 0,02 s met combien de temps pour effectuer 5 vibrations complètes ?",
+    "options": [
+      "0,02 s",
+      "0,1 s",
+      "1 s",
+      "5 s"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Durée totale t = 5 * T = 5 * 0,02 s = 0,10 s."
+  },
+  {
+    "id": 19,
+    "category": "Ondes Périodiques",
+    "questionText": "Sur une cuve à ondes, la distance entre la 1ère crête et la 5ème crête successive est de 12 cm. Quelle est la valeur de la longueur d'onde λ ?",
+    "options": [
+      "12 cm",
+      "4 cm",
+      "3 cm (car il y a 4 intervalles : 12 / 4 = 3 cm)",
+      "2,4 cm"
+    ],
+    "correctIndex": 2,
+    "explanationText": "5 crêtes consécutives déterminent 4 intervalles égaux à λ: d = 4λ -> λ = 12 cm / 4 = 3 cm."
+  },
+  {
+    "id": 20,
+    "category": "Ondes Périodiques",
+    "questionText": "Le mouvement apparent ralenti dans le sens inverse (rétrograde) à l'aide d'un stroboscope s'obtient quand :",
+    "options": [
+      "La fréquence des éclairs fe est légèrement supérieure à la fréquence f de l'onde.",
+      "La fréquence des éclairs fe est égale à f.",
+      "La fréquence des éclairs fe est très inférieure à f.",
+      "On éteint complètement le stroboscope."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Pour fe légèrement au-dessus de f, l'éclair se produit un peu avant la fin de période: illusion de retour en arrière."
+  },
+  {
+    "id": 21,
+    "category": "Ondes Périodiques",
+    "questionText": "La longueur d'onde λ peut être définie graphiquement comme la distance entre :",
+    "options": [
+      "Le début de la source et le récepteur de fin.",
+      "Deux crêtes (sommets) consécutives de la vague.",
+      "Une crête et le fond le plus proche.",
+      "L'axe d'équilibre et le point culminant."
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est l'illustration simple de la périodicité spatiale (répétition minimale de la forme d'onde)."
+  },
+  {
+    "id": 22,
+    "category": "Ondes Périodiques",
+    "questionText": "Une onde est dite sinusoïdale lorsque l'élongation de tout point du milieu est :",
+    "options": [
+      "Une fonction affine du temps (y = at + b).",
+      "Une fonction périodique sinusoïdale du temps (cosinus ou sinus).",
+      "Constante et égale à zéro.",
+      "Une fonction exponentielle décroissante."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'état d'oscillation temporelle est modélisé trigonométriquement par une formule d'harmonique pure (cos ou sin)."
+  },
+  {
+    "id": 23,
+    "category": "Ondes Périodiques",
+    "questionText": "Si deux points M1 et M2 vibrent en opposition de phase, leurs élongations respectives à tout instant t :",
+    "options": [
+      "Sont toujours égales (yM1 = yM2).",
+      "Sont opposées (yM1 = -yM2).",
+      "Ont un produit égal à zéro.",
+      "Sont indépendantes l'une de l'autre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Quand l'un atteint le sommet positif, l'autre occupe le creux minimal négatif symétrique."
+  },
+  {
+    "id": 24,
+    "category": "Ondes Périodiques",
+    "questionText": "La distance minimale entre deux points vibrant en opposition de phase est égale à :",
+    "options": [
+      "λ",
+      "λ / 2",
+      "λ / 4",
+      "2λ"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La distance minimale d'opposition de phase est la moitié d'un cycle complet, donc λ / 2."
+  },
+  {
+    "id": 25,
+    "category": "Ondes Périodiques",
+    "questionText": "Si on règle les flashs d'un stroboscope à une fréquence fe = f / 2 (où f est la fréquence de l'onde), qu'observe-t-on ?",
+    "options": [
+      "Une immobilité apparente de l'onde.",
+      "Un mouvement accéléré.",
+      "L'onde semble doubler de volume.",
+      "Une obscurité complète."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Tant que fe = f/k (k entier), le signal est intercepté dans la même posture périodique induisant une immobilité."
+  },
+  {
+    "id": 26,
+    "category": "Ondes Périodiques",
+    "questionText": "L'analyse dimensionnelle de la relation v = λ / T montre que :",
+    "options": [
+      "Une longueur divisée par un temps correspond bien à une vitesse (m.s⁻¹).",
+      "Le résultat est exprimé en Hertz.",
+      "La vitesse n'a pas d'unité.",
+      "Le temps s'exprime en mètres."
+    ],
+    "correctIndex": 0,
+    "explanationText": "[v] = [L]/[T] qui correspond exactement à l'expression dimensionnelle de la métrologie de célérité."
+  },
+  {
+    "id": 27,
+    "category": "Ondes Périodiques",
+    "questionText": "Lors du phénomène de diffraction à la surface de l'eau, si l'onde incidente est rectiligne, l'onde diffractée est :",
+    "options": [
+      "Rectiligne également.",
+      "Circulaire.",
+      "Carrée.",
+      "Discontinue."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'onde s'évase après la fente pour adopter un profil de vagues circulaires centrées sur cette ouverture."
+  },
+  {
+    "id": 28,
+    "category": "Ondes Périodiques",
+    "questionText": "Dans une expérience d'analyse des ultrasons, si la fréquence reçue par un récepteur est de 40 kHz, quelle est la période T du signal ?",
+    "options": [
+      "25 μs",
+      "25 ms",
+      "0,4 s",
+      "40 μs"
+    ],
+    "correctIndex": 0,
+    "explanationText": "T = 1 / N = 1 / 40000 Hz = 0,000025 s, soit 25 microsecondes (μs)."
+  },
+  {
+    "id": 29,
+    "category": "Ondes Périodiques",
+    "questionText": "Si le mouvement apparent d'une onde sur une cuve est ralenti dans le sens direct (sens réel de l'onde), cela signifie que :",
+    "options": [
+      "fe est légèrement inférieure à f.",
+      "fe est égale à f.",
+      "fe est très supérieure à f.",
+      "Le stroboscope est en panne."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Si fe < f, le flash éclaire le sommet avec un léger retard progressif à chaque cycle, l'onde semble avancer à pas lents."
+  },
+  {
+    "id": 30,
+    "category": "Ondes Périodiques",
+    "questionText": "On donne la distance entre la 1ère crête et la 4ème crête : d = 9 cm. Quelle est la valeur de λ ?",
+    "options": [
+      "9 cm",
+      "4 cm",
+      "3 cm",
+      "2,25 cm"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La distance entre 4 crêtes correspond à 3 longueurs d'onde : d = 3λ, soit λ = 9 cm / 3 = 3 cm."
+  },
+  {
+    "id": 31,
+    "category": "Ondes Périodiques",
+    "questionText": "Le phénomène de diffraction est d'autant plus marqué que la dimension de l'ouverture a est :",
+    "options": [
+      "Très grande devant la longueur d'onde λ.",
+      "Petite ou proche de la longueur d'onde λ.",
+      "Égale à l'infini.",
+      "Indépendante de la fréquence de l'onde."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Plus globalement, l'altération s'intensifie si l'ouverture a converge vers des valeurs fines proches ou moindres que λ."
+  },
+  {
+    "id": 32,
+    "category": "Ondes Périodiques",
+    "questionText": "Si une onde mécanique périodique passe d'un milieu à un autre en changeant de vitesse, quel paramètre reste strictement inchangé ?",
+    "options": [
+      "La longueur d'onde λ.",
+      "La fréquence N (ou f).",
+      "La forme géométrique des crêtes.",
+      "L'amplitude maximale."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La fréquence temporelle s'impose par la carte d'identité mécanique de l'excitateur source sans dépendre des milieux."
+  },
+  {
+    "id": 33,
+    "category": "Ondes Périodiques",
+    "questionText": "Dans un milieu non dispersif, si on multiplie la fréquence de la source par deux :",
+    "options": [
+      "La célérité de l'onde double.",
+      "La célérité reste la même et la longueur d'onde est divisée par deux.",
+      "La longueur d'onde double également.",
+      "L'onde s'arrête."
+    ],
+    "correctIndex": 1,
+    "explanationText": "v = λ.f est stable. Si f est doublée, la longueur d'onde λ s'adapte en se divisant par 2."
+  },
+  {
+    "id": 34,
+    "category": "Ondes Périodiques",
+    "questionText": "La distance mesurée entre un sommet (crête) et le creux (fond) consécutif d'une onde périodique sinusoïdale correspond à :",
+    "options": [
+      "λ",
+      "2λ",
+      "λ / 2",
+      "λ / 4"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Un sommet et son creux adjacent marquent la demi-période d'onde spatiale, soit λ / 2."
+  },
+  {
+    "id": 35,
+    "category": "Ondes Périodiques",
+    "questionText": "Si deux points sont distants d'une valeur d = 5λ, leur état de vibration relatif est :",
+    "options": [
+      "En opposition de phase.",
+      "En phase.",
+      "Décalé d'un quart de période.",
+      "Totalement incohérent."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Toute distance multiple entière de la longueur d'onde correspond à une vibration accordée en phase complète."
+  },
+  {
+    "id": 36,
+    "category": "Ondes Périodiques",
+    "questionText": "La période temporelle T et la fréquence N caractérisent :",
+    "options": [
+      "La périodicité spatiale.",
+      "La périodicité temporelle.",
+      "L'élasticité globale de la cuve à ondes.",
+      "L'atténuation géométrique de la ride."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La période T (secondes) et f (Hz) sont les vecteurs fondamentaux de la dynamique temporelle."
+  },
+  {
+    "id": 37,
+    "category": "Ondes Périodiques",
+    "questionText": "Si un vibreur de cuve à ondes a une période T = 0,05 s and que λ = 2 cm, la célérité de l'onde vaut :",
+    "options": [
+      "0,4 m.s⁻¹",
+      "40 m.s⁻¹",
+      "0,1 m.s⁻¹",
+      "10 m.s⁻¹"
+    ],
+    "correctIndex": 0,
+    "explanationText": "v = λ / T = 0,02 m / 0,05 s = 0,40 m/s (ou 40 cm/s)."
+  },
+  {
+    "id": 38,
+    "category": "Ondes Périodiques",
+    "questionText": "Pourquoi la lumière n'est-elle pas étudiée dans le chapitre des ondes mécaniques périodiques ?",
+    "options": [
+      "Parce qu'elle n'a pas de fréquence.",
+      "Parce qu'elle n'est pas périodique.",
+      "Parce qu'elle ne nécessite pas de milieu matériel pour se propager (nature électromagnétique).",
+      "Parce que sa vitesse est trop faible."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La lumière est une onde électromagnétique capable de rayonner en l'absence complète de support physique moléculaire."
+  },
+  {
+    "id": 39,
+    "category": "Ondes Périodiques",
+    "questionText": "Si un stroboscope donne une immobilité apparente pour une fréquence maximale de flashs fe = 100 Hz, la fréquence de l'onde est :",
+    "options": [
+      "50 Hz",
+      "100 Hz",
+      "200 Hz",
+      "10 Hz"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La fréquence la plus haute validant l'arrêt visuel de l'illusion de frange désigne précisément la fréquence f de l'onde."
+  },
+  {
+    "id": 40,
+    "category": "Ondes Périodiques",
+    "questionText": "Lorsqu'une onde rencontre une fente de largeur a << λ, la forme géométrique de l'onde après la fente est modifiée. On dit que la fente se comporte comme :",
+    "options": [
+      "Un miroir réfléchissant parfait.",
+      "Une nouvelle source ponctuelle d'ondes.",
+      "Un milieu très dispersif.",
+      "Un isolant phonique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Selon la théorie des ondes, l'ouverture minuscule devient une source d'émissions de fronts purement circulaires."
+  }
+]

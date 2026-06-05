@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "Ondes Lumineuses",
+    "questionText": "Quelle est la nature physique de la lumière ?",
+    "options": [
+      "C'est une onde mécanique longitudinale.",
+      "C'est une onde électromagnétique transversale.",
+      "C'est un flux purement acoustique.",
+      "C'est un fluide gazeux invisible."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La lumière est un entrelacement d'oscillations électriques et magnétiques perpendiculaires à l'axe de son faisceau."
+  },
+  {
+    "id": 2,
+    "category": "Ondes Lumineuses",
+    "questionText": "La lumière a-t-elle besoin d'un milieu matériel pour se propager ?",
+    "options": [
+      "Oui, elle ne se propage que dans l'air ou le verre.",
+      "Non, elle peut se propager dans les milieux transparents mais aussi dans le vide absolu.",
+      "Uniquement si le milieu contient de l'hydrogène.",
+      "Seulement à l'intérieur des fibres optiques."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Ne reposant pas sur le transport mécanique ou la vibration d'atomes, la lumière se déplace parfaitement dans le vide cosmique."
+  },
+  {
+    "id": 3,
+    "category": "Ondes Lumineuses",
+    "questionText": "Quelle est la valeur de la célérité c de la lumière dans le vide (ou dans l'air) ?",
+    "options": [
+      "340 m/s",
+      "3 * 10^8 m/s (soit environ 300 000 km/s)",
+      "3 * 10^5 m/s",
+      "Une vitesse infinie."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La vitesse constante de la lumière dans le vide est approchée à 3 * 10^8 m/s."
+  },
+  {
+    "id": 4,
+    "category": "Ondes Lumineuses",
+    "questionText": "Qu'est-ce qu'une lumière monochromatique ?",
+    "options": [
+      "Une lumière composée d'une seule radiation lumineuse d'une fréquence bien déterminée (une seule couleur).",
+      "Une lumière blanche contenant toutes les couleurs de l'arc-en-ciel.",
+      "Une lumière qui change de couleur toutes les secondes.",
+      "Une lumière invisible à l'œil humain."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Une onde lumineuse monochromatique ne contient qu'une seule fréquence spectrale pure et par conséquent une seule couleur."
+  },
+  {
+    "id": 5,
+    "category": "Ondes Lumineuses",
+    "questionText": "Lequel des appareils suivants émet une lumière monochromatique ?",
+    "options": [
+      "Une lampe à incandescence classique.",
+      "Le Soleil.",
+      "Un Laser.",
+      "Une bougie."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le rayon Laser est d'une grande pureté spectrale, composé d'une oscillation monochromatique unique."
+  },
+  {
+    "id": 6,
+    "category": "Ondes Lumineuses",
+    "questionText": "Qu'est-ce qu'une lumière polychromatique ?",
+    "options": [
+      "Une lumière constituée par la superposition de plusieurs radiations de fréquences différentes (ex : la lumière blanche).",
+      "Une lumière composée d'une seule fréquence unique.",
+      "Une onde sonore très aiguë.",
+      "Une lumière qui ne se propage pas dans le verre."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La lumière blanche contient la totalité des harmoniques colorées : c'est un flux polychromatique dense."
+  },
+  {
+    "id": 7,
+    "category": "Ondes Lumineuses",
+    "questionText": "Quel domaine de longueurs d'onde λ0 (dans le vide) correspond à la lumière visible par l'œil humain ?",
+    "options": [
+      "De 10 nm à 400 nm.",
+      "De 400 nm à 800 nm (du violet au rouge).",
+      "De 800 nm à 1 mm.",
+      "De 1 m à 100 m."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'œil humain intercepte uniquement la lucarne spectrale allant de 400 nm (violet) à environ 800 nm (rouge)."
+  },
+  {
+    "id": 8,
+    "category": "Ondes Lumineuses",
+    "questionText": "Comment définit-on l'indice de réfraction n d'un milieu transparent ?",
+    "options": [
+      "n = c / v (avec c la célérité dans le vide, v la célérité dans le milieu)",
+      "n = v / c",
+      "n = c * v",
+      "n = c - v"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'indice de réfraction du milieu n est la mesure du freinage subi par la lumière : n = c/v."
+  },
+  {
+    "id": 9,
+    "category": "Ondes Lumineuses",
+    "questionText": "Quelle affirmation sur l'indice de réfraction n d'un milieu matériel est vraie ?",
+    "options": [
+      "n est toujours strictement inférieur à 1.",
+      "n est un nombre sans unité, toujours supérieur ou égal à 1 (n >= 1).",
+      "n s'exprime en mètres par seconde.",
+      "n dépend uniquement de la taille de l'objet."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La célérité c dans le vide étant la rapidité absolue, v <= c d'où n = c/v est obligatoirement supérieur ou égal à 1."
+  },
+  {
+    "id": 10,
+    "category": "Ondes Lumineuses",
+    "questionText": "Lorsqu'une onde lumineuse passe du vide à un milieu d'indice n = 1,5, sa fréquence f :",
+    "options": [
+      "Augmente de 1,5 fois.",
+      "Diminue de 1,5 fois.",
+      "Reste invariante (la fréquence ne dépend que de la source et ne change jamais de milieu).",
+      "S'annule."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La fréquence colorée temporelle est inaltérable lors des transitions de milieux pour conserver la continuité temporelle."
+  },
+  {
+    "id": 11,
+    "category": "Ondes Lumineuses",
+    "questionText": "Quelle est la relation entre la longueur d'onde dans le vide λ0 and la longueur d'onde dans un milieu λ d'indice n ?",
+    "options": [
+      "Le début de la source et le récepteur de fin.",
+      "Deux crêtes (sommets) consécutives de la vague.",
+      "Une crête et le fond le plus proche.",
+      "L'axe d'équilibre et le point culminant."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Puisque la vitesse v = c/n and que la fréquence f est inchangée, la longueur d'onde spatiale rétrécit : λ = λ0/n."
+  },
+  {
+    "id": 12,
+    "category": "Ondes Lumineuses",
+    "questionText": "Le verre d'un prisme est un milieu dispersif pour la lumière car :",
+    "options": [
+      "Il bloque toutes les radiations lumineuses.",
+      "Son indice de réfraction n dépend de la longueur d'onde (ou de la fréquence) de la radiation qui le traverse.",
+      "Il transforme la lumière en chaleur sonore.",
+      "Il renvoie la lumière exactement dans la même direction."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'indice du verre change selon la couleur de la radiation incidente, ce qui sépare les trajectoires physiques."
+  },
+  {
+    "id": 13,
+    "category": "Ondes Lumineuses",
+    "questionText": "Lorsqu'un faisceau de lumière blanche traverse un prisme en verre, on observe :",
+    "options": [
+      "Une seule tache blanche déviée.",
+      "La décomposition de la lumière blanche en un spectre continu de couleurs (les radiations violettes étant les plus déviées).",
+      "Un faisceau laser rouge uniquement.",
+      "Une réflexion totale sans déviation."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Chaque couleur subit un angle de déviation différent au prisme en raison de la variation de l'indice n (violet le plus dévié)."
+  },
+  {
+    "id": 14,
+    "category": "Ondes Lumineuses",
+    "questionText": "Quel phénomène met en évidence le caractère ondulatoire de la lumière ?",
+    "options": [
+      "La propagation rectiligne dans l'air.",
+      "La diffraction par un fil fin ou une fente étroite.",
+      "La formation des ombres géométriques.",
+      "L'échauffement d'un corps noir."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La déformation lumineuse face à des obstacles fins ou fentes montre directement des comportements typiques ondulatoires."
+  },
+  {
+    "id": 15,
+    "category": "Ondes Lumineuses",
+    "questionText": "Lors de la diffraction d'un faisceau laser par une fente horizontale étroite, la figure de diffraction observée sur l'écran est constituée de :",
+    "options": [
+      "Taches lumineuses alignées verticalement (perpendiculaires à la fente).",
+      "Taches lumineuses alignées horizontalement.",
+      "Un cercle parfait de lumière blanche.",
+      "Une obscurité totale."
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'épanouissement de la lumière diffractée s'oriente toujours perpendiculairement à la direction rectiligne de la fente."
+  },
+  {
+    "id": 16,
+    "category": "Ondes Lumineuses",
+    "questionText": "Dans l'expérience de diffraction d'un laser par une fente de largeur a, la relation de l'écart angulaire θ (en rad) est :",
+    "options": [
+      "θ = a / λ",
+      "θ = λ / a",
+      "θ = λ * a",
+      "θ = λ / a²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'angle caractéristique d'ouverture du pinceau de diffraction θ est donné par la loi θ = λ / a."
+  },
+  {
+    "id": 17,
+    "category": "Ondes Lumineuses",
+    "questionText": "Si on diminue la largeur a de la fente, la largeur L de la tache centrale de diffraction sur l'écran va :",
+    "options": [
+      "Diminué.",
+      "Rester la même.",
+      "Augmenter (car θ augmente quand a diminue).",
+      "S'annuler."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Les variables a and L sont inversement proportionnelles : resserrer la fente élargit visiblement l'éclairage de diffraction."
+  },
+  {
+    "id": 18,
+    "category": "Ondes Lumineuses",
+    "questionText": "Quelle formule géométrique relie la largeur L de la tache centrale, la distance D entre la fente et l'écran, and l'écart angulaire θ (pour tanθ ≈ θ) ?",
+    "options": [
+      "θ = L / D",
+      "θ = L / 2D",
+      "θ = 2D / L",
+      "θ = L * D"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Par trigonométrie plane sur le triangle de diffraction, tan θ = (L/2) / D. Pour de petits angles, θ = L / 2D."
+  },
+  {
+    "id": 19,
+    "category": "Ondes Lumineuses",
+    "questionText": "En combinant les formules de diffraction, on obtient l'expression de la largeur de la tache centrale : L =",
+    "options": [
+      "2 * λ * D / a",
+      "Aussi lent pour s'amortir sur 5 jours.",
+      "Simplement de conductivité stable.",
+      "2 * a * λ / D"
+    ],
+    "correctIndex": 0,
+    "explanationText": "θ = λ/a and θ = L/(2D) -> L/(2D) = λ/a, ce qui donne explicitement L = 2.λ.D / a."
+  },
+  {
+    "id": 20,
+    "category": "Ondes Lumineuses",
+    "questionText": "Une radiation a une longueur d'onde dans le vide λ0 = 600 nm. Quelle est sa fréquence f (sachant que c = 3 * 10^8 m/s) ?",
+    "options": [
+      "5 * 10^14 Hz",
+      "2 * 10^14 Hz",
+      "500 Hz",
+      "1,8 * 10^11 Hz"
+    ],
+    "correctIndex": 0,
+    "explanationText": "f = c / λ0 = 3 * 10^8 m/s / (600 * 10^-9 m) = 5 * 10^14 Hz."
+  },
+  {
+    "id": 21,
+    "category": "Ondes Lumineuses",
+    "questionText": "L'onde lumineuse résulte de la propagation d'une perturbation de nature :",
+    "options": [
+      "Mécanique.",
+      "Électromagnétique.",
+      "Acoustique.",
+      "Thermique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La perturbation est constituée par la vibration de champs électriques et magnétiques couplés."
+  },
+  {
+    "id": 22,
+    "category": "Ondes Lumineuses",
+    "questionText": "Les ondes lumineuses périodiques sont également appelées :",
+    "options": [
+      "Des perturbations acoustiques.",
+      "Des radiations.",
+      "Des rayons mécaniques.",
+      "Des faisceaux sonores."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une onde lumineuse sinusoïdale de période donnée est désignée physiquement par le terme de radiation."
+  },
+  {
+    "id": 23,
+    "category": "Ondes Lumineuses",
+    "questionText": "Quelle caractéristique de la radiation lumineuse dépend du milieu de propagation ?",
+    "options": [
+      "Sa fréquence ν.",
+      "Sa période T.",
+      "Sa longueur d'onde λ.",
+      "Sa couleur perçue par l'œil."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La vitesse s'indexe sur le milieu, ce qui contraint la longueur d'onde (λ = v/f) à fluctuer selon l'indice transparent."
+  },
+  {
+    "id": 24,
+    "category": "Ondes Lumineuses",
+    "questionText": "Quelle est la formule liant la longueur d'onde dans le vide λ0, la célérité c et la fréquence ν ?",
+    "options": [
+      "λ0 = ν / c",
+      "λ0 = c * ν",
+      "λ0 = c / ν",
+      "λ0 = c + ν"
+    ],
+    "correctIndex": 2,
+    "explanationText": "La longueur d'onde de vide s'associe à la fréquence via la célérité : λ0 = c / ν."
+  },
+  {
+    "id": 25,
+    "category": "Ondes Lumineuses",
+    "questionText": "L'abréviation 'SM' and 'PC' sur le document indique que ce cours s'adresse aux élèves de :",
+    "options": [
+      "Sciences Mathématiques et Physique-Chimie.",
+      "Sociologie Moderne et Philosophie Contemporaine.",
+      "Systèmes Mécaniques et Production Chimique.",
+      "Secrétariat Médical."
+    ],
+    "correctIndex": 0,
+    "explanationText": "C'est l'encadrement des sections baccalauréat marocain (Sciences Mathématiques, Physique-Chimie)."
+  },
+  {
+    "id": 26,
+    "category": "Ondes Lumineuses",
+    "questionText": "L'indice de réfraction n d'un milieu transparent est modélisé selon la loi de Cauchy par la relation :",
+    "options": [
+      "n = A * λ0",
+      "n = A + B / λ0²",
+      "n = A / λ0 + B",
+      "n = A - B * λ0²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La formule empirique de Cauchy s'écrit de manière rigoureuse n = A + B/λ0²."
+  },
+  {
+    "id": 27,
+    "category": "Ondes Lumineuses",
+    "questionText": "Dans la formule de Cauchy n = A + B / λ0², les lettres A and B représentent :",
+    "options": [
+      "Des variables temporelles.",
+      "Des constantes qui dépendent du milieu transparent utilisé.",
+      "La largeur de la fente de diffraction.",
+      "La fréquence du faisceau laser."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Ce sont des coefficients empiriques de dispersion propres à l'espèce de verre transparent choisie."
+  },
+  {
+    "id": 28,
+    "category": "Ondes Lumineuses",
+    "questionText": "Dans l'expérience de diffraction de la lumière par une fente de largeur a, que représente le graphique proposé dans le texte ?",
+    "options": [
+      "La vitesse en fonction du temps.",
+      "La largeur de la tache centrale d en fonction de l'inverse de la largeur de la fente 1 / a.",
+      "L'indice de réfraction en fonction de la température.",
+      "La fréquence en fonction de la couleur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le tracé d = f(1/a) dessine une trajectoire rectiligne parfaite de coefficient directeur égal à 2.λ.D."
+  },
+  {
+    "id": 29,
+    "category": "Ondes Lumineuses",
+    "questionText": "La lumière émise par un dispositif Laser est un parfait exemple de lumière :",
+    "options": [
+      "Polychromatique.",
+      "Mécanique.",
+      "Monochromatique.",
+      "Sonore."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Les oscillations de l'émission Laser sont accordées sur une raie spectrale monochromatique très pure."
+  },
+  {
+    "id": 30,
+    "category": "Ondes Lumineuses",
+    "questionText": "Que se passe-t-il lorsque la lumière blanche passe à travers un demi-disque en verre ?",
+    "options": [
+      "Elle ressort blanche sans aucune déviation.",
+      "Elle est complètement absorbée et s'éteint.",
+      "Elle subit une dispersion et forme les sept couleurs du spectre visible.",
+      "Elle se transforme en rayons X."
+    ],
+    "correctIndex": 2,
+    "explanationText": "C'est l'expérience type de mise en évidence de la dispersion polychromatique par réfraction sélective."
+  },
+  {
+    "id": 31,
+    "category": "Ondes Lumineuses",
+    "questionText": "Parmi les rayonnements du spectre de la lumière blanche, quelle couleur est la moins déviée par un prisme ou un demi-disque en verre ?",
+    "options": [
+      "Le violet.",
+      "Le bleu.",
+      "Le vert.",
+      "Le rouge."
+    ],
+    "correctIndex": 3,
+    "explanationText": "L'indice du rouge étant le plus faible du verre, c'est l'harmonique colorée la moins altérée angulairement."
+  },
+  {
+    "id": 32,
+    "category": "Ondes Lumineuses",
+    "questionText": "Si la longueur d'onde d'une onde lumineuse dans le vide est λ0 = 600 nm and que l'indice du milieu est n = 1,5, la longueur d'onde λ dans ce milieu vaut :",
+    "options": [
+      "900 nm",
+      "400 nm",
+      "600 nm",
+      "200 nm"
+    ],
+    "correctIndex": 1,
+    "explanationText": "λ = λ0 / n = 600 nm / 1,5 = 400 nm."
+  },
+  {
+    "id": 33,
+    "category": "Ondes Lumineuses",
+    "questionText": "Dans le phénomène de diffraction de la lumière, l'écart angulaire θ s'exprime en quelle unité ?",
+    "options": [
+      "En degrés (°).",
+      "En mètres (m).",
+      "En radians (rad).",
+      "En Hertz (Hz)."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Les équations physiques d'écartement angulaire θ exigent de calculer en unité de Radians."
+  },
+  {
+    "id": 34,
+    "category": "Ondes Lumineuses",
+    "questionText": "Si la largeur a de la fente devient extrêmement grande devant la longueur d'onde λ, la diffraction de la lumière devient :",
+    "options": [
+      "Un phénomène infini.",
+      "Négligeable (la lumière se propage de façon rectiligne géométrique).",
+      "Totalement polychromatique.",
+      "Bleue."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour a >> λ, θ = λ/a -> 0. Les rayons cheminent sans aucune perturbation : c'est le cadre de l'optique géométrique pure."
+  },
+  {
+    "id": 35,
+    "category": "Ondes Lumineuses",
+    "questionText": "Lorsqu'un rayon lumineux monochromatique traverse un prisme d'indice n plongé dans l'air, la première relation du prisme reliant l'angle d'incidence i and l'angle de réfraction r sur la première face est :",
+    "options": [
+      "sin(i) = n * sin(r)",
+      "n * sin(i) = sin(r)",
+      "sin(i) = sin(r)",
+      "i = n * r²"
+    ],
+    "correctIndex": 0,
+    "explanationText": "C'est l'application directe de la loi de Descartes-Snell : 1.sin(i) = n.sin(r)."
+  },
+  {
+    "id": 36,
+    "category": "Ondes Lumineuses",
+    "questionText": "La deuxième relation du prisme, qui s'applique lors de la sortie du rayon par la deuxième face (dioptre verre-air), s'écrit :",
+    "options": [
+      "sin(r') = n * sin(i')",
+      "sin(i') = n * sin(r')",
+      "n * sin(i') = sin(r)",
+      "sin(i) * sin(i') = n"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Au dioptre de sortie : n.sin(r') = 1.sin(i') d'où l'expression sin(i') = n.sin(r')."
+  },
+  {
+    "id": 37,
+    "category": "Ondes Lumineuses",
+    "questionText": "La troisième relation du prisme relie l'angle géométrique du prisme A aux deux angles réfratés internes r and r'. Cette relation est :",
+    "options": [
+      "A = r - r'",
+      "A = r * r'",
+      "A = r + r'",
+      "A = r / r'"
+    ],
+    "correctIndex": 2,
+    "explanationText": "C'est une propriété de la géométrie interne des angles normaux : A = r + r'."
+  },
+  {
+    "id": 38,
+    "category": "Ondes Lumineuses",
+    "questionText": "L'angle de déviation totale D subi par le rayon lumineux après la traversée complète du prisme est donné par la quatrième relation :",
+    "options": [
+      "D = i + i' - A",
+      "D = i - i' + A",
+      "D = A - (i + i')",
+      "D = i * i' - A"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'ensemble des deux déviations planes donne pour résultante angulaire : D = i + i' - A."
+  },
+  {
+    "id": 39,
+    "category": "Ondes Lumineuses",
+    "questionText": "Pourquoi la déviation D d'une radiation violette est-elle plus grande que celle d'une radiation rouge à travers un même prisme ?",
+    "options": [
+      "Parce que la fréquence du violet est plus petite.",
+      "Parce que l'indice du verre n_violet est supérieur à l'indice n_rouge (loi de Cauchy).",
+      "Parce que l'angle au sommet A change selon la couleur.",
+      "Parce que le violet se propage plus vite que le rouge dans le verre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La formule de Cauchy montre que n augmente au déclin de λ0. n_violet > n_rouge donc le violet subit une plus forte déviation."
+  },
+  {
+    "id": 40,
+    "category": "Ondes Lumineuses",
+    "questionText": "Si un prisme possède un indice n = 1,5 pour une radiation jaune and que l'angle interne de sortie est r' = 30°, quelle est la valeur de l'angle d'émergence i' dans l'air ?",
+    "options": [
+      "30°",
+      "45°",
+      "48.6°",
+      "60°"
+    ],
+    "correctIndex": 2,
+    "explanationText": "sin(i') = n.sin(r') = 1,5 * sin(30°) = 1,5 * 0,5 = 0,75. i' = arcsin(0,75) ≈ 48.6°."
+  }
+]
