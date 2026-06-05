@@ -1,0 +1,520 @@
+[
+  {
+    "id": 1,
+    "category": "RLC Forcé",
+    "questionText": "Dans le phénomène des oscillations électriques forcées, quel composant joue le rôle d'excitateur ?",
+    "options": [
+      "Le condensateur de capacité C.",
+      "La bobine d'inductance L.",
+      "Le générateur de signaux basse fréquence (GBF) qui impose sa fréquence.",
+      "Le conducteur ohmique de résistance R."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le GBF est la source d'énergie oscillante externe, forçant le circuit résonateur à osciller à sa fréquence de forçage."
+  },
+  {
+    "id": 2,
+    "category": "RLC Forcé",
+    "questionText": "Dans le phénomène des oscillations électriques forcées, quel sous-ensemble joue le rôle de résonateur ?",
+    "options": [
+      "Le générateur basse fréquence (GBF) seul.",
+      "Le dipôle RLC série (association de la bobine, du condensateur et du résistor).",
+      "L'oscilloscope numérique de visualisation.",
+      "La diode de roue libre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le résonateur (le dipôle RLC) absorbe l'énergie et oscille à la fréquence de l'excitateur, avec une amplitude maximale à la résonance."
+  },
+  {
+    "id": 3,
+    "category": "RLC Forcé",
+    "questionText": "Lorsque le circuit est en régime alternatif sinusoïdal permanent, quelle est la fréquence des oscillations du courant électrique dans le résonateur ?",
+    "options": [
+      "La fréquence propre f_0 du circuit RLC libre.",
+      "La fréquence f imposée par le générateur excitateur (GBF).",
+      "Une fréquence nulle car le courant devient continu.",
+      "Une fréquence infinie."
+    ],
+    "correctIndex": 1,
+    "explanationText": "En régime forcé, le courant alternatif se propage continuellement à la fréquence de forçage f imposée de l'extérieur par le GBF."
+  },
+  {
+    "id": 4,
+    "category": "RLC Forcé",
+    "questionText": "La tension imposée par le générateur s'écrit sous la forme u(t) = U_m cos(ω t + φ_u). Que représente le terme ω ?",
+    "options": [
+      "La fréquence en Hertz (Hz).",
+      "La phase à l'origine en radians (rad).",
+      "La pulsation de la tension en radians par seconde (rad.s⁻¹).",
+      "L'amplitude maximale en Volts (V)."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La pulsation ω est définie par l'expression angulaire de la fréquence, soit ω = 2π·f, exprimée en rad.s⁻¹."
+  },
+  {
+    "id": 5,
+    "category": "RLC Forcé",
+    "questionText": "Quelle relation mathématique relie la pulsation ω, la fréquence f et la période T du signal ?",
+    "options": [
+      "ω = 2π / f = 2π T",
+      "ω = 2π f = 2π / T",
+      "ω = f / 2π = √T",
+      "ω = 2π √(f · T)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La relation angulaire périodique fondamentale de la pulsation s'écrit : ω = 2π·f = 2π/T."
+  },
+  {
+    "id": 6,
+    "category": "RLC Forcé",
+    "questionText": "Quelle est la relation entre la tension maximale U_m visible à l'oscilloscope et la tension efficace U indiquée par un voltmètre ?",
+    "options": [
+      "U = U_m × √2",
+      "U = U_m / √2",
+      "U = U_m / 2",
+      "U = U_m × 2π"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour de l'alternatif purement sinusoïdal, la valeur efficace s'évalue par rapport à l'amplitude par : U = U_m / √2."
+  },
+  {
+    "id": 7,
+    "category": "RLC Forcé",
+    "questionText": "L'intensité du courant s'écrit i(t) = I_m cos(ω t + φ_i). Si la tension du générateur est choisie comme origine des phases (φ_u = 0), le déphasage φ de la tension par rapport au courant s'exprime par :",
+    "options": [
+      "A(t) = N(t) / \u03bb",
+      "φ = φ_i - φ_u = φ_i",
+      "φ = φ_u × φ_i",
+      "φ = π / 2"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Par convention de notation, le déphasage de la tension u par rapport à l'intensité i est défini par l'écart φ = φ_u - φ_i."
+  },
+  {
+    "id": 8,
+    "category": "RLC Forcé",
+    "questionText": "Qu'est-ce que l'impédance électrique Z d'un dipôle RLC série en régime alternatif sinusoïdal ?",
+    "options": [
+      "L'analogue de la résistance en courant continu, définie par le rapport Z = U_m / I_m = U / I.",
+      "La quantité d'énergie magnétique maximale stockée par unité de temps.",
+      "Le produit de la capacité C et de l'inductance L.",
+      "La différence entre la phase de la tension et celle du courant."
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'impédance Z traduit l'opposition globale du dipôle au passage du courant alternatif : Z = U / I (exprimée en Ω)."
+  },
+  {
+    "id": 9,
+    "category": "RLC Forcé",
+    "questionText": "Quelle est l'unité internationale de l'impédance électrique Z ?",
+    "options": [
+      "Le Henry (H).",
+      "Le Farad (F).",
+      "L'Ohm (Ω).",
+      "Le Volt (V)."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Comme toute grandeur passive s'opposant au courant électrique sous une tension alternative, Z s'exprime en Ohm (Ω)."
+  },
+  {
+    "id": 10,
+    "category": "RLC Forcé",
+    "questionText": "Comment s'exprime l'impédance Z d'un dipôle RLC série en fonction des paramètres du circuit ?",
+    "options": [
+      "Z = R_tot + Lω - 1/(Cω)",
+      "Z = √[R_tot² + (Lω - 1/(Cω))²]",
+      "Z = √[R_tot² + (Lω + Cω)²]",
+      "Z = R_tot / √(LCω)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La formule d'impédance d'un RLC série s'exprime en combinant la résistance et les réactances par : Z = √[R_tot² + (Lω - 1/(Cω))²]."
+  },
+  {
+    "id": 11,
+    "category": "RLC Forcé",
+    "questionText": "Quand dit-on qu'un circuit RLC série est à la 'résonance d'intensité' ?",
+    "options": [
+      "Lorsque l'intensité efficace I du courant atteint sa valeur minimale.",
+      "Lorsque l'intensité efficace I du courant atteint sa valeur maximale pour une pulsation donnée ω_0.",
+      "Lorsque la tension efficace du générateur s'annule.",
+      "Lorsque la bobine est retirée du circuit."
+    ],
+    "correctIndex": 1,
+    "explanationText": "À la résonance, l'absorption d'énergie est optimale et l'intensité efficace du courant passe par un pic maximal."
+  },
+  {
+    "id": 12,
+    "category": "RLC Forcé",
+    "questionText": "À la résonance d'intensité, quelle relation lie la pulsation de l'excitateur ω_0 et les composants L et C du résonateur ?",
+    "options": [
+      "Lω_0 - 1/(Cω_0) = 0  =>  ω_0 = 1 / √LC",
+      "Lω_0 + 1/(Cω_0) = 1",
+      "ω_0 = L · C",
+      "ω_0 = √[R_tot / LC]"
+    ],
+    "correctIndex": 0,
+    "explanationText": "La résonance d'intensité s'établit lorsque le terme réactif interne s'annule : Lω_0 = 1/(Cω_0), soit ω_0 = 1/√(L·C)."
+  },
+  {
+    "id": 13,
+    "category": "RLC Forcé",
+    "questionText": "Quelle est la valeur de l'impédance Z_0 du circuit RLC série lorsque le circuit est à la résonance d'intensité ?",
+    "options": [
+      "Z_0 = 0",
+      "Z_0 = R_tot (l'impédance est minimale et purement résistive).",
+      "Z_0 = ∞",
+      "Z_0 = Lω_0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "À la pulsation de résonance, la réactance s'annule, l'impédance minimale est purement résistive : Z_0 = √[R_tot² + 0] = R_tot."
+  },
+  {
+    "id": 14,
+    "category": "RLC Forcé",
+    "questionText": "Quelle est la valeur de l'intensité efficace maximale I_0 du courant à la résonance ?",
+    "options": [
+      "I_0 = 0",
+      "I_0 = U / R_tot",
+      "I_0 = U × R_tot",
+      "I_0 = U / (Lω_0)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque Z_0 = R_tot à la résonance, la loi d'Ohm efficace donne directement : I_0 = U / Z_0 = U / R_tot."
+  },
+  {
+    "id": 15,
+    "category": "RLC Forcé",
+    "questionText": "À la résonance d'intensité, que vaut le déphasage φ = φ_u - φ_i entre la tension et le courant ?",
+    "options": [
+      "φ = π / 2 rad",
+      "φ = -π / 2 rad",
+      "φ = 0 rad (la tension et le courant vibrent en phase).",
+      "φ = π rad"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Les tensions réactives u_L et u_C s'équilibrent et s'annulent. Le circuit équivaut à un conducteur ohmique pur, d'où φ = 0."
+  },
+  {
+    "id": 16,
+    "category": "RLC Forcé",
+    "questionText": "La formule générale du déphasage est tan(φ) = [Lω - 1/(Cω)] / R_tot. Si ω > ω_0, le circuit a un comportement :",
+    "options": [
+      "Purement capacitif (φ < 0).",
+      "Inductif (φ > 0, la tension est en avance sur le courant).",
+      "Résistif pur (φ = 0).",
+      "Continu stable."
+    ],
+    "correctIndex": 1,
+    "explanationText": "À haute fréquence d'excitation ω > ω_0, on a Lω > 1/Cω, d'où tan(φ) > 0, le comportement réactif est inductif (la bobine domine)."
+  },
+  {
+    "id": 17,
+    "category": "RLC Forcé",
+    "questionText": "Si la pulsation de l'excitateur est inférieure à la pulsation de résonance (ω < ω_0), l'angle de déphasage φ est négatif. Le circuit a un comportement :",
+    "options": [
+      "Capacitif (le courant est en avance sur la tension).",
+      "Inductif pur.",
+      "Supraconducteur.",
+      "Périodique libre."
+    ],
+    "correctIndex": 0,
+    "explanationText": "À basse fréquence d'forçage ω < ω_0, le condensateur domine la réactance (1/Cω > Lω), d'où un déphasage négatif (capacitif)."
+  },
+  {
+    "id": 18,
+    "category": "RLC Forcé",
+    "questionText": "Sur la courbe d'intensité efficace I en fonction de f, qu'appelle-t-on la 'bande passante à -3 dB' ?",
+    "options": [
+      "L'intervalle de fréquences [f_1, f_2] pour lesquelles l'intensité efficace est supérieure ou égale à I_0 / √2.",
+      "L'intervalle de fréquences où l'intensité s'annule complètement.",
+      "La valeur de la fréquence propre f_0 multipliée par deux.",
+      "La zone où l'impédance est maximale."
+    ],
+    "correctIndex": 0,
+    "explanationText": "La bande passante à -3 dB correspond à la plage de fréquences où la puissance moyenne est au moins égale à la moitié de la puissance maximale, soit I ≥ I_0 / √2."
+  },
+  {
+    "id": 19,
+    "category": "RLC Forcé",
+    "questionText": "Comment s'exprime la largeur de la bande passante Δf en fonction des fréquences de coupure f_1 et f_2 ?",
+    "options": [
+      "Δf = f_1 + f_2",
+      "Δf = f_2 - f_1",
+      "Δf = (f_1 + f_2) / 2",
+      "Δf = f_1 × f_2"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La largeur arithmétique de la bande passante s'obtient simplement par l'écart entre les deux fréquences de coupure : Δf = f_2 - f_1."
+  },
+  {
+    "id": 20,
+    "category": "RLC Forcé",
+    "questionText": "Le facteur de qualité Q d'un circuit résonnant, qui caractérise l'acuité (la finesse) de la résonance, est défini par :",
+    "options": [
+      "Q = f_0 / Δf = (ω_0 · L) / R_tot = 1 / (R_tot · C · ω_0)",
+      "Q = f_0 × Δf",
+      "Q = R_tot × L × C",
+      "Q = Δf / f_0"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'indice de surtension sélective ou facteur de qualité Q d'un circuit est le rapport adimensionnel : Q = f_0 / Δf."
+  },
+  {
+    "id": 21,
+    "category": "RLC Forcé",
+    "questionText": "Si la résistance totale R_tot du circuit RLC est très faible, comment est la courbe de résonance ?",
+    "options": [
+      "Elle est très aiguë (résonance aiguë/sélective) avec une bande passante très étroite.",
+      "Elle est plate et très large (résonance floue).",
+      "Elle ne comporte aucun maximum d'intensité.",
+      "C'est une simple droite horizontale constante."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Une faible résistance réduit la dissipation, entraînant une résonance très pointue (aiguë) et une bande passante étroite."
+  },
+  {
+    "id": 22,
+    "category": "RLC Forcé",
+    "questionText": "Si au contraire la résistance totale R_tot est très élevée, la courbe de résonance s'aplatit. Le circuit est qualifié de :",
+    "options": [
+      "Hautement sélectif.",
+      "Peu sélectif.",
+      "Idéal.",
+      "Fermé."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'amortissement résistif élargit la bande passante et tasse le sommet du pic d'intensité : le circuit perd en sélectivité."
+  },
+  {
+    "id": 23,
+    "category": "RLC Forcé",
+    "questionText": "Quelle est l'expression de la puissance active (active moyenne) P dissipée par effet Joule dans le dipôle RLC en régime forcé ?",
+    "options": [
+      "P = U · I · cos(φ) = R_tot · I²",
+      "P = U · I",
+      "P = U · I · sin(φ)",
+      "P = L · I² · ω"
+    ],
+    "correctIndex": 0,
+    "explanationText": "La puissance moyenne consommée par le dipôle s'exprime par P = U·I·cos(φ). Comme seules les résistances dissipent l'énergie en moyenne, P = R_tot·I²."
+  },
+  {
+    "id": 24,
+    "category": "RLC Forcé",
+    "questionText": "Que représente le terme cos(φ) dans l'expression de la puissance moyenne ?",
+    "options": [
+      "Le facteur de qualité.",
+      "Le facteur de puissance du dipôle.",
+      "La pulsation de coupure.",
+      "L'impédance réduite."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le terme multiplicateur cos(φ) (sans unité, borné entre 0 et 1) s'appelle le facteur de puissance du circuit."
+  },
+  {
+    "id": 25,
+    "category": "RLC Forcé",
+    "questionText": "À la résonance d'intensité, quelle est la valeur maximale atteinte par le facteur de puissance cos(φ) ?",
+    "options": [
+      "cos(φ) = 0",
+      "cos(φ) = 1",
+      "cos(φ) = 0.5",
+      "cos(φ) = 1 / √2"
+    ],
+    "correctIndex": 1,
+    "explanationText": "À la résonance, le déphasage φ s'annule, amenant le facteur de puissance à son maximum unitaire : cos(0) = 1."
+  },
+  {
+    "id": 26,
+    "category": "RLC Forcé",
+    "questionText": "Que se produit-il si le facteur de qualité Q du circuit RLC est strictement supérieur à 1 (Q > 1) ?",
+    "options": [
+      "Le phénomène de résonance de tension aux bornes du condensateur (surtension).",
+      "La perte totale de courant.",
+      "Une modulation d'amplitude de haute fréquence.",
+      "Le circuit se comporte comme un supraconducteur."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Si Q > 1, la tension efficace aux bornes du condensateur à la résonance U_C0 = Q·U dépasse la tension d'alimentation E : c'est le phénomène de surtension."
+  },
+  {
+    "id": 27,
+    "category": "RLC Forcé",
+    "questionText": "Quelle relation générale lie l'impédance Z, la résistance R_tot, l'inductance L, la capacité C et la pulsation d'excitation ω ?",
+    "options": [
+      "Z² = R_tot² + (Lω - 1/(Cω))²",
+      "Z = R_tot + L"
+    ],
+    "correctIndex": 0,
+    "explanationText": "D'après les relations d'impédance quadratique de la construction de Fresnel : Z² = R_tot² + (Lω - 1/(Cω))²."
+  },
+  {
+    "id": 28,
+    "category": "RLC Forcé",
+    "questionText": "Dans le circuit d'accord d'un récepteur radio, pour sélectionner une station spécifique, quel composant du résonateur LC fait-on varier ?",
+    "options": [
+      "L'inductance L de la bobine.",
+      "La capacité C du condensateur variable pour égaler la fréquence propre à la fréquence d'onde émise.",
+      "La résistance R du conducteur ohmique.",
+      "La tension électrique d'alimentation."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Ajuster la capacité C déplace la fréquence de résonance f_0 = 1/(2π·√LC) pour s'accorder sur la fréquence hertzienne de la station choisie."
+  },
+  {
+    "id": 29,
+    "category": "RLC Forcé",
+    "questionText": "Un circuit RLC série a pour paramètres R_tot = 10 Ω, L = 0.1 H, C = 10 µF, excité à la pulsation de résonance. Quelle est la valeur de Z ?",
+    "options": [
+      "Z = 10 Ω",
+      "Z = 0 Ω",
+      "Z = 100 Ω",
+      "Z = 1000 Ω"
+    ],
+    "correctIndex": 0,
+    "explanationText": "À la résonance d'intensité, le terme réactif s'annule, l'impédance est minimale : Z = R_tot = 10 Ω."
+  },
+  {
+    "id": 30,
+    "category": "RLC Forcé",
+    "questionText": "Si le générateur impose une pulsation ω très élevée (ω -> ∞), comment évoluent l'impédance Z et le déphasage φ ?",
+    "options": [
+      "Z tend vers l'infini et φ tend vers +π/2 rad (comportement inductif bobine dominant).",
+      "Z s'annule et φ tend vers 0.",
+      "Z tend vers R et φ tend vers -π/2 rad.",
+      "Le courant devient continu."
+    ],
+    "correctIndex": 0,
+    "explanationText": "À très haute fréquence, la réactance de la bobine (Lω) devient infinie et prépondérante : le circuit adopte un comportement purement inductif."
+  },
+  {
+    "id": 31,
+    "category": "RLC Forcé",
+    "questionText": "Si le générateur impose une fréquence très faible (f -> 0), l'impédance Z tend vers l'infini car 1/(Cω) -> ∞. Le condensateur :",
+    "options": [
+      "Se comporte comme un court-circuit.",
+      "Se comporte comme un interrupteur ouvert en bloquant le passage du courant alterné.",
+      "Accélère le passage des charges.",
+      "Emmagasine une quantité infinie de courant."
+    ],
+    "correctIndex": 1,
+    "explanationText": "À très basse fréquence (proche du continu), la réactance du condensateur tend vers l'infini, agissant comme un interrupteur ouvert."
+  },
+  {
+    "id": 32,
+    "category": "RLC Forcé",
+    "questionText": "Dans le repère orthogonal de la construction de Fresnel d'un RLC série, le vecteur tension aux bornes de la bobine idéale est :",
+    "options": [
+      "En avance de phase de π/2 rad par rapport au courant.",
+      "En retard de phase de π/2 rad par rapport au courant.",
+      "En phase avec le courant.",
+      "Parallèle à la tension du condensateur."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Pour une inductance pure, la tension u_L(t) = L·di/dt est en avance de phase de π/2 rad (quadrature avance) par rapport au courant i(t)."
+  },
+  {
+    "id": 33,
+    "category": "RLC Forcé",
+    "questionText": "Dans la construction de Fresnel, le vecteur représentant la tension du condensateur idéal u_C(t) est :",
+    "options": [
+      "En retard de phase de π/2 rad par rapport au courant.",
+      "En avance de phase de π/2 rad par rapport au courant.",
+      "En opposition de phase avec le générateur.",
+      "De norme nulle."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Pour un condensateur idéal, la tension u_C(t) est en retard de phase de π/2 rad (quadrature retard) par rapport au courant i(t)."
+  },
+  {
+    "id": 34,
+    "category": "RLC Forcé",
+    "questionText": "Un circuit possède une tension efficace de 12 V. À la résonance, l'intensité efficace est de 3 A. Que vaut la résistance totale ?",
+    "options": [
+      "R_tot = 36 Ω",
+      "R_tot = 4 Ω",
+      "R_tot = 0.25 Ω",
+      "R_tot = 12 Ω"
+    ],
+    "correctIndex": 1,
+    "explanationText": "À la résonance, Z = R_tot. D'après la loi d'Ohm : R_tot = U / I = 12 / 3 = 4 Ω."
+  },
+  {
+    "id": 35,
+    "category": "RLC Forcé",
+    "questionText": "Le facteur de qualité d'un circuit résonnant mesurant Q = 50 indique :",
+    "options": [
+      "Une résonance particulièrement aiguë et sélective.",
+      "Une résonance très floue et absorbée.",
+      "Que le condensateur est de mauvaise qualité.",
+      "Que la bobine a fondu."
+    ],
+    "correctIndex": 0,
+    "explanationText": "Un facteur de qualité élevé (Q > 10) est la signature caractéristique d'un circuit à résonance très sélective et aiguë."
+  },
+  {
+    "id": 36,
+    "category": "RLC Forcé",
+    "questionText": "L'impédance d'un condensateur s'exprime par Z_C = 1 / (C·ω). Quelle est la dimension physique de la quantité C·ω ?",
+    "options": [
+      "Une résistance minimale.",
+      "L'inverse d'une résistance, soit une conductance exprimée en Siemens (S).",
+      "Chute de tension en Volts.",
+      "Une réactance en Henrys."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque Z_C s'exprime en Ohms, la quantité C·ω au dénominateur est homogène à l'inverse d'une résistance, soit une conductance (en Siemens)."
+  },
+  {
+    "id": 37,
+    "category": "RLC Forcé",
+    "questionText": "Quel est l'effet de l'amortissement sur la fréquence de résonance d'intensité ?",
+    "options": [
+      "Il décale f_0 vers des fréquences beaucoup plus élevées.",
+      "Il ne modifie pas la fréquence f_0 de la résonance d'intensité.",
+      "Il l'annule instantanément.",
+      "Il la double systématiquement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Contrairement à la résonance de tension, la position de la fréquence de résonance d'intensité reste immuable et égale à f_0 = 1 / (2π·√LC), quel que soit l'amortissement."
+  },
+  {
+    "id": 38,
+    "category": "RLC Forcé",
+    "questionText": "Que vaut la somme instantanée des tensions u_L(t) + u_C(t) lorsque le circuit est exactement réglé à la résonance ?",
+    "options": [
+      "Elle est nulle à chaque instant (u_L(t) + u_C(t) = 0).",
+      "Elle est égale à E à chaque instant.",
+      "Elle est de valeur infinie.",
+      "Elle varie de façon apériodique."
+    ],
+    "correctIndex": 0,
+    "explanationText": "À la résonance, u_L et u_C sont à chaque instant en opposition de phase et de même amplitude, d'où u_L(t) + u_C(t) = 0."
+  },
+  {
+    "id": 39,
+    "category": "RLC Forcé",
+    "questionText": "Pour caractériser le déphasage sans voltmètre, on peut utiliser des représentations géométriques de vecteurs appelées :",
+    "options": [
+      "Diagrammes de Bode.",
+      "Représentations vectorielles de Fresnel (ou phaseurs).",
+      "Spectrographes de masse.",
+      "Ellipses de Lissajous."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La méthode vectorielle de Fresnel associe chaque grandeur alternative sinusoïdale à un vecteur de plan dont la norme représente la valeur maximale et l'angle la phase."
+  },
+  {
+    "id": 40,
+    "category": "RLC Forcé",
+    "questionText": "Un dipôle RLC possède une bande passante s'étendant de f_1 = 4900 Hz à f_2 = 5100 Hz. Quelle est sa fréquence de résonance f_0 ?",
+    "options": [
+      "f_0 = 4800 Hz",
+      "f_0 = 5000 Hz",
+      "f_0 = 10000 Hz",
+      "f_0 = 200 Hz"
+    ],
+    "correctIndex": 1,
+    "explanationText": "À faible amortissement, la fréquence de résonance f_0 se situe au centre géométrique de la bande passante : f_0 ≈ (f_1 + f_2) / 2 = 5000 Hz."
+  }
+]

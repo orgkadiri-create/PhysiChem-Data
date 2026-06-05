@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "category": "Rotation Solide",
+    "questionText": "Par définition, un corps solide est en mouvement de rotation autour d'un axe fixe (Δ) si :",
+    "options": [
+      "Tous les points du solide décrivent des trajectoires rectilignes parallèles à l'axe.",
+      "Tous les points du solide décrivent des trajectoires circulaires centrées sur cet axe (Δ) (sauf les points situés sur l'axe qui restent immobiles).",
+      "Le solide se déplace en ligne droite avec une vitesse angulaire variable.",
+      "Le centre de gravité du solide reste strictement immobile au cours du temps."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un mouvement de rotation impose à chaque point d'avoir une trajectoire circulaire concentrique autour de l'axe de rotation."
+  },
+  {
+    "id": 2,
+    "category": "Rotation Solide",
+    "questionText": "Pour repérer la position d'un point M d'un solide en rotation, on utilise l'abscisse angulaire θ(t). Quelle est son unité légale dans le Système International (SI) ?",
+    "options": [
+      "Le degré (°).",
+      "Le tour (tr).",
+      "Le radian (rad).",
+      "Le mètre (m)."
+    ],
+    "correctIndex": 2,
+    "explanationText": "L'unité standard d'angle plan en physique dans le Système International est le radian (rad)."
+  },
+  {
+    "id": 3,
+    "category": "Rotation Solide",
+    "questionText": "Qu'est-ce que l'abscisse curviligne s(t) pour un point M situé à une distance R de l'axe de rotation ?",
+    "options": [
+      "La vitesse maximale du point au cours du temps.",
+      "La longueur de l'arc de cercle parcouru par le point M depuis l'origine des positions.",
+      "L'angle mesuré entre l'axe Ox et le vecteur position.",
+      "La distance géométrique en ligne droite entre la source et le récepteur."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'abscisse curviligne est la distance physique s parcourue le long de la trajectoire circulaire."
+  },
+  {
+    "id": 4,
+    "category": "Rotation Solide",
+    "questionText": "Quelle formule fondamentale relie l'abscisse curviligne s(t), le rayon R et l'abscisse angulaire θ(t) ?",
+    "options": [
+      "s(t) = R / θ(t)",
+      "s(t) = R × θ(t)",
+      "s(t) = R² × θ(t)",
+      "θ(t) = R × s(t)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La relation fondamentale est s = R · θ, avec θ exprimé impérativement en radians."
+  },
+  {
+    "id": 5,
+    "category": "Rotation Solide",
+    "questionText": "Si un solide effectue un nombre n de tours complets, quelle est la valeur de l'angle balayé Δθ en radians ?",
+    "options": [
+      "Δθ = n × π",
+      "Δθ = 2π × n",
+      "Δθ = 2π / n",
+      "Δθ = 360 × n"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un tour complet équivaut à un angle de 2π radians, donc n tours correspondent à 2π · n radians."
+  },
+  {
+    "id": 6,
+    "category": "Rotation Solide",
+    "questionText": "La vitesse angulaire instantanée ω (notée aussi θ') correspond à :",
+    "options": [
+      "La primitive de l'abscisse angulaire par rapport au temps.",
+      "La dérivée première de l'abscisse angulaire par rapport au temps : ω = dθ/dt.",
+      "Le produit du rayon par la vitesse linéaire.",
+      "La force motrice appliquée sur la circonférence."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La vitesse angulaire exprime la variation temporelle de la position angulaire, soit sa dérivée : ω = dθ/dt."
+  },
+  {
+    "id": 7,
+    "category": "Rotation Solide",
+    "questionText": "Quelle est l'unité internationale de la vitesse angulaire ω ?",
+    "options": [
+      "Le tour par minute (tr/min).",
+      "Le mètre par seconde (m/s).",
+      "Le radian par seconde (rad/s).",
+      "Le hertz (Hz)."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Puisque l'angle est en radian et le temps en seconde, la vitesse angulaire s'exprime en rad/s."
+  },
+  {
+    "id": 8,
+    "category": "Rotation Solide",
+    "questionText": "Quelle formule relie la vitesse linéaire v d'un point M et la vitesse angulaire ω du solide ?",
+    "options": [
+      "v = R / ω",
+      "v = R × ω",
+      "v = R² × ω",
+      "ω = R × v"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La vitesse linéaire v d'un point à la distance R de l'axe est proportionnelle à la vitesse angulaire : v = R · ω."
+  },
+  {
+    "id": 9,
+    "category": "Rotation Solide",
+    "questionText": "L'accélération angulaire θ'' (notée aussi α) correspond à la dérivée de la vitesse angulaire par rapport au temps. Son unité SI est :",
+    "options": [
+      "rad/s",
+      "rad/s² (ou rad.s⁻²).",
+      "m/s²",
+      "N.m"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'accélération angulaire d'un solide en rotation s'exprime en rad/s²."
+  },
+  {
+    "id": 10,
+    "category": "Rotation Solide",
+    "questionText": "Dans le repère de Frénet, pour un point M en rotation, comment s'expriment l'accélération tangentielle a_t et l'accélération normale a_n en fonction des grandeurs angulaires ?",
+    "options": [
+      "a_t = R · θ'' et a_n = R · ω²",
+      "a_t = R · ω² et a_n = R · θ''",
+      "a_t = 0 et a_n = g",
+      "a_t = θ'' et a_n = ω"
+    ],
+    "correctIndex": 0,
+    "explanationText": "La composante tangentielle est liée à la variation de la vitesse linéaire (a_t = R · θ''), et la composante normale est l'accélération centripète (a_n = v²/R = R · ω²)."
+  },
+  {
+    "id": 11,
+    "category": "Rotation Solide",
+    "questionText": "Un mouvement de rotation est dit 'Circulaire Uniforme' lorsque :",
+    "options": [
+      "L'accélération angulaire est constante et positive.",
+      "La vitesse angulaire est constante (ω = constante, impliquant θ'' = 0).",
+      "Le mobile reste immobile sur cet axe.",
+      "Le moment des forces est infini."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un mouvement uniforme implique une vitesse angulaire constante, impliquant donc une accélération angulaire nulle (θ'' = 0)."
+  },
+  {
+    "id": 12,
+    "category": "Rotation Solide",
+    "questionText": "Quelle est l'équation horaire de l'abscisse angulaire θ(t) pour un mouvement de rotation uniforme ?",
+    "options": [
+      "θ(t) = ½ θ'' · t² + ω_0 · t + θ_0",
+      "θ(t) = ω · t + θ_0",
+      "θ(t) = θ_0",
+      "θ(t) = ½ ω · t"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'équation horaire est une fonction linéaire du temps : θ(t) = ω · t + θ_0."
+  },
+  {
+    "id": 13,
+    "category": "Rotation Solide",
+    "questionText": "Un mouvement de rotation est qualifié d' 'Uniformément Varié' lorsque :",
+    "options": [
+      "La vitesse angulaire est constante.",
+      "L'accélération angulaire est constante et non nulle (θ'' = constante ≠ 0).",
+      "Le solide s'arrête instantanément.",
+      "Le rayon de la trajectoire change au cours du temps."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La rotation est uniformément variée si et seulement si sa vitesse angulaire varie de manière linéaire, donc si l'accélération angulaire est constante."
+  },
+  {
+    "id": 14,
+    "category": "Rotation Solide",
+    "questionText": "Quelle est l'équation horaire de la vitesse angulaire ω(t) lors d'un mouvement de rotation uniformément varié ?",
+    "options": [
+      "ω(t) = θ'' · t + ω_0",
+      "ω(t) = ½ θ'' · t²",
+      "ω(t) = ω_0",
+      "ω(t) = θ'' · t² + ω_0 · t"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Puisque l'accélération angulaire θ'' est constante, la vitesse angulaire se déduit par intégration mécanique : ω(t) = θ'' · t + ω_0."
+  },
+  {
+    "id": 15,
+    "category": "Rotation Solide",
+    "questionText": "Quelle est l'équation horaire de l'abscisse angulaire θ(t) pour un mouvement de rotation uniformément varié ?",
+    "options": [
+      "θ(t) = θ'' · t + θ_0",
+      "θ(t) = ½ θ'' · t² + ω_0 · t + θ_0",
+      "θ(t) = θ'' · t² + θ_0",
+      "θ(t) = ω_0 · t + θ_0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'intégration de la vitesse angulaire fournit une équation du second degré : θ(t) = ½ θ'' · t² + ω_0 · t + θ_0."
+  },
+  {
+    "id": 16,
+    "category": "Rotation Solide",
+    "questionText": "Quelle relation indépendante du temps lie les vitesses angulaires ω_1 et ω_2, l'accélération angulaire θ'' et les angles parcourus θ_1 et θ_2 ?",
+    "options": [
+      "ω_2 - ω_1 = 2 θ'' · (θ_2 - θ_1)",
+      "ω_2² - ω_1² = 2 θ'' · (θ_2 - θ_1)",
+      "ω_2² + ω_1² = θ'' · (θ_2 + θ_1)",
+      "ω_2 · ω_1 = (θ'')² · (θ_2 - θ_1)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Identiquement au mouvement rectiligne uniformément varié, la relation cinématique s'écrit : ω_2² - ω_1² = 2 θ'' · (θ_2 - θ_1)."
+  },
+  {
+    "id": 17,
+    "category": "Rotation Solide",
+    "questionText": "Comment s'exprime le moment M_Δ(F) d'une force F par rapport à l'axe de rotation (Δ) ?",
+    "options": [
+      "M_Δ(F) = ± F × d",
+      "M_Δ(F) = d / F",
+      "M_Δ(F) = F × d²",
+      "M_Δ(F) = ± ½ F × d"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Le moment dépend de la force F, de son orientation, et du bras de levier d : M_Δ(F) = ± F · d."
+  },
+  {
+    "id": 18,
+    "category": "Rotation Solide",
+    "questionText": "Dans l'expression du moment d'une force, que représente la grandeur d ?",
+    "options": [
+      "La longueur totale du solide en rotation.",
+      "Le bras de levier (distance minimale séparant la droite d'action de la force et l'axe de rotation).",
+      "L'abscisse curviligne du point d'application.",
+      "Le diamètre de l'axe de rotation (Δ)."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le bras de levier d correspond à la distance orthogonale la plus courte de l'axe (Δ) à la ligne d'action de la force."
+  },
+  {
+    "id": 19,
+    "category": "Rotation Solide",
+    "questionText": "Quelle est l'unité internationale du moment d'une force ?",
+    "options": [
+      "Le Joule (J).",
+      "Le Newton (N).",
+      "Le Newton-mètre (N·m).",
+      "Le Radian par seconde."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Le moment étant le produit d'une force en Newton par une distance en mètre, il s'exprime en N·m."
+  },
+  {
+    "id": 20,
+    "category": "Rotation Solide",
+    "questionText": "Que vaut le moment d'une force M_Δ(F) si la droite d'action de cette force est parallèle à l'axe (Δ) ou coupe cet axe ?",
+    "options": [
+      "Il est maximal.",
+      "Il est égal à F × R.",
+      "Il est rigoureusement nul (M_Δ(F) = 0).",
+      "Il dépend uniquement de la masse."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Lorsque la ligne d'action d'une force coupe ou est parallèle à l'axe de rotation, son bras de levier est nul, rendant son moment nul."
+  },
+  {
+    "id": 21,
+    "category": "Rotation Solide",
+    "questionText": "Quelle grandeur physique quantifie l'inertie de rotation d'un corps solide (sa résistance à la modification de sa vitesse angulaire) ?",
+    "options": [
+      "La masse m seule.",
+      "Le moment d'inertie, noté J_Δ.",
+      "L'accélération tangentielle.",
+      "Le coefficient de frottement dynamique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le moment d'inertie J_Δ mesure la répartition de la masse autour de l'axe et régit la dynamique de rotation du solide."
+  },
+  {
+    "id": 22,
+    "category": "Rotation Solide",
+    "questionText": "Quelle est l'unité internationale du moment d'inertie J_Δ d'un solide ?",
+    "options": [
+      "kg·m",
+      "kg·m² (kilogramme-mètre carré).",
+      "N·m",
+      "kg·s⁻²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le moment d'inertie dépend d'une masse par le carré d'une distance, donc s'exprime en kg·m²."
+  },
+  {
+    "id": 23,
+    "category": "Rotation Solide",
+    "questionText": "Quel est l'énoncé de la Relation Fondamentale de la Dynamique (RFD) pour un solide en rotation autour d'un axe fixe ?",
+    "options": [
+      "Σ F = m · a",
+      "Σ M_Δ(F) = J_Δ · θ''",
+      "Σ M_Δ(F) = J_Δ · ω",
+      "Σ M_Δ(F) = 0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La RFD pour un système en rotation stipule que la somme des moments des forces extérieures est égale à J_Δ · θ''."
+  },
+  {
+    "id": 24,
+    "category": "Rotation Solide",
+    "questionText": "Quelle est l'expression de la puissance instantanée P développée par une force F appliquée à un solide en rotation de vitesse angulaire ω ?",
+    "options": [
+      "P = F × v",
+      "P = M_Δ(F) × ω",
+      "P = ω / M_Δ(F)",
+      "P = J_Δ × θ''"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En rotation, la puissance s'exprime par le produit du moment de la force par sa vitesse angulaire : P = M_Δ(F) · ω."
+  },
+  {
+    "id": 25,
+    "category": "Rotation Solide",
+    "questionText": "Quelle est l'unité de la puissance mécanique instantanée ?",
+    "options": [
+      "Le Joule (J).",
+      "Le Newton-mètre (N·m).",
+      "Le Watt (W).",
+      "Le Cheval-vapeur (ch)."
+    ],
+    "correctIndex": 2,
+    "explanationText": "La puissance, qu'elle soit de translation ou de rotation, s'exprime toujours en Watts (W) dans le SI."
+  },
+  {
+    "id": 26,
+    "category": "Rotation Solide",
+    "questionText": "Comment calcule-t-on le travail mécanique W(F) d'une force de moment constant M_Δ(F) entre deux angles θ_1 et θ_2 ?",
+    "options": [
+      "W(F) = M_Δ(F) × (θ_2 - θ_1) = M_Δ(F) × Δθ",
+      "W(F) = F × (s_2 - s_1)²",
+      "W(F) = ½ M_Δ(F) × Δθ²,",
+      "W(F) = J_Δ × ω"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Le travail d'un couple ou d'une force en rotation est le produit du moment et de la variation de sa position angulaire : W(F) = M_Δ(F) · Δθ."
+  },
+  {
+    "id": 27,
+    "category": "Rotation Solide",
+    "questionText": "Quelle est l'expression de l'énergie cinétique E_c d'un solide en mouvement de rotation autour d'un axe fixe ?",
+    "options": [
+      "E_c = ½ m · v²",
+      "E_c = ½ J_Δ · ω² = ½ J_Δ · (θ')²",
+      "E_c = J_Δ · ω²",
+      "E_c = ½ M_Δ · θ''"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie cinétique de rotation s'écrit sous la forme E_c = ½ J_Δ · ω²."
+  },
+  {
+    "id": 28,
+    "category": "Rotation Solide",
+    "questionText": "Quel est l'énoncé du Théorème de l'Énergie Cinétique appliqué à un solide en rotation ?",
+    "options": [
+      "ΔE_c = Σ F",
+      "ΔE_c = E_c2 - E_c1 = Σ W(forces extérieures)",
+      "ΔE_c = J_Δ · θ''",
+      "ΔE_c = 0 à chaque instant."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La variation d'énergie cinétique de rotation est égale à la somme des travaux de toutes les forces appliquées extérieures."
+  },
+  {
+    "id": 29,
+    "category": "Rotation Solide",
+    "questionText": "Si un solide tourne à vitesse angulaire constante (ω = constante), que vaut le moment total résultant des forces extérieures appliquées ?",
+    "options": [
+      "Il est maximal et constant.",
+      "Il est égal à J_Δ · ω.",
+      "Il est rigoureusement nul (Σ M_Δ = 0).",
+      "Il dépend uniquement du rayon."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Puisque la vitesse angulaire est constante, l'accélération angulaire est nulle. En vertu de la RFD, la somme des moments s'annule."
+  },
+  {
+    "id": 30,
+    "category": "Rotation Solide",
+    "questionText": "Un fil inextensible et de masse négligeable est enroulé sur un cylindre de rayon R = 20 cm. On tire sur le fil avec une force constante T = 15 N. Que vaut le moment de cette force par rapport à l'axe du cylindre ?",
+    "options": [
+      "300 N·m",
+      "3 N·m",
+      "0.75 N·m",
+      "75 N·m"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le moment vaut M_Δ(F) = T · R = 15 N × 0.20 m = 3 N·m."
+  },
+  {
+    "id": 31,
+    "category": "Rotation Solide",
+    "questionText": "Un disque de moment d'inertie J_Δ = 0.1 kg·m² subit un moment total constant Σ M_Δ = 0.5 N·m. Quelle est la valeur de son accélération angulaire θ'' ?",
+    "options": [
+      "CN = C_s * k",
+      "θ'' = 5 rad/s²",
+      "θ'' = 2 rad/s²",
+      "θ'' = 0 rad/s²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Par application de la RFD : θ'' = Σ M_Δ / J_Δ = 0.5 / 0.1 = 5 rad/s²."
+  },
+  {
+    "id": 32,
+    "category": "Rotation Solide",
+    "questionText": "Si la courbe représentant la vitesse angulaire ω(t) en fonction du temps est une droite décroissante de pente négative, le mouvement de rotation est :",
+    "options": [
+      "Uniforme.",
+      "Uniformément retardé (ou décéléré).",
+      "Uniformément accéléré.",
+      "Périodique libre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Une pente constante négative pour ω(t) indique une accélération angulaire constante et négative : le mouvement décélère ainsi uniformément."
+  },
+  {
+    "id": 33,
+    "category": "Rotation Solide",
+    "questionText": "Que représente la pente de la droite de la vitesse angulaire ω = f(t) au cours du temps ?",
+    "options": [
+      "L'abscisse angulaire initiale.",
+      "L'accélération angulaire du mouvement θ''.",
+      "Le travail mécanique des couples résistants.",
+      "Le moment d'inertie J_Δ."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La pente par rapport au temps de ω correspond à l'accélération angulaire d'un point : dω/dt = θ''."
+  },
+  {
+    "id": 34,
+    "category": "Rotation Solide",
+    "questionText": "Lorsqu'un solide effectue un mouvement de rotation soumis à des frottements de moment constant M_f opposé au mouvement, le travail de ces forces est :",
+    "options": [
+      "Positif (travail moteur).",
+      "Négatif (travail résistant : W(forces de frottement) < 0).",
+      "Toujours nul.",
+      "Égal à l'énergie cinétique initiale."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les forces s'opposant au sens mécanique du mouvement effectuent toujours un travail résistant, donc de signe négatif."
+  },
+  {
+    "id": 35,
+    "category": "Rotation Solide",
+    "questionText": "Une poulie de moment d'inertie J_Δ tourne à la vitesse ω_0. On coupe l'alimentation et elle s'arrête sous l'action de frottements de moment M_f après avoir balayé un angle Δθ. Que donne le théorème de l'énergie cinétique ?",
+    "options": [
+      "½ J_Δ · ω_0² = M_f · Δθ",
+      "-½ J_Δ · ω_0² = M_f · Δθ",
+      "½ J_Δ · ω_0² = 0",
+      "M_f = J_Δ · ω_0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'état de repos final annule l'énergie finale. La variation vaut donc : 0 - ½ J_Δ · ω_0² = travail résistant = M_f · Δθ."
+  },
+  {
+    "id": 36,
+    "category": "Rotation Solide",
+    "questionText": "Si la vitesse angulaire d'un disque de rotation est doublée, son énergie cinétique de rotation E_c est :",
+    "options": [
+      "Doublée.",
+      "Divisée par deux.",
+      "Quadruplée (multipliée par 4).",
+      "Invariante."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Étant proportionnelle au carré de la vitesse angulaire, si ω double, l'énergie associée est multipliée par 2² = 4."
+  },
+  {
+    "id": 37,
+    "category": "Rotation Solide",
+    "questionText": "Quelle grandeur physique reste identique pour TOUS les points d'un solide rigide en rotation à un instant donné ?",
+    "options": [
+      "La vitesse linéaire v.",
+      "La distance d'un point à l'axe.",
+      "La vitesse angulaire ω (et l'accélération angulaire θ'').",
+      "L'accélération normale de Frénet a_n."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Tous les points d'un solide rigide décrivent le même angle durant la même période. Seule la vitesse spatiale linéaire dépend du rayon R."
+  },
+  {
+    "id": 38,
+    "category": "Rotation Solide",
+    "questionText": "Si un point M_1 est à la distance R_1 de l'axe de rotation, et M_2 à R_2 = 2 · R_1, quelle relation lie leurs vitesses linéaires ?",
+    "options": [
+      "v_2 = v_1",
+      "v_2 = 2 · v_1",
+      "v_2 = v_1 / 2",
+      "v_2 = 4 · v_1"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque v = R · ω, si la distance à l'axe double pour M_2, sa vitesse linéaire v_2 double également."
+  },
+  {
+    "id": 39,
+    "category": "Rotation Solide",
+    "questionText": "Un arbre moteur tourne à la vitesse constante de n = 3000 tours/minute. Quelle est la valeur de sa vitesse angulaire ω in rad/s ?",
+    "options": [
+      "ω = 3000 rad/s",
+      "ω = 100π rad/s (environ 314 rad/s).",
+      "ω = 50π rad/s",
+      "ω = 10 rad/s"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La vitesse s'évalue selon ω = 2π · n / 60 = 2π · 3000 / 60 = 100π rad/s."
+  },
+  {
+    "id": 40,
+    "category": "Rotation Solide",
+    "questionText": "Quelle force exercée sur un anneau suspendu ne produit aucun moment par rapport à son axe de rotation centre (Δ) ?",
+    "options": [
+      "La force de frottement du patin de freinage extérieur.",
+      "Le poids propre dirigé vers le bas passant exactement par l'axe de rotation (Δ).",
+      "La force de traction de la corde motrice périphérique.",
+      "Une force de poussée appliquée tangentiellement."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Toute force passant exactement par l'axe de rotation possède un bras de levier rigoureusement nul, développant un moment de rotation nul."
+  }
+]

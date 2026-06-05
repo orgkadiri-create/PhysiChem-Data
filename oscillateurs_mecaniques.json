@@ -1,0 +1,912 @@
+[
+  {
+    "id": 1,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Par définition, qu'est-ce qu'un oscillateur mécanique ?",
+    "options": [
+      "Un système qui se déplace en ligne droite vers l'infini à vitesse constante.",
+      "Un système mécanique animé d'un mouvement de va-et-vient autour de sa position d'équilibre stable.",
+      "Un système soumis uniquement à une force de frottement fluide constante.",
+      "Un corps solide en rotation uniforme continue autour d'un axe fixe."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un oscillateur mécanique effectue des oscillations régulières (périodiques ou pseudo-périodiques) de part et d'autre de sa position moyenne d'équilibre stable."
+  },
+  {
+    "id": 2,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quand dit-on qu'un équilibre est \"stable\" pour une bille posée sur un support ?",
+    "options": [
+      "Si, lorsqu'on l'écarte légèrement de sa position, elle roule et ne revient jamais à sa position de départ.",
+      "Si, lorsqu'on l'écarte légèrement de sa position, elle y retourne d'elle-même (effet d'une force de rappel).",
+      "Si elle s'arrête instantanément dès qu'on la touche.",
+      "Si sa vitesse initiale est égale à la vitesse de la lumière."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'équilibre stable se caractérise par la création immédiate d'une force ou couple de rappel tendant à ramener le système vers cette position dès qu'il s'en écarte."
+  },
+  {
+    "id": 3,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "De quels éléments est constitué un pendule élastique (ou système solide-ressort) ?",
+    "options": [
+      "D'un fil métallique de torsion fixé à une barre horizontale.",
+      "D'un solide de masse m fixé à un ressort de spires non jointives, de longueur initiale L_0 et de raideur K.",
+      "D'une tige rigide oscillant autour d'un axe horizontal ne passant pas par son centre de gravité.",
+      "D'un condensateur branché en série avec une bobine pure."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le système solide-ressort mécanique se compose d'un solide de masse m connecté à un ressort hélicoïdal de comportement purement élastique."
+  },
+  {
+    "id": 4,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quelle est l'expression mathématique de la valeur (intensité) de la force de rappel F exercée par un ressort allongé ou comprimé ?",
+    "options": [
+      "F = K · |ΔL|",
+      "F = m · g",
+      "F = ½ K · x²",
+      "F = K / |ΔL|"
+    ],
+    "correctIndex": 0,
+    "explanationText": "L'intensité (grandeur scalaire positive) de la force de rappel exercée par un ressort est directement proportionnelle à sa déformation : F = K·|ΔL|."
+  },
+  {
+    "id": 5,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Dans le Système International d'unités (SI), quelle est l'unité de la raideur K d'un ressort ?",
+    "options": [
+      "Le Newton par seconde (N/s).",
+      "Le Newton par mètre (N/m ou N·m¯¹).",
+      "Le Joule (J).",
+      "Le Kilogramme par mètre carré (kg/m²)."
+    ],
+    "correctIndex": 1,
+    "explanationText": "K s'exprime en Newtons par mètre (N/m), ce qui caractérise la force en Newtons nécessaire pour étirer ou comprimer le ressort de un mètre."
+  },
+  {
+    "id": 6,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Pour un ressort horizontal dont l'extrémité est fixée à l'origine O d'un axe Ox, l'allongement vaut x. Quelle est l'expression vectorielle de la force de rappel F ?",
+    "options": [
+      "F = K · x · i",
+      "F = -K · x · i",
+      "F = -m · g · i",
+      "F = K · x² · i"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La force de rappel s'oppose par définition à la déformation x : F = -K·x·i. Si x > 0 (allongement), F est dirigée vers les x négatifs."
+  },
+  {
+    "id": 7,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "En appliquant la deuxième loi de Newton (Σ F = m · a) à un pendule élastique horizontal sans frottement, quelle équation différentielle obtient-on pour l'abscisse x ?",
+    "options": [
+      "x'' - (K/m) · x = 0",
+      "x'' + (K/m) · x = 0",
+      "x'' + (m/K) · x = 0",
+      "x'' + K · x = 0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "On a -K·x = m·x'', d'où m·x'' + K·x = 0, soit après division par m : x'' + (K/m)·x = 0."
+  },
+  {
+    "id": 8,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "L'équation différentielle x'' + (K/m) · x = 0 est une équation linéaire du second degré sans second membre. Sa solution générale s'écrit sous la forme :",
+    "options": [
+      "x(t) = X_max · cos(ω_0 · t + φ)",
+      "x(t) = X_max · e¯λt",
+      "x(t) = V_max · sin(t)",
+      "x(t) = X_max · t + φ"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Un système non amorti oscille selon une loi sinusoïdale pure de type x(t) = X_max·cos(ω_0·t + φ)."
+  },
+  {
+    "id": 9,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Dans la solution x(t) = X_max · cos(ω_0 · t + φ), que représente le terme X_max ?",
+    "options": [
+      "L'abscisse initiale à la date t = 0.",
+      "L'amplitude maximale du mouvement (élongation maximale positive).",
+      "La phase à l'origine des temps.",
+      "La vitesse maximale du solide."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le paramètre X_max représente l'élongation extrême atteinte positivement par l'oscillateur par rapport au point de repos."
+  },
+  {
+    "id": 10,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quelle est l'expression analytique de la période propre T_0 d'un pendule élastique ?",
+    "options": [
+      "T_0 = 2π √(K / m)",
+      "T_0 = 2π √(m / K)",
+      "T_0 = (1/2π) √(m / K)",
+      "T_0 = 2π · m/K"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La période propre s'exprime par la formule canonique T_0 = 2π√(m/K). Elle augmente avec l'inertie m et diminue avec la rigidité K."
+  },
+  {
+    "id": 11,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "L'analyse dimensionnelle montre que l'expression 2π √(m / K) est homogène à :",
+    "options": [
+      "Une force (F).",
+      "Un temps ou une durée (T).",
+      "Une vitesse (v).",
+      "Une raideur (K)."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'expression √(m/K) est bien homogène à des secondes. [m/K] = [M] / ([M]·[T]¯²) = [T]² sous la racine, d'où l'homogénéité à un temps."
+  },
+  {
+    "id": 12,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Si l'on multiplie la masse m du solide par 4 sans modifier le ressort, la période propre T_0 va :",
+    "options": [
+      "Rester identique.",
+      "Doubler (car T_0 est proportionnelle à la racine de la masse).",
+      "Être divisée par deux.",
+      "Quadrupler."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque T_0 = 2π√(m/K), tripler ou quadrupler m multiplie la période par la racine de ce facteur : √4 = 2. La période propre double."
+  },
+  {
+    "id": 13,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Comment s'exprime la fréquence propre f_0 (ou N_0) d'un pendule élastique en fonction de m et K ?",
+    "options": [
+      "f_0 = 2π √(K / m)",
+      "f_0 = (1/2π) √(K / m)",
+      "f_0 = 2π √(m / K)",
+      "f_0 = (1/2π) √(m / K)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La fréquence f_0 est l'inverse de la période propre f_0 = 1/T_0, on obtient donc f_0 = (1/2π)√(K/m)."
+  },
+  {
+    "id": 14,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "La pulsation propre ω_0 du pendule élastique est liée à la période propre par la relation ω_0 = 2π / T_0. Sa formule directe est :",
+    "options": [
+      "ω_0 = √(m / K)",
+      "ω_0 = √(K / m)",
+      "ω_0 = K / m",
+      "ω_0 = 2π · K"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La pulsation propre ω_0 vaut 2π/T_0 = √(K/m). C'est le coefficient de l'état x dans l'équation différentielle écrite sous la forme x'' + ω_0²·x = 0."
+  },
+  {
+    "id": 15,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Pour un oscillateur horizontal libre et non amorti, la phase à l'origine φ dépend :",
+    "options": [
+      "Uniquement de l'allongement K du ressort.",
+      "Des conditions initiales de position et de vitesse à la date t = 0.",
+      "De la valeur de l'intensité de la pesanteur g.",
+      "De l'amplitude maximale X_max au carré."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La phase à l'origine φ se détermine via les valeurs de la position initiale x(0) et de la vitesse de lancer v(0) à l'instant initial."
+  },
+  {
+    "id": 16,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Si à t = 0, on écarte le solide vers l'abscisse positive X_0 > 0 et qu'on le lâche sans vitesse initiale (v_0 = 0), que vaut la phase à l'origine φ dans l'expression en cosinus ?",
+    "options": [
+      "φ = 0 rad",
+      "φ = π rad",
+      "φ = π/2 rad",
+      "φ = -π/2 rad"
+    ],
+    "correctIndex": 0,
+    "explanationText": "On a x(0) = X_max·cos(φ) = X_0. Comme X_0 = X_max, on déduit cos(φ) = 1, soit φ = 0 rad."
+  },
+  {
+    "id": 17,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Par dérivation par rapport au temps de l'équation horaire de position x(t) = X_max · cos(ω_0 · t + φ), quelle est l'expression horaire de la vitesse linéaire v(t) ?",
+    "options": [
+      "v(t) = ω_0 · X_max · sin(ω_0 · t + φ)",
+      "v(t) = -ω_0 · X_max · sin(ω_0 · t + φ)",
+      "v(t) = -ω_0² · X_max · cos(ω_0 · t + φ)",
+      "v(t) = X_max · cos(ω_0 · t + φ)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La dérivée temporelle de cos(u) est -u'·sin(u), on a donc v(t) = dx/dt = -ω_0·X_max·sin(ω_0·t + φ)."
+  },
+  {
+    "id": 18,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quelle est la valeur maximale absolue V_max atteinte par la vitesse du solide au cours de ses oscillations ?",
+    "options": [
+      "V_max = ω_0 · X_max",
+      "V_max = ω_0 / X_max",
+      "V_max = ω_0² · X_max",
+      "V_max = X_max"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Le sinus oscillant entre -1 et 1, la valeur extrême absolue du terme de vitesse correspond au coefficient d'amplitude : V_max = ω_0·X_max."
+  },
+  {
+    "id": 19,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Par dérivation seconde, l'expression horaire de l'accélération linéaire a(t) s'écrit :",
+    "options": [
+      "a(t) = -ω_0 · X_max · sin(ω_0 · t + φ)",
+      "a(t) = -ω_0² · X_max · cos(ω_0 · t + φ) = -ω_0² · x(t)",
+      "a(t) = ω_0² · X_max · cos(ω_0 · t + φ)",
+      "a(t) = constante"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'accélération est la dérivée de la vitesse : dv/dt = -ω_0²·X_max·cos(ω_0·t + φ) = -ω_0²·x(t)."
+  },
+  {
+    "id": 20,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Lorsque le solide passe par sa position d'équilibre (x = 0), son accélération et sa vitesse sont respectivement :",
+    "options": [
+      "L'accélération est maximale et la vitesse est nulle.",
+      "L'accélération est nulle (a = 0) et sa vitesse est maximale en valeur absolue.",
+      "Elles sont toutes les deux rigoureusement nulles.",
+      "Elles dépendent de la phase φ."
+    ],
+    "correctIndex": 1,
+    "explanationText": "En x = 0, l'accélération a = -ω_0²·x vaut 0. À cette position, toute l'énergie est cinétique, la vitesse est donc maximale."
+  },
+  {
+    "id": 21,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Dans un circuit réel soumis à des forces de frottement fluide faibles, l'amplitude des oscillations diminue progressivement. Ce régime est appelé :",
+    "options": [
+      "Régime périodique continu.",
+      "Régime pseudo-périodique.",
+      "Régime apériodique.",
+      "Régime critique permanent."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Un amortissement faible dissipe l'énergie lentement : le système effectue des vagues d'amplitude de plus en plus petite, c'est le régime pseudo-périodique."
+  },
+  {
+    "id": 22,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Comment appelle-t-on la durée séparant deux passages successifs de l'oscillateur dans le même sens par la position d'équilibre en régime pseudo-périodique ?",
+    "options": [
+      "La période propre T_0.",
+      "La pseudo-période T.",
+      "La constante d'amortissement τ.",
+      "La flèche temporelle."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Il s'agit de la pseudo-période T. Pour de faibles frottements, sa valeur est très voisine de la période propre T_0 sans frottement."
+  },
+  {
+    "id": 23,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Si les frottements fluides deviennent très importants (ex: solide plongé dans de l'huile très visqueuse), le solide revient à sa position d'équilibre sans osciller. Ce régime est :",
+    "options": [
+      "Le régime pseudo-périodique.",
+      "Le régime apériodique.",
+      "Le régime harmonique.",
+      "Le régime résonnant aigu."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Sous forte dissipation, le pendule est trop freiné pour pouvoir traverser la position moyenne d'équilibre : il regagne son repos sans osciller (régime apériodique)."
+  },
+  {
+    "id": 24,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Pour un oscillateur mécanique amorti non entretenu, l'amplitude décroissante au cours du temps forme une enveloppe géométrique de nature :",
+    "options": [
+      "Linéaire décroissante.",
+      "Exponentielle décroissante.",
+      "Parabolique inverse.",
+      "Circulaire concentrique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'amortissement de type fluide visqueux f = -h·v engendre une solution sous enveloppe exponentielle amortie de type exp(-γ·t)."
+  },
+  {
+    "id": 25,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Un pendule élastique horizontal possède un solide m = 0.1 kg et un ressort K = 10 N/m. Quelle est sa pulsation propre ω_0 ?",
+    "options": [
+      "ω_0 = 1 rad/s",
+      "ω_0 = 0.1 rad/s",
+      "ω_0 = 10 rad/s",
+      "ω_0 = 100 rad/s"
+    ],
+    "correctIndex": 2,
+    "explanationText": "ω_0 = √(K/m) = √(10 / 0.1) = √100 = 10 rad/s."
+  },
+  {
+    "id": 26,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Qu'est-ce qu'un pendule de torsion ?",
+    "options": [
+      "Un système composé d'un ressort à spires jointives vertical.",
+      "Un dispositif constitué d'une barre horizontale (tige) fixée perpendiculairement en son centre à un fil métallique vertical de torsion.",
+      "Une masse suspendue à un fil de coton inextensible.",
+      "Un disque glissant sur un plan incliné rugueux."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le pendule de torsion exploite l'effet de couple de torsion de rappel d'un fil métallique fixe lorsque l'on tord ce dernier."
+  },
+  {
+    "id": 27,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Lorsqu'on écarte la barre d'un angle θ par rapport à sa position de repos, le fil métallique réagit en exerçant un couple de forces appelé :",
+    "options": [
+      "Le couple de frottement visqueux.",
+      "Le couple de rappel de torsion.",
+      "Le moment d'inertie dynamique.",
+      "La poussée d'Archimède angulaire."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le fil distordu tend élastiquement à s'opposer à cette déformation, appliquant à la barre un couple dit couple de rappel de torsion."
+  },
+  {
+    "id": 28,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quelle est l'expression du moment M_c du couple de torsion exercé par le fil en fonction de l'abscisse angulaire θ ?",
+    "options": [
+      "M_c = -C · θ",
+      "M_c = C · θ",
+      "M_c = -½ C · θ²",
+      "M_c = J_Δ · θ''"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Le moment du couple de rappel de torsion est proportionnel à l'angle de distorsion θ et s'oppose à la torsion, d'où M_c = -C·θ."
+  },
+  {
+    "id": 29,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Dans l'expression du moment du couple de torsion, que représente le paramètre C et quelle est son unité SI ?",
+    "options": [
+      "La capacité du fil en Farad (F).",
+      "La constante de torsion du fil, exprimée en Newton-mètre par radian (N·m/rad).",
+      "Le coefficient de frottement en kg/s.",
+      "Le moment cinétique en kg·m²/s."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le terme C est la constante de torsion du fil métallique et s'exprime en Newtons-mètres par radian (N·m/rad)."
+  },
+  {
+    "id": 30,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "De quels paramètres physiques dépend la valeur de la constante de torsion C d'un fil métallique ?",
+    "options": [
+      "Uniquement de la longueur du fil.",
+      "Uniquement de la masse de la barre suspendue.",
+      "De la longueur du fil, de son diamètre (section) et de la nature géométrique de son matériau.",
+      "De l'angle maximal de torsion θ_max."
+    ],
+    "correctIndex": 2,
+    "explanationText": "C est proportionnelle au diamètre du fil à la puissance 4, inversement proportionnelle à sa longueur, et dépend du coefficient de cisaillement du solide."
+  },
+  {
+    "id": 31,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "En appliquant la Relation Fondamentale de la Dynamique de rotation au pendule de torsion sans frottement, quelle équation différentielle obtient-on ?",
+    "options": [
+      "θ'' - (C/J_Δ) · θ = 0",
+      "θ'' + (C/J_Δ) · θ = 0",
+      "θ'' + (J_Δ/C) · θ = 0",
+      "θ'' + C · θ = 0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "On a J_Δ·θ'' = -C·θ, d'où J_Δ·θ'' + C·θ = 0, soit après division par J_Δ : θ'' + (C/J_Δ)·θ = 0."
+  },
+  {
+    "id": 32,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quelle est la nature du mouvement d'un pendule de torsion régi par l'équation différentielle θ'' + (C/J_Δ) · θ = 0 ?",
+    "options": [
+      "Un mouvement de rotation uniforme.",
+      "Un mouvement de rotation oscillatoire harmonique (sinusoïdal).",
+      "Un mouvement de rotation uniformément accéléré.",
+      "Un mouvement amorti critique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'équation est linéaire sans terme amortisseur, analogue à x'' + ω_0²·x = 0 : le mouvement est oscillatoire harmonique radial."
+  },
+  {
+    "id": 33,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quelle est la solution horaire de l'équation différentielle du pendule de torsion pour l'abscisse angulaire θ(t) ?",
+    "options": [
+      "θ(t) = θ_max · cos(ω_0 · t + φ)",
+      "θ(t) = θ_max · t + φ",
+      "θ(t) = θ_max · e¯λt",
+      "θ(t) = J_Δ · sin(t)"
+    ],
+    "correctIndex": 0,
+    "explanationText": "La solution harmonique d'oscillation angulaire s'écrit de manière élégante θ(t) = θ_max·cos(ω_0·t + φ)."
+  },
+  {
+    "id": 34,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quelle est l'expression correcte de la période propre T_0 d'un pendule de torsion ?",
+    "options": [
+      "T_0 = 2π √(C / J_Δ)",
+      "T_0 = 2π √(J_Δ / C)",
+      "T_0 = (1/2π) √(J_Δ / C)",
+      "T_0 = 2π · J_Δ · C"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Par similitude physique, T_0 = 2π / ω_0 = 2π(J_Δ/C) où J_Δ est l'inertie de masse et C la constante élastique du rappel."
+  },
+  {
+    "id": 35,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Si on remplace la tige suspendue par une autre de moment d'inertie J_Δ deux fois plus grand, la période propre T_0 sera multipliée par :",
+    "options": [
+      "2",
+      "4",
+      "√2",
+      "1/2"
+    ],
+    "correctIndex": 2,
+    "explanationText": "Comme T_0 est proportionnelle à la racine carrée de J_Δ, doubler l'inertie J_Δ multiplie la période propre par un facteur lissé de √2."
+  },
+  {
+    "id": 36,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Par dérivation par rapport au temps, l'expression de la vitesse angulaire instantanée θ'(t) du pendule de torsion s'écrit :",
+    "options": [
+      "θ'(t) = ω_0 · θ_max · sin(ω_0 · t + φ)",
+      "θ'(t) = -ω_0 · θ_max · sin(ω_0 · t + φ)",
+      "θ'(t) = -ω_0² · θ_max · cos(ω_0 · t + φ)",
+      "θ'(t) = θ_max · cos(ω_0 · t + φ)"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La dérivation temporelle de θ(t) donne l'équation harmonique de vitesse angulaire : θ'(t) = -ω_0·θ_max·sin(ω_0·t + φ)."
+  },
+  {
+    "id": 37,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quelle est la valeur de la vitesse angulaire maximale θ'_max atteinte par le pendule de torsion ?",
+    "options": [
+      "θ'_max = ω_0 · θ_max",
+      "θ'_max = ω_0 / θ_max",
+      "θ'_max = ω_0² · θ_max",
+      "θ'_max = θ_max"
+    ],
+    "correctIndex": 0,
+    "explanationText": "La vitesse angulaire atteint sa valeur extrême à la traversée de la position d'équilibre : θ'_max = ω_0·θ_max."
+  },
+  {
+    "id": 38,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Que vaut l'accélération angulaire θ''(t) du pendule de Torsion en fonction de l'abscisse angulaire θ(t) ?",
+    "options": [
+      "θ''(t) = -ω_0 · θ(t)",
+      "θ''(t) = -ω_0² · θ(t)",
+      "θ''(t) = ω_0² · θ(t)",
+      "θ''(t) = constante"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Par double dérivation de position, l'accélération angulaire vérifie bien l'accélération relative restrictive : θ''(t) = -ω_0²·θ(t)."
+  },
+  {
+    "id": 39,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Sur le graphique représentatif de la vitesse angulaire θ'(t) d'un pendule de torsion non amorti, la courbe a la forme d'une :",
+    "options": [
+      "Droite linéaire passant par l'origine.",
+      "Fonction sinusoïdale centrée sur zéro d'amplitude constante θ'_max.",
+      "Exponentielle décroissante vers l'axe des temps.",
+      "Parabole symétrique."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La vitesse angulaire variant de manière purement périodique et harmonique, elle trace une courbe sinusoïdale d'amplitude constante."
+  },
+  {
+    "id": 40,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Un pendule de torsion possède un fil de constante C = 0.01 N·m/rad et une barre de moment d'inertie J_Δ = 10¯⁴ kg·m². Quelle est sa période propre T_0 ? (On donne π² ≈ 10)",
+    "options": [
+      "T_0 = 1 s",
+      "T_0 = 0.63 s",
+      "T_0 = 6.28 s",
+      "T_0 = 10 s"
+    ],
+    "correctIndex": 1,
+    "explanationText": "T_0 = 2π√(J_Δ / C) = 2π√(10¯⁴ / 10¯²) = 2π√(0.01) = 2π · 0.1 ≈ 0.63 s."
+  },
+  {
+    "id": 41,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Qu'est-ce qu'un pendule pesant ?",
+    "options": [
+      "Un ressort vertical supportant une masse lourde.",
+      "Tout solide mobile en rotation autour d'un axe horizontal ne passant pas par son centre de gravité G et placé dans un champ de pesanteur.",
+      "Un fil de torsion supportant une barre homogène.",
+      "Un système qui glisses sans frottement sur un plan horizontal."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le pendule pesant désigne tout corps solide déformable ou indéformable tournant autour d'un axe horizontal excentré par rapport à son centre de gravité."
+  },
+  {
+    "id": 42,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "En appliquant la RFD de rotation au pendule pesant écarté d'un angle θ, quelle est l'expression du moment du poids M_Δ(P) ?",
+    "options": [
+      "M_Δ(P) = m · g · d · cos(θ)",
+      "M_Δ(P) = -m · g · d · sin(θ)",
+      "M_Δ(P) = m · g · d · sin(θ)",
+      "M_Δ(P) = -m · g · θ"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour un angle positif θ, le poids tend à s'opposer au déplacement : son bras de levier vaut d·sin(θ), son moment est donc restaurateur : -m·g·d·sin(θ)."
+  },
+  {
+    "id": 43,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quelle est l'équation différentielle exacte du mouvement du pendule pesant non amorti ?",
+    "options": [
+      "θ'' - (m·g·d/J_Δ) · sin(θ) = 0",
+      "θ'' + (m·g·d/J_Δ) · sin(θ) = 0",
+      "θ'' + (J_Δ/m·g·d) · sin(θ) = 0",
+      "θ'' + m·g·d · θ = 0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "D'après la RFD, J_Δ·θ'' = -m·g·d·sin(θ), en isolant les termes on obtient : θ'' + (m·g·d/J_Δ)·sin(θ) = 0."
+  },
+  {
+    "id": 44,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "L'équation différentielle θ'' + (m·g·d/J_Δ) · sin(θ) = 0 est qualifiée de :",
+    "options": [
+      "Linéaire du premier ordre.",
+      "Non linéaire du second degré (à cause du terme sin(θ)).",
+      "Algébrique polynomiale.",
+      "Affine stationnaire."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Le fait que l'angle θ soit inscrit sous la fonction non linéaire 'sin(θ)' rend cette équation différentielle harmoniquement non linéaire."
+  },
+  {
+    "id": 45,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Dans l'hypothèse des \"petites oscillations\" (angles faibles, θ ≤ 15° ou θ ≤ 0.26 rad), quelle approximation mathématique fondamentale utilise-t-on ?",
+    "options": [
+      "sin(θ) ≈ 1",
+      "sin(θ) ≈ θ (exprimé en radians).",
+      "sin(θ) ≈ cos(θ)",
+      "sin(θ) ≈ θ² / 2"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour de petits angles, le développement de Taylor donne sin(θ) ≈ θ (exprimé en radians), ce qui simplifie grandement l'équation."
+  },
+  {
+    "id": 46,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Dans le cas des petites oscillations, l'équation différentielle du pendule pesant se linéarise et devient :",
+    "options": [
+      "θ'' + (m·g·d/J_Δ) · θ = 0",
+      "θ'' + sin(θ) = 0",
+      "θ'' - (m·g·d/J_Δ) · θ = 0",
+      "θ'' + (J_Δ/m·g·d) · θ = 0"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Par la substitution sin(θ) ≈ θ, l'équation non linéaire se transforme en équation différentielle linéaire harmonique : θ'' + (m·g·d/J_Δ)·θ = 0."
+  },
+  {
+    "id": 47,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quelle est l'expression de la période propre T_0 du pendule pesant dans le cadre des petites oscillations ?",
+    "options": [
+      "T_0 = 2π √(J_Δ / (m · g · d))",
+      "T_0 = 2π √((m · g · d) / J_Δ)",
+      "T_0 = √(J_Δ / (m · g · d)) / 2π",
+      "T_0 = 2π · J_Δ · m · g · d"
+    ],
+    "correctIndex": 0,
+    "explanationText": "La pulsation propre étant ω_0 = √(m·g·d/J_Δ), la période propre vaut T_0 = 2π/ω_0 = 2π√(J_Δ/(m·g·d))."
+  },
+  {
+    "id": 48,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Qu'est-ce qu'un \"pendule simple\" ?",
+    "options": [
+      "Un ressort vertical supportant une masse lourde.",
+      "Un modèle idéal constitué d'un point matériel (masse ponctuelle m) suspendu à l'extrémité d'un fil inextensible de masse négligeable et de longueur L.",
+      "Un système solide-ressort vertical sans frottement.",
+      "Une tige rigide sans aucune masse fixée à son centre."
+    ],
+    "correctIndex": 1,
+    "explanationText": "C'est un modèle théorique simplifié du pendule pesant, où toute la masse est concentrée au bout d'un fil sans poids."
+  },
+  {
+    "id": 49,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Pour un pendule simple, que valent le moment d'inertie J_Δ et la distance d à injecter dans les formules du pendule pesant ?",
+    "options": [
+      "J_Δ = m · L et d = L / 2",
+      "J_Δ = m · L² et d = L",
+      "J_Δ = m · L et d = L",
+      "J_Δ = 0 et d = 0"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pour un point matériel m situé à une distance L de l'axe, d = L et le moment d'inertie de rotation vaut exactement J_Δ = m·L²."
+  },
+  {
+    "id": 50,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "En simplifiant la formule générale du pendule pesant par les paramètres du pendule simple, quelle expression obtient-on pour sa période propre T_0 (petites oscillations) ?",
+    "options": [
+      "T_0 = 2π √(g / L)",
+      "T_0 = 2π √(L / g)",
+      "T_0 = (1/2π) √(L / g)",
+      "T_0 = 2π · L · g"
+    ],
+    "correctIndex": 1,
+    "explanationText": "En remplaçant J_Δ par m·L² et d par L dans T_0 = 2π(J_Δ/(m·g·d)), les masses se simplifient et on obtient T_0 = 2π√(L/g)."
+  },
+  {
+    "id": 51,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "D'après la formule T_0 = 2π √(L / g), la période propre d'un pendule simple dépend-elle de la masse m de la bille suspendue ?",
+    "options": [
+      "Oui, une bille lourde balance plus lentement qu'une bille légère.",
+      "Non, elle est totalement indépendante de la masse m du corps suspendu.",
+      "Uniquement si l'angle de tir dépasse 90°.",
+      "Oui, la période est proportionnelle à la masse m."
+    ],
+    "correctIndex": 1,
+    "explanationText": "La masse m s'annule totalement lors de la simplification : un pendule simple en plomb et un autre en liège de même longueur oscillent au même rythme."
+  },
+  {
+    "id": 52,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Si on allonge le fil d'un pendule simple en multipliant sa longueur L par 4, sa période propre T_0 va :",
+    "options": [
+      "Rester identique.",
+      "Être divisée par deux.",
+      "Doubler (car T_0 est proportionnelle à la racine de L).",
+      "Quadrupler."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Comme T_0 = 2π√(L/g), si L devient 4L sous le radical, on multiplie la période globale par √4 = 2. La période double."
+  },
+  {
+    "id": 53,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Comment varie la période propre d'un pendule simple si on le transporte sur la Lune où l'intensité de la pesanteur vaut g_Lune = g_Terre / 6 ?",
+    "options": [
+      "La période diminue.",
+      "La période augmente (le pendule bat le temps plus lentement sur la Lune).",
+      "La période reste strictement identique.",
+      "Le pendule s'arrête d'osciller."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Sur la Lune, g étant six fois plus petit au dénominateur sous la racine, la période propre T_0 devient environ √6 ≈ 2.4 fois plus longue : le balancier ralentit."
+  },
+  {
+    "id": 54,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quelle est la valeur approchée de la longueur L d'un pendule simple dit \"pendule battant la seconde\" sur Terre (sa période propre vaut T_0 = 2 s, donc une demi-période / battement est de 1 s) ? (On prend g ≈ π²)",
+    "options": [
+      "L ≈ 10 cm",
+      "L ≈ 50 cm",
+      "L ≈ 1 m",
+      "L ≈ 2 m"
+    ],
+    "correctIndex": 2,
+    "explanationText": "De T_0 = 2π√(L/g) on tire T_0² = 4π²·L/g, d'où L = g·T_0² / 4π². Avec T_0 = 2s, L = g · 4 / 4π² = g / π². Avec g ≈ π², nous parvenons à L ≈ 1 m."
+  },
+  {
+    "id": 55,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "La solution de l'équation différentielle linéaire du pendule simple en petites oscillations s'écrit θ(t) = θ_max · cos(ω_0 · t + φ). La pulsation propre ω_0 vaut :",
+    "options": [
+      "ω_0 = √(L / g)",
+      "ω_0 = √(g / L)",
+      "ω_0 = g / L",
+      "ω_0 = 2π · L"
+    ],
+    "correctIndex": 1,
+    "explanationText": "La pulsation propre d'un pendule simple correspond à ω_0 = √(g/L), ce qui donne directement ω_0 = 2π/T_0."
+  },
+  {
+    "id": 56,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quelle est l'expression générale de l'énergie cinétique de translation E_c du solide dans un pendule élastique ?",
+    "options": [
+      "E_c = ½ m · (x')²",
+      "E_c = m · g · h",
+      "E_c = ½ K · x²",
+      "E_c = ½ J_Δ · (θ')²"
+    ],
+    "correctIndex": 0,
+    "explanationText": "Pour un solide de masse m en translation linéaire animée d'une vitesse instantanée x' (ou v), l'énergie cinétique est E_c = ½·m·(x')²."
+  },
+  {
+    "id": 57,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Quelle est l'expression de l'énergie potentiel élastique E_pe emmagasinée dans le ressort d'un pendule élastique horizontal ? (On choisit la référence E_pe = 0 à l'état non allonge x = 0)",
+    "options": [
+      "E_pe = ½ K · x",
+      "E_pe = ½ K · x²",
+      "E_pe = -K · x",
+      "E_pe = ½ m · v²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie potentielle élastique emmagasinée par un ressort linéaire de raideur K déformé d'une grandeur x vaut E_pe = ½·K·x²."
+  },
+  {
+    "id": 58,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Comment s'exprime l'énergie potentielle de torsion E_pt d'un fil métallique dans un pendule de torsion ? (Référence E_pt = 0 pour θ = 0)",
+    "options": [
+      "E_pt = -C · θ",
+      "E_pt = ½ C · θ²",
+      "E_pt = ½ J_Δ · (θ')²",
+      "E_pt = C · θ²"
+    ],
+    "correctIndex": 1,
+    "explanationText": "De manière analogue à un ressort de translation, la torsion d'un fil d'angle θ stocke une énergie potentielle élastique de type E_pt = ½·C·θ²."
+  },
+  {
+    "id": 59,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Pour un pendule pesant ou un pendule simple, quelle forme d'énergie potentielle intervient lors du mouvement ?",
+    "options": [
+      "L'énergie potentielle élastique.",
+      "L'énergie potentielle de torsion du fil.",
+      "L'énergie potentielle de pesanteur (E_pp = m · g · y).",
+      "L'énergie potentielle électrostatique."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Pour les pendules pesants et simples, c'est l'altitude y par rapport au sol qui change au cours des oscillations, faisant intervenir l'énergie potentielle de pesanteur."
+  },
+  {
+    "id": 60,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Pour un pendule simple de longueur L, en choisissant la position d'équilibre stable (θ = 0) comme référence de hauteur (y_0 = 0), l'altitude d'une position d'angle θ s'exprime par z = L · (1 - cos(θ)). L'énergie potentielle de pesanteur vaut :",
+    "options": [
+      "E_pp = m · g · L · cos(θ)",
+      "E_pp = m · g · L · (1 - cos(θ))",
+      "E_pp = -m · g · L · sin(θ)",
+      "E_pp = m · g · L · (1 + cos(θ))"
+    ],
+    "correctIndex": 1,
+    "explanationText": "Puisque z = L(1-cosθ), la formule E_pp = m·g·z devient directement E_pp = m·g·L·(1 - cos(θ))."
+  },
+  {
+    "id": 61,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Qu'est-ce qu'un énergie mécanique E_m d'un système oscillant ?",
+    "options": [
+      "Le produit de l'énergie cinétique par l'énergie potentielle.",
+      "La somme algébrique de l'énergie cinétique et de l'énergie potentielle totale du système : E_m = E_c + E_p.",
+      "La force motrice totale divisée par le temps.",
+      "L'énergie thermique perdue par le système."
+    ],
+    "correctIndex": 1,
+    "explanationText": "L'énergie mécanique d'un système correspond à la somme instantanée de son énergie cinétique (mouvement) et de ses énergies potentielles (stockage)."
+  },
+  {
+    "id": 62,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Dans un circuit oscillant idéal dénué de tout frottement (système conservatif), l'énergie mécanique E_m au cours du temps est :",
+    "options": [
+      "Strictement décroissante vers zéro.",
+      "Strictement croissante vers l'infini.",
+      "Constante au cours du temps (E_m = constante).",
+      "Une fonction périodique sinusoïdale centrée sur zéro."
+    ],
+    "correctIndex": 2,
+    "explanationText": "Sans forces dissipatives comme les frottements, l'énergie globale du système est parfaitement conservée : elle demeure constante."
+  },
+  {
+    "id": 63,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Puisque l'énergie mécanique d'un oscillateur non amorti est constante (dE_m/dt = 0), cela signifie qu'au cours du mouvement il y a :",
+    "options": [
+      "Destruction continue d'énergie mécanique.",
+      "Une transformation mutuelle et continue de l'énergie cinétique en énergie potentielle, et inversement.",
+      "Augmentation simultanée des deux formes d'énergie.",
+      "Immobilisation complète des particules."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Pendant les oscillations, le solide ralentit en s'écartant (l'énergie cinétique devient potentielle) puis accélère en retombant (transfert inverse) : l'énergie se transforme continuellement."
+  },
+  {
+    "id": 64,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Pour un pendule élastique horizontal non amorti, quelle expression donne la valeur de l'énergie mécanique constante E_m en fonction de l'amplitude maximale X_max ?",
+    "options": [
+      "E_m = ½ K · X_max²",
+      "E_m = ½ m · X_max²,",
+      "E_m = K · X_max",
+      "E_m = ½ K · X_max² · cos²(θ)"
+    ],
+    "correctIndex": 0,
+    "explanationText": "En x = X_max, la vitesse du solide est nulle (E_c = 0), donc toute l'énergie mécanique est potentielle élastique : E_m = E_pe_max = ½·K·X_max²."
+  },
+  {
+    "id": 65,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Lorsque l'élongation d'un oscillateur est maximale (x = ±X_max ou θ = ±θ_max), que valent les énergies cinétique et potentielle ?",
+    "options": [
+      "L'énergie cinétique est maximale et l'énergie potentielle est nulle.",
+      "L'énergie cinétique est nulle (E_c = 0) et l'énergie potentielle est maximale (E_p = E_m).",
+      "Elles sont toutes les deux égales à la moitié de l'énergie mécanique.",
+      "Elles s'annulent toutes les deux."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Aux extrêmes d'oscillation, le corps s'arrête un court instant pour rebrousser chemin (v = 0, donc E_c = 0). L'énergie potentielle est alors maximale."
+  },
+  {
+    "id": 66,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Lorsque l'oscillateur traverse sa position d'équilibre (x = 0 ou θ = 0), son énergie potentielle est nulle. L'énergie mécanique est alors :",
+    "options": [
+      "Entièrement sous forme d'énergie potentielle maximale.",
+      "Entièrement sous forme d'énergie cinétique maximale (E_c_max = E_m).",
+      "Divisée par deux.",
+      "Égale à l'énergie thermique dissipée."
+    ],
+    "correctIndex": 1,
+    "explanationText": "En x = 0, l'allongement est nul donc E_pe = 0. Toute l'énergie s'est convertie en mouvement : l'énergie cinétique est égale à l'énergie mécanique totale."
+  },
+  {
+    "id": 67,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Si on trace sur un même graphique les variations de l'énergie cinétique E_c et de l'énergie potentielle E_p en fonction de la position x, on obtient deux courbes ayant la forme de :",
+    "options": [
+      "Deux droites linéaires croisées.",
+      "Deux paraboles inversées dont la somme verticale redonne la droite horizontale constante de E_m.",
+      "Deux fonctions exponentielles décalées.",
+      "Deux cercles concentriques."
+    ],
+    "correctIndex": 1,
+    "explanationText": "E_pe = ½·K·x² est une parabole de concavité vers le haut ; E_c = E_m - ½·K·x² est une parabole de concavité vers le bas : leur somme donne la droite E_m."
+  },
+  {
+    "id": 68,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Si la période des oscillations de la position x(t) d'un pendule élastique est T_0, quelle est la période T_E des variations des énergies cinétique E_c et potentielle E_p ?",
+    "options": [
+      "T_E = 2 · T_0",
+      "T_E = T_0",
+      "T_E = T_0 / 2 (les énergies varient deux fois plus vite).",
+      "T_E = T_0 / 4"
+    ],
+    "correctIndex": 2,
+    "explanationText": "L'énergie dépend du carré de x ou de v. cos²(t) possède une période moitié : le système atteint deux vitesses maximales par période complète de va-et-vient."
+  },
+  {
+    "id": 69,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Dans un circuit oscillant réel soumis à des forces de frottement solides ou fluides, comment évolue l'énergie mécanique E_m au cours du temps ?",
+    "options": [
+      "Elle reste rigoureusement constante.",
+      "Elle diminue au cours du temps (dE_m/dt < 0) car une partie de l'énergie est dissipée sous forme de chaleur par effet Joule mécanique (frottement).",
+      "Elle augmente sous l'action du fluide.",
+      "Elle s'annule dès la fin de la première demi-période."
+    ],
+    "correctIndex": 1,
+    "explanationText": "Les forces non-conservatives comme les frottements dissipent continuellement l'énergie mécanique de l'oscillateur libre sous forme de chaleur."
+  },
+  {
+    "id": 70,
+    "category": "Oscillateurs Mécaniques",
+    "questionText": "Un pendule élastique horizontal non amorti possède une raideur K = 20 N/m. On l'écarte de sa position d'équilibre d'une distance X = 10 cm et on le lâche sans vitesse initiale. Que vaut l'énergie mécanique E_m du système ?",
+    "options": [
+      "E_m = 100 J",
+      "E_m = 1 J",
+      "E_m = 0.1 J",
+      "E_m = 0.01 J"
+    ],
+    "correctIndex": 2,
+    "explanationText": "E_m = ½·K·X_max² = 0.5 × 20 N/m × (0.10 m)² = 10 × 0.01 = 0.1 J."
+  }
+]
